@@ -8,5 +8,5 @@ While every care possible has been taken to separate those tiles released into C
 
 These tiles could not have been created nor re-licensed without the great work of the Crawl Stone Soup developers/artists.
 
-- List of artists who have given approval (ARTISTS.md)
-- List of tiles that are not eligible for reuse due to unclear licensing (TILES_UNDER_UNKNOWN_LICENSE.md) 
+- [List](ARTISTS.md) of artists who have given approval
+- [List](TILES_UNDER_UNKNOWN_LICENSE.md) of tiles that are not eligible for reuse due to unclear licensing
