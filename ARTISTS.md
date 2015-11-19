@@ -32,3 +32,4 @@ The following is the list of artists that gave approval in 2010 for their artwor
 The following artists have given explicit approval that past and future artwork submitted to crawl is under CC:0.
 - ontoclasm yokomeshi@gmail.com
 - Neil Moore neil@s-z.org (|amethyst)
+- donblas/chamons chris.hamons@gmail.com
