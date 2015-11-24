@@ -1615,4 +1615,233 @@ Date:   Tue Apr 17 02:47:16 2012 -0400
     
     Both old tiles were placeholder recolourings of existing tiles.
 
+commit 58844af5b0b6232986d46f78309c5b338874e177
+Author: Jude Brown <bookofjude@users.sourceforge.net>
+Date:   Tue Jan 25 18:51:26 2011 +1000
+
+    Giant ants -> worker ants (coolio, Kekitalo).
+    
+    Yet another monster that uses "giant" as a modifier. Renaming them to
+    "worker ant" puts them further in line with our hierarchy of ant-based
+    monsters: queen ant, soldier ant, worker ant.
+
+commit 4f6fcfad69dc84505a29342ad3395bf757e1451e
+Author: Jude Brown <bookofjude@users.sourceforge.net>
+Date:   Sun Jan 23 09:58:36 2011 +1000
+
+    Stick co's eye filled portal tile in UNUSED, too.
+
+commit d08492f127d3064a868b990b43de6b7b9c3806df
+Author: Jude Brown <bookofjude@users.sourceforge.net>
+Date:   Sun Jan 23 09:57:16 2011 +1000
+
+    Resolve #3096, #3091: coolio's ancient zyme tile, co's lurking horror.
+
+commit 70b18cf2bb76b629f39639561e21c857db410276
+Author: Jude Brown <bookofjude@users.sourceforge.net>
+Date:   Mon Dec 27 18:15:40 2010 +1000
+
+    New tiles: porcupine, fire crab. (Malwyn)
+    
+    Added to credits. Added Curio to credits, also.
+    
+    Porcupines exist as monsters but haven't actually been defined yet.
+    They'll probably replace <some> rats as a singular, slightly more
+    difficult opponent that have spikey quills, etc.
+
+commit 4897f2c10a65818cc73036daf0b3c03ef0fa2e1e
+Author: Jude Brown <bookofjude@users.sourceforge.net>
+Date:   Sun Dec 26 19:01:20 2010 +1000
+
+    Use Curio's bog mummy (with moss) tile!
+    
+    I've actually darkened it considerably to better match the leathery skin
+    of an actual bog mummy. The sphagnum moss growing on it is a thousand
+    times awesome.
+
+commit e7a6258c5f937694ed2a1ed5bb06ee01f4f80e11
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Thu Apr 14 13:41:39 2011 +0200
+
+    Add dolphin's shark tile, XuaXua's death ooze tile.
+
+commit a507a18cc0c72aabdfd19c06d6f922a66bd85bc8
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Tue Mar 15 17:37:39 2011 +0100
+
+    Add Omndra's wall blood spatter tiles.
+
+commit 422bc215a3f5bd014693cbe746225f5ee9d2111d
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Sat Feb 19 16:38:10 2011 +0100
+
+    Add psyshvl's eldritch tentacle tiles, or at least the first batch.
+    
+    A few are still missing. Will need to fire up GIMP to create them.
+
+commit f366486c2622881c35dddae2becc57813e78dd4f
+Author: Johanna Ploog <j-p-e-g@sourceforge.net>
+Date:   Sun Feb 13 23:33:10 2011 +0100
+
+    Add Curio's mangrove tiles.
+
+commit 8d5a0743cfad5e0e045c34f1924db4d0f4e782a0
+Author: Johanna Ploog <j-p-e-g@sourceforge.net>
+Date:   Sun Feb 13 21:17:20 2011 +0100
+
+    Add co's tiles for Ashenzari's sensed monsters.
+
+commit 2c5de84d97c85680e27066aa5c79e229d3cab0c8
+Author: Johanna Ploog <j-p-e-g@sourceforge.net>
+Date:   Fri Feb 11 20:57:45 2011 +0100
+
+    Add Curio's lizard zombie tile.
+
+commit ba0d01ef0221990e0239daffaea729a2cb122386
+Author: Johanna Ploog <j-p-e-g@sourceforge.net>
+Date:   Sun Feb 6 17:07:37 2011 +0100
+
+    Add co's prayer tile and Denzi's other command tiles, partly modified.
+
+commit c229cc64a33350e3b8d1aee9b1cb91dad7085aea
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Thu Jan 27 01:09:43 2011 +0100
+
+    Add co's new lair floor tiles, appropriately weighted.
+    
+    I renamed the old lair tiles to floor_moss, but was too tired
+    to go through the (small number of) minivaults that make use
+    of it.
+
+commit 63f0cf8ffe9f4dba82fa556aa906345c1dce2ec4
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Sat Jan 22 00:01:37 2011 +0100
+
+    Remove shield tiles from various shieldless monsters. (Done by co.)
+
+commit 0df4a9f1e6b3ff211dc8eb560d9c053f0f5eb70b
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Wed Jan 19 00:35:47 2011 +0100
+
+    Add LoginError's known items tile.
+
+commit 29a6f3b720c0f0496d8c4b85072170c99528258b
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Fri Jan 14 12:15:44 2011 +0100
+
+    Add co's improved vampire tiles.
+
+commit 018d95556bae2d6163c06f68d3861a5b6ba0b681
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Fri Jan 14 12:13:10 2011 +0100
+
+    Add co's new giant tiles capable of weapon display.
+
+commit 4d50a50da34f1ce13f0a98130efce14c9cf88057
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Wed Jan 12 22:01:56 2011 +0100
+
+    Add co's killer klown tiles.
+
+commit 8a0514a9d0310d4f75d97a304e4328dba535e514
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Wed Jan 12 21:09:55 2011 +0100
+
+    Tiles: Maurice (coolio), rat zombie (Curio), dungeon exit (LoginError).
+
+
+commit 5af1bd839669f95fac1053eac417e3559c225169
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Tue Dec 28 22:00:52 2010 +0100
+
+    Awesome new giant tiles courtesy of co. Thank you!
+
+commit be4ade1407f464d051d238618c5bc9fcf1f3bffd
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Mon Dec 27 18:43:28 2010 +0100
+
+    Add preliminary tile for the Malign Gateway spell.
+    
+    For this purpose, I merged two of psyshvl's eldritch tentacles.
+
+commit dc6fc4c72d7cef8ad593b2af81706b83202b2f34
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Mon Dec 27 18:33:52 2010 +0100
+
+    Add Curio's zombie hound and toad tiles.
+
+commit 130947e00ae1656cdd80013ecbe14c2ce5e6eff2
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Mon Dec 20 02:01:23 2010 +0100
+
+    Add and use psyshvl's tentacle overlay tiles.
+    
+    I've added them via background flags, which seems odd at first, but
+    works rather well.
+    
+    Krakens look much better now, though the angles still seem a bit
+    sharp sometimes and would benefit from further tweaking.
+
+commit 52743e55d3acc4d0bb951ccb70eb18e8e1564e93
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Mon Dec 13 19:50:31 2010 +0100
+
+    Add an altar tile for Ashenzari, based on psyshvl's submissions.
+
+commit 804c6c5e1a1ebbba4455d4f6627171c1d3c3156f
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Sun Dec 12 20:19:32 2010 +0100
+
+    Add psyshvl's oklob sapling tile.
+
+commit 0bed9f14b35536d7d7d8e10d08d760923cbec083
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Thu Dec 9 22:01:21 2010 +0100
+
+    Add more of psyshvl's kraken tentacle tiles.
+
+commit 279415f1b00cac4534a080f8751babb5cc7d1e0a
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Thu Dec 9 19:25:10 2010 +0100
+
+    Add first part of psyshvl's new kraken tentacles, some modified by me.
+
+commit 8ca0b340e8655b616853c8cd6395f3d7b968915e
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Wed Dec 1 19:20:54 2010 +0100
+
+    Add another of LoginError's statue tiles.
+
+commit afae2cb6920269393f7417af0226c184a0224d33
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Sun Nov 28 22:13:56 2010 +0100
+
+    Two more statue tiles by coolio and LoginError.
+
+commit 19af79bb416859dfe074ad8bdf0527de946fff25
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Sun Nov 28 14:10:14 2010 +0100
+
+    Add LoginError's new runed armour/weapon tiles.
+
+commit 2b024865ed440a22ce22aaca6cdcc1caad0ffce7
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Sun Nov 28 13:45:37 2010 +0100
+
+    New statue tiles courtesy of coolio and LoginError.
+
+commit f20cd82343a8036eb230839788bee79ffa70a3e3
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Sun Nov 28 11:57:17 2010 +0100
+
+    New tiles: sky beast (psyshvl), spirit (coolio), grey drac. (minmay)
+
+commit 5ac84345fb5cb642547dbf399740ff2f1697e2d5
+Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
+Date:   Fri Nov 26 19:36:54 2010 +0100
+
+    Add Omndra's new blood tiles.
+    
+    The blood puddles are still in use for corpse tile generation.
+
 
