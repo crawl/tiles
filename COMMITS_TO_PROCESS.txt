@@ -1,33 +1,3 @@
-commit b70226cc04e6d5699023fba34c7d94ec25081cc4
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Nov 15 01:09:29 2015 -0600
-
-    Generic rune tile
-
-commit 61385605981c14bfee42f00b4cc7d1b1cca3cc3c
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Nov 12 12:39:08 2015 -0600
-
-    Edit merfolk tile colors
-
-commit 0c48b46bfa517b6bdb24a54a838565625bf07934
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Nov 11 23:25:44 2015 -0600
-
-    Silent Spectre tile
-
-commit 35238c0a4e6810489d691a71112d585f4ddd723a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Nov 11 21:48:40 2015 -0600
-
-    New merfolk tiles
-
-commit 0e512fa8db11524f36998b1bdb8d2e971a1ba17b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Oct 30 16:48:51 2015 -0500
-
-    Lugonu altar tile
-
 commit 53cf1ce1d3d54244a92481601bb2f394724eb498
 Author: Seve Monahan <reaverb.Crawl@gmail.com>
 Date:   Sun Oct 25 12:54:25 2015 -0400
@@ -100,12 +70,6 @@ Date:   Fri Sep 18 23:14:30 2015 -0500
     
     can be properly supported.
 
-commit f6433eb199dc9cd133e8cf61a86acd44bd8eb3bb
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Sep 10 22:18:00 2015 -0500
-
-    Recolor the mutant beast tile
-
 commit 77d4bee5c5bbefad8f2e66f3bc1a96f592e896b1
 Author: Chris Campbell <chriscampbell89@gmail.com>
 Date:   Wed Jul 29 22:28:08 2015 +0100
@@ -116,30 +80,6 @@ Date:   Wed Jul 29 22:28:08 2015 +0100
     isn't especially vital for it. Replaced with mostly maces and clubs in the few
     vaults that did still use them.
 
-commit 10da67122216f354b6d36bc5682f94fd2d58667f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Sep 7 16:47:14 2015 -0500
-
-    Permaglass edits
-
-commit f0816ad954aa26399339a10b6342e020d5ea1600
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Sep 7 12:00:25 2015 -0500
-
-    Permarock tiles
-
-commit 39cf4005b30f6b7cfe7621ad739fca2e3eb187cb
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Sep 7 11:11:25 2015 -0500
-
-    Mummy tile edits
-
-commit c7b3a25811a38d92a944d0d17c9d77adc2e1f8b8
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Aug 31 23:24:59 2015 -0500
-
-    Juggernaut tile
-
 commit 222fba8ceb3997b13ec9571595e276fd1d41909f
 Author: Corin Buchanan-Howland <corin@buchananhowland.net>
 Date:   Mon Aug 31 22:22:00 2015 -0400
@@ -148,71 +88,6 @@ Date:   Mon Aug 31 22:22:00 2015 -0400
     
     These Depths-dwellers hit very, very hard, but have significant delay
     after each swing. They move quickly tho.
-
-commit d5e8965d10728866efa3b3db4bcba577cea4f6be
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Aug 30 21:41:29 2015 -0500
-
-    Various Invocation tiles
-
-commit 129c0238a435bdd08e85442e24413fd567c11434
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Aug 28 16:31:58 2015 -0500
-
-    Smooth stone walls (white_noise)
-    
-    These replace stone_brick in most places.
-
-commit d7f4977768e64178a8c291dc922dcdaacb567746
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Aug 28 15:49:51 2015 -0500
-
-    Spider rock tiles (Bloax, 9453)
-
-commit 99b3f8b44c8e0607a096488051938b6cfaf2e5b1
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Aug 28 15:44:57 2015 -0500
-
-    Smoke demon tile (CanOfWorms)
-
-commit daca452c7502a5aaad311293dffff2a8ee36cf9b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Aug 28 14:34:20 2015 -0500
-
-    Serpent of Hell tiles (CanOfWorms)
-
-commit de3053d4cfdd0461ca27f8bc65416b273f98ea95
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Aug 27 23:15:12 2015 -0500
-
-    Giant tiles
-    
-    I -think- these were made by CanOfWorms, but I've shamefully forgotten,
-    oh dear.
-
-commit 441915f21a342285e6dc55190558181818f205a5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jul 31 18:44:34 2015 +0100
-
-    Quokka (roctavian)
-
-commit 7b0afe86001eefe3fa1a9100111146a7cb2e77a0
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jul 31 16:49:47 2015 +0100
-
-    Animal tiles (white_noise, 6164)
-
-commit e9335e3285daa42938786ee883bd442d99f8ca81
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jul 31 16:25:02 2015 +0100
-
-    Iron grate tile (white_noise, 9875)
-
-commit f98da799f5f6ded33f6c94c8c3b0699f5e7d3539
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jul 16 16:44:33 2015 +0100
-
-    Mummies (white_noise, 9853)
 
 commit 2a75f53f601c9f761418233b122187e5e48c16bd
 Author: Neil Moore <neil@s-z.org>
@@ -845,12 +720,6 @@ Date:   Sun Mar 22 17:15:34 2015 -0400
     Maledictions implies it's meant to help En get off the ground, but En
     remains a Tier 1 background after this change.
 
-commit 5a6a9bbbcc0720f55293db5f9a6e9ddc966fff30
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Mar 18 19:00:10 2015 -0500
-
-    Player pig form tile
-
 commit eb1239368dc77c1a1e42b11ad00207a299b7ee06
 Author: Chris Campbell <chriscampbell89@gmail.com>
 Date:   Wed Feb 25 18:26:53 2015 +0000
@@ -871,80 +740,6 @@ Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Mon Mar 9 18:13:50 2015 -0700
 
     Irradiate tiles animation (CanOfWorms)
-
-commit 795aec7bf68315c263c45279f891d94ea2a9e551
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Mar 8 17:04:17 2015 -0500
-
-    Holy swine fix (CanOfWorms)
-
-commit ec264396003f99c5abc2e99559e7ef473caf654d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Mar 8 15:29:19 2015 -0500
-
-    Shard shrike tile (Bloax)
-
-commit 906d5d22d67fa4c406294524f68d9a9e51fe80c2
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Mar 8 01:46:37 2015 -0600
-
-    Hog tiles (CanOfWorms)
-
-commit 351f9535e96f4555b5f9047abdccdce512eba0e7
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Mar 8 00:43:33 2015 -0600
-
-    Royal Jelly tile
-
-commit 7044d6a0ec9438a08c529cd42f9731a1be975e5a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Mar 7 21:53:25 2015 -0600
-
-    XTAHUA tile
-
-commit 514e9a596f711f49c96a08e5a5aa00fe4855fc63
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Mar 7 21:20:11 2015 -0600
-
-    Golden dragon tile (CanOfWorms)
-
-commit 24331f3823ff1fff31db28e6bebea64f7a9afe2f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Mar 7 20:56:59 2015 -0600
-
-    Flip fire & water elemental tiles too
-
-commit cfe00b55604b2a7b797e1bb532fab9f832265d2f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Mar 7 20:48:40 2015 -0600
-
-    Flip a large number of monster tiles to face left (minmay)
-
-commit 267c4431e451156576e505a6e122db53c48ef909
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Mar 7 20:08:01 2015 -0600
-
-    Bennu tile (Tapsu)
-
-commit 76712e3c5d3d5c059e7dfcc5b336f6b774065c5d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Mar 7 19:53:35 2015 -0600
-
-    Pearl & iron dragon tiles (CanOfWorms)
-    
-    With thanks to Bloax & minmay for feedback & edits.
-
-commit 7d8e295b1ec32846047956cfa3c741831fb7a408
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Feb 27 13:52:33 2015 -0600
-
-    Bone dragon tile (CanOfWorms)
-
-commit 89a41073edcf728b881dd939bffba866495a0133
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Feb 25 23:56:53 2015 -0600
-
-    Gelatinous tiles (CanOfWorms)
 
 commit 0be755fb2171c6afe596ccd4665b4f067e761947
 Author: gammafunk <gammafunk@gmail.com>
@@ -1014,12 +809,6 @@ Date:   Sun Jan 25 23:46:23 2015 +0000
     pacification but with no piety refunds. 3* provides Purification, and Greater
     Self-Healing is delayed to 4*. The self-healing abilities are also renamed to
     just "Lesser/Greater Healing".
-
-commit ed98c6cc64dc74ab8dd35b1fd2b8dd6a0c13852b
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Thu Jan 29 21:55:15 2015 -0500
-
-    New tiles for the new Ru sacrifices (ontoclasm)
 
 commit 18ec49bd7f0adf30e6f3726edeacced8a537ee8c
 Author: Corin Buchanan-Howland <corin@buchananhowland.net>
@@ -1134,15 +923,6 @@ Date:   Tue Dec 30 18:43:30 2014 -0800
 
     Add ?/ to the local tiles command bar
 
-commit dba81cc73dd9c07d1471d67237830920878f5403
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Dec 29 21:22:16 2014 -0600
-
-    New pebble wall tiles
-    
-    This includes the variants used in Lab, Lair, and Orc, but doesn't touch
-    Spider or Slime yet.
-
 commit a8a79bde6a5cb77374c4d7cb8e86236c9e17d10a
 Author: Brendan Hickey <brendan@bhickey.net>
 Date:   Mon Dec 29 20:40:37 2014 +0000
@@ -1174,15 +954,6 @@ Date:   Fri Dec 26 15:09:30 2014 -0800
     Shadow Creatures. The monsters are always hostile to the player.
     
     The number of monsters spawned increases with depth.
-
-commit 1e0feaa338a62d56d2ce4cd4e1bbafd23f2d1929
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Dec 26 23:21:52 2014 -0600
-
-    Remove some errant rims
-    
-    Someday, somehow, we shall reach that golden land wherein we never have to
-    fix %rim lines ever again.
 
 commit 9922265674c6386a33bf5bcb63feb149e3cbe57a
 Author: Brendan Hickey <brendan@bhickey.net>
@@ -1273,40 +1044,11 @@ Date:   Mon Dec 15 10:20:19 2014 -0800
 
     Small improvements to yaktaur and yaktaur captain.
 
-commit d90c0587fda866e4eced82e70ba688a845df2b6b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Dec 11 16:06:45 2014 -0600
-
-    Spell icons for Singularity & Sublimation
-
 commit 1eedcb17e0964d9cd395b2c6a2f47f182417c8df
 Author: John McCartney <sicsemperjohn@gmail.com>
 Date:   Tue Dec 9 21:58:03 2014 -0800
 
     Small edits to elephant tiles.
-
-commit 1c4ddbadee9bb8902c9a29403dcb11ed32e121db
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Dec 9 15:37:30 2014 -0600
-
-    New Plut Sword tiles
-    
-    Since it is a triple sword again.
-
-commit 0a98a193647ce3e867ee708441359af4bcfdba86
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Dec 9 01:07:25 2014 -0600
-
-    Various doll weapon edits
-
-commit 31f3681a28532fc7305c8a2e46a484142225abdf
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Dec 9 00:26:42 2014 -0600
-
-    Gyre/Gimble tiles
-    
-    I edited the floor tile since one of the blades would often be hidden
-    under the Vorpal marker.
 
 commit dd79bc7edecb954169ec35a7bf3d46787cfb610e
 Author: Shmuale Mark <shm.mark@gmail.com>
@@ -1387,12 +1129,6 @@ Date:   Wed Dec 3 18:33:49 2014 -0800
     
     Thanks to Lasty for testing & Grunt for fixing!
 
-commit d32549c8cb74243f918434be4adf51ee466a70cb
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Dec 3 00:19:51 2014 -0600
-
-    Tiles for "Vit and "Bloodlust
-
 commit 91c5bcb1e528ac4feaa25f6e8bae32c174347181
 Author: Edgar A. Bering IV <trizor@gmail.com>
 Date:   Thu Nov 27 22:06:56 2014 -0600
@@ -1405,18 +1141,6 @@ Date:   Thu Nov 27 22:06:56 2014 -0600
     
     [Committer's note: tweaked a bunch of stuff.]
 
-commit f91e080ebb4d343405fb37e61db9f3fe2bb160ed
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Nov 30 17:27:09 2014 -0600
-
-    Potion tiles
-
-commit 010c0ec4c0e3d1ec5b945bde53336ec52f1117fd
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Nov 30 16:02:22 2014 -0600
-
-    Darken Out-of-LoS tiles a bit
-
 commit d8753279569d548a333fad3e688186eef46d505a
 Merge: 1f3fc7e f789197
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -1424,23 +1148,11 @@ Date:   Sat Nov 29 22:56:06 2014 -0700
 
     Merge branch 'panlord-colour'
 
-commit f7891978d160e28ee34de5d59e67f46aa6ee7bd7
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Nov 29 19:48:46 2014 -0600
-
-    Misc. panlord appearance tweaks
-
 commit d43c0913adb78e86d495cd9869cfae70a6d3c91e
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Sat Nov 29 13:53:26 2014 -0800
 
     Add Cigotuvi's Badtile
-
-commit 034f38ace78f9f18184214dbdcb8f438c1f163ac
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Nov 29 00:50:34 2014 -0600
-
-    Panlord wing edits
 
 commit 0ee3188b55e7b007ff02d6da3c8a90dc0cca77a7
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -1474,24 +1186,6 @@ Date:   Fri Nov 28 14:42:30 2014 -0700
     We're losing a lot of descriptions in the process here, but there's a
     hunger to make new panlord tiles anyway, so we can bring those back once
     we have tiles for them.
-
-commit 9d443a7fa9ced19b8ad2eb09b2bd50a7279c6582
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Nov 28 15:30:57 2014 -0600
-
-    Vault stone tiles (Bloax)
-
-commit 8e9c1c3f36df7e4fd202a0ae27e123673bba7985
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Nov 27 00:49:59 2014 -0600
-
-    Panlord body & head edits
-
-commit 441a2c6c63a93b51a2c864c5f3c835f783055119
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Nov 26 16:42:44 2014 -0600
-
-    Modify pandlord color schemes
 
 commit 4d0de3aa488f97e59139a283056253a55bd8a23b
 Author: John McCartney <sicsemperjohn@gmail.com>
@@ -1747,12 +1441,6 @@ Date:   Sat Nov 8 14:39:06 2014 -0800
     
     Order of linking the SDL libs and some missing Windows libraries.
 
-commit 919575a600674bc974ea51c4efeaecf0412f6cdf
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Nov 8 00:00:24 2014 -0600
-
-    Mosaic floor tiles for Snake
-
 commit edee275d7f171f1a8f528747f21bd556ebbfaa1f
 Author: gammafunk <gammafunk@gmail.com>
 Date:   Fri Nov 7 20:51:25 2014 -0600
@@ -1981,14 +1669,6 @@ Date:   Sun Oct 26 09:34:37 2014 -0600
     anywhere else, and it makes for a good visual explanation of why they're
     wielding staves to begin with.
 
-commit 7021d05c1e02580ecf0ea375b9eb5e1bb729ffb4
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Oct 26 04:46:20 2014 -0500
-
-    Fix luminosity of pebble floor tiles
-    
-    I just got it working; the actual lum. values can be changed later.
-
 commit e9d5c5e0fa1c2ac085d84cedb2197d0985099529
 Author: John McCartney <sicsemperjohn@gmail.com>
 Date:   Sun Oct 26 01:49:52 2014 -0700
@@ -2023,12 +1703,6 @@ Author: John McCartney <sicsemperjohn@gmail.com>
 Date:   Fri Oct 24 17:08:36 2014 -0700
 
     Small tweaks to recently added Draconian tiles: more hellfire, caller aura, annihilator staff, and slight recolorations.
-
-commit 016c25b48064968293bc7c37a072bf79f3ffb9b5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 21 21:56:27 2014 -0500
-
-    Icon for Ru's Reject ability
 
 commit f5e5797b591d71e05d125cc50278773b4fa706c9
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -2153,36 +1827,6 @@ Date:   Sat Oct 18 16:32:11 2014 -0700
     
     ...might be a little *too* stealthy....
 
-commit 8c852fd8e73564c0e7a292777d5f182828b1a6fd
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Oct 17 23:12:12 2014 -0500
-
-    Add claymore tiles to UNUSED
-
-commit 94d70de022861dab18f91bd010424237f3a3a1ef
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Oct 17 15:46:23 2014 -0500
-
-    Triple sword tiles (roctavian, 9031)
-
-commit 214e402d99cb2c69c689083ff87cea74e7211483
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Oct 16 01:55:07 2014 -0500
-
-    Op & Fe bladehand tiles
-
-commit 5a7e1d07a50d1a4600589cf5a833d69bb290a05a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 14 01:45:04 2014 -0500
-
-    Hydraform & Irrad icons
-
-commit 2aedaeb1310a91bd5190ace6d4e68001254e7963
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 14 00:45:54 2014 -0500
-
-    Acid blob tile (Bloax)
-
 commit 6dfaa0abcf04cf7d26f9c95c0d6e70140d92575a
 Author: gammafunk <gammafunk@gmail.com>
 Date:   Sun Oct 12 17:19:30 2014 -0500
@@ -2214,24 +1858,6 @@ Date:   Fri Aug 8 18:58:06 2014 -0700
     Transfigurations. (Ice Form has been moved from the latter to the
     Book of Ice, per Grunt's suggestion.)
 
-commit 0a66ab9ff1378d4c79d9a820097bffa83698179b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Oct 11 21:36:26 2014 -0500
-
-    Spider sack tile (Bloax)
-
-commit 31f0018defc01d9082da7f372287b4b6168ea0fa
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Oct 11 21:34:34 2014 -0500
-
-    Various weapon/armour tiles (roctavian, 9031)
-
-commit e5341f728094357a31e8d8018c4b7a3b583e1153
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Oct 10 21:05:22 2014 -0500
-
-    Double sword urand tiles
-
 commit af7d8a2d5831c06a5a19e49eb7da26bac52d70c1
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Wed Oct 8 20:18:44 2014 -0700
@@ -2245,12 +1871,6 @@ Date:   Wed Oct 8 20:18:44 2014 -0700
     turned out that *multiple* devs thought cloaks of darkness gave
     +stlth! (They do not.)
 
-commit 31578141575acf01af9d2a87226549d26ba2c284
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Oct 8 10:56:29 2014 -0500
-
-    Double sword tiles
-
 commit 8274189694c05cdb6a1952f818337114df87385a
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Sun Aug 10 14:13:11 2014 -0700
@@ -2259,12 +1879,6 @@ Date:   Sun Aug 10 14:13:11 2014 -0700
     
     Less damage, but a touch attack that does nearly-guaranteed
     corrosion on hit+damage.
-
-commit 3c060edf3382d7f9b5de11cf3f4a0673878fcd96
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 7 10:42:45 2014 -0500
-
-    Fix butterfly rims (Bloax)
 
 commit bb07038d81e1949a206d43fb220d8708597ed012
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -2314,30 +1928,6 @@ Date:   Mon Oct 6 23:08:28 2014 -0400
     history alongside plenty of other tile replacements that didn't get preserved
     so explicitly.
 
-commit df7328d716bc07362df212e1fce5cac1ae359a41
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Oct 6 11:52:33 2014 -0500
-
-    Repurpose the old brown ooze tile as a standard ooze
-
-commit 124ab71d4ef7bddfd2057ba45b226647378fb7f0
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Oct 3 19:01:33 2014 -0500
-
-    Fix a shadow
-
-commit 82be2f0d4ae4ac50e274d918ff60094309fbffc3
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Oct 3 18:49:29 2014 -0500
-
-    Make ego qstaves less rod-like (Brannock)
-
-commit dfc794201638e0ba933d2d45f5f6234c33facc64
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Oct 3 10:16:30 2014 -0500
-
-    Arbalest tiles (and shadow fixes)
-
 commit 69ea0458ddc86a60122a1a46528ee624b81b1e76
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Thu Jul 17 21:41:13 2014 -0700
@@ -2354,18 +1944,6 @@ Date:   Thu Jul 17 21:41:13 2014 -0700
     
     This also helps refresh the pool of amulets, which was starting
     to look a little shabby.
-
-commit 4a9242f8b5d4f0997d01b5ce93fa116c49b69c61
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Oct 2 01:00:01 2014 -0500
-
-    Scalemail doll tiles (Bloax)
-
-commit 7a3a96c5ccfad00bbbd003e59dd53476098256b6
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Oct 1 22:51:42 2014 -0500
-
-    Gsword & trident tile edits (plus some cleanup)
 
 commit 739c3b2d43d850d62e6b88cac352ce53278405ad
 Author: Jesse Luehrs <doy@tozt.net>
@@ -2416,12 +1994,6 @@ Date:   Tue Aug 12 22:18:09 2014 -0700
     before. It might be possible to improve this, with some
     intermediate 'semi-discovered' state?
 
-commit 248e4d496790795ebd64a64bc85083c1a9a546d0
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Sep 26 17:04:08 2014 -0500
-
-    Various monster tiles (roctavian, 8928)
-
 commit 795ecda36efc129698bf5f761c22cc1300616094
 Author: Corin Buchanan-Howland <corin@buchananhowland.net>
 Date:   Tue Sep 23 18:53:38 2014 -0400
@@ -2436,49 +2008,11 @@ Date:   Tue Sep 23 18:45:06 2014 -0400
     
     It was a long time coming.
 
-commit f3dc153aed41b97869457b0c9014e5be0946b0e1
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Sep 22 23:44:45 2014 -0500
-
-    Chain mail doll tiles (Bloax)
-
 commit c0fbe09f2eb1a8093f16c8c3e37b95085c68a953
 Author: Neil Moore <neil@s-z.org>
 Date:   Sun Sep 21 22:24:10 2014 -0400
 
     Use ASSERT_RANGE in tiledef-*.cc
-
-commit 1f238c7a3b8046b74859b48d6d3b59030b24a86d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 21 13:21:10 2014 -0500
-
-    Duvessa and Dowan tiles (Bloax, 8350)
-    
-    This includes angry glowing eyes once one of them is dead.
-
-commit 325d069a4830a33f865de06cc61657661dc38d4f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 21 12:18:28 2014 -0500
-
-    Plate doll tiles (Bloax)
-
-commit c69370bf5c5d7f71ef83d157fb2233ea03c46bf3
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 21 11:35:52 2014 -0500
-
-    Chainmail tiles (Bloax)
-
-commit 2380c83b4ad8d33db294a8fd1050ea15cd373404
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Sep 20 15:14:39 2014 -0500
-
-    Wraithtile (Bloax, 8905)
-
-commit c35f2e05828e16219034b7847a97583ff96aa281
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Sep 18 21:38:30 2014 -0500
-
-    More unrand amulet tiles
 
 commit 076ae153bbbc81b14dd4d7343004f7144e61e342
 Author: Corin Buchanan-Howland <corin@buchananhowland.net>
@@ -2523,14 +2057,6 @@ Date:   Thu Sep 18 00:51:55 2014 -0400
        "Killed from afar by bennu... with a set off by themself"
      * New tile.
 
-commit 91a88487c61c24e0bc036ce1d145a90320b55b23
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Sep 17 23:41:28 2014 -0500
-
-    Three unrand amulet tiles
-    
-    In the hopes that slowly we'll replace all amulets with this style.
-
 commit d17bf937c492a63bd12380dd64d2aaceae9394a9
 Author: theTower <mwclaws@gmail.com>
 Date:   Thu Sep 18 00:22:28 2014 -0400
@@ -2560,33 +2086,6 @@ Date:   Thu Sep 18 00:22:28 2014 -0400
     few more monsters are added in a few parts. The other ends were buffed slightly,
     too, and all have some small use of wellsprings.)
 
-commit c8e8cdb14d7be3399c52a2d18c26fe47133be9b1
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Sep 17 22:44:17 2014 -0500
-
-    Change the local tiles number font (again)
-    
-    Hopefully this one will be easier to read, while still allowing for up to
-    9999 objects.
-
-commit edecbb15d67d097c4f13045a4f1baff0b523dd8b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Sep 17 21:29:20 2014 -0500
-
-    Monster HP bar edits
-
-commit 84b6425240611fcb70f4c1ad898be60daf1415de
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Sep 17 01:45:42 2014 -0500
-
-    Ru altar tile
-
-commit 88db2465547aced9463626463d7a9b4fb0617d25
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Sep 16 00:34:26 2014 -0500
-
-    Unrand tiles by roctavian
-
 commit 33066d8fe4d7b393529bac6ce7bf156bddb2b014
 Merge: 631e55c ba02c95
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -2606,116 +2105,6 @@ Date:   Mon Sep 15 16:36:32 2014 -0600
     	crawl-ref/source/mon-place.cc
     	crawl-ref/source/terrain.cc
 
-commit b6b6e6b4aa91a952123f36a588851e0e2661de62
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 14 21:28:26 2014 -0500
-
-    Panlord weapon tiles
-
-commit cd1393a7cc7a544b65c05987ed52f13a9dc10ad0
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 14 19:22:51 2014 -0500
-
-    Bloodbane, Prune, & Sharnga tiles
-
-commit d52796bc0d168f8d6a35708a11f493e4bdff96d1
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 14 14:02:58 2014 -0500
-
-    Fix some rims
-
-commit c9fd18a9d2fbd37a37759783b22c5ea7cc34c321
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 14 12:19:48 2014 -0500
-
-    LRD & Shatter icons
-
-commit 21ad89016c70344ad1ccc335178c07428ef486d5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 14 12:00:46 2014 -0500
-
-    A few unrand tiles
-
-commit 278d215588859c6b5aa15a8d619e24cd77027da7
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Sep 13 11:27:45 2014 -0500
-
-    Singing sword edit
-    
-    To make it look less like a eudemon blade.
-
-commit 4a25eb224014611e601475f7ba344a7480627243
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Sep 13 02:53:53 2014 -0500
-
-    Plutonium sword tiles
-
-commit ba31c2010c3874f5436ee862e9749bd01f244bd8
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Sep 9 21:47:39 2014 -0500
-
-    Cloud spell icons
-
-commit 9ffc33227b3b50e8c854adac0076f5c2005d6671
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 7 21:42:10 2014 -0500
-
-    Ringmail doll tiles (Bloax)
-
-commit fa4f6563dbee61caf77fa33d6134a7533455230f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 7 21:16:47 2014 -0500
-
-    Various mostly-shortblade tile edits
-
-commit 9b4185face5e905c08aa73030f1c7dfe2190bd72
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Sep 1 02:25:28 2014 -0500
-
-    Frances edit
-
-commit e4c7fa75514984d85d45f1121f6af9c9f5e1c042
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Aug 31 19:00:01 2014 -0500
-
-    Spell icon stragglers
-
-commit ba7a3ea6cdb8cdfe190c48ba8da94028f7998a18
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Aug 31 18:40:38 2014 -0500
-
-    Holy & demon weapons (roctavian & Bloax)
-
-commit 4c4b6fb9512617e170aa7382b2ca8cf9f1dd82b2
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Aug 31 17:48:01 2014 -0500
-
-    Pla tiles (roctavian)
-
-commit acab0e4478c31a548ae85cecb3051129d9ab1628
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Aug 31 17:29:08 2014 -0500
-
-    Axe & Staff tiles (roctavian)
-
-commit edfd48a65a3ee64ca9f67f3e00306862c3f75b1a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Aug 31 14:36:15 2014 -0500
-
-    M&F tiles (roctavian)
-
-commit 1e90f0582c8c4d87590f5816070c53d1b61af97a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Aug 21 20:42:58 2014 -0500
-
-    SBl tiles (roctavian)
-
-commit 90f71cdd7722d940a2679e2b1158efb9ef79dc59
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Aug 21 20:16:13 2014 -0500
-
-    LBl tiles (roctavian)
-
 commit 0ffcab788e388e6128f4c3113c3dca5711d65473
 Merge: d16465f 1ba5a8c
 Author: reaverb <reaverb.Crawl@gmail.com>
@@ -2727,18 +2116,6 @@ Date:   Tue Aug 26 20:02:07 2014 -0400
     	crawl-ref/source/dactions.cc
     	crawl-ref/source/enum.h
 
-commit 9bdfca26ebc48c05cc581f2e8f171961e989eb10
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Aug 22 23:26:07 2014 -0500
-
-    Hex-esque spell icons
-
-commit e4ca762f0a447153d0257d8dd75c18384fa1c03e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Aug 21 16:02:16 2014 -0500
-
-    Acute vine tiles
-
 commit 1a93eacad09a8b8db928caaa45770663aae438c6
 Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Thu Aug 21 18:50:56 2014 +0200
@@ -2748,47 +2125,11 @@ Date:   Thu Aug 21 18:50:56 2014 +0200
     They still show up as question marks because the tiles do not exist
     yet, though. I also simplified the code a bit and added a comment.
 
-commit cc94a5d788c307b14b455fb0e7c58a85861955fb
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Aug 21 11:04:16 2014 -0500
-
-    Summoning icons
-
-commit c31828bf76bbef29cdcea9786fe3b079939433a1
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Aug 15 10:23:07 2014 -0500
-
-    Fire Storm (roctavian) and M.Gateway icons
-
-commit 3b8412344a12de1b584f19c543ed0ba39aec71c4
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Aug 14 15:49:22 2014 -0500
-
-    Creepy crawlies (roctavian, 8711)
-
-commit 4c8a8a3ce8ae2c28764f460538f93bf409118a9a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Aug 14 08:38:06 2014 -0500
-
-    A better 3XBow tile
-
-commit 36858c63e3890d7b6a1476f9779aba5ca6a12fbf
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Aug 13 14:29:13 2014 +0100
-
-    Player doll tiles for the new ranged weapons
-
 commit 3c51aacae9c2b5680d98e0c85c97dd7593a98bc0
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Mon Aug 11 20:56:13 2014 -0700
 
     Slowly add a new torpor snail sprite (Bloax)
-
-commit 0188e4c8a00be80ef6355a950cf49ff771b0959d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Aug 8 21:44:15 2014 +0100
-
-    Hand Xbow tiles
 
 commit 1feef502cf4a69f97b635ff6c9d451b84f21843c
 Merge: 7e5366d 8f4210b
@@ -2807,104 +2148,6 @@ Date:   Thu Aug 7 23:33:46 2014 -0400
     
     Manual fix-ups:
     	crawl-ref/source/godabil.cc [drain_exp -> drain_player]
-
-commit 96237508131ede71aa7885fb9f8eaf3115f73056
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Aug 7 00:56:37 2014 +0100
-
-    Summ. Horribles icon (Bloax)
-
-commit 0fa4da6310a283f376ce5dc9925e9aecf363d134
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Aug 6 17:13:11 2014 +0100
-
-    Nemelex icon color contrast (Bloax)
-
-commit e530672c842379ae380cb480aa72e4a13eca0ade
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Aug 6 16:56:00 2014 +0100
-
-    Inert versions of evoker tiles
-
-commit d96af6c62035681898e07491b34b623d5c840488
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Aug 4 14:25:56 2014 +0100
-
-    De-rim greatslings
-    
-    (cherry picked from commit 9894f4dbb09e6a7c76da92bc49ae2d2ee7cd0924)
-
-commit 9858ce8f8c97380418f4b12eb725e7a9b81d5e3d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Aug 3 23:04:18 2014 +0100
-
-    Nemelex invo icons (plus misc spells)
-
-commit 756871af9b64cee576375e9ed5f73cf3cfa1b453
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Aug 2 22:25:08 2014 +0100
-
-    Frances tile (Bloax)
-
-commit d3c3341a9a4a7642e2aca554433be805801b18c2
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Aug 2 22:06:34 2014 +0100
-
-    Thrashing horror (Bloax)
-
-commit cf7884e8c8ff00dc0c3c6834d6b8575c943f361a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Aug 2 14:40:29 2014 +0100
-
-    Conj. spell icons
-
-commit 51d23b8ffc33fae269bb9bc99bc17133f7013410
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Aug 2 12:33:28 2014 +0100
-
-    Tomahawk tiles (roctavian, 8847)
-
-commit d143ad9ffa5bdad082cdef6a04f178aff11c920a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Aug 2 11:59:51 2014 +0100
-
-    Robes (roctavian, 8847)
-
-commit 54a05abb729bbc08ca8bd8bbae1efb8913ae6568
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Fri Aug 1 23:27:55 2014 -0700
-
-    Add greatsling tiles (roctavian)
-
-commit aadabb3ee9cf63f3e8a000bd8375c101a9d97824
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jul 31 22:31:23 2014 +0100
-
-    Mask-based (and a few other) spell tiles
-
-commit 5daad88f58ef163d4d0e0d640ce445de8919b531
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jul 31 00:00:42 2014 +0100
-
-    Giant spore (Bloax)
-
-commit e531c5b3c543fa85e9e25d64ced68827780a76a7
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jul 30 23:15:30 2014 +0100
-
-    Improve the large rock tile
-
-commit 26abbdd653dbefe1683e0cf0159a85d00e5065ff
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jul 30 22:36:50 2014 +0100
-
-    Ammo tiles cotd.
-
-commit f6456360432460ca4837e78bce856e63e717b54c
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jul 30 19:52:34 2014 +0100
-
-    Ammo tiles
 
 commit 13adbc04b5cd9f1fece7b9700d88e1c8ec39efb9
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -2946,73 +2189,6 @@ Date:   Thu Jul 24 02:31:14 2014 -0400
     	crawl-ref/source/spl-book.cc
     	crawl-ref/source/tag-version.h
     	crawl-ref/source/terrain.cc
-
-commit 0d957f34ef25952f9e116ad7d195333628c74948
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jul 21 16:32:08 2014 +0100
-
-    Shadow demon (Bloax)
-
-commit 9b074b279b9d768c8f8fa5d9418d4b392e64d3f5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jul 20 23:25:15 2014 +0100
-
-    Draconic spell icons
-
-commit ae745b9303250a90be1201887979ac909d2514f5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jul 20 00:15:41 2014 +0100
-
-    Necro and Earth spell icons
-
-commit da5fd00df73abca91e61916b841a80008370366d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jul 17 23:42:11 2014 +0100
-
-    Tloc spell icons
-
-commit 2183352181398bd85147df3aef83556706947045
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jul 16 23:01:18 2014 +0100
-
-    Lazy bottle blood icon
-
-commit 4fe79cb5009220224481d4a1bc4c7606174509cb
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jul 16 22:57:08 2014 +0100
-
-    Breath ability icons
-
-commit e84140001b661477778b81879796244a7ad5afd6
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Tue Jul 15 20:47:08 2014 -0700
-
-    Triple crossbow tiles (Bloax)
-
-commit bd9e66e9fc41a6e7b3b49dd2823b904370d24c2f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jul 15 23:12:31 2014 +0100
-
-    Hellfire tile (Bloax)
-
-commit 296c9a1a2ad21c1b22a6c966f4485ee83131b5b3
-Merge: 497b318 da4b28b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jul 15 15:54:08 2014 +0100
-
-    Merge branch 'master' of gitorious.org:crawl/crawl
-
-commit 497b3183606a17f9e35486c49c7fcb34e1957a3a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jul 15 12:10:38 2014 +0100
-
-    Leech tiles (Bloax)
-
-commit 542087aabc5e4d85f6bcedee62395bd5319e4678
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jul 15 12:05:58 2014 +0100
-
-    Sandblast icon stray pixels
 
 commit b4a268013bbdc7d0ab4b714e0ed8203aa4681342
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -3133,24 +2309,6 @@ Date:   Wed Jul 9 21:51:32 2014 -0700
     
     Thanks to Lasty for providing a baseline math suggestion!
 
-commit 4e31efd44dd54f104621cb3ec098c6342c53a132
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jul 9 23:25:55 2014 +0100
-
-    Conj. spell icons
-
-commit 56d4f1057beb692f1bd93a4d0f52425bd457291c
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jul 9 21:57:29 2014 +0100
-
-    Remove some rims
-
-commit ba25090befcab519b019908d20584328a5c6334c
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jul 9 21:43:15 2014 +0100
-
-    Cancellation potion tile
-
 commit cdeebcef90e2b45576cbcddcaeb632615daf2e73
 Author: Corin Buchanan-Howland <corin@buchananhowland.net>
 Date:   Tue Jul 8 20:28:20 2014 -0400
@@ -3158,12 +2316,6 @@ Date:   Tue Jul 8 20:28:20 2014 -0400
     Iashol: RIP Iashol, long live Ru.
     
     This commit reskins Iashol to Ru and updates lore.
-
-commit 3bc2141fe0c8a37921589eb8ce8f19ff18cd9b85
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jul 8 20:22:44 2014 +0100
-
-    Abjuration spell icons
 
 commit af9c773e796cefc7a2c94a3ba07f23139ecb07ef
 Author: reaverb <reaverb.Crawl@gmail.com>
@@ -3199,29 +2351,11 @@ Date:   Sat Jul 5 22:01:58 2014 -0400
     Mostly by joining short lines in places where that would let us remove
     braces.
 
-commit a413f1dc8091eb8e8fa15e68c9addb3b2b680968
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Jul 5 13:01:35 2014 -0500
-
-    Cond. shield icon
-
 commit ad9ca2428799aaa4be837d1b84e026b89f7c54e8
 Author: reaverb <reaverb.Crawl@gmail.com>
 Date:   Mon Jun 30 20:27:04 2014 -0400
 
     Remove Big Fish from the game
-
-commit 7bdfeef418a7de3382ade878ec0b10a35f2433b0
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jun 30 20:29:15 2014 -0500
-
-    Remove some stray pixels
-
-commit 44fae1616ce7c44cdb2dad59694e8e85a1a7edac
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jun 30 20:19:55 2014 -0500
-
-    Tele trap tile edits
 
 commit 6ff5843ff78f32e2fabfc228633d59c59e2c9d12
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -3254,73 +2388,11 @@ Date:   Sat Jun 28 12:04:10 2014 -0400
     	crawl-ref/source/spl-cast.cc
     	crawl-ref/source/tag-version.h
 
-commit 9442d7426d22aade1064671dc77622506baf6064
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jun 25 17:05:02 2014 -0500
-
-    Hopefully fix shoals coastlines & ink
-    
-    They should draw underneath features now; it remains to be seen how
-    WebTiles will work out.
-
-commit 4192df1434bdfe4b7a540b8c810de697f157c5be
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jun 25 13:45:48 2014 -0500
-
-    Improve wall shadow behavior
-    
-    Corners were being drawn on top of other shadows, and shadows were drawing
-    on top of grates.  In addition, I deepened the normal shadows a little
-    (they were almost invisible in many places), set Depths to use the darker
-    shadows, and added shadows for the top corners of walls.
-
-commit fa11693111c5e08a5815eaa30e5248042f399394
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jun 24 16:44:02 2014 -0500
-
-    Ability icons (plus flight)
-
-commit c5376b701bf558287ef2d1a147f64bd6ba87b100
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jun 24 00:51:16 2014 -0500
-
-    An icon for Beogh's gifting ability
-
-commit 493e1506100ca8f70bce3464348bbeb663a8b2c8
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jun 24 00:24:40 2014 -0500
-
-    Kiku invo icons
-
-commit 3322858e09c8ec0749d02fabd71afb40e9c56955
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jun 23 23:59:48 2014 -0500
-
-    Makh invo icons
-
-commit 4580af5afba65a4730bc74ae9c6d47f322a90574
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jun 23 02:19:58 2014 -0500
-
-    Air/Nec/Summ spell tiles (roctavian)
-
 commit efc16463effacc525d009b4094a542000e857a2a
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Fri Jun 20 20:35:54 2014 -0700
 
     Make Iron Devil tiles display weapons
-
-commit d490d05e1d85a69937af3c4ecc4076b9b029795d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jun 20 16:26:27 2014 -0500
-
-    Roxanne tile edits
-
-commit 06a2d03dba37156cc05cc3dbfd3bc2b081032075
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jun 19 15:12:36 2014 -0500
-
-    Stray pixels
 
 commit 9b7421e1bc34b7e424dcfd497249e2e32f0a6e0c
 Author: reaverb <reaverb.Crawl@gmail.com>
@@ -3348,12 +2420,6 @@ Date:   Tue Jun 17 12:55:28 2014 -0400
     
     Cigo's now has simple shapeshifters, which seem to work all right.
 
-commit 82d525cfdcb0f3fa31cd5e2433fa3340949196bd
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jun 17 11:19:10 2014 -0500
-
-    Demon summoning icons
-
 commit 453527f43a8e6778a0bf5ac4eaac57a0d6c09eec
 Author: Shmuale Mark <shm.mark@gmail.com>
 Date:   Tue Jun 17 11:49:24 2014 -0400
@@ -3368,24 +2434,6 @@ Date:   Tue Jun 17 11:49:24 2014 -0400
     entrance with 4 of them, which is all of them most games will see, they're
     already pretty weak. Slime itself has plenty of enemy variety and can
     stand the removal.
-
-commit 44dca7743ad4c3e4ea02cc0f99efd5f3fe32042c
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jun 16 23:56:43 2014 -0500
-
-    A few summoning spell icons
-
-commit 16a3d7487b734e4dbeda074f9325156bf3df4d6f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jun 16 16:14:36 2014 -0500
-
-    Tloc spell icons
-
-commit e962be8d23cdd4f35f2f7845d7a4159ddafc9d18
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jun 16 00:21:06 2014 -0500
-
-    Some more spell icons (roctavian)
 
 commit 4d6b2eaccc57a13a8fe72fca8fc3db9678ca7c17
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -3432,15 +2480,6 @@ Date:   Sun Jun 8 19:40:41 2014 -0400
     This commit is meant to include all foundational changes for Iashol that
     make the god work at a basic level.
 
-commit b80c8152ad0ca63863a0ba367b1fede1f4b36504
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jun 12 11:39:56 2014 -0500
-
-    Diversify our fruit selection.
-    
-    It could be nice to have a different tile used in inventory screens, but
-    that might be difficult to implement, so this works fine for now.
-
 commit b03d3d0b07f0f28cc2cc4abf3fa23ab574803685
 Author: Shmuale Mark <shm.mark@gmail.com>
 Date:   Mon Jun 9 09:02:00 2014 -0400
@@ -3474,24 +2513,6 @@ Date:   Sat Jun 7 11:30:53 2014 -0700
 
     Add recall icon for convokers
 
-commit 8db0f432ebe0ba37de206344b4164ebe0ec03a86
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Jun 7 12:55:48 2014 -0500
-
-    Mostly-hand-based spell icons
-
-commit 5a4102b231ccd22b5c6a7305a1e4096a85fdb5f0
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Jun 7 11:54:54 2014 -0500
-
-    Corona icon edit (Bloax)
-
-commit 1ff08e9d48cab3cbd7842da0376ccb18c3a36687
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Jun 7 03:13:34 2014 -0500
-
-    A few hex spell icons
-
 commit 5eb314e3e4c79765aacb0a6d6f32177c343bc2bf
 Author: reaverb <reaverb.Crawl@gmail.com>
 Date:   Wed Jun 4 22:50:52 2014 -0400
@@ -3515,37 +2536,7 @@ Date:   Mon Jun 2 01:50:16 2014 -0400
     monsters, such as worms. "Slug" conveys the fact it is slow better than
     "Worm".
 
-commit 031d0d796e7f74dfa08a0ae8093c9b37625d7e11
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jun 2 17:22:58 2014 -0500
-
-    Recall / VD spell icons
-
-commit 5bf09a84563aa8b8113281822e91bdefbd4a3492
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jun 2 16:52:29 2014 -0500
-
-    Helmet tiles (roctavian, 8519)
-
-commit 2f773b7a4e0edd21cf6f08dd0a504180ef1eaf02
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jun 2 16:45:52 2014 -0500
-
-    Spell icons (roctavian, 8519)
-
-commit 949fd7c8833bba31e1d14cd3174b572272024750
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jun 2 15:12:47 2014 -0500
-
-    Randart weapon tiles (roctavian, 8519)
-
-commit 9d807a285af5cbbb95549fc6641b574ccb3fd7eb
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jun 2 15:07:58 2014 -0500
-
-    Some undead-ish tiles (roctavian, 8519)
-
-commit 574083af5af8c7216523a4a450a5dbe7d8fb85c1
+ommit 574083af5af8c7216523a4a450a5dbe7d8fb85c1
 Author: reaverb <reaverb.Crawl@gmail.com>
 Date:   Sun Jun 1 17:32:31 2014 -0400
 
@@ -3584,12 +2575,6 @@ Date:   Wed May 28 08:39:53 2014 -0700
 
     Add a placeholder status icon for Death's Door
 
-commit b32516e3e8a722333a99a879d8d1a72d04d5f38d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue May 27 15:59:08 2014 -0500
-
-    Fedhas invo tiles
-
 commit 9da29b5f573ce40896e26a909fbd0c3b6f982914
 Author: Neil Moore <neil@s-z.org>
 Date:   Mon May 26 19:04:11 2014 -0400
@@ -3612,39 +2597,6 @@ Date:   Fri Apr 11 08:29:44 2014 -0700
 
     Add the Majin-Bo, a new fixedart that offers power at
     a terrible price. (It's not that terrible!)
-
-commit f638c35fa00d49858e26e5c095e56f24705d8408
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri May 23 18:48:59 2014 -0500
-
-    Ego blades (Bloax)
-
-commit 124c70fd32097f9273dab9cf38c482d424a55b75
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri May 23 11:29:51 2014 -0500
-
-    Trog invo icons
-    
-    BiA isn't done because I still haven't decided what summons should look
-    like.
-
-commit 22bbcf646e8763312d93c04b0be234909b9757a1
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu May 22 23:42:14 2014 -0500
-
-    Yred invo icons
-
-commit 66385b5c9ffefa8afc194118aed54f3df2ab0df1
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu May 22 22:32:35 2014 -0500
-
-    Chei invo icons
-
-commit c821bd6a58c004d6f8292007b186fbc5b4db734a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu May 22 21:53:38 2014 -0500
-
-    Beogh/Lucy invo icons
 
 commit fa12db5b089d36c568826285f23d6582d0c0690f
 Author: Shmuale Mark <shm.mark@gmail.com>
@@ -3687,31 +2639,6 @@ Date:   Wed May 21 02:05:55 2014 -0400
     them with honeycombs, which might be a problem, for example, in the
     Jiyva vaults.
 
-commit 1d087e7da7a68a8bbd56821cec3647ecdbe61e32
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat May 17 10:28:55 2014 -0500
-
-    Make art. ring mail more distinct (Brannock)
-
-commit d31242b35b60067fb4394a50530fd3ab817e8003
-Merge: 4a43dcc e02b2c0
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed May 14 14:49:16 2014 -0500
-
-    Merge branch 'spellicons'
-
-commit e02b2c0f54f83ae365149709b198a06b624c7cc5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed May 14 14:48:16 2014 -0500
-
-    A few derivative spell icons
-
-commit e933a1afc7d647200a3ffdcf2b33c3363892b973
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed May 14 14:25:13 2014 -0500
-
-    Numerous spell icons (roctavian)
-
 commit edb40d360931499a73b11273a2af2a7e1d5fe4f4
 Author: Shmuale Mark <shm.mark@gmail.com>
 Date:   Wed May 14 12:24:10 2014 -0400
@@ -3724,12 +2651,6 @@ Date:   Wed May 14 12:24:10 2014 -0400
     the only place they show up outside of vaults. The retching attack
     gave a rare special case that very rarely mattered and didn't help
     to distinguish them all that much.
-
-commit 77be142a81992345ddd937866d0bb7daa0c291db
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue May 13 23:12:53 2014 -0500
-
-    Gozag/Qazlal invo icons
 
 commit 12223c06ef9274e1b90c86d4c6a8ebd9f813c66a
 Author: reaverb <reaverb.Crawl@gmail.com>
@@ -3760,39 +2681,6 @@ Date:   Mon May 12 18:00:32 2014 -0400
     
     This fixes all the instances caught by unbrace.
 
-commit 787b249962a276791b753c6733e0c490d228517d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon May 12 00:28:33 2014 -0500
-
-    Strawberry tile (fusentrap, 8547)
-
-commit 2a13be7ce2eae8efab41024ccff7200c5a1ca125
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon May 12 00:21:37 2014 -0500
-
-    Tiles for rings of loudness and stealth
-
-commit 8c09a7f2ed7d95e72d23337b0dc3c981bc46fe1e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon May 12 00:08:43 2014 -0500
-
-    Display weapons for ogre magi (Arrhythmia, 8548)
-
-commit 7e895c200296693f41c44a97e384a3b7691aea14
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun May 11 21:12:51 2014 -0500
-
-    Good god invoc icons
-
-commit 76b35fcb50662ffdf3517f84c3d389ea63b839af
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun May 11 17:31:02 2014 -0500
-
-    First batch of icons
-    
-    These include most charms, as well as some Tmut spells and god invocations
-    for a handful of gods.
-
 commit d54608118996fe6861b0eaf66f1d4f0ca039359f
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Sat May 10 19:27:10 2014 -0600
@@ -3822,12 +2710,6 @@ Date:   Fri May 9 15:25:19 2014 -0400
     single vault that had them was "OCS / silver statue / ice statue"
     or something like that, so fairly few actual changes had to be made.
 
-commit bfe212cce2cc31e31d7ecd27ace129d6887abf9e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu May 8 23:56:32 2014 -0500
-
-    Curare needle tile
-
 commit 82f6ad17de140911205a720b336cfa36603c8532
 Author: Chris Campbell <chriscampbell89@gmail.com>
 Date:   Thu May 1 11:25:46 2014 +0100
@@ -3847,18 +2729,6 @@ Date:   Sat Apr 19 13:08:44 2014 -0700
     
     Adds a new artefact designed to encourage players to cast in
     ultra-heavy armour.
-
-commit 8f6a687fee50d397ae178bdaefef174ee656688f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu May 8 01:33:04 2014 -0500
-
-    Orc tile edits
-
-commit 382a147afab055ea27f5573ebcaac03646810022
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed May 7 22:10:22 2014 -0500
-
-    Orc warlord tile (Thrall, 8511)
 
 commit 1b0b24d4209a7553b4b938f65d5a61ecfb126f77
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -3941,14 +2811,6 @@ Date:   Tue May 6 21:23:43 2014 +0100
     of the Warp to replace it in the book of Summonings, and added Dispersal
     to replace it in the book of Wizardry.
 
-commit 02d5b61e5fd4238dba7a40a0a143baec52112ebe
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue May 6 15:01:32 2014 -0500
-
-    Switch the default felid tile
-    
-    The old one was hard to see in many places.
-
 commit 6a80b7c58fa375d748f750e76455d4d4d48d1420
 Author: Shmuale Mark <shm.mark@gmail.com>
 Date:   Tue May 6 07:15:25 2014 -0400
@@ -4003,24 +2865,6 @@ Date:   Sun May 4 23:47:47 2014 -0400
     The monster. It didn't really exist anywhere, nor did the idea seem
     to add too much to the good-sized danger that spriggans already posed.
 
-commit 23238270265ca678ef325505d69bdba4829162bf
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun May 4 22:49:28 2014 -0500
-
-    Recolor some dragon armours (tabstorm)
-
-commit 2bb6d35b585c78653e70499b58b22f9b5a963135
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun May 4 21:59:22 2014 -0500
-
-    Javelin tiles
-
-commit 68d61192d88d781d81c3c5d71d11e39ed9381d94
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu May 1 15:38:00 2014 -0500
-
-    Crystal plate tiles (Bloax)
-
 commit f3c7235ddb147bc10b815d7cf37697925bf3725c
 Author: Chris Oelmueller <chris.oelmueller@gmail.com>
 Date:   Thu Apr 24 15:19:29 2014 +0200
@@ -4052,12 +2896,6 @@ Date:   Tue Apr 29 11:40:40 2014 -0400
     nice for some vaults to have an undead counterpart to simulacra but
     there are plenty of other evil fiery monsters.
 
-commit 339348ec42342f6e49bd812f730b5b5fba4c39b7
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Apr 28 20:09:16 2014 -0500
-
-    Shield tiles (roctavian, 8460)
-
 commit dc6d6fabca0452226cf6e1929a22f84323fd7900
 Author: Chris Campbell <chriscampbell89@gmail.com>
 Date:   Sat Mar 22 11:46:32 2014 +0000
@@ -4088,18 +2926,6 @@ Date:   Thu Apr 24 21:58:41 2014 -0400
     The spawn weights and vault placements have been pretty evenly split
     between the two.
 
-commit 6ef07e7555332feedebfac3b8b356fade8ca11dc
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Apr 24 21:31:35 2014 -0500
-
-    Dragon armour doll tiles
-
-commit d304b03afcfff7b9ba413419d02d17e5c7d8ff29
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Apr 24 18:59:14 2014 -0500
-
-    Leather armour tiles (Bloax)
-
 commit 405fd4155241ff0977987be1837af65116695adb
 Author: Shmuale Mark <shm.mark@gmail.com>
 Date:   Wed Apr 23 03:02:29 2014 -0400
@@ -4116,30 +2942,6 @@ Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Tue Apr 15 17:17:38 2014 -0600
 
     Sneak a monster tile into UNUSED/ (gammafunk).
-
-commit 2613b332079ef7df97458a3dfc6e4b8dcaaad112
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Apr 15 00:22:12 2014 -0500
-
-    Ring unrand tiles
-
-commit 07579574834276b3f20e4c0f6b83d6cefaebd154
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Apr 14 23:44:21 2014 -0500
-
-    Minotaur tile (Team Impy, 7490)
-
-commit 71a92d4cd5d42404d16d0deb71ef9fb98475c05a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Apr 14 22:54:42 2014 -0500
-
-    Lich felid tile (Bloax, 5983)
-
-commit 18a2bbc749748ca1fc60dd6759362097f64e6873
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Apr 11 23:35:22 2014 -0500
-
-    Amulet of the Air (bloax)
 
 commit b05c47ca704ebbd0a835eb0ff4c52f69e65923b5
 Author: gammafunk <gammafunk@gmail.com>
@@ -4162,24 +2964,6 @@ Date:   Wed Apr 9 12:42:00 2014 -0500
     killer bees in between insubstantial wisps and fireflies to keep the
     number of summon types the same.
 
-commit 79b3258f0283455e74a0a44017cf6c1f6eec73d8
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Apr 3 17:48:19 2014 -0500
-
-    Old-school exec axe tiles
-
-commit 8a82c96f3c8a50e32f64c97b55d9a299ce8aff8f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Apr 3 17:11:13 2014 -0500
-
-    Use some old racial weapon tiles for normal weapons
-
-commit 5e01d95c36dcf80bed7343e2ee71653f89cf129d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Apr 3 15:27:28 2014 -0500
-
-    Grand Avatar tile (roctavian, 8097)
-
 commit 38725a92c9fd8b61751829e872ca0e0b23414ff7
 Author: Shmuale Mark <shm.mark@gmail.com>
 Date:   Wed Apr 2 21:57:45 2014 -0400
@@ -4197,12 +2981,6 @@ Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Mon Mar 31 13:44:09 2014 -0600
 
     Fix position of some demonspawn class overlays (roctavian, #8097).
-
-commit df4b596b3f22cc44484d94ffed0adc5a97e3c040
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Mar 30 14:23:46 2014 -0500
-
-    Crystal ball tile
 
 commit 3331d8b85e77cfc8b350d16a88000d98e0583001
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -4247,12 +3025,6 @@ Date:   Sat Mar 29 09:42:52 2014 -0600
 
     Rename some rod enums.
 
-commit 64a858d6f0a404c413b5bc7cbbb9c1113db059d8
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Mar 25 17:08:09 2014 -0500
-
-    Fix orcish rims
-
 commit 899c59f0766f212d8e22f9eab253d185fa3e9400
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Wed Mar 19 17:43:49 2014 -0600
@@ -4269,18 +3041,6 @@ Date:   Wed Mar 19 17:27:40 2014 -0600
     
     If someone else doesn't get to this first, I'll probably churn up
     something that at least doesn't look like steam.
-
-commit 0242c21c59fcaabb8af0fcde966742b0e9a86aa7
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Mar 16 01:48:55 2014 -0500
-
-    Fix a rim
-
-commit f3034f286657a3e2827e5697cde2f7c9d9013c77
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Mar 16 01:41:10 2014 -0500
-
-    Brighten the roach tile
 
 commit 86b2fc4f56c404396121864ea5255161db7cd0b1
 Author: gammafunk <gammafunk@gmail.com>
@@ -4346,24 +3106,6 @@ Date:   Mon Mar 10 17:58:36 2014 -0600
     This also takes the opportunity to set the war gargoyle tile to the
     correct size.
 
-commit 264b8f4a5e35cd240ce466102c3a43d85c98f183
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Mar 10 13:53:31 2014 -0500
-
-    Nergalle tile (roctavian, 8192)
-
-commit f31e4639ef1d6c4685119dd6e813040ef3b6be29
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Mar 10 13:49:25 2014 -0500
-
-    Various monster tiles (roctavian, 8192)
-
-commit caa155a398af823dac40f82d85d8f80f14a5c5f5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Mar 10 13:39:16 2014 -0500
-
-    Roka edit again (roctavian)
-
 commit b1a69621d3480971c3dc7a325963001344ef3e2e
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Sun Mar 9 10:41:27 2014 -0600
@@ -4408,12 +3150,6 @@ Date:   Thu Mar 6 17:08:46 2014 -0700
 
     Beetle zombie tile (benhanson, #8216).
 
-commit b916d6f9691021c6ac39b9aa6132ea388c220a88
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Mar 6 16:05:47 2014 -0600
-
-    Saint Roka tile edit
-
 commit 7aa12b22b14671b08de9dbde75549770699b5afe
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Thu Mar 6 12:52:19 2014 -0700
@@ -4438,12 +3174,6 @@ Date:   Thu Mar 6 12:43:17 2014 -0700
     
     (Please, someone get a new mana viper tile ready so I don't have to use
     this one again.)
-
-commit 465263a558223b22c6597894e5a0dacdb376d401
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Mar 6 11:38:28 2014 -0600
-
-    Orc knight edit
 
 commit af7676b698eea389a56e0232e12d3db2e2adfd63
 Author: DracoOmega <draco_omega@live.com>
@@ -4533,25 +3263,6 @@ Date:   Wed Mar 5 11:50:54 2014 -0700
 
     Fix up some TAG_MAJOR_VERSION > 34 issues.
 
-commit 6a8981a4e68705875ac91f3c91489fbcb567ab8f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Mar 4 17:28:24 2014 -0600
-
-    Orc warlord edit
-    
-    As noted by a couple of people, the previous warlord was a little to
-    similar to other orcs in coloring.
-
-commit 8dc6adb78b8c3cad6db3395cafefcc8eebc5ebbf
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Mar 4 16:56:40 2014 -0600
-
-    New orc tiles (roctavian, 8192)
-    
-    I edited these slightly, primarily by lengthening the robes on the
-    casters.  They're so dangerous early on that they really need to stand
-    out, and the shorter robes were a little too easy to miss.
-
 commit ea69ec1fc76948948e00f19449f52da422193905
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Mon Mar 3 19:33:52 2014 -0700
@@ -4613,33 +3324,6 @@ Date:   Mon Mar 3 11:29:02 2014 -0700
     A couple of cases where enemies could spawn with equipment
     unintentionally have also gone away.
 
-commit bdbfd3480b060dfaeade90020305e3103b5523d8
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Feb 28 17:10:28 2014 -0600
-
-    Mummy restoration ability tile (reaver)
-
-commit df76e187f3371092905011ab0296a5b3a24bf4e8
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Feb 27 21:46:58 2014 -0600
-
-    Snaplasher vine tiles
-    
-    This involved fixing up some of the tentacle code, which should make it
-    easier to add more tentacle types (please don't add more tentacle types).
-
-commit 475e0ba8f2753343b5674a8385a367650f301ed2
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Feb 27 11:16:38 2014 -0600
-
-    Gadget shop tile
-
-commit 39fc9bc134c91d39009f5e12fad0def17ba741cb
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Feb 27 00:41:33 2014 -0600
-
-    Recenter a bunch of tiles
-
 commit 5516d479cdc6e041aebf3df4311fde0ab3d6fb48
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Tue Feb 25 14:37:30 2014 -0700
@@ -4650,12 +3334,6 @@ Date:   Tue Feb 25 14:37:30 2014 -0700
     of available through the rod of clouds), and Poison Arrow. A multi-spell
     rod which duplicates effects of other items and whose sole remaining spell
     is itself a normal spell does not need to exist.
-
-commit ca633f67a6c669c7874820f2c4acfb713c9ec585
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Feb 26 20:24:21 2014 -0600
-
-    Cigotuvi's Monster tile
 
 commit ffe6da329eb98d1d8ad326a3d3118d5ad7147e16
 Author: tenofswords <mwclaws@gmail.com>
@@ -4852,24 +3530,6 @@ Date:   Sun Feb 16 22:01:46 2014 -0700
 
     Ice cave floor tiles (roctavian, #8159).
 
-commit 0b9f4d41d090ca4d7d8408901bd2e4439128709d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 16 22:43:57 2014 -0600
-
-    Stone wall tiles (roctavian, 8159)
-
-commit 264886fe65b9ac08f89ab97796a511b34365bb38
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 16 22:02:32 2014 -0600
-
-    Floor and stone tiles for Vaults (roctavian, 8159)
-
-commit 23f6408bb2eea798cb5ceb6d7f7fa35094639acf
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 16 14:46:20 2014 -0600
-
-    Singing Sword & Captain's Cutlass tiles (Bloax)
-
 commit a84e0404ef98e58d0b5a691f4fb1e9983929406c
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Sat Feb 15 21:07:40 2014 -0700
@@ -4940,12 +3600,6 @@ Date:   Thu Feb 13 22:01:47 2014 -0330
     	crawl-ref/source/spl-data.h
     	crawl-ref/source/spl-summoning.cc
 
-commit ff81b0386e1ef073969148d7afa5f27140350e61
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Feb 11 10:44:05 2014 -0600
-
-    GONNNG tiles (Bloax)
-
 commit 8ac5a44c68917fa44982063b71092573f49036e0
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Mon Feb 10 19:53:52 2014 -0700
@@ -4980,38 +3634,6 @@ Date:   Mon Feb 10 16:00:04 2014 +0000
     monsters. Alistair's Intoxication is shuffled around in a couple of books
     to replace it in Envenomations.
 
-commit 119c1145996a32818766b6ab27e5336c9b3b7ef5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Feb 10 00:58:09 2014 -0600
-
-    Lignification potion tile
-    
-    Also incidentally fix some mis-centered potion icons.
-
-commit 399d05bdfdb3362bc1ba85e2243b708d5a6f8df5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 9 19:33:17 2014 -0600
-
-    Recolor floor_frozen to fit the new Coc walls
-
-commit 489902cbdd3d05f83f67f0c0e6959517c7d3eaad
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 9 19:18:42 2014 -0600
-
-    Icy walls and stone for Cocytus (Bloax)
-
-commit e60bb15a156f92d4f44dac077a521c521b4bf384
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 9 18:59:02 2014 -0600
-
-    Singing sword tile (Bloax)
-
-commit f80c5e06392875eae7e254ace00d0d34df2cbc5f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 9 17:09:25 2014 -0600
-
-    Ice block walls for ice caves (Bloax)
-
 commit 20145e74ef52652288608894b398f5c0c2265612
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Sun Feb 9 15:39:29 2014 -0700
@@ -5038,43 +3660,11 @@ Date:   Sun Feb 9 15:01:08 2014 -0700
 
     Worldbinder tile (roctavian, #8097).
 
-commit 55717bb55b3fce9f58ac479cc5329888d2ba33a9
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Feb 8 11:50:31 2014 -0600
-
-    Fix some rims
-
-commit 095580861b961008b1e1ac323fad87632a4c860b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Feb 8 11:42:09 2014 -0600
-
-    MEATLORD was actually THE UNSPEAKABLE
-
-commit ab90ceb25b88925ea5d5aaaff25519d3ef053b04
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Feb 8 11:32:22 2014 -0600
-
-    Move tall tiles to the beginning of player.png
-    
-    This saves a bit of wasted space by putting them all together on one line.
-
-commit 7c074881b79e2868ec12be35119b05681739474c
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Feb 8 11:23:59 2014 -0600
-
-    MEATLORD tile (Bloax)
-
 commit 1408ae1a8c06c7ac56ea6e459cdad293e6fd52bd
 Author: Pekka Lampila <pekka.lampila@iki.fi>
 Date:   Fri Feb 7 23:30:18 2014 +0200
 
     Add a missing Drowned Soul entry to dc-mon.txt
-
-commit 1f906af0918f64d968b66b931168254543cc95ad
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Feb 7 12:59:03 2014 -0600
-
-    Drowned soul tile
 
 commit 7453b3a2ebb7a9100111f1fc599576c32cd6fc41
 Author: tenofswords <mwclaws@gmail.com>
@@ -5123,15 +3713,6 @@ Date:   Tue Feb 4 10:06:53 2014 -0700
 
     Natasha tile (roctavian, #8087).
 
-commit fcb018f3d6a2f1510d4df6de5b5ab44ee7486585
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Feb 3 22:21:46 2014 -0600
-
-    Asterion Tile
-    
-    Heavily based on the tile submitted by lingerstink in issue 4032.  Thanks
-    lingerstink!
-
 commit 03e8a7adeb357bd815558566a1b718640f316334
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Fri Jan 31 19:26:49 2014 -0700
@@ -5154,12 +3735,6 @@ Date:   Thu Jan 30 23:05:46 2014 -0700
     spell; currently the escape spell is Blink Other, which accomplishes
     basically the same thing but with less visual impressiveness. Perhaps at
     a later date the possibility of this can be revisited.
-
-commit 18f63ac068e0ad2faa884b791aaabbdcf68350c2
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jan 28 23:49:05 2014 -0600
-
-    Phantasmal warrior tile
 
 commit dab6825aa234e9b898c620ce05327b67264fedaf
 Merge: 7ad9fed 1437299
@@ -5229,12 +3804,6 @@ Date:   Sat Jan 4 15:19:59 2014 -0700
 
     Badtiles for marksnagas and naga enchanters.
 
-commit 062a2ce7d35b096a390e057a6902cd83c4ab2c69
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jan 27 20:59:24 2014 -0600
-
-    Shadow & mushroom form tiles
-
 commit 56c927da22a20b7d724a82a8f49a5f60d71383c9
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Sun Jan 26 23:00:20 2014 -0700
@@ -5274,58 +3843,6 @@ Date:   Wed Dec 18 20:32:19 2013 +0000
     - Spirit shield
     - HP -3
     - MP +1
-
-commit 9ac9943256583ef3264ac4abdd85c72f52a0ec87
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jan 24 18:59:43 2014 -0600
-
-    Metal wall tile edits
-    
-    Hopefully these will make them a bit more varied and metallic-looking.
-
-commit 0b2097da5790193580245f826caf98cbc6b64620
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jan 19 18:53:28 2014 -0600
-
-    Obsidian axe tiles (Bloax, 8005)
-
-commit 622d1973ab1069c586f64edb6cf6616ae1c8377e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jan 17 20:03:35 2014 -0600
-
-    White metal tiles for evilmike_silver_temple
-
-commit ae21203de32bbd18504aa36f70f411f62363dc30
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jan 17 19:43:02 2014 -0600
-
-    Remove the unused metal_wall_cracked
-
-commit 1576e7655a826842d32939e3961775ce3266fd1b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jan 17 19:37:59 2014 -0600
-
-    Metal walls (Bloax)
-
-commit 11f36c0aeac3abf07f1c1b39b0f8a4e895f09da4
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jan 17 17:12:53 2014 -0600
-
-    Dithmengos altar tiles
-    
-    With thanks to Bloax
-
-commit 2c76abe95d5d640a2d876da639bd78935c1381a7
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jan 15 23:17:08 2014 -0600
-
-    De-rim
-
-commit d8f2377ddf35519284e8e40cea93a401a72eeb46
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jan 15 23:12:17 2014 -0600
-
-    Open/closed tiles for the Vaults entrance
 
 commit 58d5a39bc2126cac1d1ab9d5ac839827b2ed8817
 Merge: 958ac0a 7782a6f
@@ -5410,78 +3927,6 @@ Date:   Mon Jan 6 22:35:58 2014 -0500
 
     Give Duvessa plain blue hair (minmay)
 
-commit 115aa3dca4763a48d892cea4c6ffa1cf3165168a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jan 6 14:47:59 2014 -0600
-
-    Brighten some ugly things
-
-commit c5411211669e28e3f43e40fcf4efadad097126cb
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jan 6 14:37:49 2014 -0600
-
-    Brighten some vermin
-
-commit dc6548d80ed8a8746fd19ab250a06c9cf47fcb50
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Dec 29 12:36:35 2013 -0600
-
-    Bastard sword tiles (pubby)
-
-commit 2890da7b8657659c5c1c240c9b49f9ffc8832ed8
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Dec 28 23:13:45 2013 -0600
-
-    Claymore tiles (pubby, 7891)
-
-commit aa5c47c9a804f14a71abdfa8d3057094a08b7e15
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Dec 18 20:57:30 2013 -0600
-
-    Octopode statue tile (Bloax)
-
-commit 6b568a2ccf4ad8bcffadf976959861802629716b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Dec 18 19:43:37 2013 -0600
-
-    Fix centaur rims
-
-commit 960936a8dbd200a894cb81d207664ce95a87a983
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Dec 15 20:01:54 2013 -0600
-
-    Lemure tile (Bloax)
-
-commit 9477f2fa4106def22996992b606f0461a96123fe
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Dec 15 19:59:25 2013 -0600
-
-    Komodo dragon tile (Bloax)
-
-commit 0234849a946b3cc03c2c03eeed2b5163a43551cf
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Dec 9 17:11:33 2013 -0600
-
-    Troll hide tiles (Bloax)
-
-commit 578ed4a0bd1299929bfb647c2f0eb16d946c5b8c
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Dec 9 17:02:41 2013 -0600
-
-    Spider boot doll tile
-
-commit 7bed74665b0e45cf8daf6eeadd24cb7da969ad9c
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Dec 9 16:20:11 2013 -0600
-
-    TLA and MTLA tiles (Bloax)
-
-commit de2aa148a11e00fe6523019138d204972396f6cb
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Dec 9 16:10:44 2013 -0600
-
-    RATS (Bloax)
-
 commit 2db2a32d38312e667d7170a69094960d1ff9b36d
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Thu Nov 28 20:20:52 2013 -0700
@@ -5494,29 +3939,11 @@ Date:   Sun Nov 17 04:06:02 2013 -0500
 
     Finish adding raiju tile.
 
-commit 6e8aceba79736afc10229a8f4daba4eb9c51295a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Nov 16 19:38:22 2013 -0600
-
-    Freezing wraith tile (Bloax)
-
-commit 9deeed69da2d0b2958365225e5d852bb2d16a03a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Nov 16 19:35:52 2013 -0600
-
-    Raiju tile
-
 commit e7b96ffa70ca93a3cea9e2cead6f40085a6a2d68
 Author: Neil Moore <neil@s-z.org>
 Date:   Fri Nov 15 17:26:11 2013 -0500
 
     More formatting fixes for return (...);
-
-commit b254b3d788215c5b0c5026c4d3d7e8a94f260998
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Thu Nov 7 22:02:29 2013 -0700
-
-    ontoclasm's tiles for Depths entry/exit.
 
 commit 723b4fa0c231dc452cc1ff30a01780d71ac83882
 Author: Chris Campbell <chriscampbell89@gmail.com>
@@ -5558,12 +3985,6 @@ Date:   Sun Aug 25 04:24:37 2013 +0200
     player confusion if a "fire dragon" dropped that hide.
     Red draconians and fire drakes also both get a fire-y qualifier.
 
-commit a3a1d798529766707afa7e4de8fc0aaaedc44974
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Nov 7 23:59:40 2013 -0600
-
-    Zot gate tile
-
 commit 135fbebd5d38522824167056b2753a11bfb87e6e
 Author: Chris Campbell <chriscampbell89@gmail.com>
 Date:   Wed Nov 6 19:39:52 2013 +0000
@@ -5579,26 +4000,11 @@ Date:   Tue Nov 5 16:22:52 2013 -0700
     This also allows deep elf blademasters to be able to display two
     different weapons, if that ever becomes a thing.
 
-commit e06bfaaf8641758a91ec5978d28a55b4697be788
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Nov 3 01:13:45 2013 -0500
-
-    Shift some D tiles; add recolored floor for low D
-    
-    The floor and torches shift noticeably once you're past D:14 (and thus the
-    rune-lock).
-
 commit 5fe5df5e3eb057a57ab8ee10e33b6ec0164dbfc5
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Wed Oct 30 13:36:27 2013 -0600
 
     Properly enumerate High Council's player doll tile.
-
-commit d2e23456014b06341640ca59280962c64e8ba866
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 29 23:28:47 2013 -0500
-
-    Brighten centaur tiles
 
 commit 5704405f15c98fa0e7abc6b0282892279f79cc28
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -5611,24 +4017,6 @@ Date:   Tue Oct 29 13:30:40 2013 -0600
     
     There's a minor adjustment here to item name code to get the noises to
     display properly.
-
-commit 7e64cc4a4b8f207367760560bd7d6975d92d9613
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 29 17:44:11 2013 -0500
-
-    Macabre finger tile (pubby, 7642)
-
-commit b52781e70fb407d6fff1905ea4682063a198b8e2
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Oct 27 19:27:29 2013 -0500
-
-    Additional gargoyle base tiles (Xion350, 7631)
-
-commit 67f566f1b146b900a513cd0793c93d68b4921f6f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Oct 27 19:25:18 2013 -0500
-
-    Icon for durably-summoned monsters
 
 commit 12b34a6fa60b16f28c7fd978af3a41cdb6ecfb92
 Author: Neil Moore <neil@s-z.org>
@@ -5660,30 +4048,6 @@ Date:   Tue Oct 22 10:37:03 2013 +0100
     inconsistent in terms of not behaving as a "song" in the same way as Song
     of Slaying (and making the two songs exclusive would make it even worse).
 
-
-commit f81a4feda36c77293f4e5856ad3520a070951c39
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Oct 4 10:14:05 2013 -0500
-
-    Recenter and optimize some ammo
-
-commit 5ca5bf3e1789f6157bb4fbc0e649f0ca86d1e913
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Oct 4 09:23:34 2013 -0500
-
-    Jump ability and brand icons
-
-commit d98901741ddbcf9d37a41be2ef0aac346955540b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Oct 3 23:27:39 2013 -0500
-
-    Disc of storms tile
-
-commit b4c01a2901e0a0b3bfe3c0390897413a9ffd88e2
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Oct 3 21:31:23 2013 -0500
-
-    Recenter and optimize some foodstuffs
 
 commit a239847db7f0928166930a5c3d84c1d3d9783094
 Author: Neil Moore <neil@s-z.org>
@@ -5810,27 +4174,6 @@ Date:   Mon Sep 30 22:08:42 2013 -0400
 
     Add a note about tile enum ordering (gammafunk, SamB)
 
-commit 4981a6cfda7d8700b7160f79affa9cdfe7419ea8
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Sep 27 20:38:16 2013 -0500
-
-    Tomahawk tiles
-
-commit c56614be206a909a4ea04f73150f73fea34b98d3
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Sep 27 13:48:36 2013 -0500
-
-    Rod tiles
-
-commit 9ca6e02b50f1d4b23e9a3fdf1d2d45b021740294
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 22 17:19:59 2013 -0500
-
-    Distinct manual tiles
-    
-    Manuals are now distinct from other books in console, so they should be in
-    tiles as well.
-
 
 commit 189c592e0a8c5475fd8c8342b85818a339c45c8e
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -5866,94 +4209,11 @@ Date:   Wed Sep 18 20:27:45 2013 -0600
     
     Hopefully this will serve as motivation to get something better?
 
-commit d88de33e94f0b18fc4ef463496783b795f021a2a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 15 21:55:07 2013 -0500
-
-    Darken sand tiles
-    
-    This maybe makes them a little less beach-like, but at least you'll be
-    able to see items in the Shoals now.
-
-commit 5a62039309a9239cb1819f2e92713131b80d5359
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Sep 14 20:44:58 2013 -0500
-
-    Ugly things (Bloax, 7483)
-
-commit 1160cc881224ca02e31318635aa7e0dde5351d55
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Sep 14 18:06:50 2013 -0500
-
-    Fix dwhip doll tile
-
-commit c8ee00c962325abc0d7eaaf71943dcecaaf4ee2f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Sep 14 18:03:14 2013 -0500
-
-    Fix djinn player doll tiles
-
-commit 305a04065498cd53e2e30e703a1e8c5528af06ac
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Sep 13 10:55:28 2013 -0500
-
-    Djinn hair tiles
-
-commit bc0cfd3c4187290fa33454d58104a3642ae98740
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Sep 13 10:38:06 2013 -0500
-
-    Tengu tile tweaks (pubby, 7545)
-
-commit 7c3917f37ecdbe25aea7234f97728b774f4db19a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Sep 13 10:27:38 2013 -0500
-
-    Player doll tiles (Team Impy, 7490)
-
-commit 242e861bade2a2ccaace383f8120ef601134a246
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 8 19:30:41 2013 -0500
-
-    Shoals water variations and disturbance tiles
-
-commit 44303320cbad7b2272494c52018b7bd5d3dd2c9e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 8 00:49:31 2013 -0500
-
-    Shoals water tiles
-    
-    Note that these currently lack any sort of variation.
-
-commit d3d37a4ad22b568d67e65347a13fc081df62154a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Sep 6 23:24:00 2013 -0500
-
-    Tiles for various monster spells
-
-commit f2fead23ac7707cc661fa8437223a83904fa5700
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Sep 6 12:11:11 2013 -0500
-
-    Discord tile
-
-commit a18ca80a165cc0907869afa55ebfa1c9b4460202
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Sep 6 00:55:06 2013 -0500
-
-    Polymoth tile
-
 commit 2e0ee8d010926510cd55647d40ee58d93cb863fb
 Author: MarvinPA <chriscampbell89@gmail.com>
 Date:   Thu Sep 5 21:43:11 2013 +0100
 
     Rename scroll of vorpalise weapon to scroll of brand weapon (Soner)
-
-commit 04ac8d103ead7c3dbc73fe306438f7afb3b3b469
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 1 20:28:05 2013 -0500
-
-    MTLA tile
 
 commit 65c58ed6ccd53a9a080255ee37e131123ac65e96
 Merge: c4b5122 70ca29e
@@ -6021,12 +4281,6 @@ Date:   Wed Jun 12 02:34:30 2013 -0500
       Also optimised the new tiles. -nfm ]
 
 
-commit d993d8a94ebf88d624d434119000bc7293dafba9
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Aug 11 12:42:55 2013 -0500
-
-    Remove a rim
-
 commit 0ac5afdac4c113d4b59c21e5d3c522b9ebe41d51
 Author: Chris Campbell <chriscampbell89@gmail.com>
 Date:   Fri Aug 9 17:39:53 2013 +0100
@@ -6046,32 +4300,6 @@ Date:   Fri Aug 9 18:13:41 2013 +0100
     None of them did anything interesting or spawned anywhere outside of a
     small number of vaults.
 
-commit 56e3d78c6fd4ac2f6bca401fbc4b825066c3eb98
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Aug 9 00:57:47 2013 +0100
-
-    Use Beogh's altar tile for the conversion ability
-
-commit ffe6e9f3292331a72536d800aea98509a3e2ecf4
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Aug 7 21:11:44 2013 +0100
-
-    Hellfire tile
-
-commit eebf78d342e3389150f7b4fb741ded8d44f1192e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Aug 5 20:40:54 2013 +0100
-
-    Beogh altar
-    
-    With thanks to Bloax.
-
-commit 160563f7797157fbbada79214a6db2d090c55b73
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Aug 5 17:05:25 2013 +0100
-
-    Adjust some wall tile weights
-
 commit 9d0e715c0b71a236ef9bca9d7c2a90512ce2c7eb
 Author: Neil Moore <neil@s-z.org>
 Date:   Sun Aug 4 18:54:32 2013 -0400
@@ -6080,65 +4308,6 @@ Date:   Sun Aug 4 18:54:32 2013 -0400
     
     This caused arches to display the snail statue tile, or very rarely an
     orcish idol or a different statue tile.
-
-commit 0add7a92c55bee439ab18ce930af678854a00242
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Aug 4 12:26:26 2013 +0100
-
-    More outlining fixes
-
-commit 0e7cc690e761b1e4f51ed466e4654a3ba58cb20b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Aug 3 23:12:11 2013 +0100
-
-    Searing ray tiles
-
-commit 9bd4eb860868e4c6d5f6622bbf9d6cbb2948571f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Aug 3 18:37:02 2013 +0100
-
-    Fix some bad outlining
-
-commit d3544abd7c0bef0f23132b9d889896e47958649a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jul 31 22:47:15 2013 +0100
-
-    Undead ugly things
-
-commit fd23a319141c1d6c4da4375ef1ad913ab0119c79
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jul 30 10:30:47 2013 +0100
-
-    Lighten up umbra tiles
-
-commit 2b2dd308415ef86a10c92876da334e6b2269b748
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jul 29 19:01:29 2013 +0100
-
-    Differentiate noxious fumes in tiles
-
-commit 2ad93012e7d6f64d401ea1a828e6831e269779a3
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jul 25 12:46:11 2013 +0100
-
-    Mosaic tiles
-    
-    These likewise don't appear anywhere yet.  Maybe Temple?
-
-commit 38c1deb8c66e50471d0f1e8690ec4c241a8156c4
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jul 25 12:05:30 2013 +0100
-
-    Etched floor tiles
-    
-    These currently aren't used anywhere, but could be used for vaults and so
-    on.
-
-commit 48c4ea5e39855a17dc10edb2b8ad85bde235e892
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jul 25 00:35:45 2013 +0100
-
-    Crypt floor tile edits
 
 commit 1ea5b6bca5087725b4f1fc8976eb25d12087cfeb
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -6158,30 +4327,6 @@ Date:   Thu Aug 16 23:29:27 2012 +0200
 
     white_noise's recolored crypt tiles (#6073).
 
-commit 688a8de092c24bfef3b4f9c4daa1055afc696ccd
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jul 23 16:11:52 2013 +0100
-
-    Bog body (bloax)
-
-commit 18f770e2b0f089554a6d109d775241256093dcb7
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jul 23 15:54:26 2013 +0100
-
-    Alter some abyss wall/floor tile colors
-
-commit 98e2d983b6f2e4403dac8d0b093f8a25374afc16
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jul 23 02:30:19 2013 +0100
-
-    Deathcap tile
-
-commit 11650ddb26fc6a901abb020b3b0576f7284b0229
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jul 21 23:47:35 2013 +0100
-
-    Grody undead tiles (bloax)
-
 commit a0ae0798b3ff79286ab4b7f6d0629adea15b2396
 Author: Chris Campbell <chriscampbell89@gmail.com>
 Date:   Tue Jul 16 17:26:51 2013 +0100
@@ -6191,24 +4336,6 @@ Date:   Tue Jul 16 17:26:51 2013 +0100
     Functionally it wasn't very different from regular fog, except that it
     had an annoying interface (no glyph, recolouring things that were
     standing in it).
-
-commit fa67c8a921d976b17dbf575cc2179148ada9db12
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jul 15 02:22:26 2013 +0100
-
-    Better sealed upstair tile
-
-commit 86b8914abd36bf4864fc2e62c8a92c0c416ac3b4
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jul 15 02:11:09 2013 +0100
-
-    Sealed stair tiles
-
-commit 65d025127196184908cd0bceadb934c3d600e7e5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jul 15 01:10:02 2013 +0100
-
-    Wellspring tile
 
 commit 52968190ec632c869ac9732361746addd8633a8f
 Author: DracoOmega <draco_omega@live.com>
@@ -6234,36 +4361,6 @@ Date:   Sat Jul 13 15:21:57 2013 -0230
     few other tweaks. On the whole, there should be somewhat fewer elves
     together, but the ones that are present should be more notable.
 
-commit 3825490919201a2e9c0d7926f06ab3fa620cdb03
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Jul 13 14:17:35 2013 +0100
-
-    Make satyr tiles stand out even more
-
-commit 4c6f2721694a47f02d87510f2764cadd758f2a51
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Jul 13 02:33:09 2013 +0100
-
-    Water nymph tile
-
-commit f7e0b2bf65fdbd4a4bfe457c830fddba1475599a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Jul 13 00:54:38 2013 +0100
-
-    Base tiles for player gargoyles
-
-commit 593a4386a8f1b2a570f1a578ab684484dc2cc793
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jul 11 20:05:10 2013 +0100
-
-    Exec axe tile
-
-commit 42345e142827bd289acfad28e3c9f1fb1f032b73
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jul 11 20:03:52 2013 +0100
-
-    Doom Knight tile (bloax)
-
 commit 4422b0a2ad9983107cfb766c3063ad45eee8e0ff
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Wed Jul 10 18:44:03 2013 -0600
@@ -6279,42 +4376,6 @@ Date:   Wed Jul 10 19:18:43 2013 +0100
     It only ever generates on artefacts and is very unlikely to be relevant
     even when it does.
 
-commit 89f376a02ca5e1c07630b52067c4924325ecd512
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jul 10 10:48:34 2013 +0100
-
-    Flaming death (bloax)
-
-commit 5c148d925d059b9d7767bb4db9d9223640401206
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jul 5 17:47:35 2013 -0500
-
-    Change lab floor tile weights
-
-commit e1c5d4310ad6c157c8ebee16c8aca7c2c902e66a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jul 5 01:01:11 2013 -0500
-
-    Orc walls (roctavian, 7278)
-
-commit 5d9582c8a678ea8d91916b744cabd87ce5a6b7e5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jul 5 00:01:42 2013 -0500
-
-    GOB and player spiderform tiles (Bloax)
-
-commit bf547e58348f2892b6d84652a1d0222a79c343fd
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jul 4 23:46:52 2013 -0500
-
-    Various monster tiles (roctavian, 7278)
-
-commit f5357c2eb00cf6e840f98b2b70e5f7e09620e30e
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Thu Jul 4 18:39:29 2013 -0600
-
-    Evoke Teleport Control icon (reaver, #6896).
-
 commit f439ca8676993f54b0c7cb95427772704e37ec60
 Author: Pete Hurst <pete@streamuniverse.tv>
 Date:   Thu Jul 4 19:03:07 2013 +0100
@@ -6324,131 +4385,11 @@ Date:   Thu Jul 4 19:03:07 2013 +0100
     It doesn't look a lot like the description (actually "a woven silk bag")
     but this is good for a placeholder.
 
-commit 62e0c5485053b2a434d74c4bd693b241d31d4162
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Wed Jul 3 09:22:53 2013 -0600
-
-    A tile for the Pan disco ball (from #5385, by ontoclasm).
-    
-    Personally, I think this could be animated, but that we have an old tile
-    for it that isn't in the game yet is sufficient reason to replace the
-    statue tile with it for now, I think.
-
-commit 9e71e4407b0309b555b52d386a99d3c8fb209a99
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jul 3 00:32:45 2013 -0500
-
-    Brighten fire vortices
-
 commit fd97f7f4e841489bd0f71f68da88efadb0d7f4e3
 Author: Neil Moore <neil@s-z.org>
 Date:   Mon Jul 1 19:57:18 2013 -0400
 
     Fix a typo in a comment (ChrisOelmueller)
-
-commit 158fd6b372004d8a2dba3e3ac3c4df087ed01281
-Author: Neil Moore <neil@s-z.org>
-Date:   Mon Jul 1 15:40:06 2013 -0400
-
-    Add two joke monster tiles to UNUSED/ (ontoclasm).
-    
-    Tiles by ontoclasm.  These were originally going to be used for April 1,
-    but maybe they will inspire someone before next year rolls around.
-    
-    The Giaggostuono is based on a design by minmay:
-      http://www.cowmuffins.net/stuff/THEGIAGGOSTUONO.png
-
-commit 072dbc411b4a6be31ceddc6ab9e0d118f8592776
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jun 28 02:42:25 2013 -0500
-
-    Silver wall tile.
-
-commit 94441c8f0af633c563f00a67644c3bafb2dcb501
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jun 28 00:28:16 2013 -0500
-
-    Spirit wolf tile
-
-commit ec64162d13b6dc838cc13ef1173b15aca61e2ae0
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jun 25 02:07:04 2013 -0500
-
-    Make spectral short blades actually short
-
-commit be9a32c9e809d71a6a2645d14971a9320d47e078
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jun 25 02:01:07 2013 -0500
-
-    Spectral weapon tiles
-
-commit f800a4aa5089982f1c874c0d3e6f4aaeca90abfe
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jun 24 23:28:45 2013 -0500
-
-    Tile for STOP_SINGING
-
-commit 23c04d06ed50bb8650bdf5856f5591c2a1ca4461
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jun 24 23:20:11 2013 -0500
-
-    New Skald spell icons.
-
-commit 1cb780cd27d8b57e7e4510683ed684b359900cb9
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jun 24 00:35:09 2013 -0500
-
-    Thorn lotus tile
-
-commit b6fc1b2e3586d37df562e6bc24c1f6a9c6724c95
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jun 23 21:56:28 2013 -0500
-
-    Erolcha tile edit
-
-commit f3b8f8be5159b1b7182cc2431394d3fd3c9717d9
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jun 23 21:36:37 2013 -0500
-
-    Let ogres show their weapons
-
-commit 4beadb95dd5a65efb2aa7b7f904a965c2d354f22
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jun 23 20:57:36 2013 -0500
-
-    Differentiate two-headed ogres from their cousins
-
-commit d56d9b1fecf14edf68f59ebc3e7149fd99a7af27
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jun 23 11:51:09 2013 -0500
-
-    De-rim demigods
-
-commit f25af5a32dc46fc24603641d02827634f640af5e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jun 23 11:32:00 2013 -0500
-
-    Louise tile (Bloax)
-
-commit 7f73827a3f23b1cb14ac909692dc98957df1f22a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jun 23 10:53:49 2013 -0500
-
-    Drake tile edits
-    
-    Including a new steam dragon courtesy of Bloax.
-
-commit 2022e05c546daa0f23a072cf59af42ceb2f29d94
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jun 20 17:21:31 2013 -0500
-
-    Updated projectile tiles (roctavian, 7229)
-
-commit 2ce31fa8c34efad749f2bcc6678bb87d23527f1d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jun 19 20:10:42 2013 -0500
-
-    Brighten the Lorocyproca tile
 
 commit d7bbba8df1ce9e0ee29bc5811ac296da01045028
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -6504,24 +4445,6 @@ Date:   Fri Jun 7 18:54:13 2013 -0600
     make things a little more coherent.
     
     In one last change, Summon Drakes now also summons wind drakes. Beware!
-
-commit 4282c7cd2bab21158b6ae062eefe9b3b83a9885c
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jun 4 22:34:57 2013 -0500
-
-    Don't add rims to lorc tiles.
-
-commit 19e64b13ed91c275ce87d656d67b3c41156d08f5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jun 3 01:00:01 2013 -0500
-
-    Differentiate satyr tiles a bit.
-
-commit 0c1ef45d92b5b0587cedd447cd917b078cbe0512
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri May 31 22:20:30 2013 -0500
-
-    Tiles for fauns, satyrs, and Pan
 
 commit 3bd72c40c915712e176d72ca4ea974ae38c2272b
 Author: Pete Hurst <pete@streamuniverse.tv>
@@ -6596,42 +4519,6 @@ Date:   Mon May 27 21:57:31 2013 -0600
     This leaves fauns, satyrs, Pan, tengu reavers, Sojobo, and spriggan
     enchanters in need of tiles.
 
-commit 2a3e78193c95430053e9c468710d336a721dbd2b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon May 27 17:20:12 2013 -0500
-
-    Status icon for summoned monsters.
-
-commit 9a04efbefeb748d4500452a128a59b26b722f2ba
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon May 27 15:21:19 2013 -0500
-
-    More distinctive ancient champion
-
-commit d0845bd2e77990c43918f9d95dc6062bc7961d40
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon May 27 15:06:15 2013 -0500
-
-    Reduce ghostly flame opacity
-
-commit 5e5a47eb06787e010cf1f427e3e48e8147b7305c
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon May 27 02:40:37 2013 -0500
-
-    A less mossy stone of tremors
-
-commit b1fa0dc57b1a6fd650208558179f80ecec216c35
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon May 27 02:18:50 2013 -0500
-
-    Elemental evocable tiles
-
-commit 66dbd7b904ca9f0313e92d615c3824c06cdba0b3
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun May 26 21:15:09 2013 -0500
-
-    Tiles for the new Crypt monsters
-
 commit 855288b3e9be0d5e8a1e0669d692706ab457c3b9
 Author: Pete Hurst <pete@streamuniverse.tv>
 Date:   Thu May 23 12:19:16 2013 +0100
@@ -6661,50 +4548,6 @@ Date:   Thu May 23 12:12:42 2013 +0100
     transparency, 255 is equivalent to no change.
     
     The syntax is: %alpha [value]
-
-commit bfed50ef6b2d43644cd8ebf7f95969ae39a1dec7
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun May 19 16:45:14 2013 -0500
-
-    Angel and daeva tiles (roctavian, 5903)
-
-commit 3043274c3dc6059a8c80580012b8d3f4e216e237
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun May 19 16:36:18 2013 -0500
-
-    Halfling, demigod, and slave tiles (roctavian, 5903)
-
-commit 30f11c6f85da6a982f74f6aa013b3352bcffb0c5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun May 19 15:29:39 2013 -0500
-
-    Shadow demon tile (bloax, 7035)
-
-commit a1d859447d73b13e974ac5173ae627c7046ab451
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun May 19 02:25:42 2013 -0500
-
-    Branch stairs (mostly white_noise 6077)
-    
-    Also includes sewer portals and Shoals stairs.
-
-commit 1618152b4b2e5c2a65585c0a4a93aea2bbc7c498
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu May 16 19:49:34 2013 -0500
-
-    Shadow tile
-
-commit eeee1b1d186ff07272e4bf0546137444b3de2a80
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue May 14 00:10:56 2013 -0500
-
-    Remove water moccasin shadows
-
-commit 774275e2603d5ffb4b967269d117e2851e2705f3
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon May 13 23:56:18 2013 -0500
-
-    Snake tile edits
 
 commit b76263150febd915e9b65a8a114a5a0773182acd
 Author: Chris Campbell <chriscampbell89@gmail.com>
@@ -6757,48 +4600,6 @@ Date:   Sun Apr 21 17:17:39 2013 -0400
     * This problem won't go away on reloading the page, since the
       coordinates won't be up-to-date in *any* file.
 
-commit 6c5a15d9ce3fddd726362741e226ddb0dec9f733
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Apr 14 20:45:20 2013 -0500
-
-    Spear and quarterstaff doll tiles (roctavian, 6892)
-
-commit 9efb55a327b22a614b300263f42d82a130562493
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Apr 14 20:39:32 2013 -0500
-
-    Demon and dragon tiles (roctavian, 6892)
-
-commit 3dbf95886ce99c46c19420d798102328aa3014ff
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Apr 14 19:51:21 2013 -0500
-
-    Forest fire tile
-
-commit 162397d39dfa1f44171d6adf43321bf74b499e62
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Apr 14 18:55:39 2013 -0500
-
-    Erica tile edit
-
-commit 001aa0366f996047f0a80c4620a459aae06fb9b6
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Apr 14 18:52:47 2013 -0500
-
-    New Lamia tile
-
-commit 9b2bc1934b56a8b6407aa5344b82efb7755cb9ac
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Apr 5 12:26:25 2013 -0500
-
-    Shield variations for the player doll (roctavian, 6878)
-
-commit bec03de3aeb854c413182aaa029c8ecb31e90a1f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Apr 4 22:25:24 2013 -0500
-
-    Better gem_glass wand tile
-
 commit 2fef9f5ce8015401bac266ceb32d4010d2b6f483
 Author: Samuel Bronson <naesten@gmail.com>
 Date:   Thu Apr 4 21:33:04 2013 -0400
@@ -6811,44 +4612,11 @@ Date:   Wed Apr 3 14:26:58 2013 -0700
 
     Remove deprecated preprocessor options
 
-commit 360e689e5746aa2c1d91a285ecea72861496fcdf
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Apr 4 16:56:20 2013 -0500
-
-    Wand edits
-
-commit c1c908fc5993765a878d7d5c035481018259be04
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Apr 4 16:27:19 2013 -0500
-
-    Hell hound tile
-    
-    This is just an edit of the old catoblepas tile, presumably by Denzi, that
-    was languishing in UNUSED.
-
-commit 1daaca71578d6dcb028a218a40b6b27529a5446d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Apr 4 16:14:25 2013 -0500
-
-    Spirit tile (in unused)
-
-commit 5849fcdb67d3fe4c4d6539ab7aef53c4900119f8
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Apr 4 16:13:24 2013 -0500
-
-    Stop recall ability icon
-
 commit 6c43e4a00120a8ae8b27eaa3f63a606c5ed43e58
 Author: Raphael Langella <raphael.langella@gmail.com>
 Date:   Thu Apr 4 00:48:57 2013 +0200
 
     Rename vicissitude in beneficial mutation.
-
-commit ba80b2830b960b6ced7eba0b896884ccf12d42bd
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Apr 3 00:59:46 2013 -0500
-
-    Wand tiles
 
 commit eb2d7b93e3844e05fc457459c2b9f3c375ed50db
 Author: Brendan Hickey <brendan@bhickey.net>
@@ -6860,18 +4628,6 @@ Date:   Tue Apr 2 21:10:49 2013 -0700
     This potion grants a good mutation when quaffed.
     
     Thanks to ontoclasm for the tile.
-
-commit f85877e101e008441b3ebc8bcbb810a4548c8e7d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Apr 1 21:10:17 2013 -0500
-
-    Fix up some starspawn tentacle tiles
-
-commit b0bbe389b1f5ed5443606141ebbe406bbd95c124
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Mar 31 21:25:52 2013 -0500
-
-    Pie tiles
 
 commit 8b295f210b88a0a93f63749e9ca46d2a36942047
 Author: Brendan Hickey <brendan@bhickey.net>
@@ -6908,223 +4664,11 @@ Date:   Sun Mar 31 12:21:34 2013 -0500
 
     Merge branch 'master' into jester
 
-commit d0498ca1aeb57ad1a987d7ae547750aab2ff5572
-Author: DracoOmega <draco_omega@live.com>
-Date:   Sun Mar 31 01:41:41 2013 -0230
-
-    New starspawn tentacle tiles (ontoclasm) and associated code
-
-commit 007a0386e19235c612bd8688c5d748e259f25566
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Mar 25 01:13:26 2013 -0500
-
-    Revamped trap tiles.
-
-commit c6888882e2c6ef77610e2e6b66218a8fb943b11f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Mar 25 00:47:43 2013 -0500
-
-    Golden statue edit
-
-commit 9ee11b8d53e1312eaafcffb492d08321215dfcfb
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Mar 24 19:37:07 2013 -0500
-
-    Animated weapon icon
-
-commit ff19bbb6acd61bd1be364bf2492098cc3396a8da
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Mar 22 01:46:30 2013 -0500
-
-    Pandemonium portal tiles
-
-commit c3a52c912a235a9c334185da30d3c9d0a587e26f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Mar 22 00:33:19 2013 -0500
-
-    Detected item and feature tiles
-
-commit abdea9c7ff4b189b8a22afe485389e16c679fa10
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Mar 21 01:21:05 2013 -0500
-
-    Revert vault sentinel tiles
-
-commit 4a87d9e014726449575e0de62e9d92202351d05d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Mar 20 17:37:57 2013 -0500
-
-    Various monster tiles (roctavian, 6793)
-
-commit 609614a8b385fda21d8d58d939ed157c34b2187d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Mar 20 17:25:20 2013 -0500
-
-    Fix some black outlines
-
-commit d44b57956baa8ce6089fb9a8184f2ac014608c80
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Mar 20 17:15:58 2013 -0500
-
-    Fix randart spear tiles
-
-commit 3166c9642d0a9ca14d95de39ffc4c2efdd8e5dd4
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Mar 14 22:55:30 2013 -0500
-
-    Weapons (roctavian, 6763)
-
-commit 7457a92ca2aa1d77c8aaf1b2b6b545b3976bedb0
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Mar 14 22:21:41 2013 -0500
-
-    Monster edits (roctavian, 6763)
-
-commit f293354669c34f021907e6e01dac739fd754a924
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Mar 14 22:15:51 2013 -0500
-
-    Armour edits (roctavian, 6763)
-
-commit 50e5d330369be6bb954d75a43a9f647d2d8f9fe3
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Mar 14 22:12:39 2013 -0500
-
-    New panlord tiles (denzi, 4888)
-
-commit 2d71a0ae98076bdaaa2a7df80d125e38734cfa1c
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Mar 11 23:10:14 2013 -0500
-
-    Stray pixels
-
-commit d0502743db4802ecda3da1e4a87adcb814d90caa
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Mar 11 22:40:53 2013 -0500
-
-    Additional statues
-
 commit 9aa808ba004ec17d47b1e344fe93f03e79f364c0
 Author: Samuel Bronson <naesten@gmail.com>
 Date:   Sun Mar 10 00:38:12 2013 -0500
 
     Fix a message in the rltiles Makefile.
-
-commit 902e5389d33fa6894fcdfeb848463a7fb153e783
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Mar 9 01:39:44 2013 -0600
-
-    Lava snake, lava worm, & swamp worm tiles
-
-commit 3d3cda51dd78192da32a47990af145a852f646ec
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Mar 7 00:52:38 2013 -0600
-
-    Tiles for THE AXE OF WOE
-
-commit 09d5da6e7b5faa4c3a0a83e8eca9807b73dfa2e9
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Mar 5 00:27:46 2013 -0600
-
-    Turtle tiles
-
-commit 7d555e852b6d9398e7fbae5d3a51c258b318ba4b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Mar 4 19:26:29 2013 -0600
-
-    Skeleton tiles (Aygtets, 6735)
-
-commit 418a51f157dec2b9120bee1833aa5fe4bcf79288
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Mar 4 14:57:26 2013 -0600
-
-    Tiles for sealed doors
-
-commit a567290ccf73d2cda53747de0d9459bf962466e7
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Mar 3 16:21:04 2013 -0600
-
-    Tiles for the new vaults monsters
-
-commit ce179128b8825632a8347536c4e13f53bb397f7e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Mar 3 16:08:06 2013 -0600
-
-    Chaos butterfly tiles
-
-commit 751e49fdaab1beb084a3b01d4212dd465d2e6e9b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Mar 1 00:20:56 2013 -0600
-
-    Make bushes easier to see
-
-commit 03c53c63e7ea630519d8b0e0b28371dbdc325f73
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Feb 25 01:45:06 2013 -0600
-
-    Various unique tile edits
-    
-    Includes Erica courtesy of roctavian.
-
-commit 4cbeb313cc07bf16ae940a38f24de3cbe1cfe2ed
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 24 00:29:58 2013 -0600
-
-    Status icons for blind, might, and petrify.
-
-commit 4635d2b86dbb55622aab0970757e484ae88af728
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Feb 23 19:50:03 2013 -0600
-
-    Allow training dummies to display weapons.
-
-commit e8f008ab92473c7cc7a26b7a8504733b7c80a407
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Feb 22 17:32:13 2013 -0600
-
-    Revert changes to floor_pebble_white.
-
-commit 5f56e36949c47b4d0d98a8ef22e55ee2307f4bbc
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Feb 18 19:49:54 2013 -0600
-
-    Lightning spire
-
-commit de9775e4604870e6414343c9d5c734848855d9fe
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Feb 18 19:19:01 2013 -0600
-
-    Training dummy
-
-commit be95932be2d575ea27007df632d4a7ac126b780d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Feb 18 19:05:17 2013 -0600
-
-    Obelisk and lightning spire tiles
-
-commit 4453d638cddfdcb0ec3f4dc7fe11f73be512fa73
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Feb 18 16:35:01 2013 -0600
-
-    Bush tiles
-
-commit c8b2bd87023154a148cd61fbb0aa03c07f8680fd
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Feb 18 16:10:41 2013 -0600
-
-    Zombie kraken head edit
-
-commit c39e477bc714714ade09286566a3a3dc53dcce28
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Feb 18 16:10:11 2013 -0600
-
-    Erolcha and Gastronok tiles
-
-commit 0825c3830348020d2ddcaefee4408104159198af
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Feb 18 11:59:47 2013 -0600
-
-    Deep troll shaman tile edit
 
 commit 42dd1cdaea1eeb9d1169e4ef50f86598f3d374a2
 Author: Chris Campbell <chriscampbell89@gmail.com>
@@ -7135,60 +4679,6 @@ Date:   Mon Feb 18 01:13:17 2013 +0000
     They were only used in a very few vaults (where they didn't do
     anything much).
 
-commit 0b2718a76c451f0bc871d92a875818d13c42f8b7
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 17 17:28:32 2013 -0600
-
-    Distinct rock/stone glass tiles
-
-commit c3dd0fc08ad8753f79d67ee7f9c26b2c164dba16
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Feb 16 22:02:04 2013 -0600
-
-    Vault guard edit
-
-commit 0ff3a515e4451d9d1c81b2cbe5d4484605fc8baf
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Feb 15 16:07:05 2013 -0600
-
-    Fix foo-mail tiles.
-
-commit 2544b04dc37622769cb953288f44948b295a9444
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Feb 15 14:06:21 2013 -0600
-
-    Make some racial weapons less racial-looking
-
-commit bca16fe2096ada9ccb15bf2a7b234feab1ca3aec
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Feb 15 13:30:13 2013 -0600
-
-    Dragon hide tiles
-
-commit 88619628808d0f3d944174262ad83dbeda14582c
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Feb 15 12:31:30 2013 -0600
-
-    Randart tiles (roctavian, 6577)
-
-commit d240cfd35ee11598ea13823f56b4a7969cef9a38
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Feb 15 12:01:21 2013 -0600
-
-    Slime creatures (roctavian, 6638)
-
-commit 18573b12f064daf7fc6df198fad6b3c43966e2e0
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Feb 15 11:58:08 2013 -0600
-
-    Treeform tile.
-
-commit 6774e9a9689a1ebe4ed507b189de2a0fbd8a6f12
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Feb 13 23:08:26 2013 -0600
-
-    Player doll weapon tiles (roctavian, 6611)
-
 commit cc6916eaca4b01a644bd4b482ad7e939aeb8f11a
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Wed Feb 13 19:52:22 2013 -0700
@@ -7197,13 +4687,6 @@ Date:   Wed Feb 13 19:52:22 2013 -0700
     
     This is the first step in removing a large number of overly similar
     and not very interesting monsters.
-
-commit 6ab16d996759788dd804de7f3180be8549bab1f4
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Feb 13 20:51:40 2013 -0600
-
-    Death and brown ooze tiles (roctavian, 6638)
-
 commit ea06430cd56f41b77c0b776e12a00a3763e2d267
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Tue Jan 22 20:27:28 2013 -0700
@@ -7236,45 +4719,6 @@ Date:   Tue Jan 22 14:01:45 2013 -0700
     The berserker is going unused for now, as it is not as interesting
     compared to the other designs.
 
-commit 8a57380eb4a6e4193305cb532f87566e06533ac4
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Feb 13 02:15:23 2013 -0600
-
-    Randart tiles (roctavian, 6604)
-
-commit 8f76224d6132d96ef5d335c35f101fdca7977be9
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Feb 13 01:42:06 2013 -0600
-
-    Chunk brand icons (roctavian, 6612)
-
-commit 3c97e804771eb6bacbd6b703ab2c7f714c6a08b0
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 10 20:53:07 2013 -0600
-
-    New floor tiles for the vestibule.
-
-commit 9aa846c4b41c672825d720ba4cfdc9acd4c6f29d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 10 16:59:02 2013 -0600
-
-    Desaturate pebble and Zot walls slightly.
-
-commit 9c3aa101f4412f040b98a4a1736cfb1a6c5b16cd
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 10 16:37:27 2013 -0600
-
-    Alter some wall/floor recolors.
-    
-    The biggest changes are to magenta walls, which should hopefully
-    look "purple" instead of "laser pink" now.
-
-commit cdabb3185571036fb1d5f0debef1f76dbfa9a6d5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 10 02:04:29 2013 -0600
-
-    Umbra tiles
-
 commit 17e404e6b80b694f3b096e10566b82772db1c862
 Author: elliptic <hyperelliptical@gmail.com>
 Date:   Sat Feb 9 10:22:23 2013 -0500
@@ -7287,107 +4731,11 @@ Date:   Sat Feb 9 10:22:23 2013 -0500
     Since the suggestion "battlesphere" has met with great approval (or at
     least nobody has come up with better), let's use that.
 
-commit ead9bbd0dedf4009f262ebf87a9bf6abb340f275
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Feb 9 04:00:09 2013 -0600
-
-    Haste status icon.
-
-commit d15d4da8d4dc9c9f2934b10e60e27322580d5ebf
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Feb 8 12:29:03 2013 -0600
-
-    Deep troll class tiles (in UNUSED for now)
-
 commit b7a9a3a6a07e532e009b233d7417849644a5d2fb
 Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Fri Feb 8 12:47:17 2013 +0100
 
     Fix potions of decay having the water icon (roctavian).
-
-commit 81abd0916c7006b962ff9de24b64aa6db6edf0e1
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Feb 1 02:05:29 2013 -0600
-
-    Giant amoeba tile.
-
-commit 4d4ece5e06f3ccc1fa93ce7396b3930da3f2057b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Feb 1 00:09:38 2013 -0600
-
-    Make zombie giants more distinct from stone giants.
-
-commit cc622853c96100651add1aaaa799ea9ff16800bc
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jan 28 21:50:34 2013 -0600
-
-    Spiked and dire flails (roctavian, 6577)
-
-commit fa111802360518531b97d605be728e817b60540e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jan 28 21:40:06 2013 -0600
-
-    Monster edits (roctavian, 6577)
-
-commit 4cd331f346946c316bc505f290251aaa18432efe
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jan 28 18:52:13 2013 -0600
-
-    Remove an old chaos spawn tile
-
-commit f7478fdc23151048ac164f0a9f3b95e4cbd6358b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jan 28 17:17:00 2013 -0600
-
-    Tiles for the new Conjurations spells
-
-commit 0d19ef409e24aec0e03e72f969601c133456e794
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jan 24 21:28:00 2013 -0600
-
-    Give apocalypse crabs a corpse tile
-
-commit 1d9e15dd87c9a0de4b46ec083ffba5762541d2ff
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jan 24 21:24:47 2013 -0600
-
-    Use wall_catacombs for Sprint, ZotDef, and Arena games
-
-commit ca311d7dc6f2809218dc580760a9e5ad638e8d43
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jan 24 01:06:57 2013 -0600
-
-    Remove a duplicate tile
-
-commit e8bdec03a1f361815c319e5f3626f7e96382c186
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jan 23 23:19:56 2013 -0600
-
-    Catacomb-style wall tiles (denzi, 3870)
-
-commit 57360d16418674908c7afe1764acd5c7f12976d7
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jan 23 03:05:31 2013 -0600
-
-    Deck tiles
-
-commit ee4f5cfb8e75a14711008102c80605aec14690ca
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jan 23 01:29:45 2013 -0600
-
-    Darken acid floors
-
-commit eb12015796b93c17e7d2aabd765402da9144a12a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jan 21 11:45:02 2013 -0600
-
-    Unflip s_u
-
-commit 5601ff7d2e78a6bebe89bcd95a40d4ed1aa6563e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jan 20 23:23:07 2013 -0600
-
-    Flip something_under, new_stair
 
 commit 488e6427bb005173560fa670cbe15de8c875f5f0
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -7398,96 +4746,6 @@ Date:   Sun Jan 20 21:38:06 2013 -0700
     The two new tiles are variants of the deep dwarf necromancer and greater
     naga respectively. Feel free to come up with something better in their
     place.
-
-commit deb67384cce2a8d77da3e2aa12543139e05b7720
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jan 20 22:08:31 2013 -0600
-
-    Hilight Vehumet gifts in the tiles mem. tab
-
-commit 527d90b74b01d53957a00c8165689f9c7c75ceda
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jan 20 20:57:47 2013 -0600
-
-    Memorise ability tile
-
-commit 42e2b609698e0a292d2a2c20cda261475693221e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jan 20 16:39:09 2013 -0600
-
-    Abyssal stair and exit tiles
-
-commit 17fa88bde6597202d378ca9b656bed2c1357cf1a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jan 20 04:55:51 2013 -0600
-
-    Bone tiles
-
-commit d40ebff133a3f8f5ca21faefa562748d599f999c
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jan 20 04:37:54 2013 -0600
-
-    Additional blood edits
-
-commit 713c394eb333335176b91a55fa8ff842ead04dd6
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jan 20 02:17:15 2013 -0600
-
-    Lugonu invoc tile edits
-
-commit da12a28fbdb650e95926dfe6617af8efdfada459
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jan 13 23:39:02 2013 -0600
-
-    Margery tile (and matching description)
-
-commit 97cef9e0421952424f563631980c3bff18ced519
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jan 13 21:59:22 2013 -0600
-
-    Mold tiles
-
-commit 887c968892c22246114754eb49ca209d06e6ce27
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jan 13 21:02:43 2013 -0600
-
-    Recolor sensed monster tokens
-
-commit ea8ac2180594d0566810df5fc7a6aa2a6b5903f2
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jan 13 20:34:40 2013 -0600
-
-    Blood tile cleanup
-
-commit 9aa0d05912bf2a9095ea6f5f2dceb3a807fcf945
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jan 13 19:27:32 2013 -0600
-
-    Disjunction spell tile.
-
-commit c17a272c4f84d9f4b98625c7a7355982f47de19b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jan 13 00:03:14 2013 -0600
-
-    Rod of the Swarm tile.
-
-commit 8968c45923a8e01dfc31f54adf431032b4ed2f90
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Jan 12 22:17:46 2013 -0600
-
-    Disjunction aura tiles.
-
-commit 2c5fb7653384d0f72babaf2312c50989ea0b1021
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Nov 16 00:14:46 2012 -0600
-
-    Display heat auras in tiles
-
-commit af44d5ed3a4f1c48834bbfd36d49d91f1bd6baca
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Nov 15 21:53:30 2012 -0600
-
-    Lava orc tiles.
 
 commit 790e88e9b35b19348e3ab3a2a6cdb813eca8f3db
 Author: Chris West <therealchriswest@hotmail.com>
@@ -7501,167 +4759,17 @@ Date:   Thu Jan 3 14:50:26 2013 +0000
 
     added autoexplore to touch tabs
 
-commit 7a77becf9a2039a8d1494a82cd74c72ddaa49831
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jan 4 00:53:43 2013 -0600
-
-    Maelstrom tiles.
-
 commit 7cbc0bbd244fe5ad2bcbb98e7b62f97796d8a285
 Author: Brendan Hickey <brendan@bhickey.net>
 Date:   Tue Jan 1 11:34:05 2013 -0800
 
     Add Apocalypse Crab tile
 
-commit d8b2db455694753b4418f046a3af23168286f78a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Nov 30 01:22:06 2012 -0600
-
-    Crocodile (bloax)
-
-commit 4ee43f3f1323473ee383c736c1e1cb7946a238d5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Nov 18 14:31:22 2012 -0600
-
-    Butterfly fix
-
-commit d14c632375d6b47db17766e85994f6b4f1b5e634
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Nov 18 12:19:10 2012 -0600
-
-    Butterflies (bloax)
-
-commit 68bdec137909c3b2cdb8f57b60552cc0b8fd0ff0
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Nov 14 00:19:30 2012 -0600
-
-    Octopodes (bloax)
-
-commit 246f75f44f615cd8ee5edc1cd1bd000f0ecf0e68
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Nov 13 22:11:18 2012 -0600
-
-    Sewer water (white_noise, 6074)
-
-commit da99b32b9c7a83b2810d56e89fa69870ce903ebf
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Nov 13 20:38:32 2012 -0600
-
-    Jessica and Psyche (roctavian, 4869)
-
-commit 4e9b7c71afb95b9deb5d698eb5f94c719dd08be2
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Nov 13 20:25:56 2012 -0600
-
-    Kraken head (roctavian, 4869)
-
-commit 476eef4d014a5f8d193cce333d83b9b3f7f52550
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Nov 13 20:12:23 2012 -0600
-
-    Unseen horror (bloax)
-
-commit 7838db3015973f11ec23a697a2c20245c45f649e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Nov 11 18:09:42 2012 -0600
-
-    Chei & Ash altars (roctavian, 5764)
-
-commit 524cbc9a2bdd8cecf98363f40741a7d4d5c31064
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Nov 11 14:42:27 2012 -0600
-
-    Loro, jelly, & ogre mages
-
-commit 5b8250b37339590481fe9dec956a64a3c1e21eba
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Nov 10 19:42:24 2012 -0600
-
-    Monster status icons
-
-commit 8b1cb67dca5589de287c7d9f7c987e0384b7b5cf
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Nov 10 16:44:57 2012 -0600
-
-    Unmisspell 'transparent'
-
 commit 4d198fdca39795ba784ef4a72ae78b1dc9643f14
 Author: Chris Campbell <chriscampbell89@gmail.com>
 Date:   Wed Nov 7 23:10:57 2012 +0000
 
     Replace levitation with flight and remove controlled flight (elliott)
-
-commit 167db0bb09f9fa2382118379385626b9a44e695a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Nov 7 02:41:16 2012 -0600
-
-    Vortices
-
-commit 507c6f2f6fa59b87d699b43be1901c00a607a288
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Nov 6 23:50:32 2012 -0600
-
-    Orbs of fire (and variants)
-
-commit 85f6b51e12cf2adbc7e4d0c9aeeeb3838fcd6021
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Oct 22 00:29:51 2012 -0500
-
-    Fix quasit outlines
-
-commit 60f6fa28720886484d8555a5167dd767d8ee000b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Oct 3 13:53:27 2012 -0500
-
-    Scroll retweaks
-
-commit a41f79d1ad09b0f33d1e683dfdee3b57bb6ad426
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Oct 3 11:58:43 2012 -0500
-
-    Scroll tile tweaks
-
-commit b67b8da0224ed428044b99d0a1414c11aca88920
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 2 22:04:20 2012 -0500
-
-    Roxanne tile
-
-commit 4deeb2b0dd5fb214d8aa23677dc1f2f3746fa8fa
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 2 20:55:10 2012 -0500
-
-    Demonic plant tile
-
-commit 43c7256422489e3f3f34b6b00f80842add000395
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 2 20:32:47 2012 -0500
-
-    Yred altar (roctavian - 5764)
-
-commit dafe93aba232f4e90e78d7a7563c5af4ca057115
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 2 20:22:59 2012 -0500
-
-    Eyes (roctavian - 5903)
-
-commit 535ce609a43c7888233edef18c4fd421594062d3
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 2 20:16:49 2012 -0500
-
-    Skeletons (roctavian - 5903)
-
-commit ff127d4149a22ba7424f0232a36f411bed6d1827
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 2 19:41:33 2012 -0500
-
-    Curse toe and efreet bottle (white_noise - 6226/6185)
-
-commit 2421389f9999dbd3992ff3274a3fe956f9a5c520
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 2 19:30:21 2012 -0500
-
-    Mennas and quasit (denzi - 6246)
 
 commit 1c984df8f4b3b12bfc49e1a2201c91fc2e511b67
 Author: Chris Campbell <chriscampbell89@gmail.com>
@@ -7673,120 +4781,12 @@ Date:   Sat Sep 29 16:51:05 2012 +0100
     terms of flying poisonous things - bumblebees almost never showed up
     and when they did they didn't do anything interesting.
 
-commit 8f4b1332dffafe85818349cbad3d1d623db37f22
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Sep 21 04:17:15 2012 -0500
-
-    Additional jewellery descriptions
-
-commit a9361b82566e57535dfb1eac2bddeebfe2b8fe0b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Sep 21 00:38:22 2012 -0500
-
-    Rings (white_noise, 6189)
-
-commit c987d652f45b75cafa8d5a58097fb6fc715e68e6
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Sep 15 15:43:58 2012 -0500
-
-    Undead drakes and krakens
-
 commit 425658accaae654fd7906516e2eea3fc2bbf2b30
 Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
 Date:   Thu Sep 13 23:35:09 2012 -0500
 
     Fix compilation.
 
-commit 72158f9c4fd468e97edd8388da94420d7e87e001
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Sep 13 22:32:57 2012 -0500
-
-    Polearms (dd)
-
-commit 51dab6dcafa238202053e15857bab4921fcf529d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Sep 13 20:06:08 2012 -0500
-
-    Drakes (roctavian)
-
-commit 6caaae44a7b496ede37d87e624703f0d0729765f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Sep 13 02:03:56 2012 -0500
-
-    Memorize GUI tile (dd)
-
-commit 511d55f2772e6e9602853605f043e374545bb33f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Sep 12 16:16:51 2012 -0500
-
-    GUI tiles (dd)
-
-commit 7a93823be5e8ebfe89a089a2eed3cf1b202bacab
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Sep 10 13:16:15 2012 -0500
-
-    New main dungeon tiles (white_noise)
-
-commit a60899f5cf216cf95e1a1108f7824f138cf3e77d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Sep 10 02:47:01 2012 -0500
-
-    Gloom and seething chaos tiles
-
-commit c9e9fc213ee3f0439a5765f0baccf2d19ee1fe5f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Sep 10 01:28:51 2012 -0500
-
-    Ability and invo tiles (Denzi)
-
-commit 3787ea19ea59d6ab2009a3dbfaeff44b06015286
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Sep 10 00:07:06 2012 -0500
-
-    Shop tiles (white_noise)
-
-commit 05d68e07ade86187ddcfa137e3b142992fe2e29d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 9 23:30:11 2012 -0500
-
-    Animal tiles (white_noise)
-
-commit a8b65dd64c86bc08765bab828594500aa0faa2be
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 9 20:26:20 2012 -0500
-
-    Modified item icons
-
-commit e0c06ecb80ac097b6839025f0b8b4f2b92043b84
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 9 18:34:56 2012 -0500
-
-    Pain mirror status icon (sgrunt)
-
-
-commit fd308f984c6b2d3d0c9c1808ca784fbb0e6976a6
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Sep 8 15:45:29 2012 -0500
-
-    Fungi (dd, white_noise)
-
-commit 88c1aa4c976fdc1afd99bcc443320e9b52148a61
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Sep 8 15:04:30 2012 -0500
-
-    Crystal wall tiles
-
-commit 36f263e20dbfe8f894b6a6f1898cc993031a4cea
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Sep 8 14:06:17 2012 -0500
-
-    Bone tiles (white_noise)
-
-commit 1285cbb31dbad4ff45d5fc415a484e959d35c59a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Sep 5 20:37:14 2012 -0500
-
-    Humanoid / foo-lord edits (roctavian)
 
 commit c04c3c159f4ed337d74e3ebe19ea887af3348382
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -7872,54 +4872,6 @@ Date:   Mon Aug 27 00:16:30 2012 +0200
 
     white_noise's dungeon tile variations by depth (#6106).
 
-commit 4bd594facc029f9ba832969314d4009af58c075e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Sep 5 03:06:23 2012 -0500
-
-    Mummy tiles (dd)
-
-commit 5682cb9bf96e8341b9dc41dbad69b62263643b56
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Sep 5 02:26:08 2012 -0500
-
-    Qblade tiles (dd)
-
-commit 47cfca666f923a6c0e254eb76ea587b5c37b0356
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Sep 4 23:59:25 2012 -0500
-
-    Brighten adders up a bit
-
-commit b46da3df9195e440419eed779c8b4613f3b03774
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Sep 4 23:11:26 2012 -0500
-
-    Sabre tiles (dd)
-
-commit 695bd9bb9c1630d26fa56563456455ddd5c66cd3
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Sep 4 22:38:19 2012 -0500
-
-    Give falchions a little extra breadth
-
-commit b3d41779911b44cb7688d039aa11b53ad7033f4d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Sep 4 19:04:12 2012 -0500
-
-    New silence tile (white_noise)
-
-commit 3006273fb8de4b8be8058bb73e8c4688a45b9a72
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Sep 3 20:03:41 2012 -0500
-
-    Moth of Suppression aura tile
-
-commit dd4d7357e1977125b185917806ff0fad2566ff7f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Sep 3 19:04:26 2012 -0500
-
-    Snake tiles
-
 
 commit 183894471bdb34a7ce784f94787aa02f0802b975
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -7929,12 +4881,6 @@ Date:   Mon Aug 27 00:18:34 2012 +0200
     
     They're completely unused except in my unpublished branch for #6106,
     but that's no excuse.
-
-commit f8f710846ad9d679ea64eb5b7983a5382af3c077
-Author: Raphael Langella <raphael.langella@gmail.com>
-Date:   Fri Aug 24 10:52:07 2012 +0200
-
-    Tiles for vertical gates (ontoclasm, #6105).
 
 
 commit d09f384b95c555e158c36fff660f405fde2caff7
@@ -8051,14 +4997,6 @@ Date:   Sun Aug 5 18:32:42 2012 +0200
     tiles. Those are in unused; I couldn't decide whether one of them
     looks better than the original.
 
-commit eef6c5a92b071e3d7c70d3f38295b83dd36e38ac
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Sat Aug 11 13:20:32 2012 +0200
-
-    ontoclasm's recoloured poison icon (#4527).
-    
-    This is mainly for consistency with the new brand icons.
-
 commit e06401b106178c997db51143a2b91bc1fe2d4cf6
 Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Sun Aug 5 18:22:16 2012 +0200
@@ -8123,12 +5061,6 @@ Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Fri Aug 10 18:51:28 2012 -0600
 
     white_noise's new entrance and edited stair tiles (#6050).
-
-commit 9b22b13366e55e54641b97bd1e8606261e81c3d4
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Mon Aug 6 01:52:28 2012 +0200
-
-    Icon tweaks by ontoclasm.
 
 commit 5d32d4d5e985fb34e05e05407f9597566f157e90
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -8242,12 +5174,6 @@ Date:   Tue Jul 31 15:47:35 2012 +0200
 
     Fix mixed up curing/heal wounds icons.
 
-commit f3c797297262100f72f73b528d47dcabc046725e
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Tue Jul 31 14:22:59 2012 +0200
-
-    ontoclasm's overhaul of item icon images. (#4527)
-
 commit 89956ef9ac092328c5f89b18f0875bb28f19bee6
 Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Mon Jul 30 12:45:22 2012 +0200
@@ -8295,15 +5221,6 @@ Date:   Tue Jul 24 16:10:13 2012 +0200
 
     Tweak slimy wall weights a bit.
 
-commit 17295d9861d301063a00350a05cc86c6c657f911
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Tue Jul 24 15:34:22 2012 +0200
-
-    Slime tiles by roctavian and ontoclasm (#5911).
-    
-    For the acid overlays, I've used both the original directional
-    overlays by roctavian and the altered floor tiles by ontoclasm. I
-    think this looks suitably dangerous.
 
 commit 5235caaf08f3919ba84ece57787c286ba8c9302c
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -8347,26 +5264,11 @@ Date:   Thu Jul 19 17:14:35 2012 +0200
 
     Shoals stairs tiles (#5864).
 
-commit e2923a5b3ee162e1f4812290974293b08160a79f
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Mon Jul 16 09:50:55 2012 -0600
-
-    ontoclasm's new statue tiles (#5936).
-    
-    Several vault-specific monsters and features now have tiles, so those
-    vaults and features have had the tiles attached to them as well.
-
 commit aacbc5e42cfa762bfdaf907e50c46366f75656f9
 Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Mon Jul 16 14:20:44 2012 +0200
 
     New glove tiles and a slightly tweaked bread ration by roctavian (#5622).
-
-commit 9cdc3db8512747743b1629336094c889e80c4abd
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Mon Jul 9 19:30:03 2012 +0200
-
-    ontoclasm's travel trail footstep tiles (#5877).
 
 commit 5b332f2121b117d51bb83066822eb526e6fbbae4
 Author: Michael Gagno <evilmike@gmail.com>
@@ -8385,12 +5287,6 @@ Date:   Thu Jul 5 00:14:22 2012 +0200
     
     I mixed up roctavian's armour tiles when I added them. Banded mails
     don't even exist anymore.
-
-commit 9f2ceb05b0a11f4e9c41666c3e40775e3109a380
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Wed Jul 4 23:42:31 2012 +0200
-
-    A tile for gas traps (courtesy of ontoclasm, #5385).
 
 commit d4f407ec6519a8ba2348699ff4ae18c325cc65da
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -8553,14 +5449,6 @@ Date:   Thu Jun 7 01:41:47 2012 +0200
 
     Tweak spider wall tile weights a tiny bit.
 
-commit 05b8b70f3074c6d64ac0481db58c587ebf569ee2
-Author: Michael Gagno <evilmike@gmail.com>
-Date:   Wed May 30 04:28:14 2012 -0700
-
-    New crumbled column tiles. (ontoclasm)
-    
-    For infiniplex's new serial vault.
-
 commit d2e4607208e5a3b58b6c97885444d6309d172937
 Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Sat May 26 14:03:18 2012 +0200
@@ -8578,24 +5466,6 @@ Date:   Sat May 26 13:24:00 2012 +0200
     
     I also put the other tengu tiles into UNUSED so they're at hand
     if/when we add more tengu monsters.
-
-commit df2f54edb6a91e54dd721d5d49e2def95d67b158
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Fri May 25 20:23:03 2012 +0200
-
-    New spectral tiles by ontoclasm (#5643).
-
-commit 0e76c9300aec4450b74b1447ca7e8cccc70601c4
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Fri May 25 19:46:59 2012 +0200
-
-    Various simulacra tiles, courtesy of ontoclasm (#5643).
-
-commit b7e36b6050f0dc3befe62969c7f5bd4868904c26
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Fri May 25 18:19:05 2012 +0200
-
-    ontoclasm's chaos spawn (#5385).
 
 commit 78e890629a8b928c88587bc13327c7da0d1fb970
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -8651,12 +5521,6 @@ Date:   Mon Apr 16 16:30:35 2012 -0500
     Remove tentacles as a mutation, and make them intrinsic to octopodes.
     For now, Beastly Appendage will grant claws instead of tentacles.
 
-commit 92d636f9829a088484a6f93090d2c2db649ba693
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Thu Apr 19 17:01:14 2012 +0200
-
-    Ontoclasm's dragonform tiles.
-
 commit cd7f9e8e8b2323410a0e9bf9cd51242d0f4048a0
 Author: Raphael Langella <raphael.langella@gmail.com>
 Date:   Thu Apr 19 15:49:20 2012 +0200
@@ -8668,23 +5532,6 @@ Author: Thomas Holmes <thomas@devminded.com>
 Date:   Wed Apr 4 22:51:52 2012 -0400
 
     Duplicated a scroll tiles for the highscores tile. A swap of the file should fix it when someone gets around to it.
-
-commit bf713f6a5f3e17c91be7733dd39dd9ef45fb7ee3
-Author: Neil Moore <neil@s-z.org>
-Date:   Tue Apr 17 02:47:16 2012 -0400
-
-    Two new spider tiles (ontoclasm, roctavian).
-    
-    ontoclasm's tarantella (originally orb spider) tile, and roctavian's orb
-    spider tile.
-    
-    Both old tiles were placeholder recolourings of existing tiles.
-
-commit 6f81262fd88a82c5946346c7b874f0aaeb96631d
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Sun Apr 8 23:07:21 2012 +0200
-
-    ontoclasm's new hell sentinel tile (#5385).
 
 commit e03792648380ddc1f2493a545296b4777bf4e661
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -10556,582 +7403,4 @@ NEEDS SIGNOFF
 --------------
 --------------
 --------------
-commit 31ef48abc4529a298e3c2c6c788b7422bee7f81a
-Author: Eino Keskitalo <eino.keskitalo@gmail.com>
-Date:   Sat Nov 12 00:07:16 2011 +0200
-
-    Tentacle hands for dolls from Pingas (#4687).
-    
-    They're displayed if the player has the mutation, is not an octopode, and is not wielding/wearing something in the hand. For non-octopodes, only Beastly Appendage gives tentacles, but once there's constriction, they should be considered as a normal and/or DS mutation.
-
-
-commit 76db36af1a903b4e8b3a90ea622338bf5b3be29a
-Author: Eino Keskitalo <eino.keskitalo@gmail.com>
-Date:   Mon Oct 31 21:57:48 2011 +0200
-
-    Use Curio's iron imp tile from #4625, also clean up the shadow imp tile (using head from Curio's tile).
-
-commit a057f740d3928246d18bdcb7a097e32cf792bf92
-Author: Eino Keskitalo <eino.keskitalo@gmail.com>
-Date:   Mon Oct 31 21:34:55 2011 +0200
-
-    Use Curio's new base crystal plate tile from #4621, and add two more ego/randart variations from #3827. Remove the old base crystal plate tile.
-
-commit 1fe77f064f01eaf07dbf4767ad08ce669a17d95c
-Author: Eino Keskitalo <eino.keskitalo@gmail.com>
-Date:   Sun Oct 30 11:27:52 2011 +0200
-
-    Several redone tiles and adjusted tiles from roctavian (#4805).
-    
-    Total redesigns: Asmodeus, Dispater, Ereshkigal, Hell Knight, Necromancer, Wizard. (The lords will actually soon be replaced by 32x48 designs.)
-    
-    The rest get a hand-drawn border, and some other (mostly minor) adjustments.
-
-commit dafac1efff7dff52a947bb8959b2377e70a8c43f
-Author: Eino Keskitalo <eino.keskitalo@gmail.com>
-Date:   Sun Oct 23 21:12:51 2011 +0300
-
-    Zombie tiles for trolls, draconians, griffons, harpies and winged quadrupes (at least hippogrives, sphinxes and shedu). From #4282, by Lantier, modified a little.
-    
-    Strangely, the rim is correct in-game, although trolls don't have one, other tiles have, and no rim setting is in dc-zombies.txt.
-
-commit 9e7f188a0050dad14b4f7a4630bc84eed8a07c48
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed Nov 20 02:28:08 2013 +0100
-
-    Add a ground/inv tile for boots of the spider (Bloax).
-    
-    The worn tile is still missing.
-
-commit 056651fa57a20829e26bfd1520c79d759df70de9
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Oct 19 04:14:55 2013 +0200
-
-    Dark maul tiles (Bloax)
-
-commit 68a9d9cdccdf46c93b9aba1c2045482032c555c2
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Oct 14 22:12:54 2013 -0500
-
-    Centaur tiles (Bloax)
-
-commit 409d890d8ec4dd21b7588083441822e3d2eb1ee1
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Oct 9 23:34:51 2013 -0500
-
-    Tmons tile (Bloax)
-
-commit e473d029e917ec258d235b2814d7bbfe729bbdee
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Jun 15 14:56:36 2013 +0200
-
-    Add Bloax' sweet cacodemon tile to UNUSED/.
-    
-    Here's a progress report about how doomed we are:
-    
-    ✓ various weapon-using zombies
-    ✓ imp
-        slightly hindered by 0.10-a0-1355-g43440df
-    ✗ demon
-        definable: a simple melee-only animal.  The name is too generic.
-    └ spectre (perm_ench:invis)
-    ✓ lost soul
-        flying skulls (more faithful) and lost souls (name).
-    ✓ cacodemon
-        spells are definable, inertia on being shot not.
-    ✓ hell knight
-    └ baron of hell (exact rename with +hd)
-    ✓ arachnotron
-        orb spiders (could use a rapid-fire weapon)
-    ✗ pain elemental
-        definable: some eye spells:call_lost_soul
-    ✓ revenant
-        IOOD is a direct implementation of their weapon
-    ✗ mancubus
-    ✗ arch-vile
-    ✗ spider mastermind
-    ✗ cyberdemon
-    ✓ some bastard that runs around and kills folks
-
-commit abf5b9708e2e460ab3a74404b161f3e91b969aef
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Thu Nov 1 01:51:57 2012 +0100
-
-    Bloax's tiles for zombie crabs and turtles of various spikeness.
-
-commit 0445ba8e1880831027fab0e25c397d86d3bdffe4
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Sep 8 22:15:19 2012 +0200
-
-    white_noise's update to his Arachne's tile, also a staveless version.
-    
-    The latter is used only as a base for the corpse, as both items she is
-    allowed to wield (staff of poison and the Staff of Olgreb) fit the
-    hard-drawn versions.  Technically, ordinary staves of poison might be
-    something else than a stick with a green ball at an end, but blah.
-    
-    This is a slightly deboobified version compared to his submission,
-    my apologies to connoiseurs.  Sorry guys (and at least one lady)!
-
-commit 40a248776a4d3c68de44c9b1585cedc9f2911799
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Sep 8 14:50:24 2012 +0200
-
-    Add roctavian's dryad and leshy tiles to UNUSED/
-    
-    They'd be forgotten otherwise.  There are currently no good plans how to fix
-    the Forest monster set (they proved to be inadequate: damn hard vs melee and
-    targetted spells, falling like flies to any effects that ignore EV).  While
-    we'd need some ACy monsters, dryads and leshys can have medium AC if we'd
-    stretch the theme slightly for bark-like skin, and both have a strong
-    affinity to trees (animating trees? transforming into one?), so it's not
-    unlikely the tiles will end up used after all.
-
-commit 3b73544b84b478c0cfbdc9ec6dca3b5a638635a3
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Tue Aug 14 02:26:06 2012 +0200
-
-    wad's set of tree tiles.
-    
-    A few of them are sets of two on one tile, not sure if that's a good idea.
-    This looks good and helps fight the grid effect, but on the other hand, some
-    might have a problem with the tooltip saying "tree" in singular.
-
-commit 22d8c073a7448870182cc4cfe55cda46cffa3ef4
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Aug 4 01:44:25 2012 +0200
-
-    Betterer IOOD tiles (Bloax)
-
-commit fcc898b07d67c4f6240d5fe030cff3230c7ffcb5
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Jul 28 02:06:33 2012 +0200
-
-    Roctavian's altar updates for Fedhas, Lucy, TSO, Vehumet, Sif Muna, Yred, Zin.
-
-commit 52920763ef69136908b89139a1b672b47ff4833f
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Jul 28 01:50:17 2012 +0200
-
-    An animated altar tile for Nemelex (roctavian)
-
-commit 2578d4f6fc6c08756697059c5b74c7f9b01a7e94
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Jul 22 00:51:11 2012 +0200
-
-    white_noise's tile for Arachne.
-
-commit 143ef3002054b4bfc8dd3dca22bbf9fdc009888c
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Tue Jun 5 02:13:20 2012 +0200
-
-    Add a tile needed for one of wad's vaults.
-
-commit 20dcbb64470d31163b9ef2595d3dcf34f191f8ae
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Tue Jun 5 01:45:22 2012 +0200
-
-    Put a bunch of wad's plant tiles into UNUSED/, for use in vaults, perhaps.
-    
-    Flytrap and magic mushrooms are not fit for re-tiling but look like new
-    monster ideas instead.
-
-commit 7dbfdb483f964963fed4d59df419ae5837ab56f0
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Tue Jun 5 01:39:52 2012 +0200
-
-    wad's set of floor tiles.
-    
-    Probably too bright, but let's see how they'd look in their intended use.
-
-commit 04fdece5571c867698984114d50e4860b62ff97a
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Tue Jun 5 01:06:50 2012 +0200
-
-    wad's new plant tiles.
-    
-    The two big leaved-ones look a bit out of place in a big clump of plants,
-    opinions?
-
-commit 7c1061ed1ad243ee0ce24eaf02bbae57810463a4
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Jun 3 19:19:45 2012 +0200
-
-    roctavian's branch entry tiles for: Orc, Lair, Vaults, Crypt, Tomb.
-
-commit 77fdbcba62846b5dfd161f20f91b74aeb82b5ccb
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Jun 3 16:31:51 2012 +0200
-
-    roctavian's new tile for bread.
-
-commit 054e26e1bbd3f6341eab330bd651607dd2e35a47
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Jun 3 14:22:17 2012 +0200
-
-    roctavian's tiles for inept and ravenous mimics.
-
-commit c1a16f8592eb101b3ca111689faeee10c500fd5f
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Mon May 21 23:32:54 2012 +0200
-
-    xnmojo's tile for jackals.
-
-commit b30135a7b79ec28372b469f8aba39347d21b817a
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed May 16 01:55:57 2012 +0200
-
-    roctavian's tiles for gold.
-    
-    I'm not sure if separate items for every value 1..10 and then big ranges are
-    a good idea, could spread them out in some other way.
-
-
-commit f95d3c8378ae347936a16893e2ad8c3620fd5815
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Thu Apr 26 23:54:09 2012 +0200
-
-    roctavian's updates to his Spider wall tiles.
-    
-    Much brighter, to let them stand out from the floors.
-
-commit 25140de0ac146d54c6a107c08d8f0b1df041f176
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Apr 21 10:45:34 2012 +0200
-
-    roctavian's tiles for Spider walls.
-
-commit 81634a07fd03dba86727d3176ef6cd5fc9cf46f0
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed Apr 18 01:25:05 2012 +0200
-
-    roctavian's tile for Nikola.
-    
-    Far better than the old "persian wizard" one.  Also, has a weapon attachment.
-
-commit 49942e1e2f21a30a952d5992b288fe538e251005
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed Apr 18 01:13:42 2012 +0200
-
-    roctavian's new trapdoor spider tile.
-
-commit 59d2fc3eec44e1a4ea8629b315c275321bb810ec
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed Apr 4 01:22:57 2012 +0200
-
-    roctavian's tiles for Lair sub-branch entrances.
-
-commit 872380a17ccecdaf43cd49c82faee25c4b70adbd
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Mar 24 02:34:03 2012 +0100
-
-    ontoclasm's tile for the gossamer rune.
-
-commit 9d79fc6dbd08b51077a34f030911573bc51bc4c7
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Mar 24 02:29:15 2012 +0100
-
-    roctavian's edits to giant {cockroach,mite} tiles.
-
-commit b4f028181c07d764354121ab466eb118b09e29b0
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Mar 24 01:42:08 2012 +0100
-
-    Cut off Lom Lobon's legs (roctavian).
-
-commit 7c50dbe09736cd472fc40d7692d5ed8e36b6659b
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Mon Jan 16 01:38:10 2012 +0100
-
-    roctavian's tall tiles for Pan and hell lords.
-
-commit 42b638e770cbb1d54af4ae179a4bccff523146e8
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Fri Jan 13 04:35:58 2012 +0100
-
-    XuaXua's icon for constriction.
-    
-    Somehow, it looks pretty busy and hard to distinguish on a good deal of
-    monsters I tried it with (first one being orc warlord).  This might be just
-    my feeling though -- and above all, some tile is better than no tile.
-
-commit a68ba43ecc1b0a36f7bbbdccd6b2eac1f72a10b5
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Thu Jan 12 23:09:34 2012 +0100
-
-    XuaXua's tiles for Mass Abjuration, modified Abjuration.
-    
-    The pentagram is yellow to make it differ somehow from actual summons which
-    look too similar.
-
-commit a94e83741c1982f43ef809c8e93a7e58a1723163
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Thu Jan 12 13:04:05 2012 +0100
-
-    XuaXua's breastly tile.
-
-commit c248a436a5bbd68da8e50478468e0e1d9fc49c52
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Thu Jan 12 12:43:24 2012 +0100
-
-    One of roctavian's tiles for Ring of the Octopus King.
-
-commit fcd1de627c2831779b5935c25d02f4515fb63df7
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Fri Dec 23 02:20:31 2011 +0100
-
-    roctavian's tiles for octopodes: lich, statue, zombie.
-    
-    Lich is... unconventional, but it's not like we can use a skeleton like for
-    everyone else.
-
-commit 570cf5fdba28f8ff8fddf3f3f1eb51c85d3daf9a
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Thu Dec 1 02:15:39 2011 +0100
-
-    roctavian's tiles for Spider Nest's floor.
-
-commit d596e63861a7f89afa86c0a6f9f64d95b2ae52e0
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed Nov 30 03:13:48 2011 +0100
-
-    roctavian's tiles for Trove, Bazaar, expired Ice Cave, WizLab.
-
-commit 13907ac7836037d984d9eb86fa1f503a3bf2d56d
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed Nov 30 01:12:34 2011 +0100
-
-    Robsoie's adjustment to his skeletal toad tile.
-
-commit ae566cd63edf4e878963015dfc18d74409c59b49
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Nov 27 03:35:15 2011 +0100
-
-    roctavian's edits to Snake floor tiles.
-    
-    Per Keskitalo's advice, these are variants A, C and D from the eight submitted.
-
-commit 42d21da68599bff7b659a8137c8e1e3fd2d94823
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Nov 19 19:33:48 2011 +0100
-
-    roctavian's tiles for Cocytus.
-
-commit 85f26b4473d4cf20fea55091087074281092637e
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Nov 19 17:12:48 2011 +0100
-
-    roctavian's tiles for the Hive portal (alive, expired) and Volcano exits.
-
-commit 6348565e265de60a95a74e3443474d66ee7996b3
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Fri Nov 18 22:19:05 2011 +0100
-
-    roctavian's tiles for portals: Volcano, Bailey, Labyrinth, Ossuary, Ziggurat.
-    
-    TODO: those who use "floor" don't show up.
-
-commit 364ed1a802e018daa5bb8bbfa4160321e1b05e7e
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Thu Nov 17 23:41:20 2011 +0100
-
-    roctavian's wall tiles for Snake.
-
-commit 7aed6baffc43aa4e3e0943bd1d28b25d190f8205
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Fri Nov 11 21:11:22 2011 +0100
-
-    Tiles for the dragonskin cloak.
-    
-    The item one by roctavian, the worn one is a poorly made texturing.
-
-
-commit faa967ab043c7924abb726d60c7af8627f45bd2c
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Fri Oct 28 11:04:12 2011 +0200
-
-    Darken Gehenna floor tiles (evilmike)
-
-commit cc4277332e50d904e7847c44229a50de7c58e1f3
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Oct 23 21:39:48 2011 +0200
-
-    Use dtsund's "tile" (ok, a square of yellow with 10% alpha...) for halo.
-    
-    Looks a lot better to me.  I'd give it rounded edges, but that'd take
-    actual, you know, work.
-
-commit 0d577541578b52a4a998c48cab0432b325c0b617
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Thu Sep 29 06:27:42 2011 +0200
-
-    Un67's tile for ordinary staff.
-    
-    It's de-rimmed (the rim added by the autorimmer is not as thick), with no
-    black in the texture and straightened a bit compared to the original.
-
-commit 485a86c7bb14fdea3bf6bbfdaef2131fe7bb4605
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Mon Sep 26 23:28:18 2011 +0200
-
-    Put co's alternate shedu tile in UNUSED/.
-
-commit f1f5d41cf228caf4f480338c23a034750ac6e791
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Mon Sep 26 22:58:41 2011 +0200
-
-    Curio's new Grinder, consistent with new shadow imps.
-
-commit 851cf441830fedfac0a0cc99a3956baf6204a649
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Tue Sep 6 00:48:44 2011 +0200
-
-    Add four great helmet tiles by Pingas.
-
-commit b81dd7701a450b3683392804b765e4efca4d2a46
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Tue Aug 9 02:22:14 2011 +0200
-
-    chilie's tile for wielded anki.
-
-commit 6a7eab736dc107f0b3d8acd6efc4da09a2ce6b2a
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed Jul 13 02:38:05 2011 +0200
-
-    XuaXua's tailectomy of quasit tiles.
-
-commit c351e77d4eb72d3942a7d5c06046b3d6f7455081
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Jul 9 16:33:21 2011 +0200
-
-    Robsoie's updates to the frog skeleton tile.
-
-commit 91013d3b6fa61eb25892075708c93e54c69f2d74
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Thu Jul 7 10:06:09 2011 +0200
-
-    dolphin's octopode tile.
-
-commit 77cb9b0bacbe0dd66b499910695462f118e35cc5
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Thu Jun 9 02:17:31 2011 +0200
-
-    Add Eronarn's makeshift tile.
-    
-    It actually fits worse than mine :(  The image is a tad better, but it holds
-    weapon, shield and hat in wrong places.
-
-commit abba48c9e0f53cc819c3656dc5c3da9f4af063c0
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Fri May 13 04:26:26 2011 +0200
-
-    Spectral frog tile (Robsoie)
-
-commit 8e11c5fbe19b130ce61b4605874a6eaac9ee7e35
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Sun Apr 17 14:56:57 2011 +0200
-
-    Add Curio's crystal plate tile as ego/randart variant.
-
-commit e3ae2c5cc0092e3ca684985940027f57d5092167
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Fri Apr 15 23:51:41 2011 +0200
-
-    Add XuaXua's improved death ooze tile.
-
-commit 56e714b26046031e7f1dfe391730017c3ff4923a
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed Apr 13 12:36:51 2011 +0200
-
-    Allow porkalating holy beings.
-    
-    With a tile!
-    
-    Since they are nothing but holy demons, it is wrong for them to have
-    different resistances where TSO is not concerned.
-
-commit c1e2b80a995b0a8b67e8ad96ba5a0dc455817c8e
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed Apr 13 01:10:37 2011 +0200
-
-    Cut Grinder's wings (Curio).
-
-commit 62f6b7a78613b64160ade21ae3d735885c2b8763
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Mon Apr 4 23:26:59 2011 +0200
-
-    dolphin's tile for jumping spiders.
-
-commit f4c5e7fa986de2a158e527e492cad597a00b61af
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Mon Feb 14 23:36:31 2011 +0100
-
-    Replace Antaeus' tile with co's version, this one fits better a rC++ rF- guy.
-
-commit 720f91eb842b4c4775d5b4deae0f34765d7dba43
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Feb 13 23:29:47 2011 +0100
-
-    Curio's updates to Donald's tile; added weapon overlay.
-
-commit 2e938430c0817c947e0fbe4198a0757ec19a7e4e
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Feb 13 15:53:34 2011 +0100
-
-    Add co's tiles for the demon (obsidian) axe.
-
-commit f730a0d3e0deee3f7ab14f2932430e5d51fd913c
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Feb 12 02:50:08 2011 +0100
-
-    Add LordBistian's tile for Leda's Liquefaction.
-
-commit 1f3bf3c4c795c1efd8428945dd4ee6230ea6afc4
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Feb 5 11:21:59 2011 +0100
-
-    Curio's updated tile for Kirke.
-
-commit e64610d96503beb4c3502f06041d119ade52e16a
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Fri Jan 14 23:35:01 2011 +0100
-
-    Add co's icon for the Homunculus spell.
-
-commit 49d703b08569105f7a51546ebae5c06ec13aba10
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed Jan 5 22:13:00 2011 +0100
-
-    Curio's mangrove tile.
-
-commit d88f5d8d82a4ae7377ab3fc7728f444c33efeeb5
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Dec 26 22:24:00 2010 +0100
-
-    Replace the shedu tile with Curio's version.
-
-commit 75874ee8246b0be85caf59c5a3e89309195854ce
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Dec 5 18:09:46 2010 +0100
-
-    Add psyshvl's demigod tile, fix weapons and corpses for DG, DS, Ha.
-
-commit e65e059d8a7cc3cf4de7dfa0b0f7415b8a55ffcc
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Oct 24 20:44:00 2010 +0200
-
-    Add psyshvl's tile for spriggan assassins.
-    
-    This gives an incentive to, you know, actually implement them!
-    
-    18:08 <+enne> I can't believe you committed monsters without tiles! What's the world coming to? *dramatic sigh*
-    So here's some balance for that :p
-
-commit 2564a95c9927fc25ab3fb7cf1c519f8e12491d56
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Fri Oct 8 19:58:07 2010 +0200
-
-    Felids: steal a few tiles from NetHack.
-    
-    They fit pretty badly, but are still better than human ones.
 
