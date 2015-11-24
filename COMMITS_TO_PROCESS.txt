@@ -903,12 +903,6 @@ Date:   Fri Jan 2 12:05:22 2015 -0800
     
     Eustachio still needs offsets for equipped weapons.
 
-commit 08563ca96dba9931118f93ebe3ab0629d037e994
-Author: Jesse Luehrs <doy@tozt.net>
-Date:   Fri Jan 2 02:44:55 2015 -0500
-
-    yellow wasp -> wasp, red wasp -> hornet
-
 commit c1648d5b2c19a470f92fb08917463b27637ff2bb
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Wed Dec 31 17:21:55 2014 -0700
@@ -1365,12 +1359,6 @@ Date:   Sun Nov 16 14:45:01 2014 -0800
     Add androsphinxes
     
     Implicitly.
-
-commit 9c91b928ddd730bdb590f63f7763591a6e66dbbd
-Author: Jesse Luehrs <doy@tozt.net>
-Date:   Sun Nov 16 14:53:34 2014 -0500
-
-    green rat -> river rat
 
 commit 23cdb65b3ed342f6ec7c7e7d6c9b3820f8733110
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -1944,12 +1932,6 @@ Date:   Thu Jul 17 21:41:13 2014 -0700
     
     This also helps refresh the pool of amulets, which was starting
     to look a little shabby.
-
-commit 739c3b2d43d850d62e6b88cac352ce53278405ad
-Author: Jesse Luehrs <doy@tozt.net>
-Date:   Wed Oct 1 10:47:32 2014 -0400
-
-    re-insult anyone with the slightest clue about how RL weapons work
 
 commit 2754f52dabb28ee852e2011d45501054577b57f3
 Author: Corin Buchanan-Howland <corin@buchananhowland.net>
@@ -4657,13 +4639,6 @@ Date:   Sun Mar 31 11:06:28 2013 -0700
     
     Gosh. Adding tiles seems to require a lot of book keeping. Adding only the image for now.
 
-commit a5436d8bb79a66d8bdaaa32bd38c5781af7199be
-Merge: 652213d a1c26c6
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Sun Mar 31 12:21:34 2013 -0500
-
-    Merge branch 'master' into jester
-
 commit 9aa808ba004ec17d47b1e344fe93f03e79f364c0
 Author: Samuel Bronson <naesten@gmail.com>
 Date:   Sun Mar 10 00:38:12 2013 -0500
@@ -4780,12 +4755,6 @@ Date:   Sat Sep 29 16:51:05 2012 +0100
     Killer/queen bees and wasps already cover pretty much all the bases in
     terms of flying poisonous things - bumblebees almost never showed up
     and when they did they didn't do anything interesting.
-
-commit 425658accaae654fd7906516e2eea3fc2bbf2b30
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Thu Sep 13 23:35:09 2012 -0500
-
-    Fix compilation.
 
 
 commit c04c3c159f4ed337d74e3ebe19ea887af3348382
@@ -5302,12 +5271,6 @@ Date:   Wed Jul 4 23:10:32 2012 +0200
     is the best option, but just changing the floor colour didn't seem
     noticeable enough.
 
-commit b7d6d954c1125fc99f127d14d37f9549f31e9e82
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Wed Jul 4 13:56:10 2012 -0500
-
-    Resort bog body tile entries to account for their glyph change.
-
 commit 771ce7874ca9a86bbe9015b26bda01ec55a95b3b
 Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Wed Jul 4 15:12:57 2012 +0200
@@ -5514,13 +5477,6 @@ Date:   Fri Apr 20 13:37:02 2012 +0200
 
     Optimize high score tile.
 
-commit 6cb2f103165d47316b55705a522b37d36d5b8e5d
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Mon Apr 16 16:30:35 2012 -0500
-
-    Remove tentacles as a mutation, and make them intrinsic to octopodes.
-    For now, Beastly Appendage will grant claws instead of tentacles.
-
 commit cd7f9e8e8b2323410a0e9bf9cd51242d0f4048a0
 Author: Raphael Langella <raphael.langella@gmail.com>
 Date:   Thu Apr 19 15:49:20 2012 +0200
@@ -5678,12 +5634,6 @@ Author: Michael Gagno <evilmike@gmail.com>
 Date:   Thu Feb 23 19:49:05 2012 -0800
 
     Use Denzi's sarcophagus tiles for the statues in Tomb:1.
-
-commit 06c459c2cb8b49ad910a3942b2a78dcb900c30c8
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Fri Jan 20 23:50:17 2012 -0600
-
-    Rename sarcophagus_pedistal.png to use the proper spelling of "pedestal".
 
 commit 0af5b33b4ca24822b68497b41acc009ffddfe93d
 Author: Michael Gagno <evilmike@gmail.com>
@@ -5964,12 +5914,6 @@ Date:   Thu Oct 13 13:12:04 2011 -0400
     It seems like this was the only Makefile in the whole tree that didn't
     check for changes in CFLAGS between runs.
 
-commit a30033a632af9d3dc17dd4dbfc03b9a344e2f77c
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Sun Oct 9 00:26:26 2011 -0500
-
-    Convert gnoll shamans/sergeants from Lua redefinitions to actual monsters.
-
 commit 159e35ec978d651d1f71e5e236f0ab8ae999ea1a
 Author: Raphael Langella <raphael.langella@gmail.com>
 Date:   Thu Sep 22 13:47:09 2011 +0200
@@ -6101,20 +6045,6 @@ Date:   Mon May 2 21:55:47 2011 +0200
     
     	crawl-ref/source/startup.cc
 
-commit ccf48bac12c3ed429daacc45c5176a1f72ccbe93
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Mon Jun 20 11:33:29 2011 -0500
-
-    Rename MONS_(PANDEMONIUM|HELL)_DEMON to MONS_(PANDEMONIUM|HELL)_LORD.
-
-
-
-commit 04d7ba450959a100ab5b31c19cc6f7b5341deda3
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Wed Jun 8 07:00:33 2011 -0500
-
-    Rename MONS_SALT_PILLAR to MONS_PILLAR_OF_SALT, to match its actual name.
-
 commit be8f336b9533d9e66b7f3090c56011a76a9e58db
 Author: Chris Campbell <chriscampbell89@gmail.com>
 Date:   Thu Jun 2 23:34:33 2011 +0100
@@ -6157,88 +6087,6 @@ Date:   Thu Mar 17 15:22:27 2011 +0100
     Put them under unused, so we can bring them back if someone can edit them
     with the new title logo.
 
-commit 258a86435519b9f5f38ba91c033886f72d0c88b9
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Sun Mar 13 23:13:44 2011 -0500
-
-    Revert "Remove tiles references to scrolls of paper and crystal balls of fixation."
-    
-    This reverts commit 0d99015eb3f80146e812db36034d82fa14ccb763.
-
-commit fde92f13f5b17d4849e7c52778043c012530e2a6
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Sun Mar 13 08:55:59 2011 -0500
-
-    Add an attempt at a fire bat tile to fix Mantis 3580.
-    
-    Currently, it's just a palette-swapped megabat tile.
-
-
-commit 0d99015eb3f80146e812db36034d82fa14ccb763
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Thu Mar 10 18:32:09 2011 -0600
-
-    Remove tiles references to scrolls of paper and crystal balls of fixation.
-
-commit eff2768084f689e74936c9606e55bc002c5fa4db
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Thu Mar 10 13:39:12 2011 -0600
-
-    Remove the last references to bears; move the bear tile to UNUSED.
-
-commit 4499b1b1b97703fc0c6baa519eca0c88e2dfde14
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Tue Mar 1 10:18:01 2011 -0600
-
-    Remove references to Bone Shards and Tame Beasts; move tiles to UNUSED.
-
-commit a9a02334247502f4ce3ad27ee9d556ae445c6fb4
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Sun Feb 13 20:17:07 2011 -0600
-
-    Reorganize dc-corpse.txt to account for moving 'I' to dc-mon/animals.
-
-commit b4834b1f3148f8b7766cc4e125bcf195ecd6a61a
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Fri Feb 11 14:33:29 2011 -0600
-
-    Move the tiles for 'I' (various beasts) to dc-mon/animals.
-
-commit 860ae7739bb014ca32670f3f08206829f3e295dc
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Fri Feb 11 14:22:45 2011 -0600
-
-    Update animals.txt to account for 't'.
-
-commit 7b8c4e65d05c6e61f7f9031ea4c91940b463ce9e
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Mon Feb 7 12:48:48 2011 -0600
-
-    Rename MONS_FIRECRAB to MONS_FIRE_CRAB, to match its in-game name.
-
-
-
-commit 86591b14709c7a9c5c038b1cea74ec027b7bc84b
-Author: Darshan Shaligram <dshaligram@users.sourceforge.net>
-Date:   Sat Jan 1 09:29:59 2011 +0530
-
-    Make rltiles use contrib SDL and png if CONTRIB_SDL and NO_PKGCONFIG are set.
-    
-    The Mac tiles build can trip over MacPorts SDL and libpng being incompatible
-    versions and compiled for the wrong architecture, so allow the user to force
-    use of contrib SDL and libpng.
-
-commit 00ca6f0eda6df0e8f4f1d011f338bf784cfad587
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Mon Nov 29 20:33:55 2010 -0600
-
-    Remove the nisse, and move its tile to UNUSED.
-
-commit 7e61870276efca7142839d5f15ea54133ea65ab0
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Sat Nov 27 18:05:33 2010 -0600
-
-    Rename greater wraiths to eidolons.
 
 commit caa5519827a693b714aaff1417e64fc9d533b1d4
 Author: Raphael Langella <raphael.langella@gmail.com>
@@ -6256,24 +6104,6 @@ Date:   Wed Nov 17 22:51:26 2010 +0100
     I saved the shape as UNUSED/other/cloud_disturbance_shape.png
     This is my first tiles, so someone more skilled should be able to do better.
 
-commit f278bc1286a4e350c6d42e5da07e6eece22562f6
-Author: Enne Walker <ennewalker@users.sourceforge.net>
-Date:   Wed Nov 10 18:47:07 2010 -0800
-
-    Improved beards! (Thank you, Terence Reeves.)
-
-
-commit 4983fdc94470bf1de553033d739e042f45c29ada
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Thu Oct 7 10:13:10 2010 -0500
-
-    Rename the holy scourge to the sacred scourge.
-
-commit f2b2a6fe97a9a12003a933b52657e595e77aab4d
-Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>
-Date:   Thu Oct 7 09:44:49 2010 -0500
-
-    Rename "Serpent-Scourge" to "Snakebite".
 
 
 NEEDS SIGNOFF

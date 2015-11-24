@@ -1719,12 +1719,6 @@ Date:   Sat Jan 22 00:01:37 2011 +0100
 
     Remove shield tiles from various shieldless monsters. (Done by co.)
 
-commit 0df4a9f1e6b3ff211dc8eb560d9c053f0f5eb70b
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Wed Jan 19 00:35:47 2011 +0100
-
-    Add LoginError's known items tile.
-
 commit 29a6f3b720c0f0496d8c4b85072170c99528258b
 Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
 Date:   Fri Jan 14 12:15:44 2011 +0100
@@ -1806,30 +1800,6 @@ Date:   Thu Dec 9 19:25:10 2010 +0100
 
     Add first part of psyshvl's new kraken tentacles, some modified by me.
 
-commit 8ca0b340e8655b616853c8cd6395f3d7b968915e
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Wed Dec 1 19:20:54 2010 +0100
-
-    Add another of LoginError's statue tiles.
-
-commit afae2cb6920269393f7417af0226c184a0224d33
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Sun Nov 28 22:13:56 2010 +0100
-
-    Two more statue tiles by coolio and LoginError.
-
-commit 19af79bb416859dfe074ad8bdf0527de946fff25
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Sun Nov 28 14:10:14 2010 +0100
-
-    Add LoginError's new runed armour/weapon tiles.
-
-commit 2b024865ed440a22ce22aaca6cdcc1caad0ffce7
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Sun Nov 28 13:45:37 2010 +0100
-
-    New statue tiles courtesy of coolio and LoginError.
-
 commit f20cd82343a8036eb230839788bee79ffa70a3e3
 Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
 Date:   Sun Nov 28 11:57:17 2010 +0100
@@ -1843,5 +1813,11 @@ Date:   Fri Nov 26 19:36:54 2010 +0100
     Add Omndra's new blood tiles.
     
     The blood puddles are still in use for corpse tile generation.
+
+commit f278bc1286a4e350c6d42e5da07e6eece22562f6
+Author: Enne Walker <ennewalker@users.sourceforge.net>
+Date:   Wed Nov 10 18:47:07 2010 -0800
+
+    Improved beards! (Thank you, Terence Reeves.)
 
 
