@@ -89,62 +89,6 @@ Date:   Mon Aug 31 22:22:00 2015 -0400
     These Depths-dwellers hit very, very hard, but have significant delay
     after each swing. They move quickly tho.
 
-commit 2a75f53f601c9f761418233b122187e5e48c16bd
-Author: Neil Moore <neil@s-z.org>
-Date:   Thu Jul 2 21:31:43 2015 -0400
-
-    Support Cygwin.
-    
-    When compiling under Cygwin, build with -std=gnu++11 to get Posix
-    functions, and provide our own version of the missing std::to_string
-    
-    Thanks to nonethousand and Floodkiller for finding the problems,
-    and Floodkiller for helping test this fix.
-
-commit 2e82f5273499d0b5e0d17a6da9cc8fc00d9c785c
-Author: Neil Moore <neil@s-z.org>
-Date:   Tue Jun 30 00:09:27 2015 -0400
-
-    Replace a few straggling NULLs with nullptr.
-    
-    Most of the occurrences in the main codebase had been replaced already,
-    with a couple of exceptions.  Replace those, as well as some NULLs in
-    the level compiler, the tiles tool, and header file generators.
-    
-    There are almost certainly some lurking null pointers masquerading as
-    literal zeros.  Fix those if you see them.
-
-commit f1e1bf34a104c71e357097dcf3d7aa93e679c68c
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Fri Jun 26 17:55:58 2015 +0100
-
-    Remove Grand Avatar
-    
-    It was another highly complicated and not-very-relevant monster demonspawn
-    spell. Replaced with Haste Other on warmongers.
-
-commit eafbe2f407cd5570bec7f4c781647161f3f372c8
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Wed Jun 24 20:03:59 2015 +0100
-
-    Remove the Singularity monster spell
-    
-    Since as mentioned in the commit making it monster-only, it's not really an
-    effect that should be kept around just for random pan lords.
-
-commit fea330ee931d4244afca60dcb29b61984100fab9
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Jun 23 23:34:50 2015 +0100
-
-    Remove Ephemeral Infusion
-    
-    It was a fairly complicated and not very noticeable effect. Blood saints also
-    no longer damage themselves on casting destruction, so the limited synergy
-    there no longer exists. Leaves blood saints with only one spell, but that one
-    spell is actually 6 spells and so still leaves them with plenty of variety. The
-    elixir card now just applies a direct heal to allies instead of the ephemeral
-    infusion effect.
-
 commit b56d33567c922da4ee51abd9da859f40766904de
 Author: Chris Campbell <chriscampbell89@gmail.com>
 Date:   Fri Jun 12 18:39:35 2015 +0100
@@ -153,53 +97,6 @@ Date:   Fri Jun 12 18:39:35 2015 +0100
     
     Since they had nothing at all in common with the ghostly flame beam used by the
     ghostly fireball spell.
-
-commit 05e14b0d35fce91de9300de0e21d7e447a7b9bd2
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Thu Apr 30 22:01:27 2015 +0100
-
-    Remove the Control Teleport spell and the book of Control
-    
-    cTele removal part 2. With cTele removed the book of Control was even more
-    empty, and its other spells were mostly duplicated in at multiple other books.
-    Mass Confusion could potentially do with being added to another book since this
-    leaves it in only the book of Dreams.
-
-commit a6c7e69917663f35ed7bbb2dff7a8564a41dc89c
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Thu Apr 30 21:42:54 2015 +0100
-
-    Remove rings of teleport control
-    
-    Part one of cTele removal. cTele's function generally is to turn an interesting
-    unreliable escape method into a boring and reliable one. Its existence also
-    makes it necessary to have various floors be awkward exceptions that block the
-    effect.
-
-commit 9240d72bed89a8ddf2447751bb922c05634eace3
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Sun Jun 7 00:00:24 2015 +0100
-
-    Remove now-unused code for identification states
-    
-    "Tried" (by monsters/by players/on items) no longer exists as an identification
-    state, making item type identification now a bool.
-
-commit 275d24f1ce14b7f6a9630814c84c73bcb0003c85
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Jun 9 21:17:19 2015 +0100
-
-    Remove unused shadow trap code
-
-commit e4d8b7511e608d2087a17460af28e5de622d90e6
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Jun 9 12:50:41 2015 +0100
-
-    Remove ravens
-    
-    They were very uninteresting and not used for much other than a few vaults
-    and unnecessarily accompanying tengu. Replaced with wasps, wyverns or nothing
-    as seemed vaguely appropriate.
 
 commit 9d9c6fb015a49805bdc0166a96405ae54dfdd838
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -225,92 +122,11 @@ Date:   Mon May 18 23:45:00 2015 +1000
 
     Rename Sustain Abilities to Sustain Attributes.
 
-commit f5d3f99dcb6e8cc09ee6e23a55cfbef9eb627d2b
-Author: Alan Malloy <alan@malloys.org>
-Date:   Wed May 13 14:15:21 2015 -0700
-
-    Remove zotdef code.
-    
-    It's been disabled for a while; it was time for it to die.
-    
-    Commiter's Note: closes #32
-
-commit e683cc4b791a64578382bcb7ba05d792877ddc7f
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Wed May 6 13:13:59 2015 -0400
-
-    Remove the Flight spell.
-    
-    There remain sources of the effect in potions, rings, randarts, boots,
-    species, and the Tornado spell. The spell is the weakest link here: it has
-    very little cost (only the investment to cast a level 3 spell), can be
-    renewed infinitely unlike more interesting ones, and can be kept up
-    permanently at little cost but with an annoying interface.
-    Even without the redundancy, Flight is rarely interesting in combat, and
-    spells do non-combat effects poorly.
-    
-    Book of Dreams gets Silence, which seems vaguely thematic. Book of the
-    Dragon gets Flame Tongue, on |amethyst's suggestion. Book of the Sky gets
-    Lightning Spire. Book of Air gets nothing; it's already a well-rounded
-    book, and plenty of starting books have only 5 spells.
-
-commit df7b2b12c9ac7393aa453d3deecd4af83622f64a
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Wed May 6 14:35:28 2015 -0400
-
-    Remove goliath beetles from vaults (and the game).
-    
-    Having them spawn only inside vaults is arguably the worst of both worlds
-    -- the player sees them often enough to be annoyed, but not enough to get
-    used to the annoyance.
-    
-    Vault appearances were replaced by other slow monsters, other bug-themed
-    monsters, or sometimes nothing (if they were an option in a list). Orb
-    beetles get turned into orb golems. erik_ogre got removed since it was a
-    really weird vault. Rod of the swarm gets doubled chance of getting a spider.
-    The enum is kept around as a genus monster for the two remaining beetles.
-
-commit 9dc79d6725fd27179631801ba68006aa86a6ae7a
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue May 5 18:48:39 2015 +0100
-
-    Remove boring beetles
-    
-    They were another slow melee-only monster, and their digging ability didn't
-    actually make them interesting in practice - it was more likely to just
-    cause annoyances chasing them down as they dig out the level, or to just be
-    used in a few joke vaults.
-
-commit 23668633fad25fa2ffbd38bb72ea84c4e18b2614
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue May 5 18:15:47 2015 +0100
-
-    Remove baby alligators
-    
-    They weren't very noticeable or particularly different from other t-glyph
-    monsters. Alligators still sometimes come in bands, now containing 2-3 regular
-    alligators instead of 1 alligator with 2-4 babies.
-
-commit ae8c4507ad0884f5b40f44341f3eeec1e0ce009a
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue May 5 19:29:21 2015 +0100
-
-    Remove Abjuration spell, lower Aura of Abjuration to L5
-    
-    And move Aura out of the Grand Grimoire to take Abjuration's place in the
-    book of Summonings.
-
 commit a6690104b51d2366db7530b305977d1f654fcd3f
 Author: Brendan Hickey <brendan@bhickey.net>
 Date:   Fri May 1 22:25:45 2015 -0400
 
     Clumsy Crypt floor tile variations {bh}
-
-commit ea31ab0b52f1531dc590b4fa404b5f4ac6a29453
-Author: Brendan Hickey <brendan@bhickey.net>
-Date:   Fri May 1 22:15:00 2015 -0400
-
-    Remove unused crypt floor tiles.
 
 commit d753fea32add76116439a2cc02713ecebf3ba8b4
 Author: Brendan Hickey <brendan@bhickey.net>
@@ -461,19 +277,6 @@ Date:   Wed Apr 22 18:59:48 2015 -0700
     scientific poll by asking my little brother which he preferred,
     and he chose these. Enjoy your torment!
 
-commit ea7ae5b316199a598bf906f5a60ecef3c0fb5af8
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Apr 21 23:19:29 2015 +0100
-
-    Remove potions of restore abilities
-    
-    In cases where severe stat drain does occur, the XP timer should force players
-    to press on and cure it by killing things rather than allowing them to just
-    quaff a common consumable to heal it, as with draining.
-    
-    The potion's weight is split equally between flight, lignification and
-    degeneration.
-
 commit b8087dce2c8ebbdac6773f9fbcf928e95d3a5492
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Mon Apr 20 08:17:17 2015 -0700
@@ -505,24 +308,6 @@ Date:   Fri Apr 17 13:47:45 2015 -0400
     anyway).
     
     Tiles are poorly-photoshopped copies of Dyrovepreva's. I am so, so sorry.
-
-commit f1b829123668733560287a7122f0329f8b6a458b
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Wed Apr 15 16:50:37 2015 -0400
-
-    Remove poisonous chunks.
-    
-    They're mostly a hassle if you have rPois but are not wearing it all the
-    time, or may as well be clean if you permanent rPois. In Lair branches,
-    the only place where they're really concentrated, you can just as well eat
-    some of the tons of permafood that generates; food is certainly not a
-    problem in most games that get that far. And if we want to limit the
-    number of chunks you can get, restricting them behind a random resistance
-    is not the right way to go. No other resistance has any kind of strategic
-    effect in this way.
-    
-    Ignite poison checks for innate poison spells now, so monsters nagas will
-    still be affected.
 
 commit fd539b1f27069b5451c6a4b5474d6025a0d25a26
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -635,14 +420,6 @@ Date:   Sat Apr 4 14:44:02 2015 -0400
     
     This monster needs a new tile.
 
-commit 95ffbf9e83745551ecacf01f304106d358ff892a
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Fri Apr 3 22:00:56 2015 -0700
-
-    Remove giant mites properly
-    
-    oops...
-
 commit e77af6f334cf9b8692214f391e9fcb084bffeaa3
 Author: Corin Buchanan-Howland <corin@buchananhowland.net>
 Date:   Fri Apr 3 20:18:16 2015 -0400
@@ -666,14 +443,6 @@ Date:   Wed Apr 1 20:06:32 2015 -0400
     
     Firecallers are rare spawns in late D, as well as Vaults, Abyss and Depths.
     That might narrow after some testing.
-
-commit 1dd37ad17090a6154a913daa52efbeae79adcb27
-Author: Neil Moore <neil@s-z.org>
-Date:   Tue Mar 31 01:36:37 2015 -0400
-
-    Remove trailing newlines.
-    
-    [skip ci]
 
 commit c38a6e8078a8ea7e44b963e45873bda79b4bf1e8
 Author: Chris Campbell <chriscampbell89@gmail.com>
@@ -708,26 +477,6 @@ Date:   Sat Mar 7 02:23:26 2015 +0000
     (they could also easily be reflavoured as spellcasters like hell knights and
     necromancers instead, but having a mix of both just seems confusing, even
     with spell types now displayed on xv).
-
-commit 34d91a1fc83120fc366bcef8a376ffdec81fce34
-Author: reaverb <reaverb.Crawl@gmail.com>
-Date:   Sun Mar 22 17:15:34 2015 -0400
-
-    Remove Sure Blade
-    
-    This was another "You should always have this active" buff, with no
-    positive effects on the game. The fact it's exclusive the Book of
-    Maledictions implies it's meant to help En get off the ground, but En
-    remains a Tier 1 background after this change.
-
-commit eb1239368dc77c1a1e42b11ad00207a299b7ee06
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Wed Feb 25 18:26:53 2015 +0000
-
-    Remove potions of decay
-    
-    They were so rare that many games would never even identify them, let alone
-    have a chance of quaff-iding them early.
 
 commit c96cd5b0c73ad5bd274c703ae82256fa6c2a0c17
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -837,18 +586,6 @@ Date:   Tue Jan 27 20:59:12 2015 -0800
     Might be possible to re-add these on earlier levels now, since
     they were only moved deeper because of bats.
 
-commit d86abff96fa3092932b96b36acc6ccb2e890a2fe
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Wed Jan 28 00:28:50 2015 +0000
-
-    Remove Forceful Dismissal
-    
-    In a lot of cases it'd just be more useful to spend MP on summoning more things
-    rather than explode your summons, but it was also thematically just not a
-    Summoning spell, giving the school a way to deal a bunch of direct damage.
-    Spells like Fulminant Prism do that sort of thing with a Summonings component
-    in a better way.
-
 commit 910cf96a29b1742f42fd4d376bafbd7a436c5aba
 Author: John McCartney <sicsemperjohn@gmail.com>
 Date:   Fri Jan 16 14:34:16 2015 -0800
@@ -928,14 +665,6 @@ Date:   Mon Dec 29 20:40:37 2014 +0000
     Reform Elf Tiles (b0422a19033894406578d3901511a134ef63873c)
     Further Song of Slaying Reform (e2cd79ceea719c570ca855b9e685f78e9dec1d75)
     Reform Song of Slaying (82fa208686f632a98f2c9ea5135f957be4be2a59)
-
-commit 045d5c7a5d979bbb8d1c95ecf05f50875135fd57
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sun Dec 28 13:44:36 2014 -0800
-
-    Remove a blinding book tile
-    
-    Literally painful to look at.
 
 commit 62c2927876e02cfa6d8df4279a5e0898d13013ec
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
