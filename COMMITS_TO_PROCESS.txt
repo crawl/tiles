@@ -49,12 +49,6 @@ Date:   Fri May 1 22:25:45 2015 -0400
 
     Clumsy Crypt floor tile variations {bh}
 
-commit d753fea32add76116439a2cc02713ecebf3ba8b4
-Author: Brendan Hickey <brendan@bhickey.net>
-Date:   Fri May 1 22:09:28 2015 -0400
-
-    Update crypt floor tiles {CanOfWorms}
-
 commit bc838597ddbedc7e5bcc7317fa9adce58d34c0e2
 Author: Brendan Hickey <brendan@bhickey.net>
 Date:   Sun Apr 26 14:59:25 2015 -0400
@@ -150,25 +144,6 @@ Date:   Sun Apr 26 01:42:42 2015 +0000
     The four parameters should be non-negative 8-bit integers. To simplify
     the generated code, emit a bit-packed representation of the coloring.
 
-commit 0b87ae3267893b15a306e871742e08bcd103ae73
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Wed Apr 22 21:58:18 2015 -0700
-
-    Mostly add etheric cage tiles (CanOfWorms)
-    
-    The playerdoll tile isn't working and I can't figure out why;
-    someone else can fix that.
-
-commit d40c196652926563ba41731e0d29bff255f97ba3
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Wed Apr 22 18:59:48 2015 -0700
-
-    New Eternal Torment sprites (CanOfWorms)
-    
-    There were multiple sets of tiles submitted; I did an entirely
-    scientific poll by asking my little brother which he preferred,
-    and he chose these. Enjoy your torment!
-
 commit b8087dce2c8ebbdac6773f9fbcf928e95d3a5492
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Mon Apr 20 08:17:17 2015 -0700
@@ -207,98 +182,6 @@ Date:   Mon Apr 13 20:43:11 2015 -0700
     lindwurm & armour recolours. Also, for the thread that inspired
     this.
 
-commit 7ac023daab0acfe9f66fa6ca439ff3ff19c8246a
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Fri Apr 10 20:06:48 2015 -0500
-
-    Don't use an outdated tile in an arrival vault (minmay)
-    
-    This tile hasn't been updated since the new statue tiles, and a custom
-    isn't necessary for this vault to make sense. Also moving this vault to
-    a more appropriate des file.
-
-commit 0a147b9ce3867da12863ae9edeeea218f5cb69c3
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Thu Sep 11 19:19:42 2014 -0500
-
-    A new wizlab: Lehudib's Moon Base
-    
-    NOTE: This wizlab has double weight for now, which will be lowered to
-    normal weight after a week or two of testing in trunk.
-    
-    Lehudib, whose famous writings on earth magic left few personal details,
-    is said to have studied the power of magical crystal with single-minded
-    devotion and in the most distant location imaginable. After traveling to
-    some forgotten Moon and carving a fortress into its very surface, the
-    wizard somehow convinced the bizarre surface creatures there to stand
-    guard. Who can say what other knowledge this self-described Lunar Mage
-    learned in such isolation? Adventurers who manage to reach the remote
-    Moon Base of Lehudib may indeed find powers beyond their comprehension.
-    
-    This is a large and tough map featuring the legendary moon troll as a
-    final guardian, which is always wearing moon troll leather armour if
-    this hasn't generated (otherwise just artefact TLA). The moon troll is
-    basically a speed 12, 18 hd iron troll with Singularity.
-    
-    The portal to the moon troll can appear with equal chance at one of 4
-    locations on the map, with one or two paths available near the
-    start. Each portal location has a sub-guardian, and there's an optional
-    fight with the Lunar Statue (an OCS with Lehudib's Crystal Spear and
-    Shadow Creatures) that guards an acquirement item.
-    
-    Monsters are earth, acid, or crystal themed, together with some eyes and
-    the space-themed abyssal enemies for decisive Moon Flavour. Loot is
-    mostly random, aside from the moon troll leather armour, a cure or
-    beneficial mutation potion guarded by malmuters, and a randbook named
-    after Lehudib with any one of earth/transmutation, earth/translocation,
-    or earth/conjurations spells as the theme.
-    
-    For visuals this map uses a blue volcanic wall variant as stone and
-    crystal walls with animated colours.
-
-commit 16cc79a43435ac9df3b7f06f255774f1eeb2b5f1
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Tue Apr 7 23:11:33 2015 -0500
-
-    Rename green crystal wall to simply crystal wall
-    
-    These walls are green by default but can be recoloured for e.g. portal
-    vaults. This commit makes their description entry and all related values
-    not refer to green, so that in-game descriptions won't be confusing in
-    the rare instances when colour is changed.
-    
-    These walls can now have a feature name of simply crystal_wall in
-    e.g. des files.
-
-commit 26b0c5949e233f0e2fd539acb360e33aa86e893a
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Tue Apr 7 01:18:40 2015 -0500
-
-    Add a blue volcanic rock variant
-    
-    Made as a variant from the red volcanic wall tile. I'll be using this in
-    a wizlab.
-
-commit c96cd5b0c73ad5bd274c703ae82256fa6c2a0c17
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Mon Mar 9 18:30:25 2015 -0700
-
-    De-opacify Irradiate (CanOfWorms)
-
-commit 7eae94e303a3c53f8c85b2aca993fbd68894e18e
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Mon Mar 9 18:13:50 2015 -0700
-
-    Irradiate tiles animation (CanOfWorms)
-
-commit 0be755fb2171c6afe596ccd4665b4f067e761947
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Tue Feb 24 21:26:54 2015 -0600
-
-    New reaper tile (CanOfWorms)
-    
-    Also add worms to CREDITS.txt
-
 commit ceb348796b2af6774191b2c21bc87995bfb64d07
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Sat Feb 21 21:39:14 2015 -0800
@@ -316,23 +199,6 @@ Date:   Sat Feb 21 21:34:36 2015 -0800
     Moved door tiles into their own directory
     
     Fleshy doors were in gateways, probably due to a misunderstanding.
-
-commit ee4db934f0f6967c277d26860477cfe73002a0d7
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Thu Feb 19 17:39:33 2015 -0600
-
-    Remove a tile from rltiles/UNUSED now that it's in the player tileset
-
-commit 979c649b1c0069f19a2b41920c18c0b8ac24f51e
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Thu Feb 19 16:51:44 2015 -0600
-
-    THE GIAGGOSTUONO
-    
-    Legends say THE GIAGGOSTUONO came into being when some poor adventurer
-    read a scroll of the same...
-    
-    Adding the tile and weapon/shield offsets for use with tile_player_tile.
 
 commit 63baae8fa0f5f97f21436f9dfd908ae3e212642d
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -360,32 +226,6 @@ Date:   Tue Jan 27 20:59:12 2015 -0800
     Might be possible to re-add these on earlier levels now, since
     they were only moved deeper because of bats.
 
-commit 910cf96a29b1742f42fd4d376bafbd7a436c5aba
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Jan 16 14:34:16 2015 -0800
-
-    Nikola, Snorg tile edits.
-    
-    Lacks weapon offset for Nikola.
-
-commit 8c25847ed5696e70f64357e84003e1e7401509b8
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Jan 16 14:31:18 2015 -0800
-
-    New book tiles.
-
-commit b50431785cd73e873988d603d4c1ae651ab0e39d
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Jan 2 17:46:05 2015 -0800
-
-    A little bit more transparency for monster damage indicators.
-
-commit 65668cc88b7521f06ec7947ae2897fb9ae42ef3a
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Jan 2 17:28:47 2015 -0800
-
-    Tweaked Dis floors.
-
 commit 4b1633f80b948fa1a6f2651360b446dc25fc71fa
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Tue Jan 6 22:08:46 2015 -0800
@@ -405,14 +245,6 @@ Date:   Sun Jan 4 20:58:57 2015 -0800
     (DE Fighters & Knights.)
     
     This reverts commit af862a732f608735c4b7ae7df5622ed77019a66b.
-
-commit d3c2987932aaf28e85d5d632dc2a2c37e9c0f772
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Jan 2 12:05:22 2015 -0800
-
-    Brightened Hell Sentinel, new tiles for Edmund, Eustachio, and Terence.
-    
-    Eustachio still needs offsets for equipped weapons.
 
 commit c1648d5b2c19a470f92fb08917463b27637ff2bb
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -513,40 +345,6 @@ Date:   Thu Dec 18 14:01:14 2014 -0700
     
     Thanks to ontoclasm for helping me tune this up.
 
-commit 7a0b6e92e40d5dc3f275ed608f0ec0a18e97dbd6
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Wed Dec 17 22:37:48 2014 -0800
-
-    Further minor iterations for a few early-game monster tiles.
-
-commit 2f9560d06e14e1e582c5da7a906a3506f86b5e77
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Mon Dec 15 10:27:01 2014 -0800
-
-    Improvements to hippogriff, Nellie, and a couple skeletons.
-    
-    Clarified bottom edge of silhouettes, adjusted shadows.
-
-commit f575c6d4c58bca06b768761a3a88cc170f1ad70a
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Mon Dec 15 10:23:57 2014 -0800
-
-    Value/saturation adjustments for several monster tiles.
-    
-    Serpents of hell and Vaults denizens are the main ones.
-
-commit bfee7128f4365340e3a3b3a02d8f0d728efb0e96
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Mon Dec 15 10:20:19 2014 -0800
-
-    Small improvements to yaktaur and yaktaur captain.
-
-commit 1eedcb17e0964d9cd395b2c6a2f47f182417c8df
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Tue Dec 9 21:58:03 2014 -0800
-
-    Small edits to elephant tiles.
-
 commit dd79bc7edecb954169ec35a7bf3d46787cfb610e
 Author: Shmuale Mark <shm.mark@gmail.com>
 Date:   Mon Dec 8 10:03:07 2014 -0500
@@ -562,20 +360,6 @@ Date:   Mon Dec 8 10:03:07 2014 -0500
     
     Tile by roctavian.
 
-commit 596a959b87c400fe51acd47d257aadffb93e6f09
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Dec 6 11:06:11 2014 -0800
-
-    Small edits to recent wielded weapon tiles.
-    
-    Plus the greatsword tile I forgot earlier.
-
-commit beb6bfd87c71821c0d29bd5bfb3c28da7a3732d2
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Dec 6 10:43:45 2014 -0800
-
-    Goliath Beetle tile (Bloax)
-
 commit a17c66b2ac69ae24874d5741250af4c11782074b
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Fri Dec 5 20:35:17 2014 -0800
@@ -583,20 +367,6 @@ Date:   Fri Dec 5 20:35:17 2014 -0800
     Add a new Depths vault
     
     Hail Snails
-
-commit 8f66c3dc795113ef9ade2930253c23902a86d6e8
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Dec 5 12:11:29 2014 -0800
-
-    Revised wielded weapon tiles.
-    
-    Absent: launchers, giant clubs, demon weapons, scythes, hammers, whips, clubs.
-
-commit 948502301a2b3a26482965aa468e5f3cf4ea5622
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Thu Dec 4 15:13:10 2014 -0800
-
-    Minor iterations for kobold and greatsword tiles.
 
 commit 3fb461fc80821f2bba045717d77a7b33ad9de6a0
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -684,24 +454,6 @@ Date:   Fri Nov 28 14:42:30 2014 -0700
     hunger to make new panlord tiles anyway, so we can bring those back once
     we have tiles for them.
 
-commit 4d0de3aa488f97e59139a283056253a55bd8a23b
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Wed Nov 26 12:43:02 2014 -0800
-
-    Black pixels on monster damage indicator now slightly semi-transparent.
-
-commit 6b5998ce05d58dd72dbe9d48273f5c2011afb6d2
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Wed Nov 26 12:39:35 2014 -0800
-
-    Removed rim from wretched stars in dc-mon.
-
-commit e8f33aba1aacc7a5fc40b84c18fe854e0a25049b
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Wed Nov 26 12:08:54 2014 -0800
-
-    Further iterations to goblinoids; better visibility for wretched stars.
-
 commit 144e84685d028548d757541e7788aafda522e702
 Author: Sage <SageBasilMint@gmail.com>
 Date:   Sun Jan 19 03:26:29 2014 +0000
@@ -732,44 +484,6 @@ Date:   Sun Nov 23 23:07:01 2014 -0700
     
     To give them a colour that can be recoloured in dc-* tile directives.
 
-commit 8d144ffac3ba206afdb424645a17db4e0146b52c
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 23:46:27 2014 -0800
-
-    Color/brightness tweaks for a variety of monster tiles.
-    
-    Gargoyles, tengu, demonspawn outfits, and some others.
-
-commit bdaf798f747eb18aee31dec724aa2d5ecc8c1603
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 22:12:57 2014 -0800
-
-    Caustic shrike tile.
-
-commit a0f5cdfa3344533db0160c8625e2cc37e0b7d5e0
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 19:00:52 2014 -0800
-
-    Removed shield from base gnoll sergeant tile.
-
-commit db287d24152495d7307ad54eee4391bd449bd1c8
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 18:53:32 2014 -0800
-
-    Upped saturation for Orbs of Destruction.
-
-commit 03c478d3dd8ef093069e3aed5c79cb769a40cba5
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 18:49:37 2014 -0800
-
-    Tweaked a couple greatsword tiles.
-
-commit 4d92b313aac4e7682eb2561f31a91e977fcdf274
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 14:08:56 2014 -0800
-
-    Brightened kobold tiles, removed their darts.
-
 commit 56d223743aa95850a3fa169763fddaacff9fda0b
 Author: Neil Moore <neil@s-z.org>
 Date:   Sat Nov 22 16:29:54 2014 -0500
@@ -777,24 +491,6 @@ Date:   Sat Nov 22 16:29:54 2014 -0500
     tilegen: Read PNG files in binary mode.
     
     It matters on Windows.
-
-commit 06d78c0d99a79250caefbd7d1d8214aa524e3ca7
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 12:07:57 2014 -0800
-
-    Restored Robin's hide.
-
-commit 2939fc5f2683bce3e96d63be51019aba28471b9e
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 00:45:46 2014 -0800
-
-    Fix a mistake just made in dc-mon.
-
-commit 262f426ec601e57a17e4a3303af2eb7e21360170
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 00:37:54 2014 -0800
-
-    Robin tile, small tweaks to hobgoblin/goblin tiles.
 
 commit bfab2ba8d738bb8fa5272cad938c08b79ece3d56
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -879,70 +575,6 @@ Date:   Fri Nov 14 22:43:10 2014 -0700
     
     ... so that the colours can match console properly. Yay.
 
-commit faaacd4bf28fa54c7bc8250026b90b20b4d8bba5
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sun Nov 9 21:08:45 2014 -0600
-
-    Let Killer Klowns be as colourful in death as they were in life
-    
-    Gives Killer Klowns a species so their corpses can have colour
-    ETC_RANDOM. Also, let their corpse in Tiles essentially be
-    ETC_RANDOM. The results are Komedic.
-    
-    This commit also cleans up some of the orderings in the corpse tile
-    listing.
-
-commit 16be56abfe95b4514a5a98de905533d150a8703e
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sat Nov 8 20:18:14 2014 -0600
-
-    Use the most recent libpng signature check for tilegen
-    
-    The png_check_sig() function is obsoleted for png_sig_cmp in recent
-    libpng.
-
-commit 3a4aa27f39ca7a2db7faeae904b1ef8c6859fe99
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Sun Nov 9 01:30:42 2014 +0100
-
-    Close the file in the libpng error handler.
-
-commit 024c97799c4c2a53f576ab593a42aaab16ef45d6
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Sun Nov 9 01:26:11 2014 +0100
-
-    Handle a return value and introduce a constant.
-
-commit b86fb3f5a0e8f84f7eeb0fc642c1c8cfd46f2bab
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Sun Nov 9 01:06:44 2014 +0100
-
-    Remove the SDL dependency from the rltiles tool.
-    
-    Since the tool only needs to load PNG images, it doesn't really need
-    SDL; we can instead directly call libpng. This should make
-    cross-compilation easier and even reduces the code size a bit, since
-    libpng can do the palette expansion for us.
-
-commit 30e26df16a61df9d1a5724282382d134919e9ce9
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sat Nov 8 14:39:06 2014 -0800
-
-    Fix tilegen compilation under mingw32
-    
-    Order of linking the SDL libs and some missing Windows libraries.
-
-commit edee275d7f171f1a8f528747f21bd556ebbfaa1f
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Fri Nov 7 20:51:25 2014 -0600
-
-    OS X Makefile updates to add missing frameworks
-
-commit 187053bad67f73e7821b3f99860a9f28b3979e42
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Fri Nov 7 17:42:50 2014 -0600
-
-    Use SDL2 for tilegen
 
 commit ac29865fd209705657fc05660ad049f0dd91bbef
 Author: Shmuale Mark <shm.mark@gmail.com>
@@ -965,118 +597,6 @@ Date:   Mon Nov 3 21:04:46 2014 -0500
     Silver implies a connection with Zin that does not exist. Obsidian,
     on the other hand, is already connected to demon summoning (see
     the obsidian axe).
-
-commit db7d09005e6ecbb823bf6648beb47ae88dcbfa07
-Author: Chris Oelmueller <chris.oelmueller@gmail.com>
-Date:   Sun Oct 5 05:02:25 2014 +0200
-
-    Remove Blessed Blades
-    
-    TSO blesses a weapon with holy wrath brand and two ?EW now, just like
-    the capstone branding of Kiku and Lucy. Demon weapons are converted to
-    different base weapon types just as before, no change.
-    
-    Existing weapons that are affected will be converted to their plain types.
-    Stats of the "blessed" long blade base types have been aligned with their
-    un-blessed counterparts in case some slipped through.
-    
-    Mennas and daevas received a slight weapon upgrade to compensate: They no
-    longer can generate with falchions, and weapon pluses were increased by a
-    bit more than 1 on average.
-    
-    [wheals: chrisoelueller's commit message here does not exactly make it clear
-    what the motivation is, partly because i expect he found it self-evident. At
-    any rate, having a special effect for just long blades added fairly little,
-    but led to much confusion in terms of what TSO blessing would do, and in
-    terms of what an item you got from an angel actually _was_.]
-
-commit dec2988febb5f515ddb0f19223f93b1b5aa06907
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Mon Nov 3 13:36:51 2014 -0800
-
-    White marble floors for Tukima wizlab, removed rim from Flayed Ghost.
-
-commit 8561f079796ebb938acad8a88ac77d76bb10354e
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Mon Nov 3 12:42:47 2014 -0800
-
-    Spider walls brightened, minute tweaks to lab walls and lair floors.
-
-commit 83d1d28874efe5d587f101e742ca489fbdde6b74
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Fri Oct 31 21:01:24 2014 -0600
-
-    Evokable: the phantom mirror.
-    
-    Single-use and stackable; it checks your evocation power against the
-    target's MR to create a clone of the target whose duration also varies
-    with evocation power.
-    
-    Has a really preliminary tile; tt could use detailing from someone with
-    more artistic sense than I, or even a completely new tile.
-
-commit c8677decdb30e335bbea9a470e33489cbaf6565e
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Oct 31 19:55:08 2014 -0700
-
-    New flayed ghost tile, happy Halloween
-
-commit b05332bf588dc399f70ab51acbbf38af2d08b98d
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Thu Oct 30 09:43:23 2014 -0400
-
-    Remove Peek at Two.
-    
-    In the past 4 new Nemelex wins, it was used... 4 times. This isn't
-    surprising; Nemelex already gives enough ways to make a deck more
-    predictable and less dangerous, and one that prevents you from using the
-    more powerful ones is only going to be useful if it has a vastly greater
-    utility.
-    
-    The fact that it was instant was quite possibly not noticed, and it does
-    lead to an interesting idea: in an emergency, peeking so that you know
-    what this deck will get you into. But Triple Draw is generally better for
-    that, unless you have 3 decks to spare to peek at in succession (and at
-    that point the piety cost would, I assume, exceed Triple Draw's).
-    
-    More importantly, the other abilities are _fun_, and preventing you from
-    using them just feels like it's spoiling that. Deal Four, for example,
-    wasn't used much more than Peek at Two, but it's an iconic ability that
-    feels different every time.
-
-commit 58f2b2a93b3cdcfd8a649fb6f85c14b87f4641e9
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Thu Oct 30 09:30:47 2014 -0400
-
-    Remove Draw One.
-    
-    Since it's now useless.
-
-commit 85fff257c2132c5a2e9361abb1282acb82dca216
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Wed Oct 29 21:36:35 2014 -0700
-
-    Move old cutlass tiles to UNUSED.
-
-commit b2193eb682d9b7f131a5ece31af91d7542013dc4
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Wed Oct 29 21:23:32 2014 -0700
-
-    New rapier tiles.
-
-commit a757122794cc7e9f57e53a53fe2a3ea5b7f06993
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Thu Oct 23 23:23:46 2014 -0700
-
-    Add a spooky surprise!
-    
-    Tile is credit (Bloax). Grunt & gammafunk also helped!
-
-commit 34385035813e95713dee4c071aace2f41eaa76b6
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Tue Oct 28 21:30:23 2014 -0700
-
-    Updated Halls of the Hellbinder sigil tiles, larger wolf spider tile.
 
 commit fd4925d704198459885d68b63f6e4ecaed31baaa
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -1119,41 +639,6 @@ Date:   Sun Oct 26 09:34:37 2014 -0600
     As far as I can tell, the equip tile for this isn't actually in use
     anywhere else, and it makes for a good visual explanation of why they're
     wielding staves to begin with.
-
-commit e9d5c5e0fa1c2ac085d84cedb2197d0985099529
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sun Oct 26 01:49:52 2014 -0700
-
-    dc-floor.txt mostly caught up to new floor tiles.
-    
-    Also one floor tile that I mixed up.
-    The only thing left to fix is to get %lum working for the pebble tiles.
-
-commit ba51bde10e9e30f49a99645756f77d466c46deb2
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Oct 25 22:24:52 2014 -0700
-
-    Re-tuned brightness for many floor tiles
-    
-    The same dynamic from light to dark has been preserved in every tile, but shifted downward in value. This should make several areas with noisy floors less aggravating, and will improve visibility of most other tiles in the game.
-
-commit 3dac1c6502313ef0da05115659c77d48182e9feb
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Oct 25 00:24:08 2014 -0700
-
-    Lighten draconian base tiles slightly.
-
-commit 2751495adda381fd1f3b60975d24dfca7edd5d82
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Oct 24 18:34:14 2014 -0700
-
-    New purple color scheme for Spider branch.
-
-commit 08255afc07afae239f4cb5548e613c99088769f4
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Oct 24 17:08:36 2014 -0700
-
-    Small tweaks to recently added Draconian tiles: more hellfire, caller aura, annihilator staff, and slight recolorations.
 
 commit f5e5797b591d71e05d125cc50278773b4fa706c9
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -1198,12 +683,6 @@ Date:   Mon Sep 22 19:46:08 2014 -0400
        intent of guardian mummy death curses, considering how often one is pinned
        down in Tomb.
 
-commit fdfbcc980de0ff9021c850796e3981ba7b215e47
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Wed Oct 22 10:19:36 2014 -0700
-
-    Draconian monster base and job tiles.
-
 commit 441bb9b88f8f02925ed8d789b533f894c9dba986
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Tue Oct 21 19:35:12 2014 -0700
@@ -1245,18 +724,6 @@ Date:   Mon Oct 20 19:35:54 2014 -0400
     |amethyst pointing out that classed grey dracs had Draconian Breath listed
     in xv.
 
-commit cf7d85a5118f806f0fb2d10fd4f1f74b5024d594
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sat Oct 18 20:57:04 2014 -0500
-
-    An incredible masterpiece of heartbreaking perfection for player tiles
-    
-    Legends say that after creating this epic rendition of the mighty
-    Jörmungandr, the Tile Master ascended to Godhood.
-    
-    I've made weapon and shield offsets that aren't the natural ones, but
-    these don't cause visual artifacts in WebTiles.
-
 commit f3cef8307a6a4290f3adac1c642516b4ea89a6c3
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Sat Oct 18 17:06:35 2014 -0700
@@ -1277,15 +744,6 @@ Date:   Sat Oct 18 16:32:11 2014 -0700
     Simple edits of the storm dragon armour tiles.
     
     ...might be a little *too* stealthy....
-
-commit 6dfaa0abcf04cf7d26f9c95c0d6e70140d92575a
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sun Oct 12 17:19:30 2014 -0500
-
-    Give rebirth to a trusty old friend for custom tile purposes
-    
-    Also update the weapon and shield offsets for this tile and the
-    current orb guardian tile.
 
 commit e771f3e3b02f8546e0a5e4109b49fa1a894ebfd1
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -2244,68 +1702,6 @@ Date:   Tue Apr 15 15:53:26 2014 -0600
     
     Complete with a bad tile, which could/should be replaced ASAP.
 
-commit 89cd1729901393a715455bbc7cd37db841a99b58
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Thu Apr 24 21:58:41 2014 -0400
-
-    Remove giant goldfish.
-    
-    Given the problems with water monsters, the niche for "melee-only
-    general placement" is already filled out by big fish on the low end
-    for sewers and such and sharks on the higher end for Lair and Shoals.
-    The spawn weights and vault placements have been pretty evenly split
-    between the two.
-
-commit 405fd4155241ff0977987be1837af65116695adb
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Wed Apr 23 03:02:29 2014 -0400
-
-    Remove thorn lotuses.
-    
-    They had many of the same problems as vapours, in that you could
-    easily just walk away from them and heal any time. In addition to
-    that, they were water monsters, so they were even more limited in
-    where they could go.
-
-commit 25fd16a8d8cc90234d3fe0b18121fb377940c86f
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Tue Apr 15 17:17:38 2014 -0600
-
-    Sneak a monster tile into UNUSED/ (gammafunk).
-
-commit b05c47ca704ebbd0a835eb0ff4c52f69e65923b5
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Wed Apr 9 12:42:00 2014 -0500
-
-    Remove vapour monsters
-    
-    Always confused, permanently invisible monsters that only know how to
-    check your electricity resistance are not very fun to fight. For
-    vaults, I've replaced many instances of vapours with wind drakes where
-    the "air" is the theme, replaced a couple instances with lightning
-    spires where the theme was electricity or with thorn hunters if the
-    theme is merely swamp. Other instances have been outright removed. For
-    the cloud mage wizlab, I've replaced vapours with wind drakes but have
-    down-weighted them relative to air elementals and insubstantial wisps.
-    
-    For the foxfire card, I've moved vampire mosquitos into the position
-    where vapours were, put insubstantial wisps as lower-power summons
-    behind fireflies, since the latter got a buff some time ago, and added
-    killer bees in between insubstantial wisps and fireflies to keep the
-    number of summon types the same.
-
-commit 38725a92c9fd8b61751829e872ca0e0b23414ff7
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Wed Apr 2 21:57:45 2014 -0400
-
-    Remove spriggan assassins.
-    
-    There doesn't seem to be a very good place for these guys, as
-    attested to by their rather limited placement (1/4 of the time, in
-    a high-level spriggan band). They fill a similar niche as spriggan
-    enchanters, and, absent the Forest branch, aren't common enough
-    for their differences to be obvious.
-
 commit f4f420f8490df9aad30e92e5f182ac53f041f253
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Mon Mar 31 13:44:09 2014 -0600
@@ -2317,25 +1713,6 @@ Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Sat Mar 29 11:36:03 2014 -0600
 
     Purge an extraneous bit from dc-mon.txt.
-
-commit 4aa19395a8713cff8a5b45fc04480c95394b1976
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sat Mar 29 11:49:21 2014 -0500
-
-    Remove formicid venom mages and an associated vault
-    
-    Formicid enemies may get a new implementation in the future, but it
-    won't be as a venom mage, despite that lovely dress.
-
-commit cf6aeb2b6b444c1de4e9a1bcb1ca18be66f0ee4f
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sat Mar 29 11:44:01 2014 -0500
-
-    Remove unneeded references to axed monsters and move related tiles
-    
-    Remove code references to removed monsters, except where needed for
-    save compatibility, as well as quotes/descriptions references, and
-    move the related tiles to UNUSED. RIP gnomes.
 
 commit 9465d971ba66501fa24aff962a72f9ead95ff734
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -2371,16 +1748,6 @@ Date:   Wed Mar 19 17:27:40 2014 -0600
     
     If someone else doesn't get to this first, I'll probably churn up
     something that at least doesn't look like steam.
-
-commit 86b2fc4f56c404396121864ea5255161db7cd0b1
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sat Mar 15 06:32:35 2014 -0500
-
-    Rework a forest branch vault for crypt
-    
-    This makes gammafunk_crypt_yreds_forest, formerly a crossover vault
-    for the forest branch, and places it in Crypt.  Updated the enemy set,
-    made the trees all whithered, and cleaned up some decorations.
 
 commit b891789e888f6222d17c8cf675935df47120da41
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -3185,65 +2552,6 @@ Date:   Mon Sep 30 15:11:18 2013 -0400
 
     Fix ordering of SPARM_* name arrays and tile enums.
 
-commit af6fa54ed67face03e65e20578bad6e55f200f5a
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sun Jun 16 00:41:21 2013 -0500
-
-    Add a player mutation granting the jump ability
-    
-    * Starting attack range is 3, like the evokations ability, increasing by one for
-      each level of the the mutation to a max of 5.
-    * Cost of ability is only hunger and exhaustion (same hunger cost as evokations
-      ability).
-    * The mutation ability otherwise functions exactly the same as the evokations
-      ability.
-
-commit a9ea159001bf26db963328d8482e96bf9d785dca
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sun Jun 16 00:04:56 2013 -0500
-
-    Add SPARM_JUMPING ego. Wearing this grants the evoke jump attack ability.
-
-commit c80f2bed60bcbdc9a3a2ad46c0059d02e45869c6
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sat Jun 15 23:23:16 2013 -0500
-
-    Evokable Jump attack ability
-    
-    * Player chooses a monster target within range where there's at least one valid
-      landing site adjacent to the target.
-    * There must be a monster to target to use the ability, but the monster can be
-      friendly or neutral.
-    * A random valid landing site is chosen, the player is moved to that square, and
-      weapon melee occurs against the target at the landing site.
-    * Jump attacks are melee with the wielded weapon and get a 20% damage bonus
-    * Valid landing sites are always habitable squares with no monster and no
-      thing that's dangerous to the player.
-    * Flying monsters or giant monsters not standing in deep water or lava can
-      'block' the path of a landing site by being in the ray path from the player to
-      the landing site.
-    * If a visible monster blocks the path to a landing site, it won't be considered
-      as a valid landing site.
-    * If something invisible blocks a landing site, the site will be shown as valid
-      and can be randomly chosen, in which case the player 'rebounds off something
-      unseen' and never leaves the starting square, but wastes a turn (delay 10aut).
-    * If the player is adjacent to the monster, sites adjacent to the player are not
-      valid; you have to 'jump over' the monster in this case.
-    * Player can't jump if exhausted or standing in water/lava/liquefied ground
-    * Exhaustion duration is set after jump (regardless of success) to prevent a
-      second jump, with a duration formula that's the same as the breath duration.
-    * The usual melee checks wielded weapon/friendly etc. checks are performed for
-      the jump melee.
-    * If any of the valid landing sites would cause problems with self-electrocution
-      or sanctuary violation, the player is warned first.
-    * Range is determined by evocations training; starting attack range is 3
-      (movement 2), and it increases by one at evocations 5 and 10.
-    * The cost of the jump is 2MP and a hunger cost using the same calculation as
-      for flame breath.
-    * The delay of a successful jump is the same as melee delay.
-    * Fail rate for the ability calculation based on evoke taken from breath fail
-      rate code
-
 commit 2057b86a740fdaf7c9879ee9c9bd7dd296685c73
 Merge: 65c58ed e7b95c8
 Author: pubby <pubby8@gmail.com>
@@ -3297,13 +2605,6 @@ Author: Neil Moore <neil@s-z.org>
 Date:   Mon Sep 30 22:13:27 2013 -0400
 
     Comment tile enums that need to be removed on major bump.
-
-commit 3aa8b6131b2738d4472c305fb9564cb5be17aa80
-Author: Neil Moore <neil@s-z.org>
-Date:   Mon Sep 30 22:08:42 2013 -0400
-
-    Add a note about tile enum ordering (gammafunk, SamB)
-
 
 commit 189c592e0a8c5475fd8c8342b85818a339c45c8e
 Author: Steve Melenchuk <smelenchuk@gmail.com>
