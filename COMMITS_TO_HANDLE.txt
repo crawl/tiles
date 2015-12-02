@@ -2544,4 +2544,63 @@ Date:   Sat Jun 15 23:23:16 2013 -0500
     * Fail rate for the ability calculation based on evoke taken from breath fail
       rate code
 
+commit b291e5b711a0682d98bef088ac000f6b682bdffd
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Sun Jul 13 10:38:55 2014 -0700
 
+    Add a placeholder ghost sprite
+
+commit 6ff5843ff78f32e2fabfc228633d59c59e2c9d12
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Sun Jun 29 19:10:28 2014 -0700
+
+    Remove sex demons
+    
+    Retheme arenasprint's "succubus" to "dimme".
+    
+    Not that it really matters, since no one actually plays
+    arenasprint (no one had seen this boss in more than a year),
+    but it was still kind of embarassing having it around.
+    
+    The new sprite isn't ideal either, but I don't have the talent
+    to render "a hairy body, a lioness' head with donkey's teeth and
+    ears, long fingers and fingernails, and the feet of a bird with
+    sharp talons." Maybe someone else can!
+
+commit dd45dc13b006dea308cabc6992a867683b4dcc57
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Wed May 28 21:01:35 2014 -0700
+
+    Make the lightning scales a bit more visible (7588)
+    
+    Not a very good spriting job, but it looks liveable in play.
+
+commit 48ad150b2f9db6246e953d5d585df85379ed7f31
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Sat Apr 19 13:08:44 2014 -0700
+
+    Add orange crystal plate armour unrand
+    
+    Adds a new artefact designed to encourage players to cast in
+    ultra-heavy armour.
+
+commit 7514cc06760e159a4e083bbce848a88649d00cd1
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Mon Mar 3 11:29:02 2014 -0700
+
+    Update a couple of vaults for new species and minor issues.
+    
+    Includes one old species that was missed (gargoyles).
+    
+    Borrows the player tile for vine stalkers to give them a tile; these
+    (and formicid enemies, which actually appear elsewhere) should get real
+    tiles!
+    
+    Since felid enemies revive now, they've been removed from a couple of
+    vaults where they could get killed on D:1 and respawn outside the vault,
+    killing unaware players; the ideal behaviour here would probably involve
+    them respawning inside the vault, but figuring out how to do that is a
+    problem unto itself.
+    
+    A couple of cases where enemies could spawn with equipment
+    unintentionally have also gone away.

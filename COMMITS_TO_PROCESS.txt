@@ -706,24 +706,6 @@ Date:   Tue Oct 21 19:35:12 2014 -0700
     is not what that ego did! (This was another point of confusion for
     unspoiled players.)
 
-commit 2c50dbd9141c3b989db4c23d51a354d9dc00441f
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Tue Oct 21 08:29:25 2014 -0700
-
-    Remove unused chunk icons
-
-commit 1fd935986227c818407c402cdb17a00845a6cd17
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Mon Oct 20 19:35:54 2014 -0400
-
-    Remove the Draconian Breath dummy spell.
-    
-    Draconians now get their breath weapons given on the fly, rather than
-    hardcoded in mon-spll.h. Arguably this is uglier, but it's a lot simpler
-    for both the coder and the player; this was prompted, for example, by
-    |amethyst pointing out that classed grey dracs had Draconian Breath listed
-    in xv.
-
 commit f3cef8307a6a4290f3adac1c642516b4ea89a6c3
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Sat Oct 18 17:06:35 2014 -0700
@@ -794,12 +776,6 @@ Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Mon Oct 6 22:38:14 2014 -0700
 
     Add a placeholder Hydra Form icon
-
-commit b839cf3072d8a075b3f36998ce29f2024dff5b55
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Mon Oct 6 22:33:49 2014 -0700
-
-    Remove UNUSED potions (hangedman)
 
 commit 699286965219725037ee459b8178674c9c5ceb98
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -1086,58 +1062,6 @@ Date:   Sun Jul 13 13:46:05 2014 -0400
     
     With optipng + advpng.
 
-commit b291e5b711a0682d98bef088ac000f6b682bdffd
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sun Jul 13 10:38:55 2014 -0700
-
-    Add a placeholder ghost sprite
-
-commit cfb61905c56eeeb599c04d43f7be9efdaad15e89
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sun Jul 13 00:10:30 2014 -0700
-
-    Rebalance crossbows
-    
-    Again as a result of the ranged weapons rebalance, crossbows
-    needed to change. The analogy here is long blades' to bows'
-    m&f; better return on skill investment & a higher power cap,
-    but rarer.
-    
-    Hand crossbows are added as a starting type, "something like an
-    armour-piercing dagger"; crossbows are upgraded to arbalests
-    (a little worse than a glaive), and a new rare triple crossbow
-    type is added on the top end (a little worse than a bardiche,
-    though with a lower skill cost.) Please note that the triple
-    crossbow historically existed & is extremely verisimilitudinous.
-    
-    Hellfire is now an arbalest, and Sniper is now a triple crossbow
-    (well, a "heavy crossbow", since it has mindelay of 27 instead of
-    22, and since I didn't want to have to change the sprite).
-    
-    All crossbows have a mindelay of at least 1.0; this is an attempt
-    to differentiate them. Possibly something more ambitious will be
-    attempted in 1.6, but this is a first step.
-
-commit c79dab4f1f31310c8ecce6b25c825dd97a329a50
-Author: reaverb <reaverb.Crawl@gmail.com>
-Date:   Thu Jul 3 18:38:03 2014 -0400
-
-    Remove sharks from the game
-    
-    They had all the same problems as big fish or other melee liquid-only
-    monsters.
-
-commit f50cd79e552f9261d07230077738ee245a9eebfe
-Merge: c84488f 8844f9d
-Author: reaverb <reaverb.Crawl@gmail.com>
-Date:   Thu Jul 10 16:38:06 2014 -0400
-
-    Merge branch 'master' into iashol
-    
-    Conflicts:
-    	crawl-ref/source/actor.cc
-    	crawl-ref/source/godpassive.cc
-    	crawl-ref/source/tags.cc
 
 commit b938532f5e844c74ce70ae9282c10cf00cbb8666
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -1158,62 +1082,7 @@ Date:   Wed Jul 9 21:51:32 2014 -0700
     
     Thanks to Lasty for providing a baseline math suggestion!
 
-commit af9c773e796cefc7a2c94a3ba07f23139ecb07ef
-Author: reaverb <reaverb.Crawl@gmail.com>
-Date:   Mon Jul 7 19:52:40 2014 -0400
 
-    Remove Lava Worms
-    
-    Lava Worms had all the problems of Big Fish and Sharks, and furthermore
-    only appeared in a few volcano vaults and a serial vault.
-
-commit 3167ec3d6532df95e4d16b1ec514199c66ec646d
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Sun Jul 6 09:20:32 2014 -0400
-
-    Remove potions of strong poison.
-    
-    Their peculiar depth restriction meant that when you found them, they were
-    quite harmless. Even if the restriction were removed, they would be
-    basically the same as potions of poison, since when they might be harmful
-    the player would have little enough HP that the weaker potion could kill
-    them.
-    
-    Their weight is distributed evenly among all other potions -- a very
-    slight buff seems like a fine thing to do, especially since potion
-    generation at D:2-10 isn't considered too good.
-
-commit 3d2a0df9fdb6e46349e48701897ec4acec95a548
-Author: Neil Moore <neil@s-z.org>
-Date:   Sat Jul 5 22:01:58 2014 -0400
-
-    Reformat.
-    
-    Mostly by joining short lines in places where that would let us remove
-    braces.
-
-commit ad9ca2428799aaa4be837d1b84e026b89f7c54e8
-Author: reaverb <reaverb.Crawl@gmail.com>
-Date:   Mon Jun 30 20:27:04 2014 -0400
-
-    Remove Big Fish from the game
-
-commit 6ff5843ff78f32e2fabfc228633d59c59e2c9d12
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sun Jun 29 19:10:28 2014 -0700
-
-    Remove sex demons
-    
-    Retheme arenasprint's "succubus" to "dimme".
-    
-    Not that it really matters, since no one actually plays
-    arenasprint (no one had seen this boss in more than a year),
-    but it was still kind of embarassing having it around.
-    
-    The new sprite isn't ideal either, but I don't have the talent
-    to render "a hairy body, a lioness' head with donkey's teeth and
-    ears, long fingers and fingernails, and the feet of a bird with
-    sharp talons." Maybe someone else can!
 
 commit c7949fa8a4b3fe74ee2132ce0b5f558ba854b2a9
 Merge: 073aa29 0ee8742
@@ -1235,63 +1104,17 @@ Date:   Fri Jun 20 20:35:54 2014 -0700
 
     Make Iron Devil tiles display weapons
 
-commit 9b7421e1bc34b7e424dcfd497249e2e32f0a6e0c
-Author: reaverb <reaverb.Crawl@gmail.com>
-Date:   Wed Jun 18 18:11:12 2014 -0400
-
-    Remove the dragon slaying brand
-    
-    Generally it doesn't create interesting decisions because dragons are
-    such a small group and are mostly a subset of monsters slowed by the
-    freezing brand. In addition, it has rather arbitrary effects against
-    players, hitting some for an degenerate amount of damage while ignoring
-    others.
-
 commit 47cdaedce35142bfa17314753ad33c9e084c6e24
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Tue Jun 17 21:18:57 2014 -0700
 
     Differentiate teleport trap tiles
 
-commit 74d4e68c6cc6146599720906622add4215071b0f
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Tue Jun 17 12:55:28 2014 -0400
-
-    Remove pulsating lumps.
-    
-    Cigo's now has simple shapeshifters, which seem to work all right.
-
-commit 453527f43a8e6778a0bf5ac4eaac57a0d6c09eec
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Tue Jun 17 11:49:24 2014 -0400
-
-    Remove brown oozes.
-    
-    The idea behind them seems to be a simple upgrade to a jelly, rather
-    than getting one of the more complicated and harder monsters like
-    acid blobs/death oozes/azure jellies. The thing is, they generate only
-    in Slime, outside vaults, and by then they're not very different from
-    jellies, being mostly just "weak things that corrode." Even in the Slime
-    entrance with 4 of them, which is all of them most games will see, they're
-    already pretty weak. Slime itself has plenty of enemy variety and can
-    stand the removal.
-
 commit 4d6b2eaccc57a13a8fe72fca8fc3db9678ca7c17
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Sat Jun 7 17:11:56 2014 -0700
 
     Add torpor snails
-
-commit e1f089e4d803acad323b702ff29d2f754c6d3641
-Author: reaverb <reaverb.Crawl@gmail.com>
-Date:   Sun Jun 15 16:39:31 2014 -0400
-
-    Rename "vampiricism" to "vampirism" (ChrisOelmueller, #8435)
-    
-    Chris Oelmueller made an excellent patch for this, but unfortunately it
-    was rather rotted by the time somebody decided to look at it. It was
-    easier to recreate than update. I've also added some tiles stuff which
-    was missed in the original patch.
 
 commit ff84095d8b04a5b2e939fbfb1d8688f82ed4d1a2
 Author: Chris Oelmueller <chris.oelmueller@gmail.com>
@@ -1312,32 +1135,12 @@ Date:   Wed Apr 23 17:30:09 2014 +0200
     [Committer's note: merged a few commits into this, where it seemed sensible.
     Also reworked the scroll weights, but yeah, that needs another pass.]
 
-commit b03d3d0b07f0f28cc2cc4abf3fa23ab574803685
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Mon Jun 9 09:02:00 2014 -0400
-
-    Remove giant fireflies.
-    
-    Outside of vaults, they existed only from spriggan rider death,
-    and as a fairly rare spawn in Swamp. Their stats were overall very
-    similar to 'spider,' and their special ability was not too noticeable.
-    
-    Spriggan riders now ride vampire mosquitoes instead, as a more swampy
-    substitute.
 
 commit b0119f4bb604346a57d4d41e885d9fa9bbde0bf6
 Author: Neil Moore <neil@s-z.org>
 Date:   Sun Jun 8 01:02:30 2014 -0400
 
     Move steel/silver dart tiles to UNUSED.
-
-commit 1f1de3a74fa8abf7c4148e7188dcce2801b3a3db
-Author: Neil Moore <neil@s-z.org>
-Date:   Sun Jun 8 01:00:34 2014 -0400
-
-    Remove tiledef for Make Dart Trap.
-    
-    And move the tile to UNUSED/
 
 commit 606926441a56742edf50ed697c80ec3490840677
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -1354,53 +1157,6 @@ Date:   Wed Jun 4 22:50:52 2014 -0400
     Elephant slug tiles remain to produce corpse tiles for gastronok.
     Perhaps somebody better at the tiles stuff can change this.
 
-commit ba203fcf0cb2dbdfd720e0dcae2e08aecbc5e8d3
-Author: reaverb <reaverb.Crawl@gmail.com>
-Date:   Mon Jun 2 01:50:16 2014 -0400
-
-    Remove Elephant Slugs (actually turn them to dummy monsters)
-    
-    Basically this has all the effects of a removal, but the elephant slug
-    "stat block" remains as a dummy so Gastronok has a base type. The slugs
-    even get swapped out on load for ghosts.
-    
-    One thing I've considered is turning Elephant Slugs into some other
-    monsters, such as worms. "Slug" conveys the fact it is slow better than
-    "Worm".
-
-ommit 574083af5af8c7216523a4a450a5dbe7d8fb85c1
-Author: reaverb <reaverb.Crawl@gmail.com>
-Date:   Sun Jun 1 17:32:31 2014 -0400
-
-    Remove Giant Slugs
-    
-    Slow melee-only monsters are awful, and nobody objected to removing
-    these. Next to be removed: elephant slugs.
-    
-    Somebody might want to look over my vault edits, as ususal.
-
-commit 181ecfb998c0b570a842483dbbf6e299d6d8f235
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Wed Feb 26 21:38:46 2014 -0500
-
-    Remove darts.
-    
-    They don't have much use outside the first level of D (possibly
-    also the second): popping spores, killing slow things, waking up
-    sleeping monsters, etc. are all served just as well by stones,
-    and anybody who really wants to do damage with throwing would be
-    better served with tomahawks before they find javelins. For one
-    case where they could be useful (dispersal), tomahawks have been
-    given a chance at the dispersal brand.
-
-commit dd45dc13b006dea308cabc6992a867683b4dcc57
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Wed May 28 21:01:35 2014 -0700
-
-    Make the lightning scales a bit more visible (7588)
-    
-    Not a very good spriting job, but it looks liveable in play.
-
 commit a909be48937adde69d6b6366942f1d9b3643de32
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Wed May 28 08:39:53 2014 -0700
@@ -1412,16 +1168,6 @@ Author: Neil Moore <neil@s-z.org>
 Date:   Mon May 26 19:04:11 2014 -0400
 
     Move old food tiles to UNUSED/
-
-commit 946bf4815769fef29f30d8bbbc87150b17164ca3
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Sun May 25 11:55:18 2014 -0400
-
-    Remove some foods.
-    
-    Sausages, snozzcumbers, oranges, bananas, lemons, pears, apples,
-    apricots, chokos, rambutans, lychees, strawberries, grapes, sultanas,
-    and cheese.
 
 commit 6f959b73ab6b07a742e45870b540a2038e405253
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -1449,107 +1195,7 @@ Date:   Wed May 21 22:16:55 2014 -0400
     Thankfully the bikeshed doesn't even have to change colour -- they
     were always both yellow.
 
-commit 3aea5c34a3128f84cacb6893a9c940565e3aac03
-Author: reaverb <reaverb.Crawl@gmail.com>
-Date:   Wed May 21 18:31:59 2014 -0400
 
-    Remove Ambrosia
-    
-    Not removing DUR_AMBROSIA yet because ideas on ##crawl-dev such as
-    giving the effect to !magic have been proposed.
-    
-    Once again, somebody might want to review my vault edits. I mostly
-    replaced ambrosia with honeycombs.
-
-commit 8e2e937ec566970cbdab560c9245b8366ba24709
-Author: reaverb <reaverb.Crawl@gmail.com>
-Date:   Wed May 21 02:05:55 2014 -0400
-
-    Remove royal jellies
-    
-    Somebody else might want to review my vault changes - I mostly replaced
-    them with honeycombs, which might be a problem, for example, in the
-    Jiyva vaults.
-
-commit edb40d360931499a73b11273a2af2a7e1d5fe4f4
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Wed May 14 12:24:10 2014 -0400
-
-    Remove plague shamblers.
-    
-    The idea behind the miasma death explosion is interesting, but in
-    general miasma can be extremely annoying and the cloud rather easy
-    to avoid. This is especially true in the layout of Crypt, which is
-    the only place they show up outside of vaults. The retching attack
-    gave a rare special case that very rarely mattered and didn't help
-    to distinguish them all that much.
-
-commit 12223c06ef9274e1b90c86d4c6a8ebd9f813c66a
-Author: reaverb <reaverb.Crawl@gmail.com>
-Date:   Tue May 13 14:19:11 2014 -0400
-
-    Remove Shedu
-    
-    They never really worked as enemies - their only unique aspect, partner
-    resurrection, was just annoying.
-
-commit c99bbcdc1e4f27e1d6e1a25a6275415ccc2be6ea
-Author: Neil Moore <neil@s-z.org>
-Date:   Mon May 12 23:33:52 2014 -0400
-
-    Move some tiles to UNUSED/.
-
-commit 98828b51fa4fe7a364dcf82210250ee1ec68fee5
-Author: Neil Moore <neil@s-z.org>
-Date:   Mon May 12 23:29:34 2014 -0400
-
-    Remove some unused tiledefs.
-
-commit 9bc6d1f085097d001f0ff31f9bb900bb71957212
-Author: Neil Moore <neil@s-z.org>
-Date:   Mon May 12 18:00:32 2014 -0400
-
-    Formatting fixes (add braces).
-    
-    This fixes all the instances caught by unbrace.
-
-commit d54608118996fe6861b0eaf66f1d4f0ca039359f
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Sat May 10 19:27:10 2014 -0600
-
-    Revert "Remove silver statues."
-    
-    Don't worry; the whole point of this set of commits is to fix the problems
-    with them and their companion statues.
-    
-    This partially reverts commit b4c3b502143418fb4fdb3faaa29a2ef6e9eabce5.
-    This reverts commit e1156a91a6a0b1bb26c7e7ee63710c3eefbd2739.
-
-commit b4c3b502143418fb4fdb3faaa29a2ef6e9eabce5
-Author: reaverb <reaverb.Crawl@gmail.com>
-Date:   Sat May 10 12:25:26 2014 -0400
-
-    Move the tiles of several removed monsters to UNUSED/monsters
-
-commit e1156a91a6a0b1bb26c7e7ee63710c3eefbd2739
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Fri May 9 15:25:19 2014 -0400
-
-    Remove silver statues.
-    
-    They have all the usual problems of summoners, stationary monsters,
-    and special-cased interactions (with disintegration). Almost every
-    single vault that had them was "OCS / silver statue / ice statue"
-    or something like that, so fairly few actual changes had to be made.
-
-commit 48ad150b2f9db6246e953d5d585df85379ed7f31
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sat Apr 19 13:08:44 2014 -0700
-
-    Add orange crystal plate armour unrand
-    
-    Adds a new artefact designed to encourage players to cast in
-    ultra-heavy armour.
 
 commit 1b0b24d4209a7553b4b938f65d5a61ecfb126f77
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -1611,14 +1257,6 @@ Date:   Mon Mar 31 18:06:24 2014 -0600
     
     Handles some functionality for having a god without piety.
 
-commit df45d3f71900e6c02a753c4f960d634c619464d8
-Author: reaverb <reaverb.Crawl@gmail.com>
-Date:   Tue May 6 19:01:54 2014 -0400
-
-    Remove phoenixes
-    
-    They were so annoying they were removed from holy zigs, reducing their
-    appearnces to just a few vaults.
 
 commit 6a80b7c58fa375d748f750e76455d4d4d48d1420
 Author: Shmuale Mark <shm.mark@gmail.com>
@@ -1654,15 +1292,6 @@ Date:   Sun Apr 13 03:25:21 2014 +0200
     
     For a clear distinction of "bows" the skill, and from "longbow" the weapon.
 
-commit a5424833455d53c6fb2d6d63a9e9feb38181cbf1
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Sun May 4 23:47:47 2014 -0400
-
-    Remove spriggan enchanters.
-    
-    The monster. It didn't really exist anywhere, nor did the idea seem
-    to add too much to the good-sized danger that spriggans already posed.
-
 commit f3c7235ddb147bc10b815d7cf37697925bf3725c
 Author: Chris Oelmueller <chris.oelmueller@gmail.com>
 Date:   Thu Apr 24 15:19:29 2014 +0200
@@ -1671,28 +1300,6 @@ Date:   Thu Apr 24 15:19:29 2014 +0200
     
     Those give one level of -50/+50 stealth each. Stealth is priced at old
     sustenance level (but often comes cursed), loudness around 50-60 after curses.
-
-commit 854206a97f0041d8b4ad217dd424c1e1699095fb
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Tue Apr 29 17:36:52 2014 -0400
-
-    Remove grizzly bears.
-    
-    They were almost identical to polar bears, which at least had the
-    distinguishing (from black bears) to swim and be at home in an ice
-    cave.
-
-commit 26c693a4800d2c01efe070374f53abfae6e73675
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Tue Apr 29 11:40:40 2014 -0400
-
-    Remove flaming corpses.
-    
-    Sticky flame damage is hardly noticeable in D, and basically
-    non-existent in Crypt -- the only thing an average game noticed
-    about these monsters was that they liked to destroy scrolls. It was
-    nice for some vaults to have an undead counterpart to simulacra but
-    there are plenty of other evil fiery monsters.
 
 commit 6cf688689bb1239c770369ed0ad4d2e7f9c95282
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -1714,11 +1321,6 @@ Date:   Sat Mar 29 11:36:03 2014 -0600
 
     Purge an extraneous bit from dc-mon.txt.
 
-commit 9465d971ba66501fa24aff962a72f9ead95ff734
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Sat Mar 29 09:48:48 2014 -0600
-
-    Remove some residual clay and stone golem references.
 
 commit c79f8be0736f2031b2b80f95b16eb3734db6e2e4
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -1898,30 +1500,6 @@ Date:   Sun Feb 23 02:41:46 2014 -0330
     and a selection of Greek mythological beasts are surely at least as
     suitable things for her to summon as... whatever ugly things are.
 
-commit 3813bf075242519dac1e256daebaa9b143d01bcc
-Author: DracoOmega <draco_omega@live.com>
-Date:   Fri Feb 21 22:10:28 2014 -0330
-
-    Remove Demonic Horde
-    
-    This was neither a popular nor powerful nor especially interesting
-    spell, which was basically 'Call Imp, except a lot more of them'.
-    Making the demons more individually powerful only further steps on
-    the toes of the many other demon summoning spells that already
-    exist, so I think it is fine to simply trim it.
-
-commit 49e238f2a21cc04e99c3c945041b9d7e274b07b4
-Author: Chris Oelmueller <chris.oelmueller@gmail.com>
-Date:   Wed Feb 12 19:32:20 2014 +0100
-
-    Don't generate racial armour
-    
-    [It had much the same problems as racial weapons, with only very slightly more
-    significant effects. Some of the old effects of racial armour could potentially
-    be rethought and made into a new armour ego. Beogh still gives a (slightly
-    smaller than before) bonus for armour use, without the orcish requirement.
-     -MarvinPA]
-
 commit 8b1149591b3894a79f8ef8912954a822a9c9c132
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Wed Mar 5 21:55:00 2014 -0700
@@ -1942,20 +1520,6 @@ Date:   Wed Mar 5 21:37:23 2014 -0700
 
     Move some unused tiles and remove references to them.
 
-commit 39441b969f793fffea86238070633afe5c24c60b
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Wed Mar 5 11:50:54 2014 -0700
-
-    Fix up some TAG_MAJOR_VERSION > 34 issues.
-
-commit ea69ec1fc76948948e00f19449f52da422193905
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Mon Mar 3 19:33:52 2014 -0700
-
-    Enums for missing tiles for monster spells/abilities.
-    
-    See also c5ce8eb, the last time I did this (shortly before 0.13
-    branched - a sign?).
 
 commit eff2d49755ad2def1142e1078cbcdea9ce1cb03a
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -1988,26 +1552,7 @@ Date:   Mon Mar 3 18:40:08 2014 -0700
     "pot-bellied", per roctavian's comments. If this still looks back,
     someone more experienced at tile editing will have to fix it.
 
-commit 7514cc06760e159a4e083bbce848a88649d00cd1
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Mon Mar 3 11:29:02 2014 -0700
 
-    Update a couple of vaults for new species and minor issues.
-    
-    Includes one old species that was missed (gargoyles).
-    
-    Borrows the player tile for vine stalkers to give them a tile; these
-    (and formicid enemies, which actually appear elsewhere) should get real
-    tiles!
-    
-    Since felid enemies revive now, they've been removed from a couple of
-    vaults where they could get killed on D:1 and respawn outside the vault,
-    killing unaware players; the ideal behaviour here would probably involve
-    them respawning inside the vault, but figuring out how to do that is a
-    problem unto itself.
-    
-    A couple of cases where enemies could spawn with equipment
-    unintentionally have also gone away.
 
 commit 5516d479cdc6e041aebf3df4311fde0ab3d6fb48
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -3269,18 +2814,6 @@ Date:   Fri Aug 10 18:51:28 2012 -0600
 
     white_noise's new entrance and edited stair tiles (#6050).
 
-commit 5d32d4d5e985fb34e05e05407f9597566f157e90
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Sat Aug 4 15:30:15 2012 -0600
-
-    Allow specification of only one of image or code handling in tilegen.
-    
-    This allows the image and the code to be built independently; thus their
-    dependencies can be (and now are) checked separately, preventing code
-    from being rebuilt when only tile images have been updated (as opposed
-    to the dc-*.txt definitions of the images, which are a dependency for
-    both the image ant the code).
-
 commit 8467ec47beddc8af560fc5cce0b837194f8dc757
 Author: Neil Moore <neil@s-z.org>
 Date:   Sat Aug 4 15:22:36 2012 -0400
@@ -3296,33 +2829,6 @@ Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Sat Aug 4 20:25:08 2012 +0200
 
     roctavian's dwarven dagger and short sword (#5622).
-
-commit 6162a48eca6a5b9e2ea800138051c03b100a7a1f
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Sat Aug 4 12:11:44 2012 -0600
-
-    Prevent spurious tile file rebuilds.
-    
-    The time stamps of rltiles/tiledef-* and rltiltes/tileinfo-* weren't
-    being updated due to the code refusing to overwrite the files if they
-    hadn't changed; this was confusing the Makefile into attempting to
-    regenerate the tiles even if they didn't need to be regenerated. The
-    code now unconditionally overwrites the files when they needed to be
-    generated.
-    
-    This also fixes an issue where the dependency files for the images was
-    incorrect when doing a non-tiles build - the wrong path for some images
-    was not turning up on account of not checking to see if the provided
-    file name existed. This has been addressed. (I suspect that this was the
-    root cause of the issue that originally motivated the introduction of
-    checking to see if the file needing to be overwritten.)
-    
-    Some now-needless functionality related to the above has been removed;
-    if it's needed again in the future, it can be pulled from the revision
-    history.
-    
-    This partially reverts commit 5d812b3a48325e4c98a24bd036cba34cb9c9747f.
-    This partially reverts commit 7959c502806592ca859baca8aad455f51beaac89.
 
 commit da23c09bfcd5d508e9fffb1ee39bb6e263524aa2
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -3351,13 +2857,6 @@ Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Fri Aug 3 14:06:01 2012 +0200
 
     dd's player doll lajatang tile (#5724).
-
-commit 7b358e689a90b0139353f75f4a9f4a57b3876355
-Author: Neil Moore <neil@s-z.org>
-Date:   Wed Aug 1 21:11:47 2012 -0400
-
-    Remove an unused variable.
-
 
 commit 806c746e6f3b5b04ca3032769d3d68ab49362533
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -3399,13 +2898,6 @@ Date:   Sat Jul 28 15:34:38 2012 +0200
 
     Delete an old unused orcish glaive tile.
 
-commit aba1daf6cdf034b9bba275ab898937293b25f166
-Merge: 728e93f f9ab910
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Thu Jul 26 22:38:11 2012 +0200
-
-    Merge branch 'slime-tiles'
-
 commit c3b99014b35f2cbb930a90d058bd5e0a1012fc59
 Author: elliptic <hyperelliptical@gmail.com>
 Date:   Wed Jul 25 01:30:48 2012 -0400
@@ -3444,18 +2936,6 @@ Date:   Tue Jul 24 14:13:54 2012 +0200
     roctavian's improved ant tiles (#5903).
     
     These are much easier to see on the dungeon floor.
-
-commit 04b0d18f90d0ee95af0143a6a58923141dd08d4c
-Author: elliptic <hyperelliptical@gmail.com>
-Date:   Sun Jul 22 03:02:48 2012 -0400
-
-    Remove Projected Noise.
-    
-    A L2 spell that lets you get the rune from Tomb:3 without seeing a single
-    mummy there or lets you pick through the loot on a late Zig level at your
-    leisure... the idea of the spell is neat, but it is hugely overpowered in
-    certain places if you know how to use it (while being near-useless most of
-    the rest of the time) and I don't see much hope of balancing it.
 
 commit 9b3039a3073899a58e1f422d7317ed143ddd24bb
 Author: Jon Knapp <thann@linux.com>
