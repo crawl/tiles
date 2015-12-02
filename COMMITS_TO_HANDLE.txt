@@ -1821,3 +1821,230 @@ Date:   Wed Nov 10 18:47:07 2010 -0800
     Improved beards! (Thank you, Terence Reeves.)
 
 
+commit e2ddec9b330801a364ca40689097764464f4a99b
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Fri Oct 2 18:44:40 2015 -0400
+
+    Change Kryia's to double device heal and disable for DD (|amethyst)
+    
+    So now it does nothing for Vine Stalkers and Deep Dwarves.
+
+commit 23d607761b2e658257900ba72bae234046ae8f20
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Thu Oct 1 21:38:46 2015 -0400
+
+    New unrand: Kryia's mail coat
+    
+    +7 Kryia's mail coat {DeviceHeal+++, rC+} (base type: scale mail)
+    
+    This artefact makes use of the refactored device heal code (further
+    refactored in this patch) to increase device heal -- if you have no
+    device heal penalties, this will double the healing you get from potions
+    and wands.
+
+commit 46ae38645ce45a0c324cb6981f507e422121ef37
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Tue Sep 29 19:08:04 2015 -0400
+
+    Add the robe of vines
+    
+    The +3 robe of vines {Regen++++++++}. That's 8 plusses.
+
+commit 222fba8ceb3997b13ec9571595e276fd1d41909f
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Mon Aug 31 22:22:00 2015 -0400
+
+    Add juggernauts
+    
+    These Depths-dwellers hit very, very hard, but have significant delay
+    after each swing. They move quickly tho.
+
+commit 1d60061d872ed8b8e6bfe6d576f3c3ecd6477557
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Tue Apr 28 21:31:34 2015 -0400
+
+    Unreverse new Ru ability tiles and shrink them a bit (nicolae-)
+    
+    There's probably still room for improvement.
+
+commit 0d57b2b7aee5ef1142e970cf778259bdf12523f4
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Sat Apr 25 11:41:37 2015 -0400
+
+    Add two new Ru sacrifices: resistance and eye
+    
+    Sacrifice Resistance is {rF- rC-} and worth as much piety as sac hand.
+    Sacrifice an Eye gives you 2x inaccuracy, like the amulet*2. It stacks with
+    the amulet. It's worth 35 piety, like Sacrifice Skill.
+
+commit 9753fc1d99af969af8565d907b85ab6867cfad9a
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Sat Apr 18 09:46:57 2015 -0400
+
+    Add an entropy weaver tile (floatRand)
+
+commit a18de542a77c91a4d3e0a6e70bc1bcbd921814d9
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Sat Apr 11 09:45:40 2015 -0400
+
+    Move entropy weavers to brown p and clean up some tile data
+    
+    Entropy weavers are humanoids, so it makes sense to put them on p. They
+    were only on x originally because I mistakenly thought all the p colors had
+    been used. I put them on brown because they inflict corrosion.
+
+commit 3ff70fcd4de09b5090057fa7480fdaea456eab16
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Sat Apr 4 14:44:02 2015 -0400
+
+    New monster: Entropy Weaver
+    
+    Entropy weavers have four weak-ish attacks and a word-of-recall-type spell,
+    word of entropy. The spell applies 5 stacks of corrosion after a 3 turn
+    chant delay; the weavers come with a small band of spiders to take advantage
+    of the corroded player, but the weavers themselves become reasonably
+    dangerous once you are badly corroded.
+    
+    Entropy weavers can be found mostly in Spider and Depths, but also rarely in
+    Vaults.
+    
+    This monster needs a new tile.
+
+commit e77af6f334cf9b8692214f391e9fcb084bffeaa3
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Fri Apr 3 20:18:16 2015 -0400
+
+    Reconceptualize firecallers a bit
+    
+    Raising hd to 11 (gammafunk), making them salamanders and renaming them
+    to salamander stormcaller (to not conflict w/ salamander firebrand)
+
+commit d4fac0c7e8512236d4f891be2c5bd3f6e142c824
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Wed Apr 1 20:06:32 2015 -0400
+
+    Add firecallers
+    
+    Firecallers are fire cultists with flaming melee and a spellbook including
+    conjure flame and chant fire storm a spell that immobilizes the caster for
+    3.5 turns and then calls down a fire storm on you. Think 'word of recall
+    fire storm'. This is an attempt to make use of the interesting space opened
+    up by word of recall.
+    
+    Firecallers are rare spawns in late D, as well as Vaults, Abyss and Depths.
+    That might narrow after some testing.
+
+commit 18ec49bd7f0adf30e6f3726edeacced8a537ee8c
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Wed Jan 28 20:40:18 2015 -0500
+
+    add two new Ru sacrifices
+    
+    Sacrifice Skill gives you -1 to all skill aptitudes and recalculates all
+    your skills based on the new values. ~35 piety.
+    
+    Sacrifice experience takes two experience levels and limits your max XL
+    to 25. ~28 piety.
+    
+    Featuring terrible placeholder ability icons!
+
+commit 85f6bb1743734f32b37e42f28706821c03c4094b
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Mon Nov 3 22:49:07 2014 -0500
+
+    De-insectify shrikes a little more.
+
+commit 174e299baafbcc9364a1cbb23df2dcc43767826b
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Mon Nov 3 22:17:32 2014 -0500
+
+    Rename caustic bees to caustic shrikes and make them birds.
+
+commit ad67e7ff252d58a05a02b1f5cb83a343786e2088
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Fri Oct 31 19:33:24 2014 -0400
+
+    Rename caustic wasps again, this time to caustic bees
+    
+    Also, lower the MR to 80, and reduce the odds of them spawning anywhere
+    in dungeon, and prevent a band from ever spawning in Dungeon.
+    
+    They're less likely to spawn in Dungeon than storm dragons, tengu
+    reavers, deep elf annihilators, and war gargoyles.
+
+commit 4ff1146e736017458de9fd73e6ebdc6675fb4966
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Tue Oct 28 21:20:11 2014 -0400
+
+    Add caustic wasps
+    
+    Caustic wasps are intended to add a top-tier fast, pack threat to
+    depths analagous to killer bees in early Dungeon. In place of stacking
+    poison, they stack corrosion via acid.
+    
+    The goal is to create in Depths the sorts of interesting situations
+    killer bees create in Dungeon, and also to provide another type of
+    top-tier threat in Depths.
+    
+    Tile is a placeholder.
+
+commit 2754f52dabb28ee852e2011d45501054577b57f3
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Sun Sep 28 15:31:33 2014 -0400
+
+    Rename mermaids/sirens
+    
+    Mermaids are now sirens, and sirens are merfolk avatars and have been
+    made gender neutral and had their descriptions redone. Both are now
+    merfolk for purposes of cannibalism and pacification (and all other
+    purposes). Both monsters still function the same.
+    
+    Revised tiles forthcoming.
+
+commit 795ecda36efc129698bf5f761c22cc1300616094
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Tue Sep 23 18:53:38 2014 -0400
+
+    Rename the Sac Sanity tile to match the previous commit (oops)
+
+commit f64922dfdc87eb2d45d05e7811a0a23103251e94
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Tue Sep 23 18:45:06 2014 -0400
+
+    Rename Sacrifice Sanity to Sacrifice Courage
+    
+    It was a long time coming.
+
+commit 076ae153bbbc81b14dd4d7343004f7144e61e342
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Thu Sep 18 19:22:53 2014 -0400
+
+    Rename Ru's Cataclysm to Apocalypse and adjust.
+    
+    'Cataclysm' was already part of a Qaz Invo title, so I'm changing
+    it to 'Apocalypse'. I'm also reflavoring it to be more thematic with
+    Ru's Awakening theme.
+    
+    Also, decreased the chances of doing only damage and increased the
+    damage done by nearly 30% when no status is inflicted. I believe
+    this should give a better feel of killing some of a group and
+    incapacitating but not killing the majority.
+
+commit cdeebcef90e2b45576cbcddcaeb632615daf2e73
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Tue Jul 8 20:28:20 2014 -0400
+
+    Iashol: RIP Iashol, long live Ru.
+    
+    This commit reskins Iashol to Ru and updates lore.
+
+commit 7ab5695b90565daf91d0280b49011072a53dd5fd
+Author: Corin Buchanan-Howland <corin@buchananhowland.net>
+Date:   Sun Jun 8 19:40:41 2014 -0400
+
+    Iashol fundamentals
+    
+    This commit is meant to include all foundational changes for Iashol that
+    make the god work at a basic level.
+
+

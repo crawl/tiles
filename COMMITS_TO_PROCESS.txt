@@ -27,77 +27,6 @@ Date:   Sun Oct 4 15:38:30 2015 -0400
     
     Tested save compat, picking up runes, creating runes.
 
-commit e2ddec9b330801a364ca40689097764464f4a99b
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Fri Oct 2 18:44:40 2015 -0400
-
-    Change Kryia's to double device heal and disable for DD (|amethyst)
-    
-    So now it does nothing for Vine Stalkers and Deep Dwarves.
-
-commit 23d607761b2e658257900ba72bae234046ae8f20
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Thu Oct 1 21:38:46 2015 -0400
-
-    New unrand: Kryia's mail coat
-    
-    +7 Kryia's mail coat {DeviceHeal+++, rC+} (base type: scale mail)
-    
-    This artefact makes use of the refactored device heal code (further
-    refactored in this patch) to increase device heal -- if you have no
-    device heal penalties, this will double the healing you get from potions
-    and wands.
-
-commit 46ae38645ce45a0c324cb6981f507e422121ef37
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Tue Sep 29 19:08:04 2015 -0400
-
-    Add the robe of vines
-    
-    The +3 robe of vines {Regen++++++++}. That's 8 plusses.
-
-commit f12a9eb9296c2c43e2389bcfd038c4765ee935a9
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Fri Sep 18 23:14:30 2015 -0500
-
-    Re-add the Lamia tile for tile_player_tile usage
-    
-    The unique was (and still is) removed, but this is an oft-requested
-    tile, since ontoclasm did such a nice job with it. Adding back her tile
-    so that such epic High Fantasy roleplaying as
-    
-    https://crawl.develz.org/tavern/viewtopic.php?p=160605#p160605
-    
-    can be properly supported.
-
-commit 77d4bee5c5bbefad8f2e66f3bc1a96f592e896b1
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Wed Jul 29 22:28:08 2015 +0100
-
-    Remove hammers
-    
-    They only really existed for one joke, and them being hammers in particular
-    isn't especially vital for it. Replaced with mostly maces and clubs in the few
-    vaults that did still use them.
-
-commit 222fba8ceb3997b13ec9571595e276fd1d41909f
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Mon Aug 31 22:22:00 2015 -0400
-
-    Add juggernauts
-    
-    These Depths-dwellers hit very, very hard, but have significant delay
-    after each swing. They move quickly tho.
-
-commit b56d33567c922da4ee51abd9da859f40766904de
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Fri Jun 12 18:39:35 2015 +0100
-
-    Rename ghostly flame clouds to spectral clouds (PleasingFungus)
-    
-    Since they had nothing at all in common with the ghostly flame beam used by the
-    ghostly fireball spell.
-
 commit 9d9c6fb015a49805bdc0166a96405ae54dfdd838
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Tue Jun 2 23:50:46 2015 -0700
@@ -107,14 +36,6 @@ Date:   Tue Jun 2 23:50:46 2015 -0700
     An old, unused Denzi catoblepas tile. Probably temporary.
     
     Corpse tile is just for completeness.
-
-commit 1268e0bce655f9111e50ba93dfbcb78e753d1b6d
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue May 26 12:10:08 2015 +0100
-
-    Remove some unused monster spells
-    
-    Frenzy, and Haste Plants.
 
 commit 9ed0da6b832139032f19d8321c3e5f9c4e4585fc
 Author: Alex Jurkiewicz <alex@jurkiewi.cz>
@@ -133,25 +54,6 @@ Author: Brendan Hickey <brendan@bhickey.net>
 Date:   Fri May 1 22:09:28 2015 -0400
 
     Update crypt floor tiles {CanOfWorms}
-
-commit 1d60061d872ed8b8e6bfe6d576f3c3ecd6477557
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Tue Apr 28 21:31:34 2015 -0400
-
-    Unreverse new Ru ability tiles and shrink them a bit (nicolae-)
-    
-    There's probably still room for improvement.
-
-commit bf6cc4d4ed96dafc548e055fa1262b04000b54fd
-Merge: 7e4731f 8818f73
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Wed Apr 29 00:14:20 2015 +0100
-
-    Merge branch 'stat_drain'
-    
-    Conflicts:
-    	crawl-ref/source/mutation-data.h
-    	crawl-ref/source/tag-version.h
 
 commit bc838597ddbedc7e5bcc7317fa9adce58d34c0e2
 Author: Brendan Hickey <brendan@bhickey.net>
@@ -248,16 +150,6 @@ Date:   Sun Apr 26 01:42:42 2015 +0000
     The four parameters should be non-negative 8-bit integers. To simplify
     the generated code, emit a bit-packed representation of the coloring.
 
-commit 0d57b2b7aee5ef1142e970cf778259bdf12523f4
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Sat Apr 25 11:41:37 2015 -0400
-
-    Add two new Ru sacrifices: resistance and eye
-    
-    Sacrifice Resistance is {rF- rC-} and worth as much piety as sac hand.
-    Sacrifice an Eye gives you 2x inaccuracy, like the amulet*2. It stacks with
-    the amulet. It's worth 35 piety, like Sacrifice Skill.
-
 commit 0b87ae3267893b15a306e871742e08bcd103ae73
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Wed Apr 22 21:58:18 2015 -0700
@@ -289,12 +181,6 @@ Date:   Mon Mar 16 14:24:30 2015 -0500
 
     Added code for a formicid corpse tile
 
-commit 9753fc1d99af969af8565d907b85ab6867cfad9a
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Sat Apr 18 09:46:57 2015 -0400
-
-    Add an entropy weaver tile (floatRand)
-
 commit dcab04f1b94a6a4f18d882a66ed2b73608a172d3
 Author: Shmuale Mark <shm.mark@gmail.com>
 Date:   Fri Apr 17 13:47:45 2015 -0400
@@ -320,16 +206,6 @@ Date:   Mon Apr 13 20:43:11 2015 -0700
     Credit to Bloax for the fire dragon recolour & Marbit for the
     lindwurm & armour recolours. Also, for the thread that inspired
     this.
-
-commit a18de542a77c91a4d3e0a6e70bc1bcbd921814d9
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Sat Apr 11 09:45:40 2015 -0400
-
-    Move entropy weavers to brown p and clean up some tile data
-    
-    Entropy weavers are humanoids, so it makes sense to put them on p. They
-    were only on x originally because I mistakenly thought all the p colors had
-    been used. I put them on brown because they inflict corrosion.
 
 commit 7ac023daab0acfe9f66fa6ca439ff3ff19c8246a
 Author: gammafunk <gammafunk@gmail.com>
@@ -403,81 +279,6 @@ Date:   Tue Apr 7 01:18:40 2015 -0500
     Made as a variant from the red volcanic wall tile. I'll be using this in
     a wizlab.
 
-commit 3ff70fcd4de09b5090057fa7480fdaea456eab16
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Sat Apr 4 14:44:02 2015 -0400
-
-    New monster: Entropy Weaver
-    
-    Entropy weavers have four weak-ish attacks and a word-of-recall-type spell,
-    word of entropy. The spell applies 5 stacks of corrosion after a 3 turn
-    chant delay; the weavers come with a small band of spiders to take advantage
-    of the corroded player, but the weavers themselves become reasonably
-    dangerous once you are badly corroded.
-    
-    Entropy weavers can be found mostly in Spider and Depths, but also rarely in
-    Vaults.
-    
-    This monster needs a new tile.
-
-commit e77af6f334cf9b8692214f391e9fcb084bffeaa3
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Fri Apr 3 20:18:16 2015 -0400
-
-    Reconceptualize firecallers a bit
-    
-    Raising hd to 11 (gammafunk), making them salamanders and renaming them
-    to salamander stormcaller (to not conflict w/ salamander firebrand)
-
-commit d4fac0c7e8512236d4f891be2c5bd3f6e142c824
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Wed Apr 1 20:06:32 2015 -0400
-
-    Add firecallers
-    
-    Firecallers are fire cultists with flaming melee and a spellbook including
-    conjure flame and chant fire storm a spell that immobilizes the caster for
-    3.5 turns and then calls down a fire storm on you. Think 'word of recall
-    fire storm'. This is an attempt to make use of the interesting space opened
-    up by word of recall.
-    
-    Firecallers are rare spawns in late D, as well as Vaults, Abyss and Depths.
-    That might narrow after some testing.
-
-commit c38a6e8078a8ea7e44b963e45873bda79b4bf1e8
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Feb 10 16:30:30 2015 +0000
-
-    Rework Gozag's gold distraction to use a player duration
-    
-    Rather than tie it to specific piles of gold, use a duration and prop on the
-    player to keep track of when to distract monsters. This fixes a number of
-    issues with the previous implementation: players are no longer encouraged to
-    avoid picking up fresh gold or to kite monsters to it, and the effect can still
-    be triggered if the monster is exploded into chunks.
-    
-    Functionally this strengthens the effect somewhat, since individual piles of
-    gold no longer expire one by one - the effect stacks for as long as the player
-    keeps refreshing the duration by killing new things.
-    
-    Rather than display a status light constantly, the gold line on the HUD is
-    highlighted while distraction is active.
-
-commit 01b03bd92021bf50459a535335f0d2e17c2b9a03
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Sat Mar 7 02:23:26 2015 +0000
-
-    Merge unborn into death knights
-    
-    Unborn were thematically a fairly weird remnant of monster deep dwarves. Death
-    knights now have spell set of agony, haunt, and injury mirror, taking the more
-    noticeable spells from the two spell sets and dropping a number of mostly
-    insignificant ones. Their entire spell set is also changed to be priestly,
-    rather than having a mix of wizard and priest spells as unborn used to
-    (they could also easily be reflavoured as spellcasters like hell knights and
-    necromancers instead, but having a mix of both just seems confusing, even
-    with spell types now displayed on xv).
-
 commit c96cd5b0c73ad5bd274c703ae82256fa6c2a0c17
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Mon Mar 9 18:30:25 2015 -0700
@@ -545,33 +346,6 @@ Date:   Wed Feb 18 17:39:02 2015 -0800
     An extremely powerful prize will be awarded to the first person
     who emails me with an in-game, ***NON-WIZMODE*** screenshot of
     this corpse. Cheating will not be taken lightly!!!
-
-commit 0b2a36624d00b95124c26fefb74141130ccd4444
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Sun Jan 25 23:46:23 2015 +0000
-
-    Rework Elyvilon's abilities
-    
-    Lesser Heal Other is removed, since there's no longer any point in pacifying
-    junk for piety. At 1* followers gain Lesser Self-Healing, at 2* Heal Other
-    (which is the old Greater Healing), allowing fairly early access to
-    pacification but with no piety refunds. 3* provides Purification, and Greater
-    Self-Healing is delayed to 4*. The self-healing abilities are also renamed to
-    just "Lesser/Greater Healing".
-
-commit 18ec49bd7f0adf30e6f3726edeacced8a537ee8c
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Wed Jan 28 20:40:18 2015 -0500
-
-    add two new Ru sacrifices
-    
-    Sacrifice Skill gives you -1 to all skill aptitudes and recalculates all
-    your skills based on the new values. ~35 piety.
-    
-    Sacrifice experience takes two experience levels and limits your max XL
-    to 25. ~28 piety.
-    
-    Featuring terrible placeholder ability icons!
 
 commit e6667735293361999c7bee4c117aabc3ac58edf2
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -1176,18 +950,6 @@ Date:   Tue Nov 4 13:18:51 2014 -0500
 
     Add Bloax's obsidian statue tile.
 
-commit 85f6bb1743734f32b37e42f28706821c03c4094b
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Mon Nov 3 22:49:07 2014 -0500
-
-    De-insectify shrikes a little more.
-
-commit 174e299baafbcc9364a1cbb23df2dcc43767826b
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Mon Nov 3 22:17:32 2014 -0500
-
-    Rename caustic bees to caustic shrikes and make them birds.
-
 commit 4d0b6572f173350dc09ced6b9b50a60e5f2ffca5
 Author: Shmuale Mark <shm.mark@gmail.com>
 Date:   Mon Nov 3 21:11:51 2014 -0500
@@ -1258,34 +1020,6 @@ Author: John McCartney <sicsemperjohn@gmail.com>
 Date:   Fri Oct 31 19:55:08 2014 -0700
 
     New flayed ghost tile, happy Halloween
-
-commit ad67e7ff252d58a05a02b1f5cb83a343786e2088
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Fri Oct 31 19:33:24 2014 -0400
-
-    Rename caustic wasps again, this time to caustic bees
-    
-    Also, lower the MR to 80, and reduce the odds of them spawning anywhere
-    in dungeon, and prevent a band from ever spawning in Dungeon.
-    
-    They're less likely to spawn in Dungeon than storm dragons, tengu
-    reavers, deep elf annihilators, and war gargoyles.
-
-commit 4ff1146e736017458de9fd73e6ebdc6675fb4966
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Tue Oct 28 21:20:11 2014 -0400
-
-    Add caustic wasps
-    
-    Caustic wasps are intended to add a top-tier fast, pack threat to
-    depths analagous to killer bees in early Dungeon. In place of stacking
-    poison, they stack corrosion via acid.
-    
-    The goal is to create in Depths the sorts of interesting situations
-    killer bees create in Dungeon, and also to provide another type of
-    top-tier threat in Depths.
-    
-    Tile is a placeholder.
 
 commit b05332bf588dc399f70ab51acbbf38af2d08b98d
 Author: Shmuale Mark <shm.mark@gmail.com>
@@ -1662,19 +1396,6 @@ Date:   Thu Jul 17 21:41:13 2014 -0700
     This also helps refresh the pool of amulets, which was starting
     to look a little shabby.
 
-commit 2754f52dabb28ee852e2011d45501054577b57f3
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Sun Sep 28 15:31:33 2014 -0400
-
-    Rename mermaids/sirens
-    
-    Mermaids are now sirens, and sirens are merfolk avatars and have been
-    made gender neutral and had their descriptions redone. Both are now
-    merfolk for purposes of cannibalism and pacification (and all other
-    purposes). Both monsters still function the same.
-    
-    Revised tiles forthcoming.
-
 commit cd26887500402bcaccec2d0584a662c3428a543f
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Tue Aug 12 22:18:09 2014 -0700
@@ -1705,40 +1426,11 @@ Date:   Tue Aug 12 22:18:09 2014 -0700
     before. It might be possible to improve this, with some
     intermediate 'semi-discovered' state?
 
-commit 795ecda36efc129698bf5f761c22cc1300616094
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Tue Sep 23 18:53:38 2014 -0400
-
-    Rename the Sac Sanity tile to match the previous commit (oops)
-
-commit f64922dfdc87eb2d45d05e7811a0a23103251e94
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Tue Sep 23 18:45:06 2014 -0400
-
-    Rename Sacrifice Sanity to Sacrifice Courage
-    
-    It was a long time coming.
-
 commit c0fbe09f2eb1a8093f16c8c3e37b95085c68a953
 Author: Neil Moore <neil@s-z.org>
 Date:   Sun Sep 21 22:24:10 2014 -0400
 
     Use ASSERT_RANGE in tiledef-*.cc
-
-commit 076ae153bbbc81b14dd4d7343004f7144e61e342
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Thu Sep 18 19:22:53 2014 -0400
-
-    Rename Ru's Cataclysm to Apocalypse and adjust.
-    
-    'Cataclysm' was already part of a Qaz Invo title, so I'm changing
-    it to 'Apocalypse'. I'm also reflavoring it to be more thematic with
-    Ru's Awakening theme.
-    
-    Also, decreased the chances of doing only damage and increased the
-    damage done by nearly 30% when no status is inflicted. I believe
-    this should give a better feel of killing some of a group and
-    incapacitating but not killing the majority.
 
 commit 10f4cc480bcc6a888152225be2e9a7295dc0169e
 Author: theTower <mwclaws@gmail.com>
@@ -1922,12 +1614,6 @@ Date:   Mon Jul 14 22:56:36 2014 -0700
     With minor modifications to make it a little ghostlier,
     as it appears in-game.
 
-commit 403526d07ded40ca689bbd55309d482bb31a4340
-Author: Neil Moore <neil@s-z.org>
-Date:   Mon Jul 14 10:25:43 2014 -0400
-
-    Comment missing_ghost (ontoclasm)
-
 commit 1ed3c6d39c1969bc5f42d7a4ecb33f848a34eb97
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Sun Jul 13 22:04:55 2014 -0700
@@ -1974,12 +1660,6 @@ Date:   Sun Jul 13 00:10:30 2014 -0700
     to differentiate them. Possibly something more ambitious will be
     attempted in 1.6, but this is a first step.
 
-commit 6a79baed60278d7f9386c4d1b3aa60fce9f7e623
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Sat Jul 12 17:03:28 2014 -0400
-
-    Ru: adding ontoclasm's excellent ability tiles.
-
 commit c79dab4f1f31310c8ecce6b25c825dd97a329a50
 Author: reaverb <reaverb.Crawl@gmail.com>
 Date:   Thu Jul 3 18:38:03 2014 -0400
@@ -2019,14 +1699,6 @@ Date:   Wed Jul 9 21:51:32 2014 -0700
     type.
     
     Thanks to Lasty for providing a baseline math suggestion!
-
-commit cdeebcef90e2b45576cbcddcaeb632615daf2e73
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Tue Jul 8 20:28:20 2014 -0400
-
-    Iashol: RIP Iashol, long live Ru.
-    
-    This commit reskins Iashol to Ru and updates lore.
 
 commit af9c773e796cefc7a2c94a3ba07f23139ecb07ef
 Author: reaverb <reaverb.Crawl@gmail.com>
@@ -2181,15 +1853,6 @@ Date:   Wed Apr 23 17:30:09 2014 +0200
     
     [Committer's note: merged a few commits into this, where it seemed sensible.
     Also reworked the scroll weights, but yeah, that needs another pass.]
-
-commit 7ab5695b90565daf91d0280b49011072a53dd5fd
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Sun Jun 8 19:40:41 2014 -0400
-
-    Iashol fundamentals
-    
-    This commit is meant to include all foundational changes for Iashol that
-    make the god work at a basic level.
 
 commit b03d3d0b07f0f28cc2cc4abf3fa23ab574803685
 Author: Shmuale Mark <shm.mark@gmail.com>
@@ -2421,17 +2084,6 @@ Date:   Fri May 9 15:25:19 2014 -0400
     single vault that had them was "OCS / silver statue / ice statue"
     or something like that, so fairly few actual changes had to be made.
 
-commit 82f6ad17de140911205a720b336cfa36603c8532
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Thu May 1 11:25:46 2014 +0100
-
-    Remove decks of dungeons and a number of now-unused cards
-    
-    Decks of dungeons were no longer gifted and only generated very rarely.
-    Most of the cards in it (as well as some cards just removed from wonders)
-    were either uninteresting or problematic for various reasons. The removed
-    cards are Experience, Sage, Water, Glass, Trowel, Minefield.
-
 commit 48ad150b2f9db6246e953d5d585df85379ed7f31
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Sat Apr 19 13:08:44 2014 -0700
@@ -2510,34 +2162,11 @@ Date:   Tue May 6 19:01:54 2014 -0400
     They were so annoying they were removed from holy zigs, reducing their
     appearnces to just a few vaults.
 
-commit f6694988d39908c035bb559df60ab662fdbfe85d
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue May 6 21:23:43 2014 +0100
-
-    Remove the Summon Elemental spell
-    
-    It was fairly fiddly and unclear in its mechanics, and elemental
-    summoning is now covered by the elemental evokers (and possibly the storm
-    god at some point in the future too)· Moved Summon Forest from the book
-    of the Warp to replace it in the book of Summonings, and added Dispersal
-    to replace it in the book of Wizardry.
-
 commit 6a80b7c58fa375d748f750e76455d4d4d48d1420
 Author: Shmuale Mark <shm.mark@gmail.com>
 Date:   Tue May 6 07:15:25 2014 -0400
 
     Fix tiles compilation (plaidman, #8504).
-
-commit 81b8373c2d6b17f32b6b6ded63561d66a7c7950f
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue May 6 02:51:45 2014 +0100
-
-    Revert "Rename the bow of Krishna to the longbow of Vishnu"
-    
-    Per greensnark:
-    <PleasingFungus> I bungled my mythological research & I'm willing to admit it
-    
-    This reverts commit 8183b86013c63d1e608b77764b1699f4132bfdcb.
 
 commit 8182b86013c63d1e608b77764b1699f4132bfdcb
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -2606,16 +2235,6 @@ Date:   Tue Apr 29 11:40:40 2014 -0400
     about these monsters was that they liked to destroy scrolls. It was
     nice for some vaults to have an undead counterpart to simulacra but
     there are plenty of other evil fiery monsters.
-
-commit dc6d6fabca0452226cf6e1929a22f84323fd7900
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Sat Mar 22 11:46:32 2014 +0000
-
-    Remove silver stars
-    
-    Both of their spells work by dealing ridiculous amounts of damage to a few,
-    vulnerable species and little or no damage otherwise, which does not make for
-    an interesting monster.
 
 commit 6cf688689bb1239c770369ed0ad4d2e7f9c95282
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -2802,12 +2421,6 @@ Date:   Tue Mar 11 15:02:19 2014 -0600
     
     This may not be *ideal*, but it's considerably less ugly.
 
-commit 44e9c077103a18442d4f12e0ba115b11d741a4b0
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Mar 11 04:09:46 2014 +0000
-
-    Update some references to potions of speed
-
 commit 74a43bd36725a88c46acf91a5e78f0969acc1ca1
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Mon Mar 10 17:58:36 2014 -0600
@@ -2929,12 +2542,6 @@ Date:   Fri Feb 21 22:10:28 2014 -0330
     Making the demons more individually powerful only further steps on
     the toes of the many other demon summoning spells that already
     exist, so I think it is fine to simply trim it.
-
-commit 53b8f1dd7b66305297666d13dc2db3612a67a1e6
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Thu Mar 6 05:18:06 2014 +0000
-
-    Move racial armour tiles to UNUSED
 
 commit 49e238f2a21cc04e99c3c945041b9d7e274b07b4
 Author: Chris Oelmueller <chris.oelmueller@gmail.com>
@@ -3081,72 +2688,11 @@ Date:   Wed Feb 26 20:35:46 2014 -0500
      * Lots of basically important tiny things, like clothing some
        unarmoured wizards.
 
-commit 037f6f49984f286779e53da1a7c475d52a54d134
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Feb 25 22:42:30 2014 +0000
-
-    Remove ancient bears
-
-commit 4dd8b08a893a66ed23f3a69f79d184ad9b452dd0
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Feb 25 19:48:45 2014 +0000
-
-    Remove giant centipedes
-    
-    Replaced with various combinations of adders, worker ants and giant mites
-    in the places that used them.
-
 commit d606b11bf2cfa8cf67e4b0631710028bf7dd4f62
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Tue Feb 25 22:34:26 2014 -0700
 
     roctavian's block of ice tiles (#7760).
-
-commit 7d2fff2b56a9a6154476a55e78a1def1dea02e77
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Mon Feb 24 22:45:53 2014 +0000
-
-    Move racial weapon tiles to UNUSED
-    
-    So that weapons have the same number of tile variations as they used to.
-
-commit a95247c77f4c5cea5e31ef906d316cb644dcf6f4
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Mon Feb 24 18:14:44 2014 +0000
-
-    Remove extra weapon tile variations, unbreak tiles
-    
-    Moved the extra ones to UNUSED for the moment, they could be swapped
-    back around with the existing variations if anyone tilesy prefers some
-    of the now-unused ones to the current ones.
-
-commit c3c125f5b38131e0d79b4ed228bf6e3d9bfd55ec
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Mon Feb 24 15:53:33 2014 +0000
-
-    Don't generate racial weapons or launchers
-    
-    The effects of racial weapons were very minimal and unlikely to be
-    noticed. Even if they were made significant, they would only apply to a
-    very small subset of races. The only somewhat notable effect was Beogh's
-    slight slaying bonus (and even that was very minor), this could be
-    compensated for in some other way if necessary.
-    
-    Racial armour has slightly more noticeable effects and currently still
-    remains, but could probably be removed too (potentially replacing the
-    racial effects with armour egos instead).
-
-commit cd953f784cd3eb197096fcb9b7864d1386f85fa4
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Mon Feb 24 14:55:46 2014 +0000
-
-    Remove giant amoebae
-    
-    They were almost identical to slime creatures except without the merging
-    ability, and barely appeared outside of a few vaults anyway. Split their
-    weight mostly between brown oozes and slime creatures in vaults and Slime
-    branch spawns. Removed a couple of Slime-only vaults that placed only
-    giant amoebae, possibly they would be fine with slime creatures instead.
 
 commit b9cc7c43a06d9293a09f8d71aafc15d3ff62ae20
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -3174,60 +2720,6 @@ Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Sun Feb 23 21:51:07 2014 -0700
 
     roctavian's demonspawn enemy tiles (#8097).
-
-commit a4b783efdc617fe01f8c1aeddf2c0fa2134960c5
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Sun Feb 23 13:11:06 2014 +0000
-
-    Remove grey rats
-    
-    They were barely distinct from plain rats and green rats, and only really
-    used in sewers. Replaced them with various arbitrary weightings of rat and
-    green rat.
-
-commit eee48f0d9395d0c654d6bde57d7ee194b4af79b2
-Merge: a726785 7bb2d9c
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Feb 18 05:15:31 2014 +0000
-
-    Merge branch 'summon_spells'
-
-commit a726785d79ffb50c0de99ec9a377efda8a11bcba
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Feb 18 04:43:52 2014 +0000
-
-    Remove the rod of warding
-    
-    It's one of the various uninteresting multi-spell rods, with Deflect
-    Missiles as the only notable spell most of the time, and DMsl doesn't work
-    as a rod spell with its recent changes (and probably shouldn't be a rod
-    spell even if it did work properly).
-
-commit d0153d94fbf036c6f5a103086aa14e2934bb1bbf
-Author: wheals <shm.mark@gmail.com>
-Date:   Sun Feb 16 18:46:20 2014 -0500
-
-    Remove jellyfish.
-    
-    They're nice decoration, sure, but their main effect is one
-    of two things - poison or drain strength. Both of those are rather
-    annoying effects without much real effect.
-
-commit cdba4ae194fe9304614013f101f47a14b7d2ffb3
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Feb 18 01:13:51 2014 +0000
-
-    Remove a leftover reference to lava fish
-
-commit b71fec48c3f485cd41df92461510e36fec274588
-Author: wheals <shm.mark@gmail.com>
-Date:   Sat Feb 15 20:08:21 2014 -0500
-
-    Remove lemures.
-    
-    They were basically "that thing that Eustachio summons," except
-    for the rare time that Xom gave you one or a demonspawn with
-    demonic guardian 1 got one.
 
 commit 4a9e99f7078562c2885f31b27f60839e739bc974
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -3333,17 +2825,6 @@ Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Mon Feb 10 18:48:31 2014 -0700
 
     Arc blade tiles.
-
-commit 4fb377143d7b566a98b9d13ef00340e748fb564a
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Mon Feb 10 16:00:04 2014 +0000
-
-    Remove Summon Scorpions
-    
-    It's already been replaced in the Summoner starting book, and is one of
-    the summon spells that mostly just relies on spamming large numbers of
-    monsters. Alistair's Intoxication is shuffled around in a couple of books
-    to replace it in Envenomations.
 
 commit 20145e74ef52652288608894b398f5c0c2265612
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -3656,51 +3137,11 @@ Date:   Fri Nov 15 17:26:11 2013 -0500
 
     More formatting fixes for return (...);
 
-commit 723b4fa0c231dc452cc1ff30a01780d71ac83882
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Fri Nov 8 19:04:13 2013 +0000
-
-    Remove moths of suppression
-    
-    Suppression is a hugely complicated and inconsistent mechanic. Its
-    original purpose was to be a way of overriding rPois in Spider but
-    there are now plenty of monsters that do this effectively (and much more
-    simply).
-    
-    [1KB: I moved this to trunk, as it made an already extremely hard to review
-    branch massively more so.  There's nothing but a single enum to preserve,
-    so compat break doesn't make this removal any easier or harder.]
-
 commit 14b720ca319645b0d730b2bf298aa71ca259a4f8
 Author: pubby <pubby8@gmail.com>
 Date:   Sat Nov 9 07:43:51 2013 -0600
 
     Add shaft-self and dig tiles.
-
-commit 558a4af2b3628b3031c697d3ce5860a0870ca18b
-Author: Chris Oelmueller <chris.oelmueller@gmail.com>
-Date:   Sun Aug 25 04:24:37 2013 +0200
-
-    Rename "dragon" to "fire dragon"
-    
-    DRAGON now genus-only.
-    
-    Brief discussion history in 4d5c11a304968c3635d8b60075a0ab9b39d71d43.
-    
-    Summary of current brainstorm session:
-    "Dragon" means "fire-breathing dragon" in European mythology because
-    the other kinds never existed. In the world of Crawl however, there
-    are many kinds of dragons - so it seems that people would have given
-    the fire-breathing one a more distinctive name.
-    Producing "fire dragon armour" from "fire dragon hide" also means less
-    player confusion if a "fire dragon" dropped that hide.
-    Red draconians and fire drakes also both get a fire-y qualifier.
-
-commit 135fbebd5d38522824167056b2753a11bfb87e6e
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Wed Nov 6 19:39:52 2013 +0000
-
-    Give Formicids normal antennae
 
 commit c48e75bd6550420d675446a8f230ca3883e3aece
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -3737,28 +3178,6 @@ Date:   Sat Oct 26 17:39:15 2013 -0400
     
     0.14-a0-211-g2268ef7 removed the #include <stdio.h> in tile.h, but
     left the use of FILE in tile_list_processor.h.
-
-commit de3bacb8c123a86127c12d7a76ed6176653bbb02
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Wed Oct 23 14:18:42 2013 +0100
-
-    Remove the Polymorph spell
-    
-    The wand works fine as a fairly plentiful source of polymorph for players,
-    and the spell is hardly used.
-
-
-commit 118bf1a1ac04a081ec9e3823a9ecb5a19127b8c5
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Oct 22 10:37:03 2013 +0100
-
-    Remove Song of Shielding
-    
-    Just mimicking guardian spirit, even if it works a bit differently, isn't
-    very interesting, and it appears to not be useful anyway. It's also
-    inconsistent in terms of not behaving as a "song" in the same way as Song
-    of Slaying (and making the two songs exclusive would make it even worse).
-
 
 commit a239847db7f0928166930a5c3d84c1d3d9783094
 Author: Neil Moore <neil@s-z.org>
@@ -3920,12 +3339,6 @@ Date:   Wed Sep 18 20:27:45 2013 -0600
     
     Hopefully this will serve as motivation to get something better?
 
-commit 2e0ee8d010926510cd55647d40ee58d93cb863fb
-Author: MarvinPA <chriscampbell89@gmail.com>
-Date:   Thu Sep 5 21:43:11 2013 +0100
-
-    Rename scroll of vorpalise weapon to scroll of brand weapon (Soner)
-
 commit 65c58ed6ccd53a9a080255ee37e131123ac65e96
 Merge: c4b5122 70ca29e
 Author: pubby <pubby8@gmail.com>
@@ -3992,25 +3405,6 @@ Date:   Wed Jun 12 02:34:30 2013 -0500
       Also optimised the new tiles. -nfm ]
 
 
-commit 0ac5afdac4c113d4b59c21e5d3c522b9ebe41d51
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Fri Aug 9 17:39:53 2013 +0100
-
-    Rename unborn deep dwarf to unborn, change glyph to L
-    
-    The notable thing about them is being undead with scary spells (making
-    L an appropriate glyph) - they don't make any sense as deep dwarves
-    since they have no way to heal.
-
-commit f61ad0bcab060bc8018e8effe1bcd02ef641b45a
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Fri Aug 9 18:13:41 2013 +0100
-
-    Remove deep dwarf scions, artificers and necromancers
-    
-    None of them did anything interesting or spawned anywhere outside of a
-    small number of vaults.
-
 commit 9d0e715c0b71a236ef9bca9d7c2a90512ce2c7eb
 Author: Neil Moore <neil@s-z.org>
 Date:   Sun Aug 4 18:54:32 2013 -0400
@@ -4037,16 +3431,6 @@ Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Thu Aug 16 23:29:27 2012 +0200
 
     white_noise's recolored crypt tiles (#6073).
-
-commit a0ae0798b3ff79286ab4b7f6d0629adea15b2396
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Jul 16 17:26:51 2013 +0100
-
-    Remove gloom
-    
-    Functionally it wasn't very different from regular fog, except that it
-    had an annoying interface (no glyph, recolouring things that were
-    standing in it).
 
 commit 52968190ec632c869ac9732361746addd8633a8f
 Author: DracoOmega <draco_omega@live.com>
@@ -4077,15 +3461,6 @@ Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Wed Jul 10 18:44:03 2013 -0600
 
     A hopefully not-too-unbearable, possibly temporary ancient bear tile.
-
-commit 405c76ce053f0ff52bdd9ec4e7f44a6e553644c3
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Wed Jul 10 19:18:43 2013 +0100
-
-    Remove the orc slaying brand
-    
-    It only ever generates on artefacts and is very unlikely to be relevant
-    even when it does.
 
 commit f439ca8676993f54b0c7cb95427772704e37ec60
 Author: Pete Hurst <pete@streamuniverse.tv>
@@ -4260,15 +3635,6 @@ Date:   Thu May 23 12:12:42 2013 +0100
     
     The syntax is: %alpha [value]
 
-commit b76263150febd915e9b65a8a114a5a0773182acd
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Mon May 6 19:54:44 2013 +0100
-
-    Rename Summon Small Mammals to Summon Small Mammal
-    
-    And make it only ever summon one monster per cast. As a level one spell
-    it doesn't really need to suddenly double in efficiency at max power.
-
 commit 32e5fa84aeeb3db323bdeaab22ee64f00e3092e8
 Author: Samuel Bronson <naesten@gmail.com>
 Date:   Sat May 4 17:06:42 2013 -0400
@@ -4276,12 +3642,6 @@ Date:   Sat May 4 17:06:42 2013 -0400
     Evoke fog ability icon for cloak of the Thief (Reaver)
     
     Taken from <https://crawl.develz.org/mantis/view.php?id=6896>.
-
-commit b875c9553e546071561f397bc875766259668879
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Apr 30 20:17:09 2013 +0100
-
-    Move some vault monster tiles to UNUSED
 
 commit d170eacdc5435580fcef371f895276326c130142
 Author: Pete Hurst <pete@streamuniverse.tv>
@@ -4294,22 +3654,6 @@ Author: Raphael Langella <raphael.langella@gmail.com>
 Date:   Thu Apr 25 23:48:39 2013 +0200
 
     Remove splint mail and buff chain mail to 8 base AC.
-
-commit 8c8430cccab4592a469b15d2c49c644b80a2115d
-Author: Samuel Bronson <naesten@gmail.com>
-Date:   Sun Apr 21 17:17:39 2013 -0400
-
-    Fix ontoclasm's "tile offset thing" when rebuilding with resized source PNGs
-    
-    This is probably not the usual cause of such problems in WebTiles,
-    though:
-    
-    * This doesn't usually happen on servers except when
-      manually-triggered rebuilds result in the same branch being built
-      twice in a row AND a PNG has been resized.
-    
-    * This problem won't go away on reloading the page, since the
-      coordinates won't be up-to-date in *any* file.
 
 commit 2fef9f5ce8015401bac266ceb32d4010d2b6f483
 Author: Samuel Bronson <naesten@gmail.com>
@@ -4328,17 +3672,6 @@ Author: Raphael Langella <raphael.langella@gmail.com>
 Date:   Thu Apr 4 00:48:57 2013 +0200
 
     Rename vicissitude in beneficial mutation.
-
-commit eb2d7b93e3844e05fc457459c2b9f3c375ed50db
-Author: Brendan Hickey <brendan@bhickey.net>
-Date:   Tue Apr 2 21:10:49 2013 -0700
-
-    Revamp Potions of Gain Stat
-    
-    Replace potions of gain stat with potion of vicissitude.
-    This potion grants a good mutation when quaffed.
-    
-    Thanks to ontoclasm for the tile.
 
 commit 8b295f210b88a0a93f63749e9ca46d2a36942047
 Author: Brendan Hickey <brendan@bhickey.net>
@@ -4373,55 +3706,6 @@ Author: Samuel Bronson <naesten@gmail.com>
 Date:   Sun Mar 10 00:38:12 2013 -0500
 
     Fix a message in the rltiles Makefile.
-
-commit 42dd1cdaea1eeb9d1169e4ef50f86598f3d374a2
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Mon Feb 18 01:13:17 2013 +0000
-
-    Remove ant larvae
-    
-    They were only used in a very few vaults (where they didn't do
-    anything much).
-
-commit cc6916eaca4b01a644bd4b482ad7e939aeb8f11a
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Wed Feb 13 19:52:22 2013 -0700
-
-    Chop down wood golems.
-    
-    This is the first step in removing a large number of overly similar
-    and not very interesting monsters.
-commit ea06430cd56f41b77c0b776e12a00a3763e2d267
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Tue Jan 22 20:27:28 2013 -0700
-
-    Axe rock trolls.
-    
-    They were insufficiently distinguished from their brethren, particularly
-    the single deep trolls which replace them.
-    
-    This also replaces randomly generated rock trolls with single deep trolls.
-    Deep troll bands are now generated by specifying one of the
-    professionals, which come with bands; thus a deep troll band is going to
-    have at least one professional.
-
-commit 145d30818bebcebc3d769cdfbedaaa2a2ad424f9
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Tue Jan 22 14:01:45 2013 -0700
-
-    Deep troll earth mages and shamans.
-    
-    In deep troll bands, one in three deep trolls will be assigned one of
-    those classes randomly.
-    
-    Shamans haste/might others.
-    
-    Earth mages use LRD and dig.
-    
-    The new monsters come with tiles (by ontoclasm) and descriptions.
-    
-    The berserker is going unused for now, as it is not as interesting
-    compared to the other designs.
 
 commit 17e404e6b80b694f3b096e10566b82772db1c862
 Author: elliptic <hyperelliptical@gmail.com>
@@ -4474,17 +3758,6 @@ Author: Chris Campbell <chriscampbell89@gmail.com>
 Date:   Wed Nov 7 23:10:57 2012 +0000
 
     Replace levitation with flight and remove controlled flight (elliott)
-
-commit 1c984df8f4b3b12bfc49e1a2201c91fc2e511b67
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Sat Sep 29 16:51:05 2012 +0100
-
-    Remove bumblebees
-    
-    Killer/queen bees and wasps already cover pretty much all the bases in
-    terms of flying poisonous things - bumblebees almost never showed up
-    and when they did they didn't do anything interesting.
-
 
 commit c04c3c159f4ed337d74e3ebe19ea887af3348382
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -4581,39 +3854,6 @@ Date:   Mon Aug 27 00:18:34 2012 +0200
     but that's no excuse.
 
 
-commit d09f384b95c555e158c36fff660f405fde2caff7
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Aug 21 22:26:43 2012 +0100
-
-    Remove the Insulation spell
-    
-    It only provides a resist, and sources of elec damage can be avoided or
-    dealt with in other ways (particularly potions of resistance).
-
-commit 84e723c600f790e0b1d2a16ed6a3307c2b0d0d1a
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Aug 21 21:58:15 2012 +0100
-
-    Remove the See Invisible spell
-    
-    Simply providing a resist is incredibly uninteresting, and there are
-    plenty of other ways to deal with invisible monsters even without
-    having found a source of SInv on equipment (fog, corona, sticky flame,
-    etc).
-
-commit 54df5be6b9d9bdd40a116d0b4ddd192871e8adb2
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Mon Aug 20 13:08:43 2012 +0100
-
-    Remove Evaporate and Fulsome Distillation, and the book of Stalking
-    
-    Mephitic, poison and miasma clouds from a level 2 spell just isn't
-    balanced at all (compare to Poisonous Cloud, a very strong spell at
-    level 6). Fulsome makes the first two of these completely unlimited
-    in practice, and miasma is absurdly strong even with decay corpses
-    being rarer.
-
-
 
 commit b08aebe72ee46d028d054bf0ef8a67eb596db6d6
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -4622,14 +3862,6 @@ Date:   Wed Aug 15 12:48:51 2012 -0600
     QUAD DAMAGE emits an Orb-style glow while in effect.
     
     It's the same radius, only all blue instead of mutagenic.
-
-commit f6aea0e460d1b1407905cc0bbcd068e3a6eb6842
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Mon Aug 13 19:16:56 2012 +0200
-
-    Move the worker ant tile down (ontoclasm).
-    
-    It looked like it was levitating (except for the shadow).
 
 commit 2fac8e9e4a315b817811e1a275ea773d868514d4
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -4700,30 +3932,6 @@ Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Sun Aug 5 18:22:16 2012 +0200
 
     roctavian's hell portal tiles (#5633).
-
-commit 6e5327a5a53d2fafc82b5d2feca0bfb2dc18ab03
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Fri Aug 10 22:39:56 2012 -0600
-
-    ontoclasm's base scroll tiles (#5862).
-    
-    I've assigned the following ribbon colours to the following spells:
-    
-    - Red:    holy word, torment, silence (wide-area-of-effect spells).
-    - Blue:   fear, fog (non-translocation escape spells)
-    - Green:  enchant weapon I/II/III, enchant armour, recharging, vorpalise
-              weapon (item improvements);
-    - Purple: blinking, teleportation (translocation escape spells);
-    - Grey:   curse armour/jewellery/weapon, immolation, noise, random
-              uselessness (harmful/useless scrolls);
-    - Tan:    amnesia, identify, magic mapping, remove curse (utility
-              spells);
-    - Teal:   acquirement (it deserves a colour of its own on account of its
-              importance, and teal matches the standard text colour);
-    - Brown:  unholy creation (doesn't really fit into any of the above, and
-              there was a colour left).
-    
-    Unknown scrolls have no ribbons.
 
 commit 762255a78fb3086e8f0142abbacd02c0f2c4d818
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -5062,14 +4270,6 @@ Date:   Tue Jun 26 16:44:13 2012 -0700
     
     It has monsters that cast Leda's Liquefaction.
 
-commit a6aae95c131fce433c4254998a405e9bebeb91e1
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Jun 19 20:16:25 2012 +0100
-
-    Remove midges
-    
-    Lemure, crimson imp, ufetubus are plenty in terms of boring popcorn 5s.
-
 
 commit 03a6cd18151a15228da165d4849bce55e663f877
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -5236,32 +4436,6 @@ Date:   Mon Apr 2 01:21:29 2012 +0200
     Some wall bloods have inscriptions. Those ones will only be used on level
     generation and only on south facing walls, because rotated inscriptions are
     not so hot. And they are rare.
-
-commit 3ca1b2e54e3361b83636cc96518596fa68403962
-Merge: 62922bc d1ec121
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Sat Mar 31 17:21:43 2012 +0100
-
-    Merge branch 'boulder_beetles'
-
-commit bba9ab5590cf94e627d36c71b85ed400f8f732fa
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Mon Mar 26 04:31:08 2012 +0100
-
-    Replace Pit Fiends with Hell Sentinels
-    
-    Pit Fiends were mainly just slower Brimstone Fiends. Hell Sentinels are
-    intended to be a a tough, highly resistant 1 to replace them, and to
-    hopefully still be a threat without having torment. Numbers and spells
-    and stuff are all open to improvement.
-    
-    Thanks to st_ for the name and description.
-
-commit 9bf59b7647d4c457b3ac8d29b4e2bd90d3adafda
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Wed Mar 21 23:34:12 2012 +0000
-
-    Remove hairy devils
 
 commit 54b1b48b3c3a8a5666f98962c49d5c5636abe694
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -5602,12 +4776,6 @@ Date:   Fri Oct 21 18:10:39 2011 -0400
 
     Fix tile for wand of heal wounds (|amethyst).
 
-commit 43440dfe3f50c1ff7ec8a4c24ee8bef5d5926d7b
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Tue Oct 18 17:20:54 2011 +0100
-
-    Rename imps to crimson imps
-
 commit c20d067cc0e8eac7f9f3091308ef853554cfda7b
 Author: Mu <muuuuu@gmail.com>
 Date:   Sun Oct 16 02:57:04 2011 +0100
@@ -5667,19 +4835,6 @@ Date:   Tue Aug 30 18:01:40 2011 +0100
 
     Web trap initial implementation
 
-commit fd92a8574cec107c92006b31521880e659e6315b
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Wed Aug 24 17:47:02 2011 +0100
-
-    Remove vipers
-    
-    They're barely differentiated from water moccasins and black mambas,
-    as well as only even spawning in the Snake Pit where they're just yet
-    another poisoning monster.
-    
-    For Sticks to Snakes, I gave it an extra chance of upgrading to a water
-    moccasin at 40 power, instead of to a viper.
-
 commit 7f3f0ed66376d4fef93435c0e81d80144e5266ea
 Author: Raphael Langella <raphael.langella@gmail.com>
 Date:   Tue Aug 16 14:05:53 2011 +0200
@@ -5716,30 +4871,6 @@ Date:   Mon Aug 1 09:21:22 2011 +0200
 
     New Octopode tile (Porkshop).
 
-commit ef89fef3656cd75eaadc3d51e673e79f97e2c37d
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Sun Jul 31 23:55:10 2011 +0100
-
-    Remove Maxwell's Silver Hammer
-    
-    Like Tukima's Vorpal Blade which has long been gone, it has little to no
-    practical use.
-
-commit 0ceb9d3006e5b6810fd5192b905361b446ca7274
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Sun Jul 31 16:31:26 2011 +0100
-
-    Remove giant toads
-    
-    They don't have anything interesting to distinguish them from giant
-    frogs, and blink frogs/spiny frogs are good actual threats already.
-
-commit e38a15ce1d03576a620a3477941b4ef1a329c128
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Thu Apr 14 15:51:01 2011 +0200
-
-    Add generated stuff to .gitignore.
-
 commit 9ae3dee0cd253c4f1b7de0f80b59ac48ea446ed3
 Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Wed Apr 13 16:41:34 2011 +0200
@@ -5773,13 +4904,6 @@ Date:   Mon May 2 21:55:47 2011 +0200
     Conflicts:
     
     	crawl-ref/source/startup.cc
-
-commit be8f336b9533d9e66b7f3090c56011a76a9e58db
-Author: Chris Campbell <chriscampbell89@gmail.com>
-Date:   Thu Jun 2 23:34:33 2011 +0100
-
-    Replace gila monsters with basilisks
-
 
 commit a10fe411007610230eddd4c1f597f36ae9da96ad
 Author: Raphael Langella <raphael.langella@gmail.com>
@@ -5839,3 +4963,4 @@ NEEDS SIGNOFF
 --------------
 --------------
 --------------
+
