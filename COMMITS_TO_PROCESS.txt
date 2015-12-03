@@ -144,25 +144,6 @@ Date:   Tue May 6 07:15:25 2014 -0400
 
     Fix tiles compilation (plaidman, #8504).
 
-commit 8182b86013c63d1e608b77764b1699f4132bfdcb
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Wed Apr 30 18:04:38 2014 -0700
-
-    Rename the bow of Krishna to the longbow of Vishnu
-    
-    Bad Dungeons and Dragons are bad. mm'kay?
-    
-    This weapon name was an insult to anyone with the slightest clue about
-    how RL Hinduism works. When it comes to gods, it's all about name-length-
-    vs-weight. Having two gods attached to a single bow doubles the weight,
-    makes referring to it clumsy (as the context suddenly matters), increases
-    air resistance, and all that to... _reduce_ accuracy -- as two mythological
-    references are less deadly than one deep one, especially if any theology is
-    involved. Against religion, glancing hits don't really matter, and a double
-    reference can only do those.
-    
-    Such arguments about realism might seem like busy work to people brought up
-    on MMORPGs, but some of us do care.
 
 commit 3da635bd8450af0fddbfd5c182afe593938136f2
 Author: Chris Oelmueller <chris.oelmueller@gmail.com>
@@ -239,21 +220,6 @@ Date:   Wed Mar 12 21:57:20 2014 -0600
     
     And matching spell tiles.
 
-commit d9a150bf776162d47ec42962d388573b7bd6eb18
-Author: DracoOmega <draco_omega@live.com>
-Date:   Sat Mar 8 08:59:08 2014 -0330
-
-    Remove Sunray
-    
-    Sunray had a number of quirks that were rather non-transparent if
-    uninformed about them, and not usually very interesting from a
-    tactical perspective (namely: it ignored repel missiles, did bonus
-    damage to vampires and shadows, and couldn't hurt things that were
-    invisible). There seemed a general agreement that it probably ought
-    to simply be removed.
-    
-    Stone arrow replaces it in the spriggan druid spellbook.
-
 commit b9fd09044e1fe0e2fcf5116635fbacca05b41245
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Tue Mar 11 15:30:14 2014 -0600
@@ -278,21 +244,6 @@ Date:   Mon Mar 10 17:58:36 2014 -0600
     
     This also takes the opportunity to set the war gargoyle tile to the
     correct size.
-
-commit b1a69621d3480971c3dc7a325963001344ef3e2e
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Sun Mar 9 10:41:27 2014 -0600
-
-    Disable the "Rearrange the Pieces" monster spell.
-    
-    And schedule for removal.
-    
-    People up to and including the original designer have agreed that this
-    doesn't work well in the slightest; the promised replacement spell has
-    yet to materialise (probably due to lack of ideas).
-    
-    The temporary replacement in the chaos champion spell set here is
-    underwhelming, but better than nothing.
 
 commit 9d36bc65e8b8fbc40fe9225e0294e4b4eea71f54
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -348,38 +299,6 @@ Date:   Thu Mar 6 12:43:17 2014 -0700
     (Please, someone get a new mana viper tile ready so I don't have to use
     this one again.)
 
-commit af7676b698eea389a56e0232e12d3db2e2adfd63
-Author: DracoOmega <draco_omega@live.com>
-Date:   Sun Feb 23 02:41:46 2014 -0330
-
-    Replace Summon Ugly Thing with Summon Menagerie (pending a better name)
-    
-    Summon Ugly Thing was never a particularly impressive spell and the
-    summon cap changes have left it even more underwhelming these days.
-    Still, there is a need for a solid midrange summon available to good
-    god worshipers, and this is a shot at assembling one that might be
-    more interesting than the ubiquitous ugly things.
-    
-    The spell can summon either a manticore, lindwurm, harpy (multiples
-    at higher power), or a sphinx (much rarer except at high power), which
-    I feel are solid midrange creatures with a shared mythological theme
-    and some relatively unobtrusive gimmicks (and more of an emphasis
-    on ranged combat than its immediate 'upgrade' in Summon Hydra).
-    
-    Somewhat similarly to Shadow Creatures, multiple harpies count as a
-    single creature for the purposes of the spell's cap, and the creatures
-    also receive a modest HD boost based on high spellpower (I'm still
-    somewhat divided on this, unlike with Ice Beast, but it does help the
-    spell scale more strongly with spellpower that it otherwise would;
-    perhaps there is some higher-tier creature accessible with high power
-    that could help bridge this gap on its own?)
-    
-    As a natural consequence of Summon Ugly Thing being replaced, Kirke
-    also acquires this spell. This is effectively a buff for her, but as
-    one of the least dangerous midgame uniques, I am sure she can handle it,
-    and a selection of Greek mythological beasts are surely at least as
-    suitable things for her to summon as... whatever ugly things are.
-
 commit 8b1149591b3894a79f8ef8912954a822a9c9c132
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Wed Mar 5 21:55:00 2014 -0700
@@ -422,17 +341,6 @@ Date:   Mon Mar 3 18:59:57 2014 -0700
     Made in the simplest possible fashion, i.e. mashing the icons for their
     summons together with the player summoning icon.
 
-commit 009d8da55df18da7e8f581831acb8ea25d4b92da
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Mon Mar 3 18:40:08 2014 -0700
-
-    roctavian's crystal guardian and guardian golem tiles (#8097).
-    
-    I clumsily edited the crystal guardian slightly to make it look less
-    "pot-bellied", per roctavian's comments. If this still looks back,
-    someone more experienced at tile editing will have to fix it.
-
-
 
 commit 5516d479cdc6e041aebf3df4311fde0ab3d6fb48
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -444,41 +352,6 @@ Date:   Tue Feb 25 14:37:30 2014 -0700
     of available through the rod of clouds), and Poison Arrow. A multi-spell
     rod which duplicates effects of other items and whose sole remaining spell
     is itself a normal spell does not need to exist.
-
-commit ffe6da329eb98d1d8ad326a3d3118d5ad7147e16
-Author: tenofswords <mwclaws@gmail.com>
-Date:   Wed Feb 26 20:35:46 2014 -0500
-
-    Wizlab balance/etc edits
-    
-     * Tukima's: Nerf blink_other statues health, actually give them
-       a cast message against their given targets.
-     * Eringya: Regulate faun/satyr placement a bit more,
-       move the vine coverings from stone golems to earth elementals.
-     * Doroklohe: Another large buff to golem set (now constructs set)
-       as part of the upcoming golems trimming. Means doroklohe has a
-       consistently ridiculous threat, at least.
-     * Iskendrun: Fix deep elf mage spellset to properly emulate
-       the base monster's spell set, randomize the door into the tower,
-       some header clean-up.
-     * Zonguldrok: Cut one ancient champion and make a gravestone-champion
-       have a much worse chance that also delays his placement.
-     * Cigotuvi: fix an unintended potential drop in loot,
-       nerf the buffed renamed tentacled monstrosity due to constriction
-       buff from ages back, use iron golem as base for flesh golem
-       and edit description to explain any potential catches of the base
-     * Wucad Mu: Upgrade several monks (iron troll to grey draconian monk,
-       human to monstrous demonspawn), let wucad mu summon them and some
-       thematic ghosts so it's much harder to kill him, heavily lower
-       his health. Also, extend vault exploration length, and lower
-       the maximum delay between effects from 400 aut to 300.
-       [somewhat annoyingly, this involves quite a hack regarding
-       ds bands, some bugs block vault redefinition of ds/dr, and
-       the OCS boss is also still mediocre while disint is binary.
-       Going to leave things ready for redefining monks again if the above
-       bugs are fixed eventually.]
-     * Lots of basically important tiny things, like clothing some
-       unarmoured wizards.
 
 commit d606b11bf2cfa8cf67e4b0631710028bf7dd4f62
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -533,67 +406,6 @@ Date:   Sat Feb 15 21:07:40 2014 -0700
     
     This was missed in the previous commit (probably lost in transmission
     between me and the committer).
-
-commit 61fa7b4fe219100615cf3a0fcef95670bc14381a
-Author: tenofswords <mwclaws@gmail.com>
-Date:   Sat Feb 15 22:20:39 2014 -0500
-
-    Crystal golem -> Crystal guardian (Grunt, tenofswords).
-    
-    Implementer's notes (Grunt):
-    
-    The spell Crystal Bolt is player-castable for possible future use with the
-    "rod of bolts" (reworked rod of destruction), and crystal golems have been
-    replaced 1:1 in vaults that used them.
-    
-    ---
-    
-    Designer's notes (tenofswords):
-    
-    Not every golem can be cut without scarring many a vault, and golems are
-    very strongly themed to the point of reluctance with complete cuts.
-    Still, they're golems, slow melee-only monsters with extreme defenses and
-    excellent melee that thus encourage annoying tactics due to being unable
-    to kill patient players but also being very difficult to kill. We certainly
-    don't need nearly versions of this sort of monster as we currently do
-    (goliath beetle, slugs and snails, golems, iron trolls, iron imp/devil,
-    earth elemental); the only time this really works is in Dis, where
-    there are hell effects and very nasty company to make sure that there's
-    no time to use the slow strategies of avoiding being hurt much by golems.
-    
-    This serves as another change to a slow, melee-only monster for preserving
-    some themes and flavours without outright cutting into the monsters available.
-    These new crystal guardians once more have good defense and even better
-    resists in exchange for bad health and zero EV, appear in numbers in most
-    vaults, are boosted (to normal) speed, and get a ranged option; in this
-    case, a bolt of fire or cold that happens to bounce off all walls, rather
-    than just crystal, easily resisted by the caster in ricchoets. This is
-    modelled off the decent-enough edits on minmay_guarded_unrand_dyrovepreva,
-    and the name originates from there, too.
-    
-    Between crystal guardians and war gargoyles as less terrible material,
-    I've got plans to edit out stone golems, clay golems, and iron golems
-    out from basically everywhere but Dis:7 vaults, which should pave the
-    way for essentially removing these three and dealing a decent blow to
-    the multitudes of slow, melee-only, very difficult to destroy encounters
-    in sheer differences of monsters, though mostly by changing vault-specific
-    mediocre monsters rather than significantly impacting overall monster sets.
-    For now, the patch has a near 1:1 replacement use with crystal golems, aside
-    from most importantly adjusting (and upping) their use as rare D:12-16 OODs.
-    
-    Needs a new tile.
-
-commit 8b692751aca0bde2d58bdba056c6b94661c3011b
-Merge: 230ef3e b78098f
-Author: DracoOmega <draco_omega@live.com>
-Date:   Thu Feb 13 22:01:47 2014 -0330
-
-    Merge branch 'master' into summon_spells
-    
-    Conflicts:
-    	crawl-ref/source/enum.h
-    	crawl-ref/source/spl-data.h
-    	crawl-ref/source/spl-summoning.cc
 
 commit 8ac5a44c68917fa44982063b71092573f49036e0
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -650,41 +462,6 @@ Date:   Fri Feb 7 23:30:18 2014 +0200
 
     Add a missing Drowned Soul entry to dc-mon.txt
 
-commit 7453b3a2ebb7a9100111f1fc599576c32cd6fc41
-Author: tenofswords <mwclaws@gmail.com>
-Date:   Wed Feb 5 21:56:51 2014 -0500
-
-    Buff, speed up, move around metal gargoyles, rename to war gargoyles
-    
-    For monsters partially representative of one of the strongest current
-    races plus primarily Dis:$ spawns, metal gargoyles are quite weak.
-    While low health and few resists lets them be much more palatable
-    as part of the group of slow, high defense pure-melee monsters, said
-    group is very full and these serve as autofight-material at best.
-    Thus, this patch gives them buffs to fit into a particular niche:
-    fast, high ac, low hp, nasty ranged.
-    
-    This renames metal gargoyles and uses a flavour of explicit
-    smithing preperation to buff their speed, give them maces, and lets
-    them use a slightly weaker form of iron dragon metal splinters.
-    Of course, there are also a few general stat buffs: rough health
-    of deep troll shamans, the damage of merfolk impalers, see invisible.
-    Imagine them as stone giants with halved health and less melee damage
-    in exchange for haste, mild resists, weapons, and golem-level AC.
-    
-    It also adjusts their vault uses, and puts them as rare Vaults OOD
-    spawns for both more V to D distinction and extra flavour.
-    
-    Further monster gargoyle changes echoing this would be appropiate;
-    molten gargoyles with lava breath and higher HD for AF_FIRE to
-    address the low focus on fire damage in Gehenna, rare occasional
-    plain gargoyles a little harder hitting. Using these gargoyles to
-    replace most iron golem uses would also be worthwhile; this was
-    recently prompted by getting something to replace some vault golems
-    with.
-    
-    TODO: Get a new tile that can show weapons or at least _a_ weapon.
-
 commit 94aeabdc11f5d2c70906dcb443b04aac1255807f
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Tue Feb 4 10:16:26 2014 -0700
@@ -702,70 +479,6 @@ Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Fri Jan 31 19:26:49 2014 -0700
 
     Touch-up to Vashnia tile (þuþþy).
-
-commit c38a8f9b011df56edcb22021fdd05f7badba1c87
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Thu Jan 30 23:05:46 2014 -0700
-
-    Unique: Vashnia, leader of the elite marksnaga squad.
-    
-    An HD 16 naga sharpshooter who also comes with various Blink spells,
-    inherent Phase Shift, and a Shroud of Golubria that she can renew if it
-    gets broken.
-    
-    Appears on Snake:2-.
-    
-    Historical note: Vashnia's original design had Disjunction as an escape
-    spell; currently the escape spell is Blink Other, which accomplishes
-    basically the same thing but with less visual impressiveness. Perhaps at
-    a later date the possibility of this can be revisited.
-
-commit dab6825aa234e9b898c620ce05327b67264fedaf
-Merge: 7ad9fed 1437299
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Tue Jan 28 12:52:55 2014 -0700
-
-    Merge branch 'demonspawn-enemies'
-    
-    With the forest dispersal work done, and with everything working up to
-    the original designer's standards, this is ready for trunk.
-    
-    Conflicts:
-    	crawl-ref/source/beam.cc
-    	crawl-ref/source/dat/des/branches/pan.des
-    	crawl-ref/source/enum.h
-    	crawl-ref/source/hiscores.cc
-    	crawl-ref/source/melee_attack.cc
-    	crawl-ref/source/mgen_enum.h
-    	crawl-ref/source/mon-cast.cc
-    	crawl-ref/source/mon-data.h
-    	crawl-ref/source/mon-ench.cc
-    	crawl-ref/source/mon-info.cc
-    	crawl-ref/source/mon-info.h
-    	crawl-ref/source/mon-place.cc
-    	crawl-ref/source/mon-spll.h
-    	crawl-ref/source/mon-stuff.cc
-    	crawl-ref/source/mon-util.cc
-    	crawl-ref/source/mutation.cc
-    	crawl-ref/source/output.cc
-    	crawl-ref/source/player.cc
-    	crawl-ref/source/spl-data.h
-    	crawl-ref/source/status.cc
-    	crawl-ref/source/wiz-you.cc
-
-commit e7ee5c1e24520cf344129e66447f21fb2c38b6c1
-Author: DracoOmega <draco_omega@live.com>
-Date:   Sun Jan 26 22:56:54 2014 -0330
-
-    Remove lava fish
-    
-    Stat-wise, they were extremely similar to lava worms (just slightly
-    weaker) - so much so that I see no reason for them to exist given that
-    they don't even really show up in the very narrow earlygame window
-    where you might be able to even notice the differences between the two.
-    
-    Where lava fish occured, I have mostly replaced them directly with worms,
-    barring a minor exception or two.
 
 commit 732301385daa64f7b8e827f25a3d3127038829b2
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -828,49 +541,6 @@ Date:   Wed Dec 18 20:32:19 2013 +0000
     - HP -3
     - MP +1
 
-commit 58d5a39bc2126cac1d1ab9d5ac839827b2ed8817
-Merge: 958ac0a 7782a6f
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Tue Jan 14 20:58:51 2014 -0700
-
-    Merge branch 'shadow-god'
-    
-    With bugfixes and more general balancing out of the way, and with the
-    generally positive reception this has had to this point, it's time for
-    fine-tuning the balance by way of the widespread feedback bringing this
-    to trunk will yield.
-
-commit 67f510594a037d6625c15c89ad3d5078664bd13c
-Author: Neil Moore <neil@s-z.org>
-Date:   Sun Jan 12 13:12:13 2014 -0500
-
-    Update a comment.
-
-commit 0d6ffeefa7c49bc52d085c59db10946f53c95cc2
-Author: Neil Moore <neil@s-z.org>
-Date:   Sun Jan 12 13:08:45 2014 -0500
-
-    Fix compilation, merge caps/hat doll tiles.
-
-commit 13f5ae3d6da441bbd9e8551020ffe156535ab4ff
-Author: wheals <shm.mark@gmail.com>
-Date:   Sun Jan 12 12:06:39 2014 +0000
-
-    Remove caps; rename wizards hats "hats."
-    
-    In the spirit of the glove/gauntlet and helmet types distinction removal, there
-    doesn't seem to be much reason to have both caps and wizard hats. Hats are more
-    common among unrands and wizards starting with hats is more "thematic" than
-    some gladiators starting with caps. on the other hand, those gladiators starting
-    with wizard hats would be pretty weird, so wizard hats are just hats now.
-    
-    Caps not removed:
-    - Caps existing in old saves
-    - Summon cap
-    - Level cap
-    
-    This changes the percentages of hat brands from 2/3 MR and 1/3 int to 1/3 MR,
-    1/3 int, and 1/3 spirit shield.
 
 commit 1641b8d7437eadee1498e59aabd48a94ae03a3e7
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -977,27 +647,6 @@ Date:   Mon Sep 30 15:11:18 2013 -0400
 
     Fix ordering of SPARM_* name arrays and tile enums.
 
-commit 2057b86a740fdaf7c9879ee9c9bd7dd296685c73
-Merge: 65c58ed e7b95c8
-Author: pubby <pubby8@gmail.com>
-Date:   Tue Oct 1 17:32:34 2013 -0500
-
-    Merge branch 'master' into dwants
-    
-    Conflicts:
-    	crawl-ref/source/dat/des/variable/mini_monsters.des
-    	crawl-ref/source/enum.h
-    	crawl-ref/source/itemprop.cc
-    	crawl-ref/source/main.cc
-    	crawl-ref/source/mutation-data.h
-    	crawl-ref/source/mutation.cc
-    	crawl-ref/source/newgame.cc
-    	crawl-ref/source/ng-restr.cc
-    	crawl-ref/source/rltiles/dc-player.txt
-    	crawl-ref/source/spl-selfench.cc
-    	crawl-ref/source/throw.cc
-    	crawl-ref/source/tilepick-p.cc
-    	crawl-ref/source/wiz-you.cc
 
 commit e7b95c8c9b3bd68a43ba0da89221226cd41dcc80
 Author: Samuel Bronson <naesten@gmail.com>
@@ -1040,20 +689,6 @@ Date:   Mon Sep 23 22:42:37 2013 -0600
     These are mainly the ones that I can come up with at a glance by
     overlaying icons on other readily available tiles.
 
-commit c5ce8eb6333642c91bf7e859b7d969dbb3337ee9
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Mon Sep 23 22:22:09 2013 -0600
-
-    Enums for the monster spells/abilities missing tiles.
-    
-    These turn up in ?/S, and use question marks until we get actual tiles
-    for them (fortunately a lot of them are low-hanging targets).
-    
-    Some spells that were formerly player spells (Berserker Rage, Symbol of
-    Torment) still have old tiles; this re-enables those tiles. Also, some
-    monster spells duplicate divine abilities, and the enums for those point
-    at the appropriate invocation icons.
-
 commit e47661c8a7955e7d2ca31de714c8dba83c0ed4b7
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Wed Sep 18 20:27:45 2013 -0600
@@ -1065,33 +700,6 @@ Date:   Wed Sep 18 20:27:45 2013 -0600
     
     Hopefully this will serve as motivation to get something better?
 
-commit 65c58ed6ccd53a9a080255ee37e131123ac65e96
-Merge: c4b5122 70ca29e
-Author: pubby <pubby8@gmail.com>
-Date:   Sat Aug 31 16:40:44 2013 -0500
-
-    Merge branch 'master' into dwants
-    
-    Conflicts:
-    	crawl-ref/docs/crawl_manual.reST
-    	crawl-ref/source/abl-show.cc
-    	crawl-ref/source/dat/descript/ability.txt
-    	crawl-ref/source/delay.cc
-    	crawl-ref/source/enum.h
-    	crawl-ref/source/main.cc
-    	crawl-ref/source/mon-cast.cc
-    	crawl-ref/source/mon-gear.cc
-    	crawl-ref/source/mon-spll.h
-    	crawl-ref/source/mutation-data.h
-    	crawl-ref/source/mutation.cc
-    	crawl-ref/source/ng-restr.cc
-    	crawl-ref/source/ng-setup.cc
-    	crawl-ref/source/output.cc
-    	crawl-ref/source/player-act.cc
-    	crawl-ref/source/player.cc
-    	crawl-ref/source/species.cc
-    	crawl-ref/source/spl-data.h
-    	crawl-ref/source/wiz-you.cc
 
 commit 7b4c43a7361f6f77899f1ecf1a34dbcb4b043282
 Author: pubby <pubby8@gmail.com>
@@ -1102,33 +710,6 @@ Date:   Wed Aug 28 14:32:30 2013 -0500
     Since all 3 formicid monsters appear together they needed tiles to
     separate them.
     These are absolutely terrible graphics, but should suffice for testing purposes.
-
-commit 2211e5ff2f25adfb931eb0ff32b274afa7eb7ed5
-Author: pubby <pubby8@gmail.com>
-Date:   Wed Jun 12 02:34:30 2013 -0500
-
-    Create Formicid species and monsters.
-    
-    Tavern post:
-    https://crawl.develz.org/tavern/viewtopic.php?f=8&t=8298
-    
-    Wierdness & mutations:
-    - poison weakness
-    - retractable antennae (can wear headgear and ignore mutation)
-    - chitin skin (+3 AC)
-    - most weapons 1-handed, big weapons 2-handed
-    - permanent stasis
-    - ability to shaft self
-    - ability to dig
-    - Starts with 2 curing pots
-    
-    3 monster versions of formicids were added:
-    formicid, a weak fighter
-    formicid drone, a stronger fighter
-    formicid venom mage, a magician with olgreb's and mass cure poison
-    
-    [ Pushing to a branch for experimental playtesting on CSZO.
-      Also optimised the new tiles. -nfm ]
 
 
 commit 9d0e715c0b71a236ef9bca9d7c2a90512ce2c7eb
@@ -1157,30 +738,6 @@ Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Thu Aug 16 23:29:27 2012 +0200
 
     white_noise's recolored crypt tiles (#6073).
-
-commit 52968190ec632c869ac9732361746addd8633a8f
-Author: DracoOmega <draco_omega@live.com>
-Date:   Sat Jul 13 15:21:57 2013 -0230
-
-    Remove Deep Elf Soldiers (plus band/vault adjustments)
-    
-    Stat-wise, these were virtually identical to orc wizards in every
-    way (except for somewhat better equipment), very weak for the branch
-    they appeared in, and simply a plain worse version of another common
-    (and not-so-scary) monster already in that same branch.
-    
-    Vault-wise, most uses of soldiers have been replaced with fighters.
-    Sometimes the total number of them was decreased a little, and in one
-    case a very early vault was shifted deeper, though most cases seem
-    like they could handle an outright buff without much of consequence
-    changing.
-    
-    The contents of the deep elf bands that used them has been altered
-    somewhat. Fighter and knight bands are somewhat smaller, with fighters
-    taking up the largest part of the slack for the missing soldiers, but
-    there is also an increased presence of (improved) mages, along with a
-    few other tweaks. On the whole, there should be somewhat fewer elves
-    together, but the ones that are present should be more notable.
 
 commit 4422b0a2ad9983107cfb766c3063ad45eee8e0ff
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -1331,22 +888,6 @@ Date:   Mon May 27 21:57:31 2013 -0600
     This leaves fauns, satyrs, Pan, tengu reavers, Sojobo, and spriggan
     enchanters in need of tiles.
 
-commit 855288b3e9be0d5e8a1e0669d692706ab457c3b9
-Author: Pete Hurst <pete@streamuniverse.tv>
-Date:   Thu May 23 12:19:16 2013 +0100
-
-    Display a different overlay when player or monster held by a web
-    
-    For now it's a semi-transparent version of a normal web. It
-    doesn't look perfect but a fully-opaque version almost completely
-    masked the image underneath. Should perhaps get a new image for
-    this, with thinner strands and no or thinner outline.
-    
-    player_caught_in_net no longer calls redraw_screen - otherwise
-    there would be a glimpse of a web over the player before the
-    item on the ground both existed and was set as "stationary" to
-    mark it as the trapping net (for thrown nets). The screen
-    seems to get redrawn shortly after anyway.
 
 commit 1c7610c8373d6bffcf7bf68a6bedb1d03b8505f2
 Author: Pete Hurst <pete@streamuniverse.tv>
@@ -1465,83 +1006,6 @@ Date:   Wed Nov 7 23:10:57 2012 +0000
 
     Replace levitation with flight and remove controlled flight (elliott)
 
-commit c04c3c159f4ed337d74e3ebe19ea887af3348382
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Sat Sep 8 17:23:23 2012 +0200
-
-    Webtiles: Do animations on the client and, optionally, in real-time.
-    
-    Real-time animations are just an experiment and have to be enabled in
-    the F10 dialog, but this has an advantage even if I choose to remove
-    them: It prevents a lot of unnecessary tile updates (and thus
-    bandwidth), especially in places with a lot of water or lava.
-    
-    Real-time animated torches, altars and wizlab portals look good;
-    dungeon water and lava doesn't look too bad, but is annoying; and
-    shoals water is very bad.
-
-commit f4002528321dbb23f92bade00d46ce515dd1bd27
-Author: frogbotherer <therealchriswest@hotmail.com>
-Date:   Sat Sep 8 13:40:44 2012 +0200
-
-    Android port.
-    
-    2 files are added to the root of the repository:
-    * AndroidAppSettings.cfg: settings file required for Android SDL port. Will
-      change on each minor release to reset configuration.
-    * AndroidBuild.sh: script called by the Android SDL port to commence building
-      the game itself
-    
-    It might be nice to be able to move them elsewhere, but for now, their
-    presence here is required.
-    
-    The build process is documented in docs/develop/android.txt
-    
-    There's a TOUCH_UI compiler flag which sets all the things specific to a
-    touch screen interface.
-    
-    There has been a large amount of changes in the Makefile for redefining where
-    the dat/, saves/, etc. directories go, because the "install" part of the make
-    isn't the final destination for these files under Android - the environment we
-    deploy to is a separate device from the build environment.
-    
-    There is also a number of changes to the tiles interface. Some are specific
-    to the TOUCH_UI, but others are also changed in USE_TILE_LOCAL.
-    
-    Touch only:
-    * 'a'bilities menu goes straight to menu without prompting first
-    * tap menu header to toggle/submit
-    * menu instead of prompt to select which corpse to butcher
-    * same for eating food from the floor (those 2 could go in local tiles too)
-    * show_more defaults to false and less --more-- messages
-    * pickup mode defaults to menu
-    * defaults for tile_layout_priority is different (commands are more
-      important than inventory)
-    * popup for yes/no prompts, level-up stat gain and swapping rings (should
-      be used for all prompts, and probably local tiles too)
-    * spell casting: force selection menu
-    * map mode: left-click rather than right-click for mouse mode; autotravel on
-      left-click removed
-    * remove skills training and memorisation panels
-    
-    Also local tiles (some could also be integrated in webtiles):
-    * commands below description are clickable
-    * clickable shopping menu (uses PrecisionMenu)
-    * split the command panel in 2 (common actions and system commands)
-    * add a map command panel
-    * tapping or left-clicking the player is smarter:
-      * picks up the item if there's one on the tile, otherwise
-      * shows pick-up menu if there's several items on the tile, otherwise
-      * traverses stairs (or enters a portal or shop) if one is present, otherwise
-      * prays if an altar is present, otherwise
-      * waits one turn
-    * right-clicking the map enters map mode and brings the map commands tab to
-      the front; map mode stays until exited rather than upon release of mouse
-    
-    Some more details can be found in android_patch_notes.txt on #5677 (although
-    some TODOs are already obsolete).
-    
-    Signed-off-by: Raphael Langella <raphael.langella@gmail.com>
 
 commit 77ca476af9042312c0fc1ba16921ea2984739f82
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -1943,24 +1407,6 @@ Date:   Tue Jun 12 22:57:55 2012 +0200
 
     Improved enchanted ring and splint mail tiles by roctavian (#5575).
 
-commit ee7a1cff33852e8f4f78ef4e003dd4fad6032fbd
-Author: elliptic <hyperelliptical@gmail.com>
-Date:   Sat Jun 9 12:21:46 2012 -0400
-
-    Remove scrolls of detect curse.
-    
-    These scrolls simultaneously encouraged scummy behavior (collecting dozens of
-    weapons/armour to detect curses on all of them at once) and were pretty much
-    junk after early game (because remove curse is common and you probably don't
-    actually want to try out every weapon in the game because of distortion
-    anyway).
-    
-    I tried to change other scroll generation probabilities as little as possible,
-    but this means something like a 3-5% increase for most scrolls, and about 15%
-    for remove curse (as very partial compensation). The scroll generation code is
-    a bit cleaner now.
-    
-    Upgraded games have detect curse converted to remove curse.
 
 commit ee0f5a453e78d8ea6ab53491399c746bb16ddc07
 Author: Michael Gagno <evilmike@gmail.com>
@@ -2193,51 +1639,6 @@ Author: Michael Gagno <evilmike@gmail.com>
 Date:   Mon Jan 9 19:22:14 2012 -0800
 
     Golden statue tiles for the holy Pan level. (roctavian)
-
-commit 2cdada0216b57c076ecc08160ad221583b31dc12
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Wed Dec 28 21:41:51 2011 +0100
-
-    Fix #5133: secret door positions revealed next to walls with redefined tiles.
-    
-    This was a regression from my tilepick.cc changes. Since the tile
-    picking code now operates on map_knowledge, it didn't know about the
-    undetected secret door and thus didn't use the tile override from
-    adjacent tiles.
-    
-    This is a bit of a problem with tile_flv, which on the one hand is
-    player-accessible (parts of it get transmitted to the webtiles client,
-    for example), but on the other hand could contain "secret" data, like
-    in this case (maybe the only one at the moment). (Note that this
-    "secret" data didn't actually get sent to the client, but it could
-    easily have been if more tile picking logic was on the client side.)
-    
-    I've opted to fix up tile_flv directly in tile_init_flavour, so that
-    secret doors take the tile override of their neighbours. Of course,
-    that causes the problem that the tile override is still there when the
-    secret door gets turned into an open door, which resulted in an
-    assert ("non-door tile").
-    
-    That's why now, only certain tiles are allowed as door overrides; all
-    others simply do nothing for doors since they are assumed have been
-    set for undetected secret doors. It also means that you can either
-    override the appearance of an undetected secret door, or its
-    appearance after detection, but not both. I don't think that was done
-    anywhere, but if it was, a more complicated solution might be
-    necessary.
-
-
-commit a316fb81c75ebdd132e4e9b7ddbed00dbf55e293
-Author: Neil Moore <neil@s-z.org>
-Date:   Sun Dec 18 14:27:04 2011 -0500
-
-    Avoid spurious regeneration of tiledef headers.
-    
-    tilegen had a bug causing it to think that small (< 1024 byte) files had
-    changed when they had not.  This resulted in tiledef-dngn.h (and thus
-    the source files that depended on that) being regenerated even when
-    nothing had changed.  Whether the bug triggers depends on uninitialised
-    memory contents, so might or might not have shown up in a given run.
 
 commit a6caf00343b5b730fad2b54b3efe8119e40d3299
 Author: Neil Moore <neil@s-z.org>

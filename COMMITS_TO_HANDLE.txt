@@ -3237,3 +3237,123 @@ Date:   Sun Jul 13 13:46:05 2014 -0400
     Crush a ghost.
     
     With optipng + advpng.
+
+commit 009d8da55df18da7e8f581831acb8ea25d4b92da
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Mon Mar 3 18:40:08 2014 -0700
+
+    roctavian's crystal guardian and guardian golem tiles (#8097).
+    
+    I clumsily edited the crystal guardian slightly to make it look less
+    "pot-bellied", per roctavian's comments. If this still looks back,
+    someone more experienced at tile editing will have to fix it.
+
+
+commit c38a8f9b011df56edcb22021fdd05f7badba1c87
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Thu Jan 30 23:05:46 2014 -0700
+
+    Unique: Vashnia, leader of the elite marksnaga squad.
+    
+    An HD 16 naga sharpshooter who also comes with various Blink spells,
+    inherent Phase Shift, and a Shroud of Golubria that she can renew if it
+    gets broken.
+    
+    Appears on Snake:2-.
+    
+    Historical note: Vashnia's original design had Disjunction as an escape
+    spell; currently the escape spell is Blink Other, which accomplishes
+    basically the same thing but with less visual impressiveness. Perhaps at
+    a later date the possibility of this can be revisited.
+
+commit 2211e5ff2f25adfb931eb0ff32b274afa7eb7ed5
+Author: pubby <pubby8@gmail.com>
+Date:   Wed Jun 12 02:34:30 2013 -0500
+
+    Create Formicid species and monsters.
+    
+    Tavern post:
+    https://crawl.develz.org/tavern/viewtopic.php?f=8&t=8298
+    
+    Wierdness & mutations:
+    - poison weakness
+    - retractable antennae (can wear headgear and ignore mutation)
+    - chitin skin (+3 AC)
+    - most weapons 1-handed, big weapons 2-handed
+    - permanent stasis
+    - ability to shaft self
+    - ability to dig
+    - Starts with 2 curing pots
+    
+    3 monster versions of formicids were added:
+    formicid, a weak fighter
+    formicid drone, a stronger fighter
+    formicid venom mage, a magician with olgreb's and mass cure poison
+    
+    [ Pushing to a branch for experimental playtesting on CSZO.
+      Also optimised the new tiles. -nfm ]
+
+
+commit f4002528321dbb23f92bade00d46ce515dd1bd27
+Author: frogbotherer <therealchriswest@hotmail.com>
+Date:   Sat Sep 8 13:40:44 2012 +0200
+
+    Android port.
+    
+    2 files are added to the root of the repository:
+    * AndroidAppSettings.cfg: settings file required for Android SDL port. Will
+      change on each minor release to reset configuration.
+    * AndroidBuild.sh: script called by the Android SDL port to commence building
+      the game itself
+    
+    It might be nice to be able to move them elsewhere, but for now, their
+    presence here is required.
+    
+    The build process is documented in docs/develop/android.txt
+    
+    There's a TOUCH_UI compiler flag which sets all the things specific to a
+    touch screen interface.
+    
+    There has been a large amount of changes in the Makefile for redefining where
+    the dat/, saves/, etc. directories go, because the "install" part of the make
+    isn't the final destination for these files under Android - the environment we
+    deploy to is a separate device from the build environment.
+    
+    There is also a number of changes to the tiles interface. Some are specific
+    to the TOUCH_UI, but others are also changed in USE_TILE_LOCAL.
+    
+    Touch only:
+    * 'a'bilities menu goes straight to menu without prompting first
+    * tap menu header to toggle/submit
+    * menu instead of prompt to select which corpse to butcher
+    * same for eating food from the floor (those 2 could go in local tiles too)
+    * show_more defaults to false and less --more-- messages
+    * pickup mode defaults to menu
+    * defaults for tile_layout_priority is different (commands are more
+      important than inventory)
+    * popup for yes/no prompts, level-up stat gain and swapping rings (should
+      be used for all prompts, and probably local tiles too)
+    * spell casting: force selection menu
+    * map mode: left-click rather than right-click for mouse mode; autotravel on
+      left-click removed
+    * remove skills training and memorisation panels
+    
+    Also local tiles (some could also be integrated in webtiles):
+    * commands below description are clickable
+    * clickable shopping menu (uses PrecisionMenu)
+    * split the command panel in 2 (common actions and system commands)
+    * add a map command panel
+    * tapping or left-clicking the player is smarter:
+      * picks up the item if there's one on the tile, otherwise
+      * shows pick-up menu if there's several items on the tile, otherwise
+      * traverses stairs (or enters a portal or shop) if one is present, otherwise
+      * prays if an altar is present, otherwise
+      * waits one turn
+    * right-clicking the map enters map mode and brings the map commands tab to
+      the front; map mode stays until exited rather than upon release of mouse
+    
+    Some more details can be found in android_patch_notes.txt on #5677 (although
+    some TODOs are already obsolete).
+    
+    Signed-off-by: Raphael Langella <raphael.langella@gmail.com>
+
