@@ -1,0 +1,2 @@
+#!/bin/bash -e
+git show --pretty="format:" --name-status "$@" | grep rltiles
