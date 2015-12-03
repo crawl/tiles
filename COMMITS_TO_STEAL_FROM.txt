@@ -1,0 +1,29 @@
+commit d43391ddfb6ad188092ccc36e57971d31a82abec
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Mon Oct 6 21:02:57 2014 -0700
+
+    Clean up rltiles/UNUSED
+    
+    Removed anything that I very strongly doubted would ever be used
+    or useful.
+    
+    Also reorganized a couple of things.
+
+commit 3a289399ff0062cee3cd7f0f0f1cd3e86bf192cb
+Author: theTower <mwclaws@gmail.com>
+Date:   Mon Oct 6 23:08:28 2014 -0400
+
+    Clean out some unused tiles that have gotten better replacements.
+    
+    There are three groups of tiles in this rltiles/UNUSED/monsters folder:
+    tiles of monsters that have never been, tiles of monsters that were removed,
+    and tiles that were replaced with significantly better ones on currently-in
+    monsters. I've trimmed the last group by far as it has the least reason to
+    be kept, with exceptions granted to the smaller pan/hell lord tiles and the
+    old orb guardian tile.
+    
+    If anybody wanted to use any of those tiles, they can find them in the git
+    history alongside plenty of other tile replacements that didn't get preserved
+    so explicitly.
+
+

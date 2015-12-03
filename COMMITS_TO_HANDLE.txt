@@ -2604,3 +2604,636 @@ Date:   Mon Mar 3 11:29:02 2014 -0700
     
     A couple of cases where enemies could spawn with equipment
     unintentionally have also gone away.
+
+commit 32e5fa84aeeb3db323bdeaab22ee64f00e3092e8
+Author: Samuel Bronson <naesten@gmail.com>
+Date:   Sat May 4 17:06:42 2013 -0400
+
+    Evoke fog ability icon for cloak of the Thief (Reaver)
+    
+    Taken from <https://crawl.develz.org/mantis/view.php?id=6896>.
+
+commit 53cf1ce1d3d54244a92481601bb2f394724eb498
+Author: Seve Monahan <reaverb.Crawl@gmail.com>
+Date:   Sun Oct 25 12:54:25 2015 -0400
+
+    Add juggernaut zombie tile (Doesnt, hyperactiveChipmunk, #10010)
+
+commit a6690104b51d2366db7530b305977d1f654fcd3f
+Author: Brendan Hickey <brendan@bhickey.net>
+Date:   Fri May 1 22:25:45 2015 -0400
+
+    Clumsy Crypt floor tile variations {bh}
+
+commit bc838597ddbedc7e5bcc7317fa9adce58d34c0e2
+Author: Brendan Hickey <brendan@bhickey.net>
+Date:   Sun Apr 26 14:59:25 2015 -0400
+
+    Add more crypt floor variations.
+
+commit 054e213f46d9df458419c93785b39269dbbc7ded
+Author: Brendan Hickey <brendan@bhickey.net>
+Date:   Sun Apr 26 13:32:33 2015 -0400
+
+    Add some crypt floor tile variations.
+    
+    (I am not an artist)
+commit 03e37bf5212d56a9416779d0c452bfc551a697de
+Author: Brendan Hickey <brendan@bhickey.net>
+Date:   Sun Apr 26 12:33:17 2015 -0400
+
+    Land crypt dominoes.
+    
+    This time for real.
+
+commit ebc010b701494d6248a472eeee07f2cdeba5fbea
+Author: Brendan Hickey <brendan@bhickey.net>
+Date:   Sun Apr 26 12:05:47 2015 -0400
+
+    Enable crypt dominoes
+    
+    Use domino syntax for crypt!
+    
+    There are some tile discontinuities, so I suspect a bug in variant picking,
+    or a misordering of the domino variants.
+
+
+commit b8087dce2c8ebbdac6773f9fbcf928e95d3a5492
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Mon Apr 20 08:17:17 2015 -0700
+
+    Entropy weaver corpse tile (9660)
+
+commit dcab04f1b94a6a4f18d882a66ed2b73608a172d3
+Author: Shmuale Mark <shm.mark@gmail.com>
+Date:   Fri Apr 17 13:47:45 2015 -0400
+
+    The crown of Eternal Torment (Siegurt). Needs non-crappy tiles.
+    
+    Gives rTorment and reduces your maxhp by 35% (i.e., how much torment would
+    do, since it also gives rN+++). Made it +3 and SInv for some nice symmetry
+    with the other crown. It autocurses 100% of the time, which should help if
+    being swappable makes it abusable (though I'm not convinced it would be
+    anyway).
+    
+    Tiles are poorly-photoshopped copies of Dyrovepreva's. I am so, so sorry.
+
+commit fd539b1f27069b5451c6a4b5474d6025a0d25a26
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Mon Apr 13 20:43:11 2015 -0700
+
+    Turn fire dragons red (Marbit, Bloax)
+    
+    For consistency with other fire monsters. (Ditto lindwurms.)
+    
+    Credit to Bloax for the fire dragon recolour & Marbit for the
+    lindwurm & armour recolours. Also, for the thread that inspired
+    this.
+
+commit ceb348796b2af6774191b2c21bc87995bfb64d07
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Sat Feb 21 21:39:14 2015 -0800
+
+    Make fleshy orifices much more obvious
+    
+    With a crude contrast/brightness hack.
+    
+    They were pretty stealthy before.
+
+commit 63baae8fa0f5f97f21436f9dfd908ae3e212642d
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Wed Feb 18 17:39:02 2015 -0800
+
+    Add a lava worm corpse tile (9492)
+    
+    Since it's trivial, even if it will never actually happen in
+    practice.
+    
+    An extremely powerful prize will be awarded to the first person
+    who emails me with an in-game, ***NON-WIZMODE*** screenshot of
+    this corpse. Cheating will not be taken lightly!!!
+
+commit e6667735293361999c7bee4c117aabc3ac58edf2
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Tue Jan 27 20:59:12 2015 -0800
+
+    Disable shadow traps temporarily after firing (elliptic)
+    
+    For 2-4 turns (amount can be calibrated). Mainly intended to
+    reduce issues with batty enemies triggering traps repeatedly in
+    a single turn.
+    
+    Might be possible to re-add these on earlier levels now, since
+    they were only moved deeper because of bats.
+
+commit 4b1633f80b948fa1a6f2651360b446dc25fc71fa
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Tue Jan 6 22:08:46 2015 -0800
+
+    Re-randomize demonic rune tiles
+    
+    Playing around, since we have the tiles, after all...
+
+commit 0877e93f700a0ce7b3b4a60d31777a52993b66ed
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Sun Jan 4 20:58:57 2015 -0800
+
+    Show the last Christmas partygoers the door
+    
+    Some people just don't know when to stop...
+    
+    (DE Fighters & Knights.)
+    
+    This reverts commit af862a732f608735c4b7ae7df5622ed77019a66b.
+
+commit c1648d5b2c19a470f92fb08917463b27637ff2bb
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Wed Dec 31 17:21:55 2014 -0700
+
+    De-decorate Antaeus and his pets, too.
+    
+    This reverts commit 5032008878159b448e1fe0cd4fda66b54de6f28f.
+
+commit b4a0a0801985e5e29489151281be92313f22361a
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Tue Dec 30 18:43:30 2014 -0800
+
+    Add ?/ to the local tiles command bar
+
+commit a8a79bde6a5cb77374c4d7cb8e86236c9e17d10a
+Author: Brendan Hickey <brendan@bhickey.net>
+Date:   Mon Dec 29 20:40:37 2014 +0000
+
+    Reform-reform: Partially Spoil Christmas
+    
+    Ufetubus Reform (9922265674c6386a33bf5bcb63feb149e3cbe57a)
+    Deep Elf Summoner Reform (738a44cbbb27c96a7e601f5aa1e928efbfa6ef42)
+    Reform Elf Tiles (b0422a19033894406578d3901511a134ef63873c)
+    Further Song of Slaying Reform (e2cd79ceea719c570ca855b9e685f78e9dec1d75)
+    Reform Song of Slaying (82fa208686f632a98f2c9ea5135f957be4be2a59)
+
+commit 62c2927876e02cfa6d8df4279a5e0898d13013ec
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Fri Dec 26 15:09:30 2014 -0800
+
+    Add Shadow Creature traps
+    
+    Summon a few creatures from the current level whenever the player
+    or a monster in LOS steps on the trap, roughly as a casting of
+    Shadow Creatures. The monsters are always hostile to the player.
+    
+    The number of monsters spawned increases with depth.
+
+commit 9922265674c6386a33bf5bcb63feb149e3cbe57a
+Author: Brendan Hickey <brendan@bhickey.net>
+Date:   Wed Dec 24 13:43:45 2014 -0500
+
+    Ufetubus Reform
+    
+    ...but there are no penguins at the North Pole!?
+
+commit af862a732f608735c4b7ae7df5622ed77019a66b
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Tue Dec 23 21:34:15 2014 -0700
+
+    Let deep elf fighters and knights join the reform party.
+
+commit 5032008878159b448e1fe0cd4fda66b54de6f28f
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Tue Dec 23 21:27:25 2014 -0700
+
+    Adjustments to Antaeus and Ice Fiend tiles (Ironfoot).
+    
+    He also gets an entry in CREDITS.txt.
+
+commit 738a44cbbb27c96a7e601f5aa1e928efbfa6ef42
+Author: Brendan Hickey <brendan@bhickey.net>
+Date:   Tue Dec 23 23:23:34 2014 -0500
+
+    Deep Elf Summoner Reform
+    
+    Twas the night before the night before Christmas,
+    when all through the house
+    not a creature was stirring, not even a tentacled monstrosity
+    The orb of Zot was hung between the Zot lungs with defiance and hate
+    In hopes that qw wouldn't be late;
+    
+    Crazy Yiuf was nestled, snug in his bed
+    Sigmund was stalking, filling n00bs with dread
+    And Cerebov his robe and Lom Lobon in its wrath,
+    Had just settled scores over some player's bones.
+
+commit b0422a19033894406578d3901511a134ef63873c
+Author: Brendan Hickey <brendan@bhickey.net>
+Date:   Tue Dec 23 23:02:22 2014 -0500
+
+    Reform Elf Tiles
+    
+    The old elf tiles were bland and tepid. They didn't reflect the place
+    of elves in the natural order of the dungeon. These tiles reform the
+    essence of what it means to be elfish. Lovingly handcrafted in small
+    batches, these little buddies protect the awesome Christmas presents
+    hidden in Elf:$.
+
+commit 1f6d2f01b87a9b68704f9e8b0e738b9cccc93026
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Thu Dec 18 14:01:14 2014 -0700
+
+    A demigodlier tile for Frederick.
+    
+    ...since he's been overhauled considerably since the last tile.
+    
+    Thanks to ontoclasm for helping me tune this up.
+
+commit dd79bc7edecb954169ec35a7bf3d46787cfb610e
+Author: Shmuale Mark <shm.mark@gmail.com>
+Date:   Mon Dec 8 10:03:07 2014 -0500
+
+    New unrand - Gyre and Gimble (argonaut).
+    
+    This version differs from the original patch in significant ways; in
+    fact, gameplay-wise, it's a whole new weapon. Instead of being,
+    effectively, a two-hander for short blades (i.e., the best in terms of
+    base damage that the class can provide), it's literally two strikes per
+    attack. I added vorpal to it because that definitely lowered damage
+    versus AC, and, of course, for the Jabberwocky reference.
+    
+    Tile by roctavian.
+
+commit 3fb461fc80821f2bba045717d77a7b33ad9de6a0
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Wed Dec 3 18:06:06 2014 -0700
+
+    Gell's Gravitas.
+    
+    A level 6 Hex/Translocation that pulls creatures towards a targeted
+    creature, potentially causing lots of collision damage - it's basically
+    a one-turn Singularity effect centered around a creature and without the
+    direct gravitational damage.
+    
+    Appears in the book of the Warp and the book of Hinderance.
+    
+    "Gell" is intended to be pronounced with a hard G.
+
+commit 84df241bbfdcf2bb45fd3e6ce90c32e7fdbaaa30
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Wed Dec 3 18:33:49 2014 -0800
+
+    Make Gozag sparkly
+    
+    Add sparkles on active Gozag gold, so it's a bit more obvious
+    now that it no longer has an aura. Doesn't currently appear
+    when a monster is on top of the gold, since it was visually
+    overwhelming - patches welcome...
+    
+    Thanks to Lasty for testing & Grunt for fixing!
+
+commit 91c5bcb1e528ac4feaa25f6e8bae32c174347181
+Author: Edgar A. Bering IV <trizor@gmail.com>
+Date:   Thu Nov 27 22:06:56 2014 -0600
+
+    Replace Potions of Confusion with Ambrosia
+    
+    A new potion, inspired by the old food item. Causes confusion
+    and an Elixir-like HP & MP-regeneration effect. If the confusion
+    is cured or prevented, the regeneration goes away.
+    
+    [Committer's note: tweaked a bunch of stuff.]
+
+commit d43c0913adb78e86d495cd9869cfae70a6d3c91e
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Sat Nov 29 13:53:26 2014 -0800
+
+    Add Cigotuvi's Badtile
+
+commit 0ee3188b55e7b007ff02d6da3c8a90dc0cca77a7
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Fri Nov 28 15:51:18 2014 -0700
+
+    New Seraph tile.
+    
+    Pieced together from Denzi's old TSO avatar tile and some of the other
+    current holy tiles, with some cues taken from Denzi's previous seraph
+    tile.
+    
+    32x48. Beware.
+    
+    Thanks to ontoclasm for helping me polish this up.
+
+commit d16e107285a4676d95e8d2ab743b9a67183921f6
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Fri Nov 28 15:15:51 2014 -0700
+
+    Show weapons and shields properly on more holies.
+    
+    This involves some edits to the daeva tile to remove the weapon and
+    shield that were already there.
+
+commit 144e84685d028548d757541e7788aafda522e702
+Author: Sage <SageBasilMint@gmail.com>
+Date:   Sun Jan 19 03:26:29 2014 +0000
+
+    New spell: Singularity.
+    
+    L9 Tloc. Places a monster like Fulminant Prism that draws creatures that are
+    within its radius closer to itself, pulls harder the closer they are, and
+    deals damage to creatures that are sufficiently close. Lasts ~6-8 turns,
+    dependent on power.
+    
+    Doesn't warp allies.
+
+commit 5c3b94e992bdf36e60478c1ced226b9436346b1a
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Sun Nov 23 23:07:01 2014 -0700
+
+    Base panlord tile recolouring (roctavian).
+    
+    To give them a colour that can be recoloured in dc-* tile directives.
+
+commit bfab2ba8d738bb8fa5272cad938c08b79ece3d56
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Wed Nov 19 22:27:15 2014 -0800
+
+    Add Shard Shrikes
+    
+    Batty monsters that spit 3d30 Throw Icicle, resist cold, and flock
+    in small bands. Intended to add a little variety and danger to
+    Cocytus, where they live.
+    
+    Credit to Lasty for the name and, in a sense, the inspiration.
+    Credit to Hangedman for spell choice & habitat; thanks to others
+    as appropriate.o
+
+commit 64ea467dd7f492b98974a16f361c7ea334ea6107
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Thu Oct 23 08:45:22 2014 -0700
+
+    New unique: Robin of the Strong Arm
+    
+    A very early-game hobgoblin unique (currently at D2-4); about
+    twice as tough as a hobgoblin, but placing with a mob of goblin
+    & hobgoblin minions, and with the ability to buff them (with
+    Battlecry) and hurl them at the player.
+    
+    As a nice piece of early-game loot, she has a guaranteed
+    helmet, like Crazy Yiuf's cloak. Implementation uses the Nikola
+    Hack (equipping it in her shield slot), alas.
+    
+    (The code for goblin tossing is extremely bad and shameful.
+    I am sorry.)
+
+commit 7d48ffd5bfff99f031f01c182c5947103d258543
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Sun Nov 16 14:45:01 2014 -0800
+
+    Add androsphinxes
+    
+    Implicitly.
+
+commit 23cdb65b3ed342f6ec7c7e7d6c9b3820f8733110
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Sat Nov 15 21:36:41 2014 -0700
+
+    Add a button to show the keyboard on touch UIs.
+    
+    Complete with Grunt tile, which probably should be replaced.
+
+commit 1e8e0b63cae3b292c0f155950cbf07ced1d8e5fd
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Fri Nov 14 22:43:10 2014 -0700
+
+    Generate bright versions of the Pan wall/floor tiles.
+    
+    ... so that the colours can match console properly. Yay.
+
+
+commit ac29865fd209705657fc05660ad049f0dd91bbef
+Author: Shmuale Mark <shm.mark@gmail.com>
+Date:   Tue Nov 4 13:18:51 2014 -0500
+
+    Add Bloax's obsidian statue tile.
+
+commit 4d0b6572f173350dc09ced6b9b50a60e5f2ffca5
+Author: Shmuale Mark <shm.mark@gmail.com>
+Date:   Mon Nov 3 21:11:51 2014 -0500
+
+    Add a very bad tile for obsidian statues.
+
+commit fd4925d704198459885d68b63f6e4ecaed31baaa
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Mon Oct 27 16:44:37 2014 -0600
+
+    A much deadlier death scarab tile (Bloax).
+
+commit e06adc59bc83eab15a5aace4d58317e8680bfd52
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Sun Oct 26 15:08:12 2014 -0600
+
+    Hastily sneak an item image in that was missed in a previous commit.
+
+commit c7fcf03a645e68284eafc8a8ea2e1e0e812f2cef
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Sun Oct 26 12:56:38 2014 -0600
+
+    Brighten the death scarab tile a bit.
+    
+    The legs still blend into the floor somewhat, but it is more visible in
+    general.
+
+commit 5fb490159c49cddd07c57bce4d312a743d8f1fb4
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Sun Oct 26 09:34:37 2014 -0600
+
+    Make anubis guards' quarterstaves visually distinctive in tiles.
+    
+    As far as I can tell, the equip tile for this isn't actually in use
+    anywhere else, and it makes for a good visual explanation of why they're
+    wielding staves to begin with.
+
+commit f5e5797b591d71e05d125cc50278773b4fa706c9
+Author: Steve Melenchuk <smelenchuk@gmail.com>
+Date:   Thu Oct 23 20:39:34 2014 -0600
+
+    Tiles for the new enemies.
+
+commit f3cef8307a6a4290f3adac1c642516b4ea89a6c3
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Sat Oct 18 17:06:35 2014 -0700
+
+    Add placeholder qda tiles
+    
+    Simple edits of the mottled dragon armour tiles.
+    
+    Not sure how I feel about the purple accent on the item armour
+    tile - might be a little overwhelming?
+
+commit e2ae0e8ebe7a07c57c3e53cf1159f1cbe2bd4509
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Sat Oct 18 16:32:11 2014 -0700
+
+    Add placeholder hda tiles
+    
+    Simple edits of the storm dragon armour tiles.
+    
+    ...might be a little *too* stealthy....
+
+commit e771f3e3b02f8546e0a5e4109b49fa1a894ebfd1
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Sat Oct 11 21:28:17 2014 -0700
+
+    Add a missing image (checkers)
+
+commit bb07038d81e1949a206d43fb220d8708597ed012
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Mon Oct 6 22:38:14 2014 -0700
+
+    Add a placeholder Hydra Form icon
+
+commit 699286965219725037ee459b8178674c9c5ceb98
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Mon Oct 6 22:12:24 2014 -0700
+
+    Pull in a large number of UNUSED potion tiles/colours
+    
+    Seemed a pity to let them go to waste.
+
+commit 69ea0458ddc86a60122a1a46528ee624b81b1e76
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Thu Jul 17 21:41:13 2014 -0700
+
+    Turn rings of regen into amulets
+    
+    Rings of regen are notorious for encouraging tedious swapping,
+    since they're at best marginally useful in combat, and quite
+    useful outside combat. The amulet slot has a number of types
+    that already discourage swapping (faith, guardian spirit,
+    gourmand), which should at least ameliorate the regen problem
+    somewhat; and if we later want to change regen to do something
+    similar, it'll be a bit more intuitive if it's in the same slot.
+    
+    This also helps refresh the pool of amulets, which was starting
+    to look a little shabby.
+
+commit 10f4cc480bcc6a888152225be2e9a7295dc0169e
+Author: theTower <mwclaws@gmail.com>
+Date:   Thu Sep 18 00:51:55 2014 -0400
+
+    A twisted resurrection of phoenixes, as Bennu in Tomb
+    
+    As little omnipresence avatars of a creation god linked to a sun god,
+    another creator god, and an afterlife god, the Bennu have a wide spread of
+    capabilities: as a comparsion point, they can be roughly described as no
+    haste, regular-holiness executioners with sticky flame, holy, and draining
+    attacks. Yes, holy; undead have it easy in Tomb. Alongside this, they've
+    also got their own version of resurrection: a one-time instant deal near
+    their original spot, and where either death involves an explosion of
+    ghostly fire (which, remember, checks rN and heals undead).
+    
+    As per usual, Tomb and extended can use more non-undead, non-demonic enemies.
+    Their vulnerability to torment should be fine, considering that they've got
+    a way partially around it. They're slotted vaguely into the same spots that
+    ancient champions are for the Tomb subvaults (i.e. where guardian mummies
+    are placed, if it's not the classic layout subvault using more of those),
+    with a few weight adjustments, plus rare out-of-depth placements and a
+    tiny extra placement in Tomb zig floors.
+    
+    TODO:
+     * Death message by blaze has several errors:
+       "Killed from afar by bennu... with a set off by themself"
+     * New tile.
+
+commit d17bf937c492a63bd12380dd64d2aaceae9394a9
+Author: theTower <mwclaws@gmail.com>
+Date:   Thu Sep 18 00:22:28 2014 -0400
+
+    Hellemental hellsprings (Bring back wellsprings solely within Cocytus, zigs)
+    
+    Unique forms of debilitation are much maligned, and so are movement-binded
+    genuine dangers. Still, there are hypothetically contexts for it to work.
+    The hells, which encourage diving and rushing through its levels rather
+    than clearing them due to the hell effects, general low value of small
+    amounts of loot, and the high plateau of player power / xp in its position,
+    should be the most ideal of them. At the very least, said hell effects can
+    already dump weakling fodder onto the player and throw on a random negative
+    status, so a monster that can try to do a little better than that is hardly
+    out of place.
+    
+    It also serves as part of (unique) non-demon non-undead "threats" for
+    extended, as is somewhat done currently with salamander firebrands in
+    Gehenna, iron golems in Dis, ghost crabs in Tartarus, and the mechanical
+    gap in resistances with Ds enemies versus demons for Pan. Cocytus is
+    lacking in its elemental and dangerous aspects to some extent when compared
+    to the other hells, anyway; some wellsprings sprinkled throughout the branch
+    and the end vaults are another equalizing buff step besides even more fiends.
+    
+    (Also, coc_hangedman is slightly buffed due to its generous terrain compared
+    to the other Cocytus end vaults; the open water is closed in a little, and a
+    few more monsters are added in a few parts. The other ends were buffed slightly,
+    too, and all have some small use of wellsprings.)
+
+commit 3c51aacae9c2b5680d98e0c85c97dd7593a98bc0
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Mon Aug 11 20:56:13 2014 -0700
+
+    Slowly add a new torpor snail sprite (Bloax)
+
+commit 13adbc04b5cd9f1fece7b9700d88e1c8ec39efb9
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Sun Jul 27 09:37:35 2014 -0700
+
+    Improve torpor snail sprite slighty
+
+commit b60c37662117a6aea509cb65139b86f690df8b96
+Author: Neil Moore <neil@s-z.org>
+Date:   Sat Jul 26 18:10:43 2014 -0400
+
+    Use new numeral font for aptitude overlays too.
+
+commit 6a4e72fbd0df6cfec647428fff6f5a124f4164f8
+Author: Neil Moore <neil@s-z.org>
+Date:   Sat Jul 26 16:55:55 2014 -0400
+
+    Show quantities up to 10k in inventory panel (#8821)
+    
+    Use a slightly smaller, but heavier, font for these numbers.
+
+commit 524d7bce1594913f223aefe0417789071002e6be
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Sat Jul 26 15:02:22 2014 -0700
+
+    Add a very placeholder greatsling tile
+
+commit b4a268013bbdc7d0ab4b714e0ed8203aa4681342
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Mon Jul 14 23:11:18 2014 -0700
+
+    Add placeholder tiles for hand/triple crossbows
+    
+    They Came From rltiles/UNUSED! (With some minor modifications
+    in one obvious case.)
+    
+    Also make the new ranged weapons use generic paperdoll sprites
+    for now. (Much better than them not showing up at all!)
+
+commit 67f3c00bc4d01a503d82731d1f6dfc106589a9f6
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Mon Jul 14 22:56:36 2014 -0700
+
+    Add ghost crab sprite (Bloax)
+    
+    With minor modifications to make it a little ghostlier,
+    as it appears in-game.
+
+commit 1ed3c6d39c1969bc5f42d7a4ecb33f848a34eb97
+Author: Nicholas Feinberg <pleasingfung@gmail.com>
+Date:   Sun Jul 13 22:04:55 2014 -0700
+
+    Add an icon for draining
+
+commit 9a82e6e6929511236d2eb593b7973e9f764b8063
+Author: Neil Moore <neil@s-z.org>
+Date:   Sun Jul 13 13:46:05 2014 -0400
+
+    Crush a ghost.
+    
+    With optipng + advpng.
