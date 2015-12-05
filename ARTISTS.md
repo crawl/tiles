@@ -14,7 +14,6 @@ The following is the list of artists that gave approval in 2010 for their artwor
 - David Ploog dploog@users.sourceforge.net (dploog)
 - Mitsuhiro Itakura
 - coolio
-- minmay
 - Denzi
 - Adam Borowski kilobyte@angband.pl
 - Porkchop
@@ -33,3 +32,7 @@ The following artists have given explicit approval that past and future artwork 
 - ontoclasm yokomeshi@gmail.com
 - Neil Moore neil@s-z.org (|amethyst)
 - donblas/chamons chris.hamons@gmail.com
+- PleasingFungus
+- CanOfWorms
+- minmay
+- gammafunk

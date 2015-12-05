@@ -583,27 +583,6 @@ Date:   Fri Aug 28 15:49:51 2015 -0500
 
     Spider rock tiles (Bloax, 9453)
 
-commit 99b3f8b44c8e0607a096488051938b6cfaf2e5b1
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Aug 28 15:44:57 2015 -0500
-
-    Smoke demon tile (CanOfWorms)
-
-commit daca452c7502a5aaad311293dffff2a8ee36cf9b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Aug 28 14:34:20 2015 -0500
-
-    Serpent of Hell tiles (CanOfWorms)
-
-commit de3053d4cfdd0461ca27f8bc65416b273f98ea95
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Aug 27 23:15:12 2015 -0500
-
-    Giant tiles
-    
-    I -think- these were made by CanOfWorms, but I've shamefully forgotten,
-    oh dear.
-
 commit 441915f21a342285e6dc55190558181818f205a5
 Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Fri Jul 31 18:44:34 2015 +0100
@@ -628,29 +607,11 @@ Date:   Thu Jul 16 16:44:33 2015 +0100
 
     Mummies (white_noise, 9853)
 
-commit 795aec7bf68315c263c45279f891d94ea2a9e551
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Mar 8 17:04:17 2015 -0500
-
-    Holy swine fix (CanOfWorms)
-
 commit ec264396003f99c5abc2e99559e7ef473caf654d
 Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Sun Mar 8 15:29:19 2015 -0500
 
     Shard shrike tile (Bloax)
-
-commit 906d5d22d67fa4c406294524f68d9a9e51fe80c2
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Mar 8 01:46:37 2015 -0600
-
-    Hog tiles (CanOfWorms)
-
-commit 514e9a596f711f49c96a08e5a5aa00fe4855fc63
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Mar 7 21:20:11 2015 -0600
-
-    Golden dragon tile (CanOfWorms)
 
 commit 267c4431e451156576e505a6e122db53c48ef909
 Author: ontoclasm <yokomeshi@gmail.com>
@@ -665,18 +626,6 @@ Date:   Sat Mar 7 19:53:35 2015 -0600
     Pearl & iron dragon tiles (CanOfWorms)
     
     With thanks to Bloax & minmay for feedback & edits.
-
-commit 7d8e295b1ec32846047956cfa3c741831fb7a408
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Feb 27 13:52:33 2015 -0600
-
-    Bone dragon tile (CanOfWorms)
-
-commit 89a41073edcf728b881dd939bffba866495a0133
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Feb 25 23:56:53 2015 -0600
-
-    Gelatinous tiles (CanOfWorms)
 
 commit 9d443a7fa9ced19b8ad2eb09b2bd50a7279c6582
 Author: ontoclasm <yokomeshi@gmail.com>
@@ -2307,161 +2256,6 @@ Date:   Wed Oct 22 10:19:36 2014 -0700
 
     Draconian monster base and job tiles.
 
-commit 7ac023daab0acfe9f66fa6ca439ff3ff19c8246a
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Fri Apr 10 20:06:48 2015 -0500
-
-    Don't use an outdated tile in an arrival vault (minmay)
-    
-    This tile hasn't been updated since the new statue tiles, and a custom
-    isn't necessary for this vault to make sense. Also moving this vault to
-    a more appropriate des file.
-
-commit 0a147b9ce3867da12863ae9edeeea218f5cb69c3
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Thu Sep 11 19:19:42 2014 -0500
-
-    A new wizlab: Lehudib's Moon Base
-    
-    NOTE: This wizlab has double weight for now, which will be lowered to
-    normal weight after a week or two of testing in trunk.
-    
-    Lehudib, whose famous writings on earth magic left few personal details,
-    is said to have studied the power of magical crystal with single-minded
-    devotion and in the most distant location imaginable. After traveling to
-    some forgotten Moon and carving a fortress into its very surface, the
-    wizard somehow convinced the bizarre surface creatures there to stand
-    guard. Who can say what other knowledge this self-described Lunar Mage
-    learned in such isolation? Adventurers who manage to reach the remote
-    Moon Base of Lehudib may indeed find powers beyond their comprehension.
-    
-    This is a large and tough map featuring the legendary moon troll as a
-    final guardian, which is always wearing moon troll leather armour if
-    this hasn't generated (otherwise just artefact TLA). The moon troll is
-    basically a speed 12, 18 hd iron troll with Singularity.
-    
-    The portal to the moon troll can appear with equal chance at one of 4
-    locations on the map, with one or two paths available near the
-    start. Each portal location has a sub-guardian, and there's an optional
-    fight with the Lunar Statue (an OCS with Lehudib's Crystal Spear and
-    Shadow Creatures) that guards an acquirement item.
-    
-    Monsters are earth, acid, or crystal themed, together with some eyes and
-    the space-themed abyssal enemies for decisive Moon Flavour. Loot is
-    mostly random, aside from the moon troll leather armour, a cure or
-    beneficial mutation potion guarded by malmuters, and a randbook named
-    after Lehudib with any one of earth/transmutation, earth/translocation,
-    or earth/conjurations spells as the theme.
-    
-    For visuals this map uses a blue volcanic wall variant as stone and
-    crystal walls with animated colours.
-
-commit 16cc79a43435ac9df3b7f06f255774f1eeb2b5f1
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Tue Apr 7 23:11:33 2015 -0500
-
-    Rename green crystal wall to simply crystal wall
-    
-    These walls are green by default but can be recoloured for e.g. portal
-    vaults. This commit makes their description entry and all related values
-    not refer to green, so that in-game descriptions won't be confusing in
-    the rare instances when colour is changed.
-    
-    These walls can now have a feature name of simply crystal_wall in
-    e.g. des files.
-
-commit 26b0c5949e233f0e2fd539acb360e33aa86e893a
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Tue Apr 7 01:18:40 2015 -0500
-
-    Add a blue volcanic rock variant
-    
-    Made as a variant from the red volcanic wall tile. I'll be using this in
-    a wizlab.
-
-commit d753fea32add76116439a2cc02713ecebf3ba8b4
-Author: Brendan Hickey <brendan@bhickey.net>
-Date:   Fri May 1 22:09:28 2015 -0400
-
-    Update crypt floor tiles {CanOfWorms}
-
-commit 0b87ae3267893b15a306e871742e08bcd103ae73
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Wed Apr 22 21:58:18 2015 -0700
-
-    Mostly add etheric cage tiles (CanOfWorms)
-    
-    The playerdoll tile isn't working and I can't figure out why;
-    someone else can fix that.
-
-commit d40c196652926563ba41731e0d29bff255f97ba3
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Wed Apr 22 18:59:48 2015 -0700
-
-    New Eternal Torment sprites (CanOfWorms)
-    
-    There were multiple sets of tiles submitted; I did an entirely
-    scientific poll by asking my little brother which he preferred,
-    and he chose these. Enjoy your torment!
-
-commit c96cd5b0c73ad5bd274c703ae82256fa6c2a0c17
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Mon Mar 9 18:30:25 2015 -0700
-
-    De-opacify Irradiate (CanOfWorms)
-
-commit 7eae94e303a3c53f8c85b2aca993fbd68894e18e
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Mon Mar 9 18:13:50 2015 -0700
-
-    Irradiate tiles animation (CanOfWorms)
-
-commit 0be755fb2171c6afe596ccd4665b4f067e761947
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Tue Feb 24 21:26:54 2015 -0600
-
-    New reaper tile (CanOfWorms)
-    
-    Also add worms to CREDITS.txt
-
-commit ee4db934f0f6967c277d26860477cfe73002a0d7
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Thu Feb 19 17:39:33 2015 -0600
-
-    Remove a tile from rltiles/UNUSED now that it's in the player tileset
-
-commit 979c649b1c0069f19a2b41920c18c0b8ac24f51e
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Thu Feb 19 16:51:44 2015 -0600
-
-    THE GIAGGOSTUONO
-    
-    Legends say THE GIAGGOSTUONO came into being when some poor adventurer
-    read a scroll of the same...
-    
-    Adding the tile and weapon/shield offsets for use with tile_player_tile.
-
-commit faaacd4bf28fa54c7bc8250026b90b20b4d8bba5
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sun Nov 9 21:08:45 2014 -0600
-
-    Let Killer Klowns be as colourful in death as they were in life
-    
-    Gives Killer Klowns a species so their corpses can have colour
-    ETC_RANDOM. Also, let their corpse in Tiles essentially be
-    ETC_RANDOM. The results are Komedic.
-    
-    This commit also cleans up some of the orderings in the corpse tile
-    listing.
-
-commit 16be56abfe95b4514a5a98de905533d150a8703e
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sat Nov 8 20:18:14 2014 -0600
-
-    Use the most recent libpng signature check for tilegen
-    
-    The png_check_sig() function is obsoleted for png_sig_cmp in recent
-    libpng.
 
 commit a757122794cc7e9f57e53a53fe2a3ea5b7f06993
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
@@ -2470,119 +2264,6 @@ Date:   Thu Oct 23 23:23:46 2014 -0700
     Add a spooky surprise!
     
     Tile is credit (Bloax). Grunt & gammafunk also helped!
-
-commit cf7d85a5118f806f0fb2d10fd4f1f74b5024d594
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sat Oct 18 20:57:04 2014 -0500
-
-    An incredible masterpiece of heartbreaking perfection for player tiles
-    
-    Legends say that after creating this epic rendition of the mighty
-    Jörmungandr, the Tile Master ascended to Godhood.
-    
-    I've made weapon and shield offsets that aren't the natural ones, but
-    these don't cause visual artifacts in WebTiles.
-
-commit 6dfaa0abcf04cf7d26f9c95c0d6e70140d92575a
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sun Oct 12 17:19:30 2014 -0500
-
-    Give rebirth to a trusty old friend for custom tile purposes
-    
-    Also update the weapon and shield offsets for this tile and the
-    current orb guardian tile.
-
-commit 25fd16a8d8cc90234d3fe0b18121fb377940c86f
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Tue Apr 15 17:17:38 2014 -0600
-
-    Sneak a monster tile into UNUSED/ (gammafunk).
-
-commit a9ea159001bf26db963328d8482e96bf9d785dca
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sun Jun 16 00:04:56 2013 -0500
-
-    Add SPARM_JUMPING ego. Wearing this grants the evoke jump attack ability.
-
-commit c80f2bed60bcbdc9a3a2ad46c0059d02e45869c6
-Author: gammafunk <gammafunk@gmail.com>
-Date:   Sat Jun 15 23:23:16 2013 -0500
-
-    Evokable Jump attack ability
-    
-    * Player chooses a monster target within range where there's at least one valid
-      landing site adjacent to the target.
-    * There must be a monster to target to use the ability, but the monster can be
-      friendly or neutral.
-    * A random valid landing site is chosen, the player is moved to that square, and
-      weapon melee occurs against the target at the landing site.
-    * Jump attacks are melee with the wielded weapon and get a 20% damage bonus
-    * Valid landing sites are always habitable squares with no monster and no
-      thing that's dangerous to the player.
-    * Flying monsters or giant monsters not standing in deep water or lava can
-      'block' the path of a landing site by being in the ray path from the player to
-      the landing site.
-    * If a visible monster blocks the path to a landing site, it won't be considered
-      as a valid landing site.
-    * If something invisible blocks a landing site, the site will be shown as valid
-      and can be randomly chosen, in which case the player 'rebounds off something
-      unseen' and never leaves the starting square, but wastes a turn (delay 10aut).
-    * If the player is adjacent to the monster, sites adjacent to the player are not
-      valid; you have to 'jump over' the monster in this case.
-    * Player can't jump if exhausted or standing in water/lava/liquefied ground
-    * Exhaustion duration is set after jump (regardless of success) to prevent a
-      second jump, with a duration formula that's the same as the breath duration.
-    * The usual melee checks wielded weapon/friendly etc. checks are performed for
-      the jump melee.
-    * If any of the valid landing sites would cause problems with self-electrocution
-      or sanctuary violation, the player is warned first.
-    * Range is determined by evocations training; starting attack range is 3
-      (movement 2), and it increases by one at evocations 5 and 10.
-    * The cost of the jump is 2MP and a hunger cost using the same calculation as
-      for flame breath.
-    * The delay of a successful jump is the same as melee delay.
-    * Fail rate for the ability calculation based on evoke taken from breath fail
-      rate code
-
-commit b291e5b711a0682d98bef088ac000f6b682bdffd
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sun Jul 13 10:38:55 2014 -0700
-
-    Add a placeholder ghost sprite
-
-commit 6ff5843ff78f32e2fabfc228633d59c59e2c9d12
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sun Jun 29 19:10:28 2014 -0700
-
-    Remove sex demons
-    
-    Retheme arenasprint's "succubus" to "dimme".
-    
-    Not that it really matters, since no one actually plays
-    arenasprint (no one had seen this boss in more than a year),
-    but it was still kind of embarassing having it around.
-    
-    The new sprite isn't ideal either, but I don't have the talent
-    to render "a hairy body, a lioness' head with donkey's teeth and
-    ears, long fingers and fingernails, and the feet of a bird with
-    sharp talons." Maybe someone else can!
-
-commit dd45dc13b006dea308cabc6992a867683b4dcc57
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Wed May 28 21:01:35 2014 -0700
-
-    Make the lightning scales a bit more visible (7588)
-    
-    Not a very good spriting job, but it looks liveable in play.
-
-commit 48ad150b2f9db6246e953d5d585df85379ed7f31
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sat Apr 19 13:08:44 2014 -0700
-
-    Add orange crystal plate armour unrand
-    
-    Adds a new artefact designed to encourage players to cast in
-    ultra-heavy armour.
 
 commit 7514cc06760e159a4e083bbce848a88649d00cd1
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -2658,12 +2339,6 @@ Date:   Sun Apr 26 12:05:47 2015 -0400
     or a misordering of the domino variants.
 
 
-commit b8087dce2c8ebbdac6773f9fbcf928e95d3a5492
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Mon Apr 20 08:17:17 2015 -0700
-
-    Entropy weaver corpse tile (9660)
-
 commit dcab04f1b94a6a4f18d882a66ed2b73608a172d3
 Author: Shmuale Mark <shm.mark@gmail.com>
 Date:   Fri Apr 17 13:47:45 2015 -0400
@@ -2690,29 +2365,6 @@ Date:   Mon Apr 13 20:43:11 2015 -0700
     lindwurm & armour recolours. Also, for the thread that inspired
     this.
 
-commit ceb348796b2af6774191b2c21bc87995bfb64d07
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sat Feb 21 21:39:14 2015 -0800
-
-    Make fleshy orifices much more obvious
-    
-    With a crude contrast/brightness hack.
-    
-    They were pretty stealthy before.
-
-commit 63baae8fa0f5f97f21436f9dfd908ae3e212642d
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Wed Feb 18 17:39:02 2015 -0800
-
-    Add a lava worm corpse tile (9492)
-    
-    Since it's trivial, even if it will never actually happen in
-    practice.
-    
-    An extremely powerful prize will be awarded to the first person
-    who emails me with an in-game, ***NON-WIZMODE*** screenshot of
-    this corpse. Cheating will not be taken lightly!!!
-
 commit e6667735293361999c7bee4c117aabc3ac58edf2
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Tue Jan 27 20:59:12 2015 -0800
@@ -2726,26 +2378,6 @@ Date:   Tue Jan 27 20:59:12 2015 -0800
     Might be possible to re-add these on earlier levels now, since
     they were only moved deeper because of bats.
 
-commit 4b1633f80b948fa1a6f2651360b446dc25fc71fa
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Tue Jan 6 22:08:46 2015 -0800
-
-    Re-randomize demonic rune tiles
-    
-    Playing around, since we have the tiles, after all...
-
-commit 0877e93f700a0ce7b3b4a60d31777a52993b66ed
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sun Jan 4 20:58:57 2015 -0800
-
-    Show the last Christmas partygoers the door
-    
-    Some people just don't know when to stop...
-    
-    (DE Fighters & Knights.)
-    
-    This reverts commit af862a732f608735c4b7ae7df5622ed77019a66b.
-
 commit c1648d5b2c19a470f92fb08917463b27637ff2bb
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Wed Dec 31 17:21:55 2014 -0700
@@ -2753,12 +2385,6 @@ Date:   Wed Dec 31 17:21:55 2014 -0700
     De-decorate Antaeus and his pets, too.
     
     This reverts commit 5032008878159b448e1fe0cd4fda66b54de6f28f.
-
-commit b4a0a0801985e5e29489151281be92313f22361a
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Tue Dec 30 18:43:30 2014 -0800
-
-    Add ?/ to the local tiles command bar
 
 commit a8a79bde6a5cb77374c4d7cb8e86236c9e17d10a
 Author: Brendan Hickey <brendan@bhickey.net>
@@ -2771,18 +2397,6 @@ Date:   Mon Dec 29 20:40:37 2014 +0000
     Reform Elf Tiles (b0422a19033894406578d3901511a134ef63873c)
     Further Song of Slaying Reform (e2cd79ceea719c570ca855b9e685f78e9dec1d75)
     Reform Song of Slaying (82fa208686f632a98f2c9ea5135f957be4be2a59)
-
-commit 62c2927876e02cfa6d8df4279a5e0898d13013ec
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Fri Dec 26 15:09:30 2014 -0800
-
-    Add Shadow Creature traps
-    
-    Summon a few creatures from the current level whenever the player
-    or a monster in LOS steps on the trap, roughly as a casting of
-    Shadow Creatures. The monsters are always hostile to the player.
-    
-    The number of monsters spawned increases with depth.
 
 commit 9922265674c6386a33bf5bcb63feb149e3cbe57a
 Author: Brendan Hickey <brendan@bhickey.net>
@@ -2964,32 +2578,6 @@ Date:   Wed Nov 19 22:27:15 2014 -0800
     Credit to Hangedman for spell choice & habitat; thanks to others
     as appropriate.o
 
-commit 64ea467dd7f492b98974a16f361c7ea334ea6107
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Thu Oct 23 08:45:22 2014 -0700
-
-    New unique: Robin of the Strong Arm
-    
-    A very early-game hobgoblin unique (currently at D2-4); about
-    twice as tough as a hobgoblin, but placing with a mob of goblin
-    & hobgoblin minions, and with the ability to buff them (with
-    Battlecry) and hurl them at the player.
-    
-    As a nice piece of early-game loot, she has a guaranteed
-    helmet, like Crazy Yiuf's cloak. Implementation uses the Nikola
-    Hack (equipping it in her shield slot), alas.
-    
-    (The code for goblin tossing is extremely bad and shameful.
-    I am sorry.)
-
-commit 7d48ffd5bfff99f031f01c182c5947103d258543
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sun Nov 16 14:45:01 2014 -0800
-
-    Add androsphinxes
-    
-    Implicitly.
-
 commit 23cdb65b3ed342f6ec7c7e7d6c9b3820f8733110
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Sat Nov 15 21:36:41 2014 -0700
@@ -3056,63 +2644,11 @@ Date:   Thu Oct 23 20:39:34 2014 -0600
 
     Tiles for the new enemies.
 
-commit f3cef8307a6a4290f3adac1c642516b4ea89a6c3
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sat Oct 18 17:06:35 2014 -0700
-
-    Add placeholder qda tiles
-    
-    Simple edits of the mottled dragon armour tiles.
-    
-    Not sure how I feel about the purple accent on the item armour
-    tile - might be a little overwhelming?
-
-commit e2ae0e8ebe7a07c57c3e53cf1159f1cbe2bd4509
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sat Oct 18 16:32:11 2014 -0700
-
-    Add placeholder hda tiles
-    
-    Simple edits of the storm dragon armour tiles.
-    
-    ...might be a little *too* stealthy....
-
 commit e771f3e3b02f8546e0a5e4109b49fa1a894ebfd1
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Sat Oct 11 21:28:17 2014 -0700
 
     Add a missing image (checkers)
-
-commit bb07038d81e1949a206d43fb220d8708597ed012
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Mon Oct 6 22:38:14 2014 -0700
-
-    Add a placeholder Hydra Form icon
-
-commit 699286965219725037ee459b8178674c9c5ceb98
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Mon Oct 6 22:12:24 2014 -0700
-
-    Pull in a large number of UNUSED potion tiles/colours
-    
-    Seemed a pity to let them go to waste.
-
-commit 69ea0458ddc86a60122a1a46528ee624b81b1e76
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Thu Jul 17 21:41:13 2014 -0700
-
-    Turn rings of regen into amulets
-    
-    Rings of regen are notorious for encouraging tedious swapping,
-    since they're at best marginally useful in combat, and quite
-    useful outside combat. The amulet slot has a number of types
-    that already discourage swapping (faith, guardian spirit,
-    gourmand), which should at least ameliorate the regen problem
-    somewhat; and if we later want to change regen to do something
-    similar, it'll be a bit more intuitive if it's in the same slot.
-    
-    This also helps refresh the pool of amulets, which was starting
-    to look a little shabby.
 
 commit 10f4cc480bcc6a888152225be2e9a7295dc0169e
 Author: theTower <mwclaws@gmail.com>
@@ -3177,12 +2713,6 @@ Date:   Mon Aug 11 20:56:13 2014 -0700
 
     Slowly add a new torpor snail sprite (Bloax)
 
-commit 13adbc04b5cd9f1fece7b9700d88e1c8ec39efb9
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sun Jul 27 09:37:35 2014 -0700
-
-    Improve torpor snail sprite slighty
-
 commit b60c37662117a6aea509cb65139b86f690df8b96
 Author: Neil Moore <neil@s-z.org>
 Date:   Sat Jul 26 18:10:43 2014 -0400
@@ -3197,24 +2727,6 @@ Date:   Sat Jul 26 16:55:55 2014 -0400
     
     Use a slightly smaller, but heavier, font for these numbers.
 
-commit 524d7bce1594913f223aefe0417789071002e6be
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sat Jul 26 15:02:22 2014 -0700
-
-    Add a very placeholder greatsling tile
-
-commit b4a268013bbdc7d0ab4b714e0ed8203aa4681342
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Mon Jul 14 23:11:18 2014 -0700
-
-    Add placeholder tiles for hand/triple crossbows
-    
-    They Came From rltiles/UNUSED! (With some minor modifications
-    in one obvious case.)
-    
-    Also make the new ranged weapons use generic paperdoll sprites
-    for now. (Much better than them not showing up at all!)
-
 commit 67f3c00bc4d01a503d82731d1f6dfc106589a9f6
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Mon Jul 14 22:56:36 2014 -0700
@@ -3223,12 +2735,6 @@ Date:   Mon Jul 14 22:56:36 2014 -0700
     
     With minor modifications to make it a little ghostlier,
     as it appears in-game.
-
-commit 1ed3c6d39c1969bc5f42d7a4ecb33f848a34eb97
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sun Jul 13 22:04:55 2014 -0700
-
-    Add an icon for draining
 
 commit 9a82e6e6929511236d2eb593b7973e9f764b8063
 Author: Neil Moore <neil@s-z.org>
@@ -3357,38 +2863,6 @@ Date:   Sat Sep 8 13:40:44 2012 +0200
     
     Signed-off-by: Raphael Langella <raphael.langella@gmail.com>
 
-
-commit a909be48937adde69d6b6366942f1d9b3643de32
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Wed May 28 08:39:53 2014 -0700
-
-    Add a placeholder status icon for Death's Door
-
-
-commit 47cdaedce35142bfa17314753ad33c9e084c6e24
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Tue Jun 17 21:18:57 2014 -0700
-
-    Differentiate teleport trap tiles
-
-commit 606926441a56742edf50ed697c80ec3490840677
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Sat Jun 7 11:30:53 2014 -0700
-
-    Add recall icon for convokers
-
-commit efc16463effacc525d009b4094a542000e857a2a
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Fri Jun 20 20:35:54 2014 -0700
-
-    Make Iron Devil tiles display weapons
-
-commit 6f959b73ab6b07a742e45870b540a2038e405253
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Fri Apr 11 08:29:44 2014 -0700
-
-    Add the Majin-Bo, a new fixedart that offers power at
-    a terrible price. (It's not that terrible!)
 
 commit 4cd4b6875ad625556d4c0e805b124eb3f09cadf5
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -4188,12 +3662,6 @@ Date:   Wed Dec 18 20:32:19 2013 +0000
     - Spirit shield
     - HP -3
     - MP +1
-
-commit 95383443fbdc82b9f2890f135ab1d439d503e28e
-Author: Neil Moore <neil@s-z.org>
-Date:   Mon Jan 6 22:35:58 2014 -0500
-
-    Give Duvessa plain blue hair (minmay)
 
 
 commit fd97f7f4e841489bd0f71f68da88efadb0d7f4e3
