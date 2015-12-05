@@ -36,3 +36,4 @@ The following artists have given explicit approval that past and future artwork 
 - CanOfWorms
 - minmay
 - gammafunk
+- Grunt (sgrunt hypergrunt deathgrunt)

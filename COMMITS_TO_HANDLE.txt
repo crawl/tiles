@@ -1,23 +1,16 @@
-commit 31ef48abc4529a298e3c2c6c788b7422bee7f81a
-Author: Eino Keskitalo <eino.keskitalo@gmail.com>
-Date:   Sat Nov 12 00:07:16 2011 +0200
+ARTISTS NEEDED
+---------------------
+Pingas 
+Curio - Sent via bug mail
+co - same as ^??
 
-    Tentacle hands for dolls from Pingas (#4687).
-    
-    They're displayed if the player has the mutation, is not an octopode, and is not wielding/wearing something in the hand. For non-octopodes, only Beastly Appendage gives tentacles, but once there's constriction, they should be considered as a normal and/or DS mutation.
+Need scrubbing still
+roctavian - sicsemperjohn@gmail.com
+Bloax - sent via bug mail
+white_noise - sent via bug mail
+-------
 
 
-commit 76db36af1a903b4e8b3a90ea622338bf5b3be29a
-Author: Eino Keskitalo <eino.keskitalo@gmail.com>
-Date:   Mon Oct 31 21:57:48 2011 +0200
-
-    Use Curio's iron imp tile from #4625, also clean up the shadow imp tile (using head from Curio's tile).
-
-commit a057f740d3928246d18bdcb7a097e32cf792bf92
-Author: Eino Keskitalo <eino.keskitalo@gmail.com>
-Date:   Mon Oct 31 21:34:55 2011 +0200
-
-    Use Curio's new base crystal plate tile from #4621, and add two more ego/randart variations from #3827. Remove the old base crystal plate tile.
 
 commit 1fe77f064f01eaf07dbf4767ad08ce669a17d95c
 Author: Eino Keskitalo <eino.keskitalo@gmail.com>
@@ -412,24 +405,6 @@ Date:   Thu Sep 29 06:27:42 2011 +0200
     It's de-rimmed (the rim added by the autorimmer is not as thick), with no
     black in the texture and straightened a bit compared to the original.
 
-commit 485a86c7bb14fdea3bf6bbfdaef2131fe7bb4605
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Mon Sep 26 23:28:18 2011 +0200
-
-    Put co's alternate shedu tile in UNUSED/.
-
-commit f1f5d41cf228caf4f480338c23a034750ac6e791
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Mon Sep 26 22:58:41 2011 +0200
-
-    Curio's new Grinder, consistent with new shadow imps.
-
-commit 851cf441830fedfac0a0cc99a3956baf6204a649
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Tue Sep 6 00:48:44 2011 +0200
-
-    Add four great helmet tiles by Pingas.
-
 commit b81dd7701a450b3683392804b765e4efca4d2a46
 Author: Adam Borowski <kilobyte@angband.pl>
 Date:   Tue Aug 9 02:22:14 2011 +0200
@@ -469,12 +444,6 @@ Date:   Fri May 13 04:26:26 2011 +0200
 
     Spectral frog tile (Robsoie)
 
-commit 8e11c5fbe19b130ce61b4605874a6eaac9ee7e35
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Sun Apr 17 14:56:57 2011 +0200
-
-    Add Curio's crystal plate tile as ego/randart variant.
-
 commit e3ae2c5cc0092e3ca684985940027f57d5092167
 Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
 Date:   Fri Apr 15 23:51:41 2011 +0200
@@ -492,65 +461,17 @@ Date:   Wed Apr 13 12:36:51 2011 +0200
     Since they are nothing but holy demons, it is wrong for them to have
     different resistances where TSO is not concerned.
 
-commit c1e2b80a995b0a8b67e8ad96ba5a0dc455817c8e
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed Apr 13 01:10:37 2011 +0200
-
-    Cut Grinder's wings (Curio).
-
 commit 62f6b7a78613b64160ade21ae3d735885c2b8763
 Author: Adam Borowski <kilobyte@angband.pl>
 Date:   Mon Apr 4 23:26:59 2011 +0200
 
     dolphin's tile for jumping spiders.
 
-commit f4c5e7fa986de2a158e527e492cad597a00b61af
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Mon Feb 14 23:36:31 2011 +0100
-
-    Replace Antaeus' tile with co's version, this one fits better a rC++ rF- guy.
-
-commit 720f91eb842b4c4775d5b4deae0f34765d7dba43
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Feb 13 23:29:47 2011 +0100
-
-    Curio's updates to Donald's tile; added weapon overlay.
-
-commit 2e938430c0817c947e0fbe4198a0757ec19a7e4e
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Feb 13 15:53:34 2011 +0100
-
-    Add co's tiles for the demon (obsidian) axe.
-
 commit f730a0d3e0deee3f7ab14f2932430e5d51fd913c
 Author: Adam Borowski <kilobyte@angband.pl>
 Date:   Sat Feb 12 02:50:08 2011 +0100
 
     Add LordBistian's tile for Leda's Liquefaction.
-
-commit 1f3bf3c4c795c1efd8428945dd4ee6230ea6afc4
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Feb 5 11:21:59 2011 +0100
-
-    Curio's updated tile for Kirke.
-
-commit e64610d96503beb4c3502f06041d119ade52e16a
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Fri Jan 14 23:35:01 2011 +0100
-
-    Add co's icon for the Homunculus spell.
-
-commit 49d703b08569105f7a51546ebae5c06ec13aba10
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed Jan 5 22:13:00 2011 +0100
-
-    Curio's mangrove tile.
-
-commit d88f5d8d82a4ae7377ab3fc7728f444c33efeeb5
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Dec 26 22:24:00 2010 +0100
-
-    Replace the shedu tile with Curio's version.
 
 commit 75874ee8246b0be85caf59c5a3e89309195854ce
 Author: Adam Borowski <kilobyte@angband.pl>
@@ -1495,12 +1416,6 @@ Date:   Sun Sep 9 23:30:11 2012 -0500
 
     Animal tiles (white_noise)
 
-commit e0c06ecb80ac097b6839025f0b8b4f2b92043b84
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 9 18:34:56 2012 -0500
-
-    Pain mirror status icon (sgrunt)
-
 commit fd308f984c6b2d3d0c9c1808ca784fbb0e6976a6
 Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Sat Sep 8 15:45:29 2012 -0500
@@ -1574,39 +1489,15 @@ Date:   Tue Jan 25 18:51:26 2011 +1000
     "worker ant" puts them further in line with our hierarchy of ant-based
     monsters: queen ant, soldier ant, worker ant.
 
-commit 4f6fcfad69dc84505a29342ad3395bf757e1451e
-Author: Jude Brown <bookofjude@users.sourceforge.net>
-Date:   Sun Jan 23 09:58:36 2011 +1000
-
-    Stick co's eye filled portal tile in UNUSED, too.
-
-commit d08492f127d3064a868b990b43de6b7b9c3806df
-Author: Jude Brown <bookofjude@users.sourceforge.net>
-Date:   Sun Jan 23 09:57:16 2011 +1000
-
-    Resolve #3096, #3091: coolio's ancient zyme tile, co's lurking horror.
-
 commit 70b18cf2bb76b629f39639561e21c857db410276
 Author: Jude Brown <bookofjude@users.sourceforge.net>
 Date:   Mon Dec 27 18:15:40 2010 +1000
 
     New tiles: porcupine, fire crab. (Malwyn)
     
-    Added to credits. Added Curio to credits, also.
-    
     Porcupines exist as monsters but haven't actually been defined yet.
     They'll probably replace <some> rats as a singular, slightly more
     difficult opponent that have spikey quills, etc.
-
-commit 4897f2c10a65818cc73036daf0b3c03ef0fa2e1e
-Author: Jude Brown <bookofjude@users.sourceforge.net>
-Date:   Sun Dec 26 19:01:20 2010 +1000
-
-    Use Curio's bog mummy (with moss) tile!
-    
-    I've actually darkened it considerably to better match the leathery skin
-    of an actual bog mummy. The sphagnum moss growing on it is a thousand
-    times awesome.
 
 commit e7a6258c5f937694ed2a1ed5bb06ee01f4f80e11
 Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
@@ -1628,76 +1519,11 @@ Date:   Sat Feb 19 16:38:10 2011 +0100
     
     A few are still missing. Will need to fire up GIMP to create them.
 
-commit f366486c2622881c35dddae2becc57813e78dd4f
-Author: Johanna Ploog <j-p-e-g@sourceforge.net>
-Date:   Sun Feb 13 23:33:10 2011 +0100
-
-    Add Curio's mangrove tiles.
-
-commit 8d5a0743cfad5e0e045c34f1924db4d0f4e782a0
-Author: Johanna Ploog <j-p-e-g@sourceforge.net>
-Date:   Sun Feb 13 21:17:20 2011 +0100
-
-    Add co's tiles for Ashenzari's sensed monsters.
-
-commit 2c5de84d97c85680e27066aa5c79e229d3cab0c8
-Author: Johanna Ploog <j-p-e-g@sourceforge.net>
-Date:   Fri Feb 11 20:57:45 2011 +0100
-
-    Add Curio's lizard zombie tile.
-
-commit ba0d01ef0221990e0239daffaea729a2cb122386
-Author: Johanna Ploog <j-p-e-g@sourceforge.net>
-Date:   Sun Feb 6 17:07:37 2011 +0100
-
-    Add co's prayer tile and Denzi's other command tiles, partly modified.
-
-commit c229cc64a33350e3b8d1aee9b1cb91dad7085aea
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Thu Jan 27 01:09:43 2011 +0100
-
-    Add co's new lair floor tiles, appropriately weighted.
-    
-    I renamed the old lair tiles to floor_moss, but was too tired
-    to go through the (small number of) minivaults that make use
-    of it.
-
 commit 63f0cf8ffe9f4dba82fa556aa906345c1dce2ec4
 Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
 Date:   Sat Jan 22 00:01:37 2011 +0100
 
     Remove shield tiles from various shieldless monsters. (Done by co.)
-
-commit 29a6f3b720c0f0496d8c4b85072170c99528258b
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Fri Jan 14 12:15:44 2011 +0100
-
-    Add co's improved vampire tiles.
-
-commit 018d95556bae2d6163c06f68d3861a5b6ba0b681
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Fri Jan 14 12:13:10 2011 +0100
-
-    Add co's new giant tiles capable of weapon display.
-
-commit 4d50a50da34f1ce13f0a98130efce14c9cf88057
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Wed Jan 12 22:01:56 2011 +0100
-
-    Add co's killer klown tiles.
-
-commit 8a0514a9d0310d4f75d97a304e4328dba535e514
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Wed Jan 12 21:09:55 2011 +0100
-
-    Tiles: Maurice (coolio), rat zombie (Curio), dungeon exit (LoginError).
-
-
-commit 5af1bd839669f95fac1053eac417e3559c225169
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Tue Dec 28 22:00:52 2010 +0100
-
-    Awesome new giant tiles courtesy of co. Thank you!
 
 commit be4ade1407f464d051d238618c5bc9fcf1f3bffd
 Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
@@ -1706,12 +1532,6 @@ Date:   Mon Dec 27 18:43:28 2010 +0100
     Add preliminary tile for the Malign Gateway spell.
     
     For this purpose, I merged two of psyshvl's eldritch tentacles.
-
-commit dc6fc4c72d7cef8ad593b2af81706b83202b2f34
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Mon Dec 27 18:33:52 2010 +0100
-
-    Add Curio's zombie hound and toad tiles.
 
 commit 130947e00ae1656cdd80013ecbe14c2ce5e6eff2
 Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
@@ -2263,7 +2083,7 @@ Date:   Thu Oct 23 23:23:46 2014 -0700
 
     Add a spooky surprise!
     
-    Tile is credit (Bloax). Grunt & gammafunk also helped!
+    Tile is credit (Bloax).
 
 commit 7514cc06760e159a4e083bbce848a88649d00cd1
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -2578,13 +2398,6 @@ Date:   Wed Nov 19 22:27:15 2014 -0800
     Credit to Hangedman for spell choice & habitat; thanks to others
     as appropriate.o
 
-commit 23cdb65b3ed342f6ec7c7e7d6c9b3820f8733110
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Sat Nov 15 21:36:41 2014 -0700
-
-    Add a button to show the keyboard on touch UIs.
-    
-    Complete with Grunt tile, which probably should be replaced.
 
 commit 1e8e0b63cae3b292c0f155950cbf07ced1d8e5fd
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -4283,14 +4096,6 @@ Date:   Wed Nov 17 22:51:26 2010 +0100
     I saved the shape as UNUSED/other/cloud_disturbance_shape.png
     This is my first tiles, so someone more skilled should be able to do better.
 
-
-commit fee891098614165404b906928b680f6a9fd8e13a
-Author: Michael Gagno <evilmike@gmail.com>
-Date:   Tue Jun 26 16:44:13 2012 -0700
-
-    Chei altar vault. (Grunt)
-    
-    It has monsters that cast Leda's Liquefaction.-------------
 
 commit ee0f5a453e78d8ea6ab53491399c746bb16ddc07
 Author: Michael Gagno <evilmike@gmail.com>
