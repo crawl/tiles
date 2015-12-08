@@ -4,9 +4,9 @@ Pingas
 Curio - Sent via bug mail
 co - same as ^??
 roctavian - sicsemperjohn@gmail.com
+Bloax - sent via bug mail. http://crawl.akrasiac.org/scoring/players/bloax.html ?
 
 Need scrubbing still
-Bloax - sent via bug mail. http://crawl.akrasiac.org/scoring/players/bloax.html ?
 white_noise - sent via bug mail
 -------
 
@@ -18,70 +18,6 @@ Date:   Sun Oct 23 21:12:51 2011 +0300
     Zombie tiles for trolls, draconians, griffons, harpies and winged quadrupes (at least hippogrives, sphinxes and shedu). From #4282, by Lantier, modified a little.
     
     Strangely, the rim is correct in-game, although trolls don't have one, other tiles have, and no rim setting is in dc-zombies.txt.
-
-commit 9e7f188a0050dad14b4f7a4630bc84eed8a07c48
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed Nov 20 02:28:08 2013 +0100
-
-    Add a ground/inv tile for boots of the spider (Bloax).
-    
-    The worn tile is still missing.
-
-commit 056651fa57a20829e26bfd1520c79d759df70de9
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Oct 19 04:14:55 2013 +0200
-
-    Dark maul tiles (Bloax)
-
-commit 68a9d9cdccdf46c93b9aba1c2045482032c555c2
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Oct 14 22:12:54 2013 -0500
-
-    Centaur tiles (Bloax)
-
-commit 409d890d8ec4dd21b7588083441822e3d2eb1ee1
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Oct 9 23:34:51 2013 -0500
-
-    Tmons tile (Bloax)
-
-commit e473d029e917ec258d235b2814d7bbfe729bbdee
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Jun 15 14:56:36 2013 +0200
-
-    Add Bloax' sweet cacodemon tile to UNUSED/.
-    
-    Here's a progress report about how doomed we are:
-    
-    ✓ various weapon-using zombies
-    ✓ imp
-        slightly hindered by 0.10-a0-1355-g43440df
-    ✗ demon
-        definable: a simple melee-only animal.  The name is too generic.
-    └ spectre (perm_ench:invis)
-    ✓ lost soul
-        flying skulls (more faithful) and lost souls (name).
-    ✓ cacodemon
-        spells are definable, inertia on being shot not.
-    ✓ hell knight
-    └ baron of hell (exact rename with +hd)
-    ✓ arachnotron
-        orb spiders (could use a rapid-fire weapon)
-    ✗ pain elemental
-        definable: some eye spells:call_lost_soul
-    ✓ revenant
-        IOOD is a direct implementation of their weapon
-    ✗ mancubus
-    ✗ arch-vile
-    ✗ spider mastermind
-    ✗ cyberdemon
-    ✓ some bastard that runs around and kills folks
-
-commit abf5b9708e2e460ab3a74404b161f3e91b969aef
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Thu Nov 1 01:51:57 2012 +0100
-
-    Bloax's tiles for zombie crabs and turtles of various spikeness.
 
 commit 0445ba8e1880831027fab0e25c397d86d3bdffe4
 Author: Adam Borowski <kilobyte@angband.pl>
@@ -107,12 +43,6 @@ Date:   Tue Aug 14 02:26:06 2012 +0200
     A few of them are sets of two on one tile, not sure if that's a good idea.
     This looks good and helps fight the grid effect, but on the other hand, some
     might have a problem with the tooltip saying "tree" in singular.
-
-commit 22d8c073a7448870182cc4cfe55cda46cffa3ef4
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Aug 4 01:44:25 2012 +0200
-
-    Betterer IOOD tiles (Bloax)
 
 commit 2578d4f6fc6c08756697059c5b74c7f9b01a7e94
 Author: Adam Borowski <kilobyte@angband.pl>
@@ -313,12 +243,6 @@ Date:   Fri Oct 8 19:58:07 2010 +0200
     
     They fit pretty badly, but are still better than human ones.
 
-commit d7f4977768e64178a8c291dc922dcdaacb567746
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Aug 28 15:49:51 2015 -0500
-
-    Spider rock tiles (Bloax, 9453)
-
 commit 7b0afe86001eefe3fa1a9100111146a7cb2e77a0
 Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Fri Jul 31 16:49:47 2015 +0100
@@ -337,165 +261,17 @@ Date:   Thu Jul 16 16:44:33 2015 +0100
 
     Mummies (white_noise, 9853)
 
-commit ec264396003f99c5abc2e99559e7ef473caf654d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Mar 8 15:29:19 2015 -0500
-
-    Shard shrike tile (Bloax)
-
 commit 267c4431e451156576e505a6e122db53c48ef909
 Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Sat Mar 7 20:08:01 2015 -0600
 
     Bennu tile (Tapsu)
 
-commit 76712e3c5d3d5c059e7dfcc5b336f6b774065c5d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Mar 7 19:53:35 2015 -0600
-
-    Pearl & iron dragon tiles (CanOfWorms)
-    
-    With thanks to Bloax & minmay for feedback & edits.
-
-commit 9d443a7fa9ced19b8ad2eb09b2bd50a7279c6582
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Nov 28 15:30:57 2014 -0600
-
-    Vault stone tiles (Bloax)
-
-commit 2aedaeb1310a91bd5190ace6d4e68001254e7963
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 14 00:45:54 2014 -0500
-
-    Acid blob tile (Bloax)
-
-commit 0a66ab9ff1378d4c79d9a820097bffa83698179b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Oct 11 21:36:26 2014 -0500
-
-    Spider sack tile (Bloax)
-
-commit 3c060edf3382d7f9b5de11cf3f4a0673878fcd96
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 7 10:42:45 2014 -0500
-
-    Fix butterfly rims (Bloax)
-
 commit 82be2f0d4ae4ac50e274d918ff60094309fbffc3
 Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Fri Oct 3 18:49:29 2014 -0500
 
     Make ego qstaves less rod-like (Brannock)
-
-commit 4a9242f8b5d4f0997d01b5ce93fa116c49b69c61
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Oct 2 01:00:01 2014 -0500
-
-    Scalemail doll tiles (Bloax)
-
-commit f3dc153aed41b97869457b0c9014e5be0946b0e1
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Sep 22 23:44:45 2014 -0500
-
-    Chain mail doll tiles (Bloax)
-
-commit 1f238c7a3b8046b74859b48d6d3b59030b24a86d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 21 13:21:10 2014 -0500
-
-    Duvessa and Dowan tiles (Bloax, 8350)
-    
-    This includes angry glowing eyes once one of them is dead.
-
-commit 325d069a4830a33f865de06cc61657661dc38d4f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 21 12:18:28 2014 -0500
-
-    Plate doll tiles (Bloax)
-
-commit c69370bf5c5d7f71ef83d157fb2233ea03c46bf3
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 21 11:35:52 2014 -0500
-
-    Chainmail tiles (Bloax)
-
-commit 2380c83b4ad8d33db294a8fd1050ea15cd373404
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Sep 20 15:14:39 2014 -0500
-
-    Wraithtile (Bloax, 8905)
-
-commit 9ffc33227b3b50e8c854adac0076f5c2005d6671
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 7 21:42:10 2014 -0500
-
-    Ringmail doll tiles (Bloax)
-
-commit 96237508131ede71aa7885fb9f8eaf3115f73056
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Aug 7 00:56:37 2014 +0100
-
-    Summ. Horribles icon (Bloax)
-
-commit 0fa4da6310a283f376ce5dc9925e9aecf363d134
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Aug 6 17:13:11 2014 +0100
-
-    Nemelex icon color contrast (Bloax)
-
-commit 756871af9b64cee576375e9ed5f73cf3cfa1b453
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Aug 2 22:25:08 2014 +0100
-
-    Frances tile (Bloax)
-
-commit d3c3341a9a4a7642e2aca554433be805801b18c2
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Aug 2 22:06:34 2014 +0100
-
-    Thrashing horror (Bloax)
-
-commit 5daad88f58ef163d4d0e0d640ce445de8919b531
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jul 31 00:00:42 2014 +0100
-
-    Giant spore (Bloax)
-
-commit 0d957f34ef25952f9e116ad7d195333628c74948
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Jul 21 16:32:08 2014 +0100
-
-    Shadow demon (Bloax)
-
-commit e84140001b661477778b81879796244a7ad5afd6
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Tue Jul 15 20:47:08 2014 -0700
-
-    Triple crossbow tiles (Bloax)
-
-commit bd9e66e9fc41a6e7b3b49dd2823b904370d24c2f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jul 15 23:12:31 2014 +0100
-
-    Hellfire tile (Bloax)
-
-commit 497b3183606a17f9e35486c49c7fcb34e1957a3a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jul 15 12:10:38 2014 +0100
-
-    Leech tiles (Bloax)
-
-commit 5a4102b231ccd22b5c6a7305a1e4096a85fdb5f0
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Jun 7 11:54:54 2014 -0500
-
-    Corona icon edit (Bloax)
-
-commit f638c35fa00d49858e26e5c095e56f24705d8408
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri May 23 18:48:59 2014 -0500
-
-    Ego blades (Bloax)
 
 commit 1d087e7da7a68a8bbd56821cec3647ecdbe61e32
 Author: ontoclasm <yokomeshi@gmail.com>
@@ -527,77 +303,17 @@ Date:   Sun May 4 22:49:28 2014 -0500
 
     Recolor some dragon armours (tabstorm)
 
-commit 68d61192d88d781d81c3c5d71d11e39ed9381d94
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu May 1 15:38:00 2014 -0500
-
-    Crystal plate tiles (Bloax)
-
-commit d304b03afcfff7b9ba413419d02d17e5c7d8ff29
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Apr 24 18:59:14 2014 -0500
-
-    Leather armour tiles (Bloax)
-
 commit 07579574834276b3f20e4c0f6b83d6cefaebd154
 Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Mon Apr 14 23:44:21 2014 -0500
 
     Minotaur tile (Team Impy, 7490)
 
-commit 71a92d4cd5d42404d16d0deb71ef9fb98475c05a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Apr 14 22:54:42 2014 -0500
-
-    Lich felid tile (Bloax, 5983)
-
-commit 18a2bbc749748ca1fc60dd6759362097f64e6873
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Apr 11 23:35:22 2014 -0500
-
-    Amulet of the Air (bloax)
-
 commit bdbfd3480b060dfaeade90020305e3103b5523d8
 Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Fri Feb 28 17:10:28 2014 -0600
 
     Mummy restoration ability tile (reaver)
-
-commit 23f6408bb2eea798cb5ceb6d7f7fa35094639acf
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 16 14:46:20 2014 -0600
-
-    Singing Sword & Captain's Cutlass tiles (Bloax)
-
-commit ff81b0386e1ef073969148d7afa5f27140350e61
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Feb 11 10:44:05 2014 -0600
-
-    GONNNG tiles (Bloax)
-
-commit 489902cbdd3d05f83f67f0c0e6959517c7d3eaad
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 9 19:18:42 2014 -0600
-
-    Icy walls and stone for Cocytus (Bloax)
-
-commit e60bb15a156f92d4f44dac077a521c521b4bf384
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 9 18:59:02 2014 -0600
-
-    Singing sword tile (Bloax)
-
-commit f80c5e06392875eae7e254ace00d0d34df2cbc5f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Feb 9 17:09:25 2014 -0600
-
-    Ice block walls for ice caves (Bloax)
-
-commit 7c074881b79e2868ec12be35119b05681739474c
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Feb 8 11:23:59 2014 -0600
-
-    MEATLORD tile (Bloax)
 
 commit fcb018f3d6a2f1510d4df6de5b5ab44ee7486585
 Author: ontoclasm <yokomeshi@gmail.com>
@@ -607,26 +323,6 @@ Date:   Mon Feb 3 22:21:46 2014 -0600
     
     Heavily based on the tile submitted by lingerstink in issue 4032.  Thanks
     lingerstink!
-
-commit 0b2097da5790193580245f826caf98cbc6b64620
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jan 19 18:53:28 2014 -0600
-
-    Obsidian axe tiles (Bloax, 8005)
-
-commit 1576e7655a826842d32939e3961775ce3266fd1b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jan 17 19:37:59 2014 -0600
-
-    Metal walls (Bloax)
-
-commit 11f36c0aeac3abf07f1c1b39b0f8a4e895f09da4
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jan 17 17:12:53 2014 -0600
-
-    Dithmengos altar tiles
-    
-    With thanks to Bloax
 
 commit dc6548d80ed8a8746fd19ab250a06c9cf47fcb50
 Author: ontoclasm <yokomeshi@gmail.com>
@@ -640,48 +336,6 @@ Date:   Sat Dec 28 23:13:45 2013 -0600
 
     Claymore tiles (pubby, 7891)
 
-commit aa5c47c9a804f14a71abdfa8d3057094a08b7e15
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Dec 18 20:57:30 2013 -0600
-
-    Octopode statue tile (Bloax)
-
-commit 960936a8dbd200a894cb81d207664ce95a87a983
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Dec 15 20:01:54 2013 -0600
-
-    Lemure tile (Bloax)
-
-commit 9477f2fa4106def22996992b606f0461a96123fe
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Dec 15 19:59:25 2013 -0600
-
-    Komodo dragon tile (Bloax)
-
-commit 0234849a946b3cc03c2c03eeed2b5163a43551cf
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Dec 9 17:11:33 2013 -0600
-
-    Troll hide tiles (Bloax)
-
-commit 7bed74665b0e45cf8daf6eeadd24cb7da969ad9c
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Dec 9 16:20:11 2013 -0600
-
-    TLA and MTLA tiles (Bloax)
-
-commit de2aa148a11e00fe6523019138d204972396f6cb
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Dec 9 16:10:44 2013 -0600
-
-    RATS (Bloax)
-
-commit 6e8aceba79736afc10229a8f4daba4eb9c51295a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Nov 16 19:38:22 2013 -0600
-
-    Freezing wraith tile (Bloax)
-
 commit 7e64cc4a4b8f207367760560bd7d6975d92d9613
 Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Tue Oct 29 17:44:11 2013 -0500
@@ -693,12 +347,6 @@ Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Sun Oct 27 19:27:29 2013 -0500
 
     Additional gargoyle base tiles (Xion350, 7631)
-
-commit 5a62039309a9239cb1819f2e92713131b80d5359
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Sep 14 20:44:58 2013 -0500
-
-    Ugly things (Bloax, 7483)
 
 commit bc0cfd3c4187290fa33454d58104a3642ae98740
 Author: ontoclasm <yokomeshi@gmail.com>
@@ -712,69 +360,11 @@ Date:   Fri Sep 13 10:27:38 2013 -0500
 
     Player doll tiles (Team Impy, 7490)
 
-commit eebf78d342e3389150f7b4fb741ded8d44f1192e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Aug 5 20:40:54 2013 +0100
-
-    Beogh altar
-    
-    With thanks to Bloax.
-
-commit 688a8de092c24bfef3b4f9c4daa1055afc696ccd
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Jul 23 16:11:52 2013 +0100
-
-    Bog body (bloax)
-
-commit 11650ddb26fc6a901abb020b3b0576f7284b0229
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jul 21 23:47:35 2013 +0100
-
-    Grody undead tiles (bloax)
-
-commit 42345e142827bd289acfad28e3c9f1fb1f032b73
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jul 11 20:03:52 2013 +0100
-
-    Doom Knight tile (bloax)
-
-commit 89f376a02ca5e1c07630b52067c4924325ecd512
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Jul 10 10:48:34 2013 +0100
-
-    Flaming death (bloax)
-
-commit 5d9582c8a678ea8d91916b744cabd87ce5a6b7e5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jul 5 00:01:42 2013 -0500
-
-    GOB and player spiderform tiles (Bloax)
-
 commit f5357c2eb00cf6e840f98b2b70e5f7e09620e30e
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Thu Jul 4 18:39:29 2013 -0600
 
     Evoke Teleport Control icon (reaver, #6896).
-
-commit f25af5a32dc46fc24603641d02827634f640af5e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jun 23 11:32:00 2013 -0500
-
-    Louise tile (Bloax)
-
-commit 7f73827a3f23b1cb14ac909692dc98957df1f22a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Jun 23 10:53:49 2013 -0500
-
-    Drake tile edits
-    
-    Including a new steam dragon courtesy of Bloax.
-
-commit 30f11c6f85da6a982f74f6aa013b3352bcffb0c5
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun May 19 15:29:39 2013 -0500
-
-    Shadow demon tile (bloax, 7035)
 
 commit a1d859447d73b13e974ac5173ae627c7046ab451
 Author: ontoclasm <yokomeshi@gmail.com>
@@ -790,36 +380,11 @@ Date:   Mon Mar 4 19:26:29 2013 -0600
 
     Skeleton tiles (Aygtets, 6735)
 
-commit d8b2db455694753b4418f046a3af23168286f78a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Nov 30 01:22:06 2012 -0600
-
-    Crocodile (bloax)
-
-
-commit d14c632375d6b47db17766e85994f6b4f1b5e634
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Nov 18 12:19:10 2012 -0600
-
-    Butterflies (bloax)
-
-commit 68bdec137909c3b2cdb8f57b60552cc0b8fd0ff0
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Nov 14 00:19:30 2012 -0600
-
-    Octopodes (bloax)
-
 commit 246f75f44f615cd8ee5edc1cd1bd000f0ecf0e68
 Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Tue Nov 13 22:11:18 2012 -0600
 
     Sewer water (white_noise, 6074)
-
-commit 476eef4d014a5f8d193cce333d83b9b3f7f52550
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Nov 13 20:12:23 2012 -0600
-
-    Unseen horror (bloax)
 
 commit ff127d4149a22ba7424f0232a36f411bed6d1827
 Author: ontoclasm <yokomeshi@gmail.com>
@@ -1341,12 +906,6 @@ Date:   Sat Dec 6 11:06:11 2014 -0800
     
     Plus the greatsword tile I forgot earlier.
 
-commit beb6bfd87c71821c0d29bd5bfb3c28da7a3732d2
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Dec 6 10:43:45 2014 -0800
-
-    Goliath Beetle tile (Bloax)
-
 commit 8f66c3dc795113ef9ade2930253c23902a86d6e8
 Author: John McCartney <sicsemperjohn@gmail.com>
 Date:   Fri Dec 5 12:11:29 2014 -0800
@@ -1514,14 +1073,6 @@ Date:   Wed Oct 22 10:19:36 2014 -0700
     Draconian monster base and job tiles.
 
 
-commit a757122794cc7e9f57e53a53fe2a3ea5b7f06993
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Thu Oct 23 23:23:46 2014 -0700
-
-    Add a spooky surprise!
-    
-    Tile is credit (Bloax).
-
 commit 7514cc06760e159a4e083bbce848a88649d00cd1
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Mon Mar 3 11:29:02 2014 -0700
@@ -1614,11 +1165,11 @@ commit fd539b1f27069b5451c6a4b5474d6025a0d25a26
 Author: Nicholas Feinberg <pleasingfung@gmail.com>
 Date:   Mon Apr 13 20:43:11 2015 -0700
 
-    Turn fire dragons red (Marbit, Bloax)
+    Turn fire dragons red (Marbit)
     
     For consistency with other fire monsters. (Ditto lindwurms.)
     
-    Credit to Bloax for the fire dragon recolour & Marbit for the
+    Credit to for the fire dragon recolour & Marbit for the
     lindwurm & armour recolours. Also, for the thread that inspired
     this.
 
@@ -1823,23 +1374,11 @@ Date:   Fri Nov 14 22:43:10 2014 -0700
     ... so that the colours can match console properly. Yay.
 
 
-commit ac29865fd209705657fc05660ad049f0dd91bbef
-Author: Shmuale Mark <shm.mark@gmail.com>
-Date:   Tue Nov 4 13:18:51 2014 -0500
-
-    Add Bloax's obsidian statue tile.
-
 commit 4d0b6572f173350dc09ced6b9b50a60e5f2ffca5
 Author: Shmuale Mark <shm.mark@gmail.com>
 Date:   Mon Nov 3 21:11:51 2014 -0500
 
     Add a very bad tile for obsidian statues.
-
-commit fd4925d704198459885d68b63f6e4ecaed31baaa
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Mon Oct 27 16:44:37 2014 -0600
-
-    A much deadlier death scarab tile (Bloax).
 
 commit e06adc59bc83eab15a5aace4d58317e8680bfd52
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -1935,12 +1474,6 @@ Date:   Thu Sep 18 00:22:28 2014 -0400
     few more monsters are added in a few parts. The other ends were buffed slightly,
     too, and all have some small use of wellsprings.)
 
-commit 3c51aacae9c2b5680d98e0c85c97dd7593a98bc0
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Mon Aug 11 20:56:13 2014 -0700
-
-    Slowly add a new torpor snail sprite (Bloax)
-
 commit b60c37662117a6aea509cb65139b86f690df8b96
 Author: Neil Moore <neil@s-z.org>
 Date:   Sat Jul 26 18:10:43 2014 -0400
@@ -1955,14 +1488,6 @@ Date:   Sat Jul 26 16:55:55 2014 -0400
     
     Use a slightly smaller, but heavier, font for these numbers.
 
-commit 67f3c00bc4d01a503d82731d1f6dfc106589a9f6
-Author: Nicholas Feinberg <pleasingfung@gmail.com>
-Date:   Mon Jul 14 22:56:36 2014 -0700
-
-    Add ghost crab sprite (Bloax)
-    
-    With minor modifications to make it a little ghostlier,
-    as it appears in-game.
 
 commit 9a82e6e6929511236d2eb593b7973e9f764b8063
 Author: Neil Moore <neil@s-z.org>
@@ -2234,14 +1759,6 @@ Date:   Wed Mar 19 17:27:40 2014 -0600
     If someone else doesn't get to this first, I'll probably churn up
     something that at least doesn't look like steam.
 
-commit b9fd09044e1fe0e2fcf5116635fbacca05b41245
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Tue Mar 11 15:30:14 2014 -0600
-
-    Octopode crusher tile (Bloax).
-    
-    Also nudges a few things related to the normal monster octopode.
-
 commit 59a323440215151e79300315c0fcd5300fc72786
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Tue Mar 11 15:02:19 2014 -0600
@@ -2249,15 +1766,6 @@ Date:   Tue Mar 11 15:02:19 2014 -0600
     Recolour the old viper tile for use with mana vipers.
     
     This may not be *ideal*, but it's considerably less ugly.
-
-commit 74a43bd36725a88c46acf91a5e78f0969acc1ca1
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Mon Mar 10 17:58:36 2014 -0600
-
-    Gargoyle / molten gargoyle tiles (Bloax).
-    
-    This also takes the opportunity to set the war gargoyle tile to the
-    correct size.
 
 commit 9d36bc65e8b8fbc40fe9225e0294e4b4eea71f54
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -2339,18 +1847,6 @@ Date:   Sun Feb 23 22:38:59 2014 -0700
     This is at least closer to what I originally envisioned the tile looking
     like.
 
-commit b4497b5a1c98df91c1da50af8c5c17e9491e4e33
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Sun Feb 23 21:58:30 2014 -0700
-
-    Bloax's Lear's Hauberk doll tile (#8194).
-
-commit ecc5650ccb71a3dda2ef7fe2ed9c95b10dea0c6b
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Sun Feb 23 21:56:02 2014 -0700
-
-    Bloax's war gargoyle tile (#8194).
-
 commit a84e0404ef98e58d0b5a691f4fb1e9983929406c
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Sat Feb 15 21:07:40 2014 -0700
@@ -2373,7 +1869,7 @@ commit 5358f5b16d339fdc1462138340e8b4fb27cd799a
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Mon Feb 10 18:53:37 2014 -0700
 
-    Spellbinder floor tile (Bloax) and hand tile (mine).
+    Spellbinder and hand tile (mine).
     
     Or, "how to draw better art at 2AM than Grunt can at 6PM".
 
@@ -2729,15 +2225,6 @@ Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Thu Aug 16 23:29:27 2012 +0200
 
     white_noise's recolored crypt tiles (#6073).
-
-commit f439ca8676993f54b0c7cb95427772704e37ec60
-Author: Pete Hurst <pete@streamuniverse.tv>
-Date:   Thu Jul 4 19:03:07 2013 +0100
-
-    Placeholder tile for Sack of Spiders (Bloax)
-    
-    It doesn't look a lot like the description (actually "a woven silk bag")
-    but this is good for a placeholder.
 
 commit 77ca476af9042312c0fc1ba16921ea2984739f82
 Author: Florian Diebold <flodiebold@gmail.com>
