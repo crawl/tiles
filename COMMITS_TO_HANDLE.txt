@@ -3,215 +3,39 @@ ARTISTS NEEDED
 Pingas 
 Curio - Sent via bug mail
 co - same as ^??
-roctavian - sicsemperjohn@gmail.com
 Bloax - sent via bug mail. http://crawl.akrasiac.org/scoring/players/bloax.html ?
 white_noise - sent via bug mail
+
+Needs contact attempts
+----------
+roctavian - sicsemperjohn@gmail.com
+Lantier
+wad
+xnmojo
+XuaXua
+dolphin
+Robsoie
+evilmike - evilmike@gmail.com
+cjo
+Brannock
+dtsund
+Un67
+chilie
+Eronarn
+LordBistian
+psyshvl
+Tapsu
+fusentrap
+Arrhythmia
+Thrall
+tabstorm
+Team Impy
+dd
+lingerstink
+reaver
+pubby <pubby8@gmail.com>
 -------
 
-
-commit dafac1efff7dff52a947bb8959b2377e70a8c43f
-Author: Eino Keskitalo <eino.keskitalo@gmail.com>
-Date:   Sun Oct 23 21:12:51 2011 +0300
-
-    Zombie tiles for trolls, draconians, griffons, harpies and winged quadrupes (at least hippogrives, sphinxes and shedu). From #4282, by Lantier, modified a little.
-    
-    Strangely, the rim is correct in-game, although trolls don't have one, other tiles have, and no rim setting is in dc-zombies.txt.
-
-
-commit 3b73544b84b478c0cfbdc9ec6dca3b5a638635a3
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Tue Aug 14 02:26:06 2012 +0200
-
-    wad's set of tree tiles.
-    
-    A few of them are sets of two on one tile, not sure if that's a good idea.
-    This looks good and helps fight the grid effect, but on the other hand, some
-    might have a problem with the tooltip saying "tree" in singular.
-
-commit 143ef3002054b4bfc8dd3dca22bbf9fdc009888c
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Tue Jun 5 02:13:20 2012 +0200
-
-    Add a tile needed for one of wad's vaults.
-
-commit 20dcbb64470d31163b9ef2595d3dcf34f191f8ae
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Tue Jun 5 01:45:22 2012 +0200
-
-    Put a bunch of wad's plant tiles into UNUSED/, for use in vaults, perhaps.
-    
-    Flytrap and magic mushrooms are not fit for re-tiling but look like new
-    monster ideas instead.
-
-commit 7dbfdb483f964963fed4d59df419ae5837ab56f0
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Tue Jun 5 01:39:52 2012 +0200
-
-    wad's set of floor tiles.
-    
-    Probably too bright, but let's see how they'd look in their intended use.
-
-commit 04fdece5571c867698984114d50e4860b62ff97a
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Tue Jun 5 01:06:50 2012 +0200
-
-    wad's new plant tiles.
-    
-    The two big leaved-ones look a bit out of place in a big clump of plants,
-    opinions?
-
-commit c1a16f8592eb101b3ca111689faeee10c500fd5f
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Mon May 21 23:32:54 2012 +0200
-
-    xnmojo's tile for jackals.
-
-commit 872380a17ccecdaf43cd49c82faee25c4b70adbd
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Mar 24 02:34:03 2012 +0100
-
-    ontoclasm's tile for the gossamer rune.
-
-commit 42b638e770cbb1d54af4ae179a4bccff523146e8
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Fri Jan 13 04:35:58 2012 +0100
-
-    XuaXua's icon for constriction.
-    
-    Somehow, it looks pretty busy and hard to distinguish on a good deal of
-    monsters I tried it with (first one being orc warlord).  This might be just
-    my feeling though -- and above all, some tile is better than no tile.
-
-commit a68ba43ecc1b0a36f7bbbdccd6b2eac1f72a10b5
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Thu Jan 12 23:09:34 2012 +0100
-
-    XuaXua's tiles for Mass Abjuration, modified Abjuration.
-    
-    The pentagram is yellow to make it differ somehow from actual summons which
-    look too similar.
-
-commit a94e83741c1982f43ef809c8e93a7e58a1723163
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Thu Jan 12 13:04:05 2012 +0100
-
-    XuaXua's breastly tile.
-
-commit 13907ac7836037d984d9eb86fa1f503a3bf2d56d
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed Nov 30 01:12:34 2011 +0100
-
-    Robsoie's adjustment to his skeletal toad tile.
-
-
-commit faa967ab043c7924abb726d60c7af8627f45bd2c
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Fri Oct 28 11:04:12 2011 +0200
-
-    Darken Gehenna floor tiles (evilmike)
-
-commit cc4277332e50d904e7847c44229a50de7c58e1f3
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Oct 23 21:39:48 2011 +0200
-
-    Use dtsund's "tile" (ok, a square of yellow with 10% alpha...) for halo.
-    
-    Looks a lot better to me.  I'd give it rounded edges, but that'd take
-    actual, you know, work.
-
-commit 0d577541578b52a4a998c48cab0432b325c0b617
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Thu Sep 29 06:27:42 2011 +0200
-
-    Un67's tile for ordinary staff.
-    
-    It's de-rimmed (the rim added by the autorimmer is not as thick), with no
-    black in the texture and straightened a bit compared to the original.
-
-commit b81dd7701a450b3683392804b765e4efca4d2a46
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Tue Aug 9 02:22:14 2011 +0200
-
-    chilie's tile for wielded anki.
-
-commit 6a7eab736dc107f0b3d8acd6efc4da09a2ce6b2a
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed Jul 13 02:38:05 2011 +0200
-
-    XuaXua's tailectomy of quasit tiles.
-
-commit c351e77d4eb72d3942a7d5c06046b3d6f7455081
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Jul 9 16:33:21 2011 +0200
-
-    Robsoie's updates to the frog skeleton tile.
-
-commit 91013d3b6fa61eb25892075708c93e54c69f2d74
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Thu Jul 7 10:06:09 2011 +0200
-
-    dolphin's octopode tile.
-
-commit 77cb9b0bacbe0dd66b499910695462f118e35cc5
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Thu Jun 9 02:17:31 2011 +0200
-
-    Add Eronarn's makeshift tile.
-    
-    It actually fits worse than mine :(  The image is a tad better, but it holds
-    weapon, shield and hat in wrong places.
-
-commit abba48c9e0f53cc819c3656dc5c3da9f4af063c0
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Fri May 13 04:26:26 2011 +0200
-
-    Spectral frog tile (Robsoie)
-
-commit e3ae2c5cc0092e3ca684985940027f57d5092167
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Fri Apr 15 23:51:41 2011 +0200
-
-    Add XuaXua's improved death ooze tile.
-
-commit 56e714b26046031e7f1dfe391730017c3ff4923a
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Wed Apr 13 12:36:51 2011 +0200
-
-    Allow porkalating holy beings.
-    
-    With a tile!
-    
-    Since they are nothing but holy demons, it is wrong for them to have
-    different resistances where TSO is not concerned.
-
-commit 62f6b7a78613b64160ade21ae3d735885c2b8763
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Mon Apr 4 23:26:59 2011 +0200
-
-    dolphin's tile for jumping spiders.
-
-commit f730a0d3e0deee3f7ab14f2932430e5d51fd913c
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Feb 12 02:50:08 2011 +0100
-
-    Add LordBistian's tile for Leda's Liquefaction.
-
-commit 75874ee8246b0be85caf59c5a3e89309195854ce
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Dec 5 18:09:46 2010 +0100
-
-    Add psyshvl's demigod tile, fix weapons and corpses for DG, DS, Ha.
-
-commit e65e059d8a7cc3cf4de7dfa0b0f7415b8a55ffcc
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Oct 24 20:44:00 2010 +0200
-
-    Add psyshvl's tile for spriggan assassins.
-    
-    This gives an incentive to, you know, actually implement them!
-    
-    18:08 <+enne> I can't believe you committed monsters without tiles! What's the world coming to? *dramatic sigh*
-    So here's some balance for that :p
 
 commit 2564a95c9927fc25ab3fb7cf1c519f8e12491d56
 Author: Adam Borowski <kilobyte@angband.pl>
@@ -221,167 +45,17 @@ Date:   Fri Oct 8 19:58:07 2010 +0200
     
     They fit pretty badly, but are still better than human ones.
 
-commit 267c4431e451156576e505a6e122db53c48ef909
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Mar 7 20:08:01 2015 -0600
-
-    Bennu tile (Tapsu)
-
-commit 82be2f0d4ae4ac50e274d918ff60094309fbffc3
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Oct 3 18:49:29 2014 -0500
-
-    Make ego qstaves less rod-like (Brannock)
-
-commit 1d087e7da7a68a8bbd56821cec3647ecdbe61e32
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat May 17 10:28:55 2014 -0500
-
-    Make art. ring mail more distinct (Brannock)
-
-commit 787b249962a276791b753c6733e0c490d228517d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon May 12 00:28:33 2014 -0500
-
-    Strawberry tile (fusentrap, 8547)
-
-commit 8c09a7f2ed7d95e72d23337b0dc3c981bc46fe1e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon May 12 00:08:43 2014 -0500
-
-    Display weapons for ogre magi (Arrhythmia, 8548)
-
-commit 382a147afab055ea27f5573ebcaac03646810022
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed May 7 22:10:22 2014 -0500
-
-    Orc warlord tile (Thrall, 8511)
-
-commit 23238270265ca678ef325505d69bdba4829162bf
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun May 4 22:49:28 2014 -0500
-
-    Recolor some dragon armours (tabstorm)
-
-commit 07579574834276b3f20e4c0f6b83d6cefaebd154
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Apr 14 23:44:21 2014 -0500
-
-    Minotaur tile (Team Impy, 7490)
-
-commit bdbfd3480b060dfaeade90020305e3103b5523d8
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Feb 28 17:10:28 2014 -0600
-
-    Mummy restoration ability tile (reaver)
-
-commit fcb018f3d6a2f1510d4df6de5b5ab44ee7486585
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Feb 3 22:21:46 2014 -0600
-
-    Asterion Tile
-    
-    Heavily based on the tile submitted by lingerstink in issue 4032.  Thanks
-    lingerstink!
-
-commit dc6548d80ed8a8746fd19ab250a06c9cf47fcb50
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Dec 29 12:36:35 2013 -0600
-
-    Bastard sword tiles (pubby)
-
-commit 2890da7b8657659c5c1c240c9b49f9ffc8832ed8
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Dec 28 23:13:45 2013 -0600
-
-    Claymore tiles (pubby, 7891)
-
-commit 7e64cc4a4b8f207367760560bd7d6975d92d9613
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 29 17:44:11 2013 -0500
-
-    Macabre finger tile (pubby, 7642)
-
 commit b52781e70fb407d6fff1905ea4682063a198b8e2
 Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Sun Oct 27 19:27:29 2013 -0500
 
     Additional gargoyle base tiles (Xion350, 7631)
 
-commit bc0cfd3c4187290fa33454d58104a3642ae98740
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Sep 13 10:38:06 2013 -0500
-
-    Tengu tile tweaks (pubby, 7545)
-
-commit 7c3917f37ecdbe25aea7234f97728b774f4db19a
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Sep 13 10:27:38 2013 -0500
-
-    Player doll tiles (Team Impy, 7490)
-
-commit f5357c2eb00cf6e840f98b2b70e5f7e09620e30e
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Thu Jul 4 18:39:29 2013 -0600
-
-    Evoke Teleport Control icon (reaver, #6896).
 commit 7d555e852b6d9398e7fbae5d3a51c258b318ba4b
 Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Mon Mar 4 19:26:29 2013 -0600
 
     Skeleton tiles (Aygtets, 6735)
-
-commit 72158f9c4fd468e97edd8388da94420d7e87e001
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Sep 13 22:32:57 2012 -0500
-
-    Polearms (dd)
-
-commit 6caaae44a7b496ede37d87e624703f0d0729765f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Sep 13 02:03:56 2012 -0500
-
-    Memorize GUI tile (dd)
-
-commit 511d55f2772e6e9602853605f043e374545bb33f
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Sep 12 16:16:51 2012 -0500
-
-    GUI tiles (dd)
-
-commit fd308f984c6b2d3d0c9c1808ca784fbb0e6976a6
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Sep 8 15:45:29 2012 -0500
-
-    Fungi (dd)
-
-commit 4bd594facc029f9ba832969314d4009af58c075e
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Sep 5 03:06:23 2012 -0500
-
-    Mummy tiles (dd)
-
-commit 5682cb9bf96e8341b9dc41dbad69b62263643b56
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Wed Sep 5 02:26:08 2012 -0500
-
-    Qblade tiles (dd)
-
-commit b46da3df9195e440419eed779c8b4613f3b03774
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Sep 4 23:11:26 2012 -0500
-
-    Sabre tiles (dd)
-
-commit 17295d9861d301063a00350a05cc86c6c657f911
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Tue Jul 24 15:34:22 2012 +0200
-
-    Slime tiles by roctavian and ontoclasm (#5911).
-    
-    For the acid overlays, I've used both the original directional
-    overlays by roctavian and the altered floor tiles by ontoclasm. I
-    think this looks suitably dangerous.
 
 
 commit 58844af5b0b6232986d46f78309c5b338874e177
@@ -404,81 +78,17 @@ Date:   Mon Dec 27 18:15:40 2010 +1000
     They'll probably replace <some> rats as a singular, slightly more
     difficult opponent that have spikey quills, etc.
 
-commit e7a6258c5f937694ed2a1ed5bb06ee01f4f80e11
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Thu Apr 14 13:41:39 2011 +0200
-
-    Add dolphin's shark tile, XuaXua's death ooze tile.
-
 commit a507a18cc0c72aabdfd19c06d6f922a66bd85bc8
 Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
 Date:   Tue Mar 15 17:37:39 2011 +0100
 
     Add Omndra's wall blood spatter tiles.
 
-commit 422bc215a3f5bd014693cbe746225f5ee9d2111d
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Sat Feb 19 16:38:10 2011 +0100
-
-    Add psyshvl's eldritch tentacle tiles, or at least the first batch.
-    
-    A few are still missing. Will need to fire up GIMP to create them.
-
 commit 63f0cf8ffe9f4dba82fa556aa906345c1dce2ec4
 Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
 Date:   Sat Jan 22 00:01:37 2011 +0100
 
     Remove shield tiles from various shieldless monsters. (Done by co.)
-
-commit be4ade1407f464d051d238618c5bc9fcf1f3bffd
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Mon Dec 27 18:43:28 2010 +0100
-
-    Add preliminary tile for the Malign Gateway spell.
-    
-    For this purpose, I merged two of psyshvl's eldritch tentacles.
-
-commit 130947e00ae1656cdd80013ecbe14c2ce5e6eff2
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Mon Dec 20 02:01:23 2010 +0100
-
-    Add and use psyshvl's tentacle overlay tiles.
-    
-    I've added them via background flags, which seems odd at first, but
-    works rather well.
-    
-    Krakens look much better now, though the angles still seem a bit
-    sharp sometimes and would benefit from further tweaking.
-
-commit 52743e55d3acc4d0bb951ccb70eb18e8e1564e93
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Mon Dec 13 19:50:31 2010 +0100
-
-    Add an altar tile for Ashenzari, based on psyshvl's submissions.
-
-commit 804c6c5e1a1ebbba4455d4f6627171c1d3c3156f
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Sun Dec 12 20:19:32 2010 +0100
-
-    Add psyshvl's oklob sapling tile.
-
-commit 0bed9f14b35536d7d7d8e10d08d760923cbec083
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Thu Dec 9 22:01:21 2010 +0100
-
-    Add more of psyshvl's kraken tentacle tiles.
-
-commit 279415f1b00cac4534a080f8751babb5cc7d1e0a
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Thu Dec 9 19:25:10 2010 +0100
-
-    Add first part of psyshvl's new kraken tentacles, some modified by me.
-
-commit f20cd82343a8036eb230839788bee79ffa70a3e3
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Sun Nov 28 11:57:17 2010 +0100
-
-    New tiles: sky beast (psyshvl), spirit (coolio), grey drac. (minmay)
 
 commit 5ac84345fb5cb642547dbf399740ff2f1697e2d5
 Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
@@ -494,14 +104,6 @@ Date:   Wed Nov 10 18:47:07 2010 -0800
 
     Improved beards! (Thank you, Terence Reeves.)
 
-
-commit e2ddec9b330801a364ca40689097764464f4a99b
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Fri Oct 2 18:44:40 2015 -0400
-
-    Change Kryia's to double device heal and disable for DD (|amethyst)
-    
-    So now it does nothing for Vine Stalkers and Deep Dwarves.
 
 commit 23d607761b2e658257900ba72bae234046ae8f20
 Author: Corin Buchanan-Howland <corin@buchananhowland.net>
@@ -997,13 +599,6 @@ Date:   Mon Mar 3 11:29:02 2014 -0700
     A couple of cases where enemies could spawn with equipment
     unintentionally have also gone away.
 
-commit 32e5fa84aeeb3db323bdeaab22ee64f00e3092e8
-Author: Samuel Bronson <naesten@gmail.com>
-Date:   Sat May 4 17:06:42 2013 -0400
-
-    Evoke fog ability icon for cloak of the Thief (Reaver)
-    
-    Taken from <https://crawl.develz.org/mantis/view.php?id=6896>.
 
 commit 53cf1ce1d3d54244a92481601bb2f394724eb498
 Author: Seve Monahan <reaverb.Crawl@gmail.com>
@@ -1427,33 +1022,6 @@ Date:   Thu Jan 30 23:05:46 2014 -0700
     spell; currently the escape spell is Blink Other, which accomplishes
     basically the same thing but with less visual impressiveness. Perhaps at
     a later date the possibility of this can be revisited.
-
-commit 2211e5ff2f25adfb931eb0ff32b274afa7eb7ed5
-Author: pubby <pubby8@gmail.com>
-Date:   Wed Jun 12 02:34:30 2013 -0500
-
-    Create Formicid species and monsters.
-    
-    Tavern post:
-    https://crawl.develz.org/tavern/viewtopic.php?f=8&t=8298
-    
-    Wierdness & mutations:
-    - poison weakness
-    - retractable antennae (can wear headgear and ignore mutation)
-    - chitin skin (+3 AC)
-    - most weapons 1-handed, big weapons 2-handed
-    - permanent stasis
-    - ability to shaft self
-    - ability to dig
-    - Starts with 2 curing pots
-    
-    3 monster versions of formicids were added:
-    formicid, a weak fighter
-    formicid drone, a stronger fighter
-    formicid venom mage, a magician with olgreb's and mass cure poison
-    
-    [ Pushing to a branch for experimental playtesting on CSZO.
-      Also optimised the new tiles. -nfm ]
 
 
 commit f4002528321dbb23f92bade00d46ce515dd1bd27
@@ -2049,15 +1617,6 @@ Date:   Wed Aug 15 12:48:51 2012 -0600
     
     It's the same radius, only all blue instead of mutagenic.
 
-commit fdd73ddd85eb713f50be6cd0066da8e345237ea3
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Sat Aug 11 14:32:40 2012 -0600
-
-    dd's lava tiles (#5875).
-    
-    This includes an implementation of the requested "ping-pong" between the
-    three sets of lava tiles.
-
 commit 6835b8b476b8930dbff55e05142838d65045ac24
 Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Sat Aug 11 14:15:23 2012 -0600
@@ -2076,40 +1635,6 @@ Date:   Sat Aug 11 13:40:26 2012 -0600
     This works like the spell tab, but with intrinsic/evocable abilities,
     invocations, and ZotDef abilities.
 
-commit 28a9c8c8c012c990261389df52073de3aed22e6d
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Fri Aug 10 21:17:43 2012 -0600
-
-    Show tiles in Ability menu, using dd's ability tiles (#6054).
-    
-    This also adds redone backgrounds for equipped (and cursed equipped)
-    items to match the recently added new item slot background.
-
-
-commit 7d5a1a1daeb8c422abca544e1325f8a63cb20192
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Fri Aug 10 19:45:52 2012 -0600
-
-    dd's new GUI tiles (#6054).
-    
-    The ability/invocation tiles will need some additional backend work
-    before they can be added.
-
-commit 14b720ca319645b0d730b2bf298aa71ca259a4f8
-Author: pubby <pubby8@gmail.com>
-Date:   Sat Nov 9 07:43:51 2013 -0600
-
-    Add shaft-self and dig tiles.
-
-commit 7b4c43a7361f6f77899f1ecf1a34dbcb4b043282
-Author: pubby <pubby8@gmail.com>
-Date:   Wed Aug 28 14:32:30 2013 -0500
-
-    Add some placeholder formicid tiles.
-    
-    Since all 3 formicid monsters appear together they needed tiles to
-    separate them.
-    These are absolutely terrible graphics, but should suffice for testing purposes.
 
 commit c7943516ac3da78c058d985d1899e0aa2985d36b
 Author: Sage <SageBasilMint@gmail.com>
@@ -2204,39 +1729,7 @@ Date:   Thu Aug 16 23:55:02 2012 +0200
 
     Make wall shadows darker in crypt.
 
-commit 183894471bdb34a7ce784f94787aa02f0802b975
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Mon Aug 27 00:18:34 2012 +0200
 
-    rltiles: Fix tile_*_basetile functions.
-    
-    They're completely unused except in my unpublished branch for #6106,
-    but that's no excuse.
-
-
-commit 7c20da92a6cf068a490a1214aa1331d60967f8f9
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Mon Aug 13 00:24:34 2012 +0200
-
-    dd's axe tiles (#5728).
-
-commit 8fa3fa7dfe59bf9b39f9e67fd39aac07a5f1ef13
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Sat Aug 11 13:28:36 2012 +0200
-
-    Fix compilation.
-
-commit c4d148d9d988e1becd836c60f9b08ba3a84754a6
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Sat Aug 4 18:15:56 2012 +0200
-
-    dd's staff tile (#5724).
-
-commit 2454f9b58b56d5b48046730883970665d7442dd5
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Fri Aug 3 14:06:01 2012 +0200
-
-    dd's player doll lajatang tile (#5724).
 
 commit 806c746e6f3b5b04ca3032769d3d68ab49362533
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -2260,12 +1753,6 @@ Date:   Tue Jul 31 15:47:35 2012 +0200
 
     Fix mixed up curing/heal wounds icons.
 
-commit 6e090947bf812b8486aca25dc900df9113f2fa19
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Sat Jul 28 15:55:22 2012 +0200
-
-    dd's polearms (#5724).
-
 commit 42f7cbb3a837a5ea38909d9c32c0c587b27a167a
 Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Sat Jul 28 15:34:38 2012 +0200
@@ -2284,14 +1771,6 @@ Date:   Tue Jul 24 16:10:13 2012 +0200
 
     Tweak slimy wall weights a bit.
 
-
-commit 5235caaf08f3919ba84ece57787c286ba8c9302c
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Tue Jul 24 14:36:43 2012 +0200
-
-    New crystal plate tiles by land dd (#5907).
-    
-    Including variants for the player doll tile.
 
 commit d4f407ec6519a8ba2348699ff4ae18c325cc65da
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -2313,15 +1792,6 @@ Date:   Thu Jun 28 22:02:44 2012 +0200
 
     Correctly center two buckler tiles.
 
-commit 47d89c6a338e026d2299660aa2aa6f3a878c153c
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Thu Jun 28 19:22:14 2012 +0200
-
-    dd's bow tiles.
-    
-    There were two alternatives for the artefact crossbow (red/blue). I
-    liked both, so I put the blue one into UNUSED.
-
 commit 03a6cd18151a15228da165d4849bce55e663f877
 Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Wed Jun 20 23:02:55 2012 +0200
@@ -2340,13 +1810,6 @@ Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Mon Jun 18 12:56:20 2012 +0200
 
     Improved versions of the new morningstar tiles.
-
-commit f135f489c9debfb226b645562a0aa04bb6c19d17
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Sun Jun 17 20:20:23 2012 +0200
-
-    dd's {morning,evening}star tiles.
-
 
 commit ba5704c123b6cd8f130dd9ae0720b8bee7288180
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -2536,24 +1999,6 @@ Date:   Tue Aug 16 14:05:53 2011 +0200
     Moderately damaged: 3/4 => 4/5
 
 
-commit 04f6902f025cd830c21e0edd31af03beae9c70d7
-Author: Raphael Langella <raphael.langella@gmail.com>
-Date:   Mon Aug 1 09:21:22 2011 +0200
-
-    New Octopode tile (Porkshop).
-
-commit a10fe411007610230eddd4c1f597f36ae9da96ad
-Author: Raphael Langella <raphael.langella@gmail.com>
-Date:   Fri May 20 08:24:58 2011 +0000
-
-    Tiles: mark fleeing monsters with an exclamation mark (Curio).
-
-commit e8064ba6ebea92c30fd44a7699abf4cbc22080e4
-Author: Raphael Langella <raphael.langella@gmail.com>
-Date:   Wed Apr 13 23:21:42 2011 +0200
-
-    Add glowing mold tiles (XuaXua).
-
 
 commit 7465a6be7ab76ff69d3ffe90dde10bb0bfc29f06
 Author: Raphael Langella <raphael.langella@gmail.com>
@@ -2602,12 +2047,6 @@ Date:   Wed Apr 4 22:51:52 2012 -0400
     Duplicated a scroll tiles for the highscores tile. A swap of the file should fix it when someone gets around to it.
 
 
-commit c85698cc97393863d3490b4294188837212f7c57
-Author: Michael Gagno <evilmike@gmail.com>
-Date:   Wed Mar 21 22:27:15 2012 -0700
-
-    Moth of suppression tile. (cjo)
-
 commit 56b1166b17481d470c2a12c8f15b909209f03d76
 Author: Pete Hurst <pete@downplay.co.uk>
 Date:   Sat Sep 3 15:28:13 2011 +0100
@@ -2650,112 +2089,6 @@ Date:   Tue Aug 30 18:01:40 2011 +0100
 
     Web trap initial implementation
 
-commit 33001e7b471732d010f0c62e86f63050d0143f73
-Author: Michael Gagno <evilmike@gmail.com>
-Date:   Thu Feb 23 19:49:05 2012 -0800
-
-    Use Denzi's sarcophagus tiles for the statues in Tomb:1.
-
-commit 0af5b33b4ca24822b68497b41acc009ffddfe93d
-Author: Michael Gagno <evilmike@gmail.com>
-Date:   Fri Jan 20 21:17:53 2012 -0800
-
-    Sarcophagus tile for ragdoll_tomb_raider. (Denzi)
-    
-    Currently just decoration. Denzi also made an open sarcophagus tile, and a
-    sideways one on a pedistal, which I've added to rltiles/UNUSED.
-
-
-commit a314e69d3d77f79c01119d4d13230e43ddfd215d
-Author: Michael Gagno <evilmike@gmail.com>
-Date:   Wed Nov 9 20:14:16 2011 -0800
-
-    Make the silence overlay in tiles less gross.
-    
-    It was really obstructive, with parts of it being completely opaque. I was
-    tempted to just make it a solid purple, but kept the grid look because it
-    sticks out a bit better against halo effects (relevant for Mennas).
-
-commit 189d62d71cce20081fd0195bedf39747e85c2880
-Author: Michael Gagno <evilmike@gmail.com>
-Date:   Mon Nov 7 18:44:16 2011 -0800
-
-    Darken the pandemonium floor tile colours a bit.
-
-commit 6c9230eb810138a78e0fbd5e21eba652dbd13567
-Author: Michael Gagno <evilmike@gmail.com>
-Date:   Sun Nov 6 02:25:42 2011 -0800
-
-    Colour the cracked metal wall tile orange.
-    
-    It's only used in a single vault, which now uses orange tinted metal walls.
-    It looked a bit out of place.
-
-commit 7de1999dac9d051e5f12105de39985b921116aa7
-Author: Michael Gagno <evilmike@gmail.com>
-Date:   Sun Nov 6 01:38:06 2011 -0800
-
-    Add Denzi's alt tartarus floor to rltiles/UNUSED
-    
-    It's a good floor and someone might be able to come up with a use for it. I
-    prefer the floor tartarus currently has, but only slightly. One possibility:
-    use this floor inside the tartarus ending vaults?
-
-commit 5f25f20f620b70da3fbe939ae861b2929fc35bff
-Author: Michael Gagno <evilmike@gmail.com>
-Date:   Sun Nov 6 01:24:26 2011 -0800
-
-    Denzi's new Pandemonium walls.
-    
-    In eight colours. I have also lowered the chance of the fleshy wall
-    appearing in pandemonium, but it's still there. Unique pan lord levels get
-    their own walls/floors (defined in pan.des) which aren't affected by this.
-
-commit 240a38d68ff1b4ca3d59b3ac5fb98d0bbd4690e5
-Author: Michael Gagno <evilmike@gmail.com>
-Date:   Sun Nov 6 01:53:18 2011 -0700
-
-    Denzi's new pandemonium floor tiles.
-    
-    They come in 8 colours. This removes floor_tomb from pandemonium and gives
-    the tiles version of it a similar random feel to the console version. The
-    tiles might be worth editing a little still.
-
-commit 1bffe3355ee1ea0bbb58527acf8f5debb946cd04
-Author: Michael Gagno <evilmike@gmail.com>
-Date:   Sat Nov 5 20:00:48 2011 -0700
-
-    Updated Tartarus stone walls. (Denzi)
-
-
-commit f7e130daad0e0c688288d595c1ee9770e1db8845
-Author: Michael Gagno <evilmike@gmail.com>
-Date:   Fri Nov 4 21:37:05 2011 -0700
-
-    A new (tiles) look for Tartarus (Denzi).
-    
-    It's much darker, and greener than before. The only problem is metal stands
-    out a bit too much... I've made it use a dark metal tile in tartarus, but
-    it's still grey instead of greenish like everything else. Luckily metal is
-    rare in tar.
-    
-    Also, I made some small comestic adjustments to tomb, so the "wall of
-    skulls" still has a place in crawl. It's most obvious on tomb:1.
-
-commit 0e92741d6675c24ea1e294875e0d0432737723a7
-Author: Michael Gagno <evilmike@gmail.com>
-Date:   Fri Nov 4 00:00:57 2011 -0700
-
-    Make Denzi's new Dis tiles look more metallic.
-    
-    Modified by and due. One thing to note, the rust spots on the
-    floor stand out a bit more now. It's not too distracting though.
-
-commit 0970335ba1de08bf8b631f24bdeba7ced64870df
-Author: elliptic <hyperelliptical@gmail.com>
-Date:   Fri Oct 21 18:10:39 2011 -0400
-
-    Fix tile for wand of heal wounds (|amethyst).
 
 commit c20d067cc0e8eac7f9f3091308ef853554cfda7b
 Author: Mu <muuuuu@gmail.com>
