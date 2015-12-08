@@ -5,8 +5,6 @@ Curio - Sent via bug mail
 co - same as ^??
 roctavian - sicsemperjohn@gmail.com
 Bloax - sent via bug mail. http://crawl.akrasiac.org/scoring/players/bloax.html ?
-
-Need scrubbing still
 white_noise - sent via bug mail
 -------
 
@@ -19,20 +17,6 @@ Date:   Sun Oct 23 21:12:51 2011 +0300
     
     Strangely, the rim is correct in-game, although trolls don't have one, other tiles have, and no rim setting is in dc-zombies.txt.
 
-commit 0445ba8e1880831027fab0e25c397d86d3bdffe4
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sat Sep 8 22:15:19 2012 +0200
-
-    white_noise's update to his Arachne's tile, also a staveless version.
-    
-    The latter is used only as a base for the corpse, as both items she is
-    allowed to wield (staff of poison and the Staff of Olgreb) fit the
-    hard-drawn versions.  Technically, ordinary staves of poison might be
-    something else than a stick with a green ball at an end, but blah.
-    
-    This is a slightly deboobified version compared to his submission,
-    my apologies to connoiseurs.  Sorry guys (and at least one lady)!
-
 
 commit 3b73544b84b478c0cfbdc9ec6dca3b5a638635a3
 Author: Adam Borowski <kilobyte@angband.pl>
@@ -43,12 +27,6 @@ Date:   Tue Aug 14 02:26:06 2012 +0200
     A few of them are sets of two on one tile, not sure if that's a good idea.
     This looks good and helps fight the grid effect, but on the other hand, some
     might have a problem with the tooltip saying "tree" in singular.
-
-commit 2578d4f6fc6c08756697059c5b74c7f9b01a7e94
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Sun Jul 22 00:51:11 2012 +0200
-
-    white_noise's tile for Arachne.
 
 commit 143ef3002054b4bfc8dd3dca22bbf9fdc009888c
 Author: Adam Borowski <kilobyte@angband.pl>
@@ -243,24 +221,6 @@ Date:   Fri Oct 8 19:58:07 2010 +0200
     
     They fit pretty badly, but are still better than human ones.
 
-commit 7b0afe86001eefe3fa1a9100111146a7cb2e77a0
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jul 31 16:49:47 2015 +0100
-
-    Animal tiles (white_noise, 6164)
-
-commit e9335e3285daa42938786ee883bd442d99f8ca81
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Jul 31 16:25:02 2015 +0100
-
-    Iron grate tile (white_noise, 9875)
-
-commit f98da799f5f6ded33f6c94c8c3b0699f5e7d3539
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Thu Jul 16 16:44:33 2015 +0100
-
-    Mummies (white_noise, 9853)
-
 commit 267c4431e451156576e505a6e122db53c48ef909
 Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Sat Mar 7 20:08:01 2015 -0600
@@ -365,38 +325,11 @@ Author: Steve Melenchuk <smelenchuk@gmail.com>
 Date:   Thu Jul 4 18:39:29 2013 -0600
 
     Evoke Teleport Control icon (reaver, #6896).
-
-commit a1d859447d73b13e974ac5173ae627c7046ab451
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun May 19 02:25:42 2013 -0500
-
-    Branch stairs (mostly white_noise 6077)
-    
-    Also includes sewer portals and Shoals stairs.
-
 commit 7d555e852b6d9398e7fbae5d3a51c258b318ba4b
 Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Mon Mar 4 19:26:29 2013 -0600
 
     Skeleton tiles (Aygtets, 6735)
-
-commit 246f75f44f615cd8ee5edc1cd1bd000f0ecf0e68
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Nov 13 22:11:18 2012 -0600
-
-    Sewer water (white_noise, 6074)
-
-commit ff127d4149a22ba7424f0232a36f411bed6d1827
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Oct 2 19:41:33 2012 -0500
-
-    Curse toe and efreet bottle (white_noise - 6226/6185)
-
-commit a9361b82566e57535dfb1eac2bddeebfe2b8fe0b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Fri Sep 21 00:38:22 2012 -0500
-
-    Rings (white_noise, 6189)
 
 commit 72158f9c4fd468e97edd8388da94420d7e87e001
 Author: ontoclasm <yokomeshi@gmail.com>
@@ -416,35 +349,11 @@ Date:   Wed Sep 12 16:16:51 2012 -0500
 
     GUI tiles (dd)
 
-commit 7a93823be5e8ebfe89a089a2eed3cf1b202bacab
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Sep 10 13:16:15 2012 -0500
-
-    New main dungeon tiles (white_noise)
-
-commit 3787ea19ea59d6ab2009a3dbfaeff44b06015286
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Sep 10 00:07:06 2012 -0500
-
-    Shop tiles (white_noise)
-
-commit 05d68e07ade86187ddcfa137e3b142992fe2e29d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Sep 9 23:30:11 2012 -0500
-
-    Animal tiles (white_noise)
-
 commit fd308f984c6b2d3d0c9c1808ca784fbb0e6976a6
 Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Sat Sep 8 15:45:29 2012 -0500
 
-    Fungi (dd, white_noise)
-
-commit 36f263e20dbfe8f894b6a6f1898cc993031a4cea
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sat Sep 8 14:06:17 2012 -0500
-
-    Bone tiles (white_noise)
+    Fungi (dd)
 
 commit 4bd594facc029f9ba832969314d4009af58c075e
 Author: ontoclasm <yokomeshi@gmail.com>
@@ -463,12 +372,6 @@ Author: ontoclasm <yokomeshi@gmail.com>
 Date:   Tue Sep 4 23:11:26 2012 -0500
 
     Sabre tiles (dd)
-
-commit b3d41779911b44cb7688d039aa11b53ad7033f4d
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Tue Sep 4 19:04:12 2012 -0500
-
-    New silence tile (white_noise)
 
 commit 17295d9861d301063a00350a05cc86c6c657f911
 Author: Florian Diebold <flodiebold@gmail.com>
@@ -2192,12 +2095,6 @@ Date:   Fri Aug 10 19:45:52 2012 -0600
     The ability/invocation tiles will need some additional backend work
     before they can be added.
 
-commit d5b88ed2bc45e0ba3c7a28cff675c9c1a192d4ee
-Author: Steve Melenchuk <smelenchuk@gmail.com>
-Date:   Fri Aug 10 18:51:28 2012 -0600
-
-    white_noise's new entrance and edited stair tiles (#6050).
-
 commit 14b720ca319645b0d730b2bf298aa71ca259a4f8
 Author: pubby <pubby8@gmail.com>
 Date:   Sat Nov 9 07:43:51 2013 -0600
@@ -2213,24 +2110,6 @@ Date:   Wed Aug 28 14:32:30 2013 -0500
     Since all 3 formicid monsters appear together they needed tiles to
     separate them.
     These are absolutely terrible graphics, but should suffice for testing purposes.
-
-commit 1ea5b6bca5087725b4f1fc8976eb25d12087cfeb
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Fri Aug 24 22:25:59 2012 +0200
-
-    Special door tiles for crypt (white_noise, #6073).
-
-commit 5ce3bfb7895ecd3da68bdd57720e4c40fd553f09
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Thu Aug 16 23:29:27 2012 +0200
-
-    white_noise's recolored crypt tiles (#6073).
-
-commit 77ca476af9042312c0fc1ba16921ea2984739f82
-Author: Florian Diebold <flodiebold@gmail.com>
-Date:   Mon Aug 27 00:16:30 2012 +0200
-
-    white_noise's dungeon tile variations by depth (#6106).
 
 commit c7943516ac3da78c058d985d1899e0aa2985d36b
 Author: Sage <SageBasilMint@gmail.com>
