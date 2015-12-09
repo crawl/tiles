@@ -1,12 +1,12 @@
 ARTISTS NEEDED
 ---------------------
 Pingas 
-co - same as ^??
 Bloax - sent via bug mail. http://crawl.akrasiac.org/scoring/players/bloax.html ?
 white_noise - sent via bug mail
 
 Needs contact attempts
 ----------
+co
 roctavian - sicsemperjohn@gmail.com
 Lantier
 wad
@@ -33,482 +33,22 @@ dd
 lingerstink
 reaver
 pubby <pubby8@gmail.com>
+Mu <muuuuu@gmail.com>
+Pete Hurst <pete@downplay.co.uk>
+Xion350 - 7631
+Aygtets - 6735
+Kekitalo
+Malwyn
+Omndra - 4612
+Terence Reeves
+Corin Buchanan-Howland <corin@buchananhowland.net
+nicolae
+floatRand
 -------
 
 
-commit 2564a95c9927fc25ab3fb7cf1c519f8e12491d56
-Author: Adam Borowski <kilobyte@angband.pl>
-Date:   Fri Oct 8 19:58:07 2010 +0200
 
-    Felids: steal a few tiles from NetHack.
-    
-    They fit pretty badly, but are still better than human ones.
 
-commit b52781e70fb407d6fff1905ea4682063a198b8e2
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Sun Oct 27 19:27:29 2013 -0500
-
-    Additional gargoyle base tiles (Xion350, 7631)
-
-commit 7d555e852b6d9398e7fbae5d3a51c258b318ba4b
-Author: ontoclasm <yokomeshi@gmail.com>
-Date:   Mon Mar 4 19:26:29 2013 -0600
-
-    Skeleton tiles (Aygtets, 6735)
-
-
-commit 58844af5b0b6232986d46f78309c5b338874e177
-Author: Jude Brown <bookofjude@users.sourceforge.net>
-Date:   Tue Jan 25 18:51:26 2011 +1000
-
-    Giant ants -> worker ants (coolio, Kekitalo).
-    
-    Yet another monster that uses "giant" as a modifier. Renaming them to
-    "worker ant" puts them further in line with our hierarchy of ant-based
-    monsters: queen ant, soldier ant, worker ant.
-
-commit 70b18cf2bb76b629f39639561e21c857db410276
-Author: Jude Brown <bookofjude@users.sourceforge.net>
-Date:   Mon Dec 27 18:15:40 2010 +1000
-
-    New tiles: porcupine, fire crab. (Malwyn)
-    
-    Porcupines exist as monsters but haven't actually been defined yet.
-    They'll probably replace <some> rats as a singular, slightly more
-    difficult opponent that have spikey quills, etc.
-
-commit a507a18cc0c72aabdfd19c06d6f922a66bd85bc8
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Tue Mar 15 17:37:39 2011 +0100
-
-    Add Omndra's wall blood spatter tiles.
-
-commit 63f0cf8ffe9f4dba82fa556aa906345c1dce2ec4
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Sat Jan 22 00:01:37 2011 +0100
-
-    Remove shield tiles from various shieldless monsters. (Done by co.)
-
-commit 5ac84345fb5cb642547dbf399740ff2f1697e2d5
-Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>
-Date:   Fri Nov 26 19:36:54 2010 +0100
-
-    Add Omndra's new blood tiles.
-    
-    The blood puddles are still in use for corpse tile generation.
-
-commit f278bc1286a4e350c6d42e5da07e6eece22562f6
-Author: Enne Walker <ennewalker@users.sourceforge.net>
-Date:   Wed Nov 10 18:47:07 2010 -0800
-
-    Improved beards! (Thank you, Terence Reeves.)
-
-
-commit 23d607761b2e658257900ba72bae234046ae8f20
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Thu Oct 1 21:38:46 2015 -0400
-
-    New unrand: Kryia's mail coat
-    
-    +7 Kryia's mail coat {DeviceHeal+++, rC+} (base type: scale mail)
-    
-    This artefact makes use of the refactored device heal code (further
-    refactored in this patch) to increase device heal -- if you have no
-    device heal penalties, this will double the healing you get from potions
-    and wands.
-
-commit 46ae38645ce45a0c324cb6981f507e422121ef37
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Tue Sep 29 19:08:04 2015 -0400
-
-    Add the robe of vines
-    
-    The +3 robe of vines {Regen++++++++}. That's 8 plusses.
-
-commit 222fba8ceb3997b13ec9571595e276fd1d41909f
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Mon Aug 31 22:22:00 2015 -0400
-
-    Add juggernauts
-    
-    These Depths-dwellers hit very, very hard, but have significant delay
-    after each swing. They move quickly tho.
-
-commit 1d60061d872ed8b8e6bfe6d576f3c3ecd6477557
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Tue Apr 28 21:31:34 2015 -0400
-
-    Unreverse new Ru ability tiles and shrink them a bit (nicolae-)
-    
-    There's probably still room for improvement.
-
-commit 0d57b2b7aee5ef1142e970cf778259bdf12523f4
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Sat Apr 25 11:41:37 2015 -0400
-
-    Add two new Ru sacrifices: resistance and eye
-    
-    Sacrifice Resistance is {rF- rC-} and worth as much piety as sac hand.
-    Sacrifice an Eye gives you 2x inaccuracy, like the amulet*2. It stacks with
-    the amulet. It's worth 35 piety, like Sacrifice Skill.
-
-commit 9753fc1d99af969af8565d907b85ab6867cfad9a
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Sat Apr 18 09:46:57 2015 -0400
-
-    Add an entropy weaver tile (floatRand)
-
-commit a18de542a77c91a4d3e0a6e70bc1bcbd921814d9
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Sat Apr 11 09:45:40 2015 -0400
-
-    Move entropy weavers to brown p and clean up some tile data
-    
-    Entropy weavers are humanoids, so it makes sense to put them on p. They
-    were only on x originally because I mistakenly thought all the p colors had
-    been used. I put them on brown because they inflict corrosion.
-
-commit 3ff70fcd4de09b5090057fa7480fdaea456eab16
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Sat Apr 4 14:44:02 2015 -0400
-
-    New monster: Entropy Weaver
-    
-    Entropy weavers have four weak-ish attacks and a word-of-recall-type spell,
-    word of entropy. The spell applies 5 stacks of corrosion after a 3 turn
-    chant delay; the weavers come with a small band of spiders to take advantage
-    of the corroded player, but the weavers themselves become reasonably
-    dangerous once you are badly corroded.
-    
-    Entropy weavers can be found mostly in Spider and Depths, but also rarely in
-    Vaults.
-    
-    This monster needs a new tile.
-
-commit e77af6f334cf9b8692214f391e9fcb084bffeaa3
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Fri Apr 3 20:18:16 2015 -0400
-
-    Reconceptualize firecallers a bit
-    
-    Raising hd to 11 (gammafunk), making them salamanders and renaming them
-    to salamander stormcaller (to not conflict w/ salamander firebrand)
-
-commit d4fac0c7e8512236d4f891be2c5bd3f6e142c824
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Wed Apr 1 20:06:32 2015 -0400
-
-    Add firecallers
-    
-    Firecallers are fire cultists with flaming melee and a spellbook including
-    conjure flame and chant fire storm a spell that immobilizes the caster for
-    3.5 turns and then calls down a fire storm on you. Think 'word of recall
-    fire storm'. This is an attempt to make use of the interesting space opened
-    up by word of recall.
-    
-    Firecallers are rare spawns in late D, as well as Vaults, Abyss and Depths.
-    That might narrow after some testing.
-
-commit 18ec49bd7f0adf30e6f3726edeacced8a537ee8c
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Wed Jan 28 20:40:18 2015 -0500
-
-    add two new Ru sacrifices
-    
-    Sacrifice Skill gives you -1 to all skill aptitudes and recalculates all
-    your skills based on the new values. ~35 piety.
-    
-    Sacrifice experience takes two experience levels and limits your max XL
-    to 25. ~28 piety.
-    
-    Featuring terrible placeholder ability icons!
-
-commit 85f6bb1743734f32b37e42f28706821c03c4094b
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Mon Nov 3 22:49:07 2014 -0500
-
-    De-insectify shrikes a little more.
-
-commit 174e299baafbcc9364a1cbb23df2dcc43767826b
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Mon Nov 3 22:17:32 2014 -0500
-
-    Rename caustic bees to caustic shrikes and make them birds.
-
-commit ad67e7ff252d58a05a02b1f5cb83a343786e2088
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Fri Oct 31 19:33:24 2014 -0400
-
-    Rename caustic wasps again, this time to caustic bees
-    
-    Also, lower the MR to 80, and reduce the odds of them spawning anywhere
-    in dungeon, and prevent a band from ever spawning in Dungeon.
-    
-    They're less likely to spawn in Dungeon than storm dragons, tengu
-    reavers, deep elf annihilators, and war gargoyles.
-
-commit 4ff1146e736017458de9fd73e6ebdc6675fb4966
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Tue Oct 28 21:20:11 2014 -0400
-
-    Add caustic wasps
-    
-    Caustic wasps are intended to add a top-tier fast, pack threat to
-    depths analagous to killer bees in early Dungeon. In place of stacking
-    poison, they stack corrosion via acid.
-    
-    The goal is to create in Depths the sorts of interesting situations
-    killer bees create in Dungeon, and also to provide another type of
-    top-tier threat in Depths.
-    
-    Tile is a placeholder.
-
-commit 2754f52dabb28ee852e2011d45501054577b57f3
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Sun Sep 28 15:31:33 2014 -0400
-
-    Rename mermaids/sirens
-    
-    Mermaids are now sirens, and sirens are merfolk avatars and have been
-    made gender neutral and had their descriptions redone. Both are now
-    merfolk for purposes of cannibalism and pacification (and all other
-    purposes). Both monsters still function the same.
-    
-    Revised tiles forthcoming.
-
-commit 795ecda36efc129698bf5f761c22cc1300616094
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Tue Sep 23 18:53:38 2014 -0400
-
-    Rename the Sac Sanity tile to match the previous commit (oops)
-
-commit f64922dfdc87eb2d45d05e7811a0a23103251e94
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Tue Sep 23 18:45:06 2014 -0400
-
-    Rename Sacrifice Sanity to Sacrifice Courage
-    
-    It was a long time coming.
-
-commit 076ae153bbbc81b14dd4d7343004f7144e61e342
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Thu Sep 18 19:22:53 2014 -0400
-
-    Rename Ru's Cataclysm to Apocalypse and adjust.
-    
-    'Cataclysm' was already part of a Qaz Invo title, so I'm changing
-    it to 'Apocalypse'. I'm also reflavoring it to be more thematic with
-    Ru's Awakening theme.
-    
-    Also, decreased the chances of doing only damage and increased the
-    damage done by nearly 30% when no status is inflicted. I believe
-    this should give a better feel of killing some of a group and
-    incapacitating but not killing the majority.
-
-commit cdeebcef90e2b45576cbcddcaeb632615daf2e73
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Tue Jul 8 20:28:20 2014 -0400
-
-    Iashol: RIP Iashol, long live Ru.
-    
-    This commit reskins Iashol to Ru and updates lore.
-
-commit 7ab5695b90565daf91d0280b49011072a53dd5fd
-Author: Corin Buchanan-Howland <corin@buchananhowland.net>
-Date:   Sun Jun 8 19:40:41 2014 -0400
-
-    Iashol fundamentals
-    
-    This commit is meant to include all foundational changes for Iashol that
-    make the god work at a basic level.
-
-commit 85fff257c2132c5a2e9361abb1282acb82dca216
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Wed Oct 29 21:36:35 2014 -0700
-
-    Move old cutlass tiles to UNUSED.
-
-commit b2193eb682d9b7f131a5ece31af91d7542013dc4
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Wed Oct 29 21:23:32 2014 -0700
-
-    New rapier tiles.
-
-commit 910cf96a29b1742f42fd4d376bafbd7a436c5aba
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Jan 16 14:34:16 2015 -0800
-
-    Nikola, Snorg tile edits.
-    
-    Lacks weapon offset for Nikola.
-
-commit 8c25847ed5696e70f64357e84003e1e7401509b8
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Jan 16 14:31:18 2015 -0800
-
-    New book tiles.
-
-commit b50431785cd73e873988d603d4c1ae651ab0e39d
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Jan 2 17:46:05 2015 -0800
-
-    A little bit more transparency for monster damage indicators.
-
-commit 65668cc88b7521f06ec7947ae2897fb9ae42ef3a
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Jan 2 17:28:47 2015 -0800
-
-    Tweaked Dis floors.
-
-commit d3c2987932aaf28e85d5d632dc2a2c37e9c0f772
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Jan 2 12:05:22 2015 -0800
-
-    Brightened Hell Sentinel, new tiles for Edmund, Eustachio, and Terence.
-    
-    Eustachio still needs offsets for equipped weapons.
-
-commit 7a0b6e92e40d5dc3f275ed608f0ec0a18e97dbd6
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Wed Dec 17 22:37:48 2014 -0800
-
-    Further minor iterations for a few early-game monster tiles.
-
-commit 2f9560d06e14e1e582c5da7a906a3506f86b5e77
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Mon Dec 15 10:27:01 2014 -0800
-
-    Improvements to hippogriff, Nellie, and a couple skeletons.
-    
-    Clarified bottom edge of silhouettes, adjusted shadows.
-
-commit f575c6d4c58bca06b768761a3a88cc170f1ad70a
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Mon Dec 15 10:23:57 2014 -0800
-
-    Value/saturation adjustments for several monster tiles.
-    
-    Serpents of hell and Vaults denizens are the main ones.
-
-commit bfee7128f4365340e3a3b3a02d8f0d728efb0e96
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Mon Dec 15 10:20:19 2014 -0800
-
-    Small improvements to yaktaur and yaktaur captain.
-
-commit 1eedcb17e0964d9cd395b2c6a2f47f182417c8df
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Tue Dec 9 21:58:03 2014 -0800
-
-    Small edits to elephant tiles.
-
-commit 596a959b87c400fe51acd47d257aadffb93e6f09
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Dec 6 11:06:11 2014 -0800
-
-    Small edits to recent wielded weapon tiles.
-    
-    Plus the greatsword tile I forgot earlier.
-
-commit 8f66c3dc795113ef9ade2930253c23902a86d6e8
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Dec 5 12:11:29 2014 -0800
-
-    Revised wielded weapon tiles.
-    
-    Absent: launchers, giant clubs, demon weapons, scythes, hammers, whips, clubs.
-
-commit 948502301a2b3a26482965aa468e5f3cf4ea5622
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Thu Dec 4 15:13:10 2014 -0800
-
-    Minor iterations for kobold and greatsword tiles.
-
-commit 4d0de3aa488f97e59139a283056253a55bd8a23b
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Wed Nov 26 12:43:02 2014 -0800
-
-    Black pixels on monster damage indicator now slightly semi-transparent.
-
-commit 6b5998ce05d58dd72dbe9d48273f5c2011afb6d2
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Wed Nov 26 12:39:35 2014 -0800
-
-    Removed rim from wretched stars in dc-mon.
-
-commit e8f33aba1aacc7a5fc40b84c18fe854e0a25049b
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Wed Nov 26 12:08:54 2014 -0800
-
-    Further iterations to goblinoids; better visibility for wretched stars.
-
-commit 8d144ffac3ba206afdb424645a17db4e0146b52c
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 23:46:27 2014 -0800
-
-    Color/brightness tweaks for a variety of monster tiles.
-    
-    Gargoyles, tengu, demonspawn outfits, and some others.
-
-commit bdaf798f747eb18aee31dec724aa2d5ecc8c1603
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 22:12:57 2014 -0800
-
-    Caustic shrike tile.
-
-commit a0f5cdfa3344533db0160c8625e2cc37e0b7d5e0
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 19:00:52 2014 -0800
-
-    Removed shield from base gnoll sergeant tile.
-
-commit db287d24152495d7307ad54eee4391bd449bd1c8
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 18:53:32 2014 -0800
-
-    Upped saturation for Orbs of Destruction.
-
-commit 03c478d3dd8ef093069e3aed5c79cb769a40cba5
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 18:49:37 2014 -0800
-
-    Tweaked a couple greatsword tiles.
-
-commit 4d92b313aac4e7682eb2561f31a91e977fcdf274
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 14:08:56 2014 -0800
-
-    Brightened kobold tiles, removed their darts.
-
-commit 06d78c0d99a79250caefbd7d1d8214aa524e3ca7
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 12:07:57 2014 -0800
-
-    Restored Robin's hide.
-
-commit 2939fc5f2683bce3e96d63be51019aba28471b9e
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 00:45:46 2014 -0800
-
-    Fix a mistake just made in dc-mon.
-
-commit 262f426ec601e57a17e4a3303af2eb7e21360170
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Nov 22 00:37:54 2014 -0800
-
-    Robin tile, small tweaks to hobgoblin/goblin tiles.
-
-commit dec2988febb5f515ddb0f19223f93b1b5aa06907
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Mon Nov 3 13:36:51 2014 -0800
-
-    White marble floors for Tukima wizlab, removed rim from Flayed Ghost.
-
-commit 8561f079796ebb938acad8a88ac77d76bb10354e
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Mon Nov 3 12:42:47 2014 -0800
-
-    Spider walls brightened, minute tweaks to lab walls and lair floors.
 
 commit 83d1d28874efe5d587f101e742ca489fbdde6b74
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -522,60 +62,6 @@ Date:   Fri Oct 31 21:01:24 2014 -0600
     
     Has a really preliminary tile; tt could use detailing from someone with
     more artistic sense than I, or even a completely new tile.
-
-commit c8677decdb30e335bbea9a470e33489cbaf6565e
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Oct 31 19:55:08 2014 -0700
-
-    New flayed ghost tile, happy Halloween
-
-commit 34385035813e95713dee4c071aace2f41eaa76b6
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Tue Oct 28 21:30:23 2014 -0700
-
-    Updated Halls of the Hellbinder sigil tiles, larger wolf spider tile.
-
-commit e9d5c5e0fa1c2ac085d84cedb2197d0985099529
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sun Oct 26 01:49:52 2014 -0700
-
-    dc-floor.txt mostly caught up to new floor tiles.
-    
-    Also one floor tile that I mixed up.
-    The only thing left to fix is to get %lum working for the pebble tiles.
-
-commit ba51bde10e9e30f49a99645756f77d466c46deb2
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Oct 25 22:24:52 2014 -0700
-
-    Re-tuned brightness for many floor tiles
-    
-    The same dynamic from light to dark has been preserved in every tile, but shifted downward in value. This should make several areas with noisy floors less aggravating, and will improve visibility of most other tiles in the game.
-
-commit 3dac1c6502313ef0da05115659c77d48182e9feb
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Sat Oct 25 00:24:08 2014 -0700
-
-    Lighten draconian base tiles slightly.
-
-commit 2751495adda381fd1f3b60975d24dfca7edd5d82
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Oct 24 18:34:14 2014 -0700
-
-    New purple color scheme for Spider branch.
-
-commit 08255afc07afae239f4cb5548e613c99088769f4
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Fri Oct 24 17:08:36 2014 -0700
-
-    Small tweaks to recently added Draconian tiles: more hellfire, caller aura, annihilator staff, and slight recolorations.
-
-commit fdfbcc980de0ff9021c850796e3981ba7b215e47
-Author: John McCartney <sicsemperjohn@gmail.com>
-Date:   Wed Oct 22 10:19:36 2014 -0700
-
-    Draconian monster base and job tiles.
-
 
 commit 7514cc06760e159a4e083bbce848a88649d00cd1
 Author: Steve Melenchuk <smelenchuk@gmail.com>
@@ -1837,19 +1323,6 @@ Date:   Sun Apr 8 22:07:35 2012 +0200
 
     Center the new elven dagger and short sword tiles (#5512).
 
-commit afbd131893d734b9347fdc3bbf2243d9221ab899
-Author: Raphael Langella <raphael.langella@gmail.com>
-Date:   Mon Apr 2 01:21:29 2012 +0200
-
-    New blood splat tiles (omndra #4612).
-    
-    Improved colouring and transparency.
-    Consistency with corpse blood colour.
-    More variety of shapes.
-    Some wall bloods have inscriptions. Those ones will only be used on level
-    generation and only on south facing walls, because rotated inscriptions are
-    not so hot. And they are rare.
-
 commit 654b8b308ac63d5b3d81ff9aaf6748307c3a83ba
 Author: Florian Diebold <flodiebold@gmail.com>
 Date:   Fri Mar 23 20:05:46 2012 +0100
@@ -2009,19 +1482,6 @@ Date:   Fri Apr 1 01:01:27 2011 +0200
 
 
 
-commit d2d5b991aadd9618dcd2b47f732854ef742d3b1a
-Author: Raphael Langella <raphael.langella@gmail.com>
-Date:   Thu Mar 17 15:22:27 2011 +0100
-
-    Remove omndra's title screens.
-    
-    While I find them pretty cool, the author is unable to modify them to use
-    the new title logo because he lost the source files. He also doesn't like
-    them as much as Denzi's ones (style is quite different indeed).
-    Put them under unused, so we can bring them back if someone can edit them
-    with the new title logo.
-
-
 commit caa5519827a693b714aaff1417e64fc9d533b1d4
 Author: Raphael Langella <raphael.langella@gmail.com>
 Date:   Wed Nov 17 22:51:26 2010 +0100
@@ -2046,59 +1506,14 @@ Date:   Wed Apr 4 22:51:52 2012 -0400
     Duplicated a scroll tiles for the highscores tile. A swap of the file should fix it when someone gets around to it.
 
 
-commit 56b1166b17481d470c2a12c8f15b909209f03d76
-Author: Pete Hurst <pete@downplay.co.uk>
-Date:   Sat Sep 3 15:28:13 2011 +0100
 
-    Images for dust trails
 
-commit 0279dec085959234a22f7895ecbcf9c0565c2cab
-Author: Pete Hurst <pete@downplay.co.uk>
-Date:   Sat Sep 3 15:19:36 2011 +0100
 
-    Dust trails for boulders
+------- FWICT, this tile might be dead due to nethack license. I currently don't see a graphics exception.
+commit 2564a95c9927fc25ab3fb7cf1c519f8e12491d56
+Author: Adam Borowski <kilobyte@angband.pl>
+Date:   Fri Oct 8 19:58:07 2010 +0200
 
-commit 6bf1983d8393cff0829c0758cb3499164ae50fa6
-Author: Pete Hurst <pete@downplay.co.uk>
-Date:   Fri Sep 2 10:14:06 2011 +0100
-
-    Clean up and optimise boulder images
-
-commit 23df76ade1fe98021bb87c84afc8257010aaf396
-Author: Pete Hurst <pete@downplay.co.uk>
-Date:   Fri Sep 2 09:50:18 2011 +0100
-
-    Rebase boulder_beetles onto master.
+    Felids: steal a few tiles from NetHack.
     
-    A couple of test boulder trap vaults
-    Partially implemented rolling boulder beetle
-    Rolling boulder mostly working, some small issues
-    Increase likelihood of rolling. Continue rolling when victim is killed.
-    Fixed sign error for flee mode of boulder
-
-commit 1526df119702313024fd465785b2db644c9c2d4c
-Author: Pete Hurst <pete@downplay.co.uk>
-Date:   Fri Sep 2 00:38:39 2011 +0100
-
-    Cobweb tiles
-
-commit 545ad87ee9cee7f655028416b85fa5d966327071
-Author: Pete Hurst <pete@downplay.co.uk>
-Date:   Tue Aug 30 18:01:40 2011 +0100
-
-    Web trap initial implementation
-
-
-commit c20d067cc0e8eac7f9f3091308ef853554cfda7b
-Author: Mu <muuuuu@gmail.com>
-Date:   Sun Oct 16 02:57:04 2011 +0100
-
-    Some new tiles for various customised enemies
-    
-    Mantis 4723
-    
-    Hellbinder tile by coolio
-    Cloud Mage, ancient champion, master elementalist
-    and deep elf elementalist tiles by Varsovie
-    
-    Also give the elementalists their description
+    They fit pretty badly, but are still better than human ones.
