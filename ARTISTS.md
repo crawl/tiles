@@ -37,3 +37,4 @@ The following artists have given explicit approval that past and future artwork 
 - minmay
 - gammafunk
 - Grunt (sgrunt hypergrunt deathgrunt)
+- curio.solus@gmail.com (Curio)
