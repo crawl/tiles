@@ -36,5 +36,5 @@ The following artists have given explicit approval that past and future artwork 
 - CanOfWorms
 - minmay
 - gammafunk
-- Grunt (sgrunt hypergrunt deathgrunt)
+- Grunt (sgrunt hypergrunt deathgrunt Steve Melenchuk - smelenchuk@gmail.com)
 - curio.solus@gmail.com (Curio)
