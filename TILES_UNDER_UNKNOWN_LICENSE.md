@@ -128,3 +128,10 @@ zombie_small.png
 zombie_snake.png
 zombie_spider.png
 zombie_worm.png
+
+# These are all stolen from nethack, and the nethack license appears to apply. So no public domain for you.
+crawl-ref/source/rltiles/player/felids/cat1.png
+crawl-ref/source/rltiles/player/felids/cat2.png
+crawl-ref/source/rltiles/player/felids/cat3.png
+crawl-ref/source/rltiles/player/felids/cat4.png
+crawl-ref/source/rltiles/player/felids/cat5.png
