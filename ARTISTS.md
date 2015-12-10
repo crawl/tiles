@@ -38,3 +38,4 @@ The following artists have given explicit approval that past and future artwork 
 - gammafunk
 - Grunt (sgrunt hypergrunt deathgrunt Steve Melenchuk - smelenchuk@gmail.com)
 - curio.solus@gmail.com (Curio)
+- Raphael Langella raphael.langella@gmail.com
