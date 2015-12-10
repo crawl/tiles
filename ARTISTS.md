@@ -40,3 +40,4 @@ The following artists have given explicit approval that past and future artwork 
 - curio.solus@gmail.com (Curio)
 - Raphael Langella raphael.langella@gmail.com
 - Brendan Hickey - brendan@bhickey.net
+- Nicholas Feinberg - pleasingfung@gmail.com
