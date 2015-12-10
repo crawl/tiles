@@ -8,7 +8,6 @@ evilmike - evilmike@gmail.com
 pubby <pubby8@gmail.com>
 Mu <muuuuu@gmail.com>
 Corin Buchanan-Howland <corin@buchananhowland.net
-Shmuale Mark - shm.mark@gmail.com
 Edgar A. Bering IV - trizor@gmail.com
 Sage - SageBasilMint@gmail.com
 theTower <mwclaws@gmail.com>
@@ -39,7 +38,6 @@ Tapsu
 fusentrap
 Arrhythmia
 Thrall
-tabstorm
 Team Impy
 dd
 lingerstink
@@ -53,7 +51,4 @@ floatRand
 Ironfoot
 benhanson
 Doesnt, hyperactiveChipmunk, #10010)
-MarvinPA ?? - fa12db5b089d36c568826285f23d6582d0c0690f
 Marbit
-checkers
-

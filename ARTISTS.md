@@ -15,7 +15,7 @@ The following is the list of artists that gave approval in 2010 for their artwor
 - Mitsuhiro Itakura
 - coolio
 - Denzi
-- Adam Borowski kilobyte@angband.pl
+- Adam Borowski kilobyte@angband.pl (castamir)
 - Porkchop
 - Johanna Ploog j-p-e-g@users.sourceforge.net (j-p-e-g)
 - Jinhlk
@@ -24,7 +24,6 @@ The following is the list of artists that gave approval in 2010 for their artwor
 - Purge
 - LoginError
 - zebez
-- castamir.
 - n78291 (Shayne?)
 - Charles Otto ottochar@gmail.com (caotto)
 
@@ -32,7 +31,6 @@ The following artists have given explicit approval that past and future artwork 
 - ontoclasm yokomeshi@gmail.com
 - Neil Moore neil@s-z.org (|amethyst)
 - donblas/chamons chris.hamons@gmail.com
-- PleasingFungus
 - CanOfWorms
 - minmay
 - gammafunk
@@ -40,4 +38,5 @@ The following artists have given explicit approval that past and future artwork 
 - curio.solus@gmail.com (Curio)
 - Raphael Langella raphael.langella@gmail.com
 - Brendan Hickey - brendan@bhickey.net
-- Nicholas Feinberg - pleasingfung@gmail.com
+- Nicholas Feinberg - pleasingfung@gmail.com (PleasingFungus)
+- shmuale (wheals Shmuale Mark - shm.mark@gmail.com)
