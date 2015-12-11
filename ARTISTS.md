@@ -47,3 +47,4 @@ The following artists have given explicit approval that past and future artwork 
 - Brannock
 - floatRand
 - XuaXua
+- Mu muuuuu@gmail.com
