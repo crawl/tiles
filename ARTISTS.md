@@ -40,3 +40,5 @@ The following artists have given explicit approval that past and future artwork 
 - Brendan Hickey - brendan@bhickey.net
 - Nicholas Feinberg - pleasingfung@gmail.com (PleasingFungus)
 - shmuale (wheals Shmuale Mark - shm.mark@gmail.com)
+- Edgar A. Bering IV - trizor@gmail.com
+- Florian Diebold flodiebold@gmail.com
