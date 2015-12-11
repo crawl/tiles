@@ -16,7 +16,6 @@ Thomas Holmes <thomas@devminded.com>
 
 Sent via Tavern
 -------------
-Brannock
 Doesnt
 Ironfoot
 Lantier
@@ -27,20 +26,15 @@ Robsoie
 Tapsu
 Team Impy
 Thrall
-cjo
 co
 dd
 
-dolphin
 Un67
-XuaXua
 dtsund
-floatRand
 fusentrap
 
 lingerstink
 psyshvl
-reaver
 wad
 
 Bloax 
@@ -59,5 +53,5 @@ Terence Reeves
 Xion350 - 7631
 benhanson
 chilie
-hyperactiveChipmunk, #10010)
+hyperactiveChipmunk, #10010
 xnmojo

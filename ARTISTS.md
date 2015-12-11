@@ -42,3 +42,8 @@ The following artists have given explicit approval that past and future artwork 
 - shmuale (wheals Shmuale Mark - shm.mark@gmail.com)
 - Edgar A. Bering IV - trizor@gmail.com
 - Florian Diebold flodiebold@gmail.com
+- dolphin
+- cjo
+- Brannock
+- floatRand
+- XuaXua
