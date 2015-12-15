@@ -46,12 +46,15 @@ benhanson - 8216
 hyperactiveChipmunk, #10010
 Varsovie - 4723
 
-Needs contact attempts
+Send via Mantis meta-bug (https://crawl.develz.org/mantis/view.php?id=10182)
 ----------
 Eronarn
 LordBistian
-Malwyn
 Pete Hurst Email bounced - <pete@downplay.co.uk>
 Terence Reeves
 chilie
 xnmojo
+
+Needs contact attempts!!!
+----------
+Malwyn
