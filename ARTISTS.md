@@ -50,3 +50,4 @@ The following artists have given explicit approval that past and future artwork 
 - Mu muuuuu@gmail.com
 - Omndra
 - co
+- Baconkid
