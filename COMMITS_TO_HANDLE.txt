@@ -52,7 +52,6 @@ Varsovie - 4723
 
 Send via Mantis meta-bug (https://crawl.develz.org/mantis/view.php?id=10182)
 ----------
-Eronarn
 LordBistian
 Pete Hurst Email bounced - <pete@downplay.co.uk>
 Terence Reeves
