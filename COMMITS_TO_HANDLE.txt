@@ -53,7 +53,6 @@ Varsovie - 4723
 Send via Mantis meta-bug (https://crawl.develz.org/mantis/view.php?id=10182)
 ----------
 LordBistian
-Pete Hurst Email bounced - <pete@downplay.co.uk>
 Terence Reeves
 chilie
 Raumkraut
@@ -62,3 +61,4 @@ ShadyAmish
 Other
 ------
 Malwyn - Contact request via Due (Tavern - "1:27:52 <due> enne, a non-Crawl-related friend just drew me a crab and a porcuine tile!"). Also e-mail to Jude.
+Pete Hurst Email bounced - <pete@downplay.co.uk>
