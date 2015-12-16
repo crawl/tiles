@@ -52,3 +52,4 @@ The following artists have given explicit approval that past and future artwork 
 - co
 - Baconkid
 - Eronarn
+- xnmojo
