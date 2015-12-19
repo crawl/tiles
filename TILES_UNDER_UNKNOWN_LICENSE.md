@@ -647,6 +647,8 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 - Bloax
 	- rltiles/UNUSED/monsters/cacodemon.png
 	- rltiles/UNUSED/worn/lears_chain_mail.png
+	- rltiles/dngn/altars/beogh.png
+	- rltiles/dngn/altars/dithmengos.png
 	- rltiles/dngn/altars/dithmengos2.png
 	- rltiles/dngn/altars/dithmengos3.png
 	- rltiles/dngn/wall/ice_block0.png
@@ -654,7 +656,15 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/dngn/wall/ice_block2.png
 	- rltiles/dngn/wall/ice_block3.png
 	- rltiles/dngn/wall/ice_block4.png
+	- rltiles/dngn/wall/ice_wall0.png
+	- rltiles/dngn/wall/ice_wall1.png
+	- rltiles/dngn/wall/ice_wall2.png
+	- rltiles/dngn/wall/ice_wall3.png
 	- rltiles/dngn/wall/ice_wall4.png
+	- rltiles/dngn/wall/icy_stone0.png
+	- rltiles/dngn/wall/icy_stone1.png
+	- rltiles/dngn/wall/icy_stone2.png
+	- rltiles/dngn/wall/icy_stone3.png
 	- rltiles/dngn/wall/icy_stone4.png
 	- rltiles/dngn/wall/metal_wall0.png
 	- rltiles/dngn/wall/metal_wall1.png
@@ -665,6 +675,7 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/dngn/wall/metal_wall6.png
 	- rltiles/dngn/wall/metal_wall7.png
 	- rltiles/dngn/wall/metal_wall8.png
+	- rltiles/dngn/wall/metal_wall_brown.png
 	- rltiles/dngn/wall/metal_wall_red0.png
 	- rltiles/dngn/wall/metal_wall_red1.png
 	- rltiles/dngn/wall/metal_wall_red2.png
@@ -674,61 +685,6 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/dngn/wall/metal_wall_red6.png
 	- rltiles/dngn/wall/metal_wall_red7.png
 	- rltiles/dngn/wall/metal_wall_red8.png
-	- rltiles/dngn/wall/vault_stone12.png
-	- rltiles/dngn/wall/vault_stone13.png
-	- rltiles/dngn/wall/vault_stone14.png
-	- rltiles/dngn/wall/vault_stone15.png
-	- rltiles/item/armour/artefact/urand_spider.png
-	- rltiles/item/armour/red_dragon_scale_mail.png
-	- rltiles/item/armour/red_dragon_scales.png
-	- rltiles/item/misc/misc_sack.png
-	- rltiles/item/weapon/artefact/urand_dark_maul.png
-	- rltiles/item/weapon/artefact/urand_spellbinder.png
-	- rltiles/item/weapon/demon_blade2.png
-	- rltiles/item/weapon/demon_blade3.png
-	- rltiles/item/weapon/demon_trident2.png
-	- rltiles/item/weapon/demon_trident3.png
-	- rltiles/item/weapon/demon_whip2.png
-	- rltiles/item/weapon/demon_whip3.png
-	- rltiles/item/weapon/ranged/triple_crossbow2.png
-	- rltiles/mon/animals/ghost_crab.png
-	- rltiles/mon/aquatic/octopode.png
-	- rltiles/mon/aquatic/octopode_crusher.png
-	- rltiles/mon/sprint/meatlord.png
-	- rltiles/mon/undead/zombies/crab.png
-	- rltiles/mon/undead/zombies/spiked_turtle.png
-	- rltiles/mon/undead/zombies/turtle.png
-	- rltiles/mon/unique/dowan2.png
-	- rltiles/mon/unique/duvessa2.png
-	- rltiles/player/body/chainmail2.png
-	- rltiles/player/body/dragonarm_red.png
-	- rltiles/player/body/dragonsc_red.png
-	- rltiles/player/body/lears_hauberk.png
-	- rltiles/player/body/plate3.png
-	- rltiles/player/body/ringmail2.png
-	- rltiles/player/body/ringmail3.png
-	- rltiles/player/body/scalemail3.png
-	- rltiles/player/body/scalemail_light.png
-	- rltiles/player/body/troll_leather.png
-	- rltiles/player/hand1/artefact/dark_maul.png
-	- rltiles/player/hand1/artefact/spellbinder.png
-	- rltiles/player/head/pumpkin.png
-	- rltiles/dngn/wall/metal_wall_brown.png
-	- rltiles/item/armour/green_dragon_scale_mail.png
-	- rltiles/item/armour/green_dragon_scales.png
-	- rltiles/player/body/dragonarm_green.png
-	- rltiles/player/body/dragonsc_green.png
-	- rltiles/player/body/lears_chain_mail.png
-	- rltiles/dngn/altars/beogh.png
-	- rltiles/dngn/altars/dithmengos.png
-	- rltiles/dngn/wall/ice_wall0.png
-	- rltiles/dngn/wall/ice_wall1.png
-	- rltiles/dngn/wall/ice_wall2.png
-	- rltiles/dngn/wall/ice_wall3.png
-	- rltiles/dngn/wall/icy_stone0.png
-	- rltiles/dngn/wall/icy_stone1.png
-	- rltiles/dngn/wall/icy_stone2.png
-	- rltiles/dngn/wall/icy_stone3.png
 	- rltiles/dngn/wall/spider00.png
 	- rltiles/dngn/wall/spider01.png
 	- rltiles/dngn/wall/spider02.png
@@ -757,6 +713,10 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/dngn/wall/vault_stone09.png
 	- rltiles/dngn/wall/vault_stone10.png
 	- rltiles/dngn/wall/vault_stone11.png
+	- rltiles/dngn/wall/vault_stone12.png
+	- rltiles/dngn/wall/vault_stone13.png
+	- rltiles/dngn/wall/vault_stone14.png
+	- rltiles/dngn/wall/vault_stone15.png
 	- rltiles/effect/hellfire.png
 	- rltiles/gui/invocations/nemelex_deal_four.png
 	- rltiles/gui/invocations/nemelex_draw_one.png
@@ -767,24 +727,38 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/gui/spells/summoning/summon_horrible_things.png
 	- rltiles/item/armour/artefact/urand_gong.png
 	- rltiles/item/armour/artefact/urand_moon_troll_leather_armour.png
+	- rltiles/item/armour/artefact/urand_spider.png
 	- rltiles/item/armour/chain_mail1.png
 	- rltiles/item/armour/chain_mail2.png
 	- rltiles/item/armour/chain_mail3.png
+	- rltiles/item/armour/green_dragon_scale_mail.png
+	- rltiles/item/armour/green_dragon_scales.png
+	- rltiles/item/armour/red_dragon_scale_mail.png
+	- rltiles/item/armour/red_dragon_scales.png
 	- rltiles/item/armour/troll_hide.png
 	- rltiles/item/armour/troll_leather_armour.png
 	- rltiles/item/misc/misc_sack.png
 	- rltiles/item/weapon/artefact/spwpn_demon_axe.png
 	- rltiles/item/weapon/artefact/spwpn_singing_sword.png
+	- rltiles/item/weapon/artefact/urand_dark_maul.png
 	- rltiles/item/weapon/artefact/urand_leech.png
+	- rltiles/item/weapon/artefact/urand_spellbinder.png
 	- rltiles/item/weapon/blessed_blade.png
 	- rltiles/item/weapon/cutlass2.png
 	- rltiles/item/weapon/dagger2.png
 	- rltiles/item/weapon/demon_blade.png
+	- rltiles/item/weapon/demon_blade2.png
+	- rltiles/item/weapon/demon_blade3.png
 	- rltiles/item/weapon/demon_trident.png
+	- rltiles/item/weapon/demon_trident2.png
+	- rltiles/item/weapon/demon_trident3.png
 	- rltiles/item/weapon/demon_whip.png
+	- rltiles/item/weapon/demon_whip2.png
+	- rltiles/item/weapon/demon_whip3.png
 	- rltiles/item/weapon/greatsword2.png
 	- rltiles/item/weapon/long_sword2.png
 	- rltiles/item/weapon/ranged/triple_crossbow.png
+	- rltiles/item/weapon/ranged/triple_crossbow2.png
 	- rltiles/item/weapon/sacred_scourge.png
 	- rltiles/item/weapon/scimitar2.png
 	- rltiles/item/weapon/trishula.png
@@ -792,6 +766,7 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/mon/amorphous/acid_blob.png
 	- rltiles/mon/animals/butterfly2.png
 	- rltiles/mon/animals/butterfly5.png
+	- rltiles/mon/animals/ghost_crab.png
 	- rltiles/mon/animals/goliath_beetle.png
 	- rltiles/mon/animals/green_rat.png
 	- rltiles/mon/animals/grey_rat.png
@@ -800,6 +775,8 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/mon/animals/rat.png
 	- rltiles/mon/animals/shard_shrike.png
 	- rltiles/mon/animals/torpor_snail.png
+	- rltiles/mon/aquatic/octopode.png
+	- rltiles/mon/aquatic/octopode_crusher.png
 	- rltiles/mon/centaur-melee.png
 	- rltiles/mon/centaur.png
 	- rltiles/mon/centaur_warrior-melee.png
@@ -837,50 +814,86 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/mon/nonliving/orb_of_destruction2.png
 	- rltiles/mon/nonliving/orb_of_destruction3.png
 	- rltiles/mon/nonliving/war_gargoyle.png
+	- rltiles/mon/sprint/meatlord.png
 	- rltiles/mon/statues/obsidian_statue.png
 	- rltiles/mon/undead/death_scarab.png
 	- rltiles/mon/undead/freezing_wraith.png
 	- rltiles/mon/undead/wraith.png
+	- rltiles/mon/undead/zombies/crab.png
+	- rltiles/mon/undead/zombies/spiked_turtle.png
+	- rltiles/mon/undead/zombies/turtle.png
 	- rltiles/mon/unique/dowan.png
+	- rltiles/mon/unique/dowan2.png
 	- rltiles/mon/unique/duvessa.png
+	- rltiles/mon/unique/duvessa2.png
 	- rltiles/mon/unique/frances.png
 	- rltiles/mon/unique/louise.png
 	- rltiles/player/body/chainmail.png
+	- rltiles/player/body/chainmail2.png
 	- rltiles/player/body/chainmail3.png
 	- rltiles/player/body/crystal_plate.png
 	- rltiles/player/body/crystal_plate2.png
 	- rltiles/player/body/crystal_plate3.png
+	- rltiles/player/body/dragonarm_green.png
+	- rltiles/player/body/dragonarm_red.png
+	- rltiles/player/body/dragonsc_green.png
+	- rltiles/player/body/dragonsc_red.png
+	- rltiles/player/body/lears_chain_mail.png
+	- rltiles/player/body/lears_hauberk.png
 	- rltiles/player/body/leather_armour.png
 	- rltiles/player/body/leather_armour2.png
 	- rltiles/player/body/leather_armour3.png
 	- rltiles/player/body/moon_troll_leather_armour.png
 	- rltiles/player/body/plate.png
 	- rltiles/player/body/plate2.png
+	- rltiles/player/body/plate3.png
 	- rltiles/player/body/ringmail.png
+	- rltiles/player/body/ringmail2.png
+	- rltiles/player/body/ringmail3.png
 	- rltiles/player/body/scalemail.png
 	- rltiles/player/body/scalemail2.png
+	- rltiles/player/body/scalemail3.png
+	- rltiles/player/body/scalemail_light.png
 	- rltiles/player/body/troll_hide.png
+	- rltiles/player/body/troll_leather.png
 	- rltiles/player/hand1/artefact/capt_cutlass.png
+	- rltiles/player/hand1/artefact/dark_maul.png
 	- rltiles/player/hand1/artefact/demon_axe.png
 	- rltiles/player/hand1/artefact/leech.png
 	- rltiles/player/hand1/artefact/singing_sword.png
+	- rltiles/player/hand1/artefact/spellbinder.png
 	- rltiles/player/hand2/shield_gong.png
+	- rltiles/player/head/pumpkin.png
 	- rltiles/player/transform/lich_form_felid.png
 	- rltiles/player/transform/spider_form.png
 	- rltiles/player/transform/statue_form_octopode.png
-	- rltiles/tool/tile_page.cc
 
 - white_noise
 	- rltiles/dngn/closed_door_crypt.png
+	- rltiles/dngn/floor/crypt0.png
+	- rltiles/dngn/floor/crypt1.png
+	- rltiles/dngn/floor/crypt2.png
+	- rltiles/dngn/floor/crypt3.png
+	- rltiles/dngn/floor/crypt4.png
+	- rltiles/dngn/floor/crypt5.png
+	- rltiles/dngn/floor/crypt6.png
+	- rltiles/dngn/floor/crypt7.png
 	- rltiles/dngn/gate_closed_left_crypt.png
 	- rltiles/dngn/gate_closed_middle_crypt.png
 	- rltiles/dngn/gate_closed_right_crypt.png
 	- rltiles/dngn/gate_open_left_crypt.png
 	- rltiles/dngn/gate_open_middle_crypt.png
 	- rltiles/dngn/gate_open_right_crypt.png
+	- rltiles/dngn/gateways/enter.png
 	- rltiles/dngn/gateways/enter_elf.png
+	- rltiles/dngn/gateways/enter_shoals.png
+	- rltiles/dngn/gateways/enter_slime.png
+	- rltiles/dngn/gateways/enter_swamp.png
 	- rltiles/dngn/gateways/enter_temple.png
+	- rltiles/dngn/gateways/escape_hatch_down.png
+	- rltiles/dngn/gateways/escape_hatch_up.png
 	- rltiles/dngn/gateways/exit_crypt.png
+	- rltiles/dngn/gateways/exit_dungeon.png
 	- rltiles/dngn/gateways/exit_elf.png
 	- rltiles/dngn/gateways/exit_lair.png
 	- rltiles/dngn/gateways/exit_orc.png
@@ -892,198 +905,6 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/dngn/gateways/exit_temple.png
 	- rltiles/dngn/gateways/exit_tomb.png
 	- rltiles/dngn/gateways/exit_vaults.png
-	- rltiles/dngn/open_door_crypt.png
-	- rltiles/dngn/vgate_closed_down_crypt.png
-	- rltiles/dngn/vgate_closed_middle_crypt.png
-	- rltiles/dngn/vgate_closed_up_crypt.png
-	- rltiles/dngn/vgate_open_down_crypt.png
-	- rltiles/dngn/vgate_open_middle_crypt.png
-	- rltiles/dngn/vgate_open_up_crypt.png
-	- rltiles/dngn/wall/brick_dark_1_0.png
-	- rltiles/dngn/wall/brick_dark_1_1.png
-	- rltiles/dngn/wall/brick_dark_1_10.png
-	- rltiles/dngn/wall/brick_dark_1_11.png
-	- rltiles/dngn/wall/brick_dark_1_2.png
-	- rltiles/dngn/wall/brick_dark_1_3.png
-	- rltiles/dngn/wall/brick_dark_1_4.png
-	- rltiles/dngn/wall/brick_dark_1_5.png
-	- rltiles/dngn/wall/brick_dark_1_6.png
-	- rltiles/dngn/wall/brick_dark_1_7.png
-	- rltiles/dngn/wall/brick_dark_1_8.png
-	- rltiles/dngn/wall/brick_dark_1_9.png
-	- rltiles/dngn/wall/brick_dark_2_0.png
-	- rltiles/dngn/wall/brick_dark_2_1.png
-	- rltiles/dngn/wall/brick_dark_2_10.png
-	- rltiles/dngn/wall/brick_dark_2_11.png
-	- rltiles/dngn/wall/brick_dark_2_2.png
-	- rltiles/dngn/wall/brick_dark_2_3.png
-	- rltiles/dngn/wall/brick_dark_2_4.png
-	- rltiles/dngn/wall/brick_dark_2_5.png
-	- rltiles/dngn/wall/brick_dark_2_6.png
-	- rltiles/dngn/wall/brick_dark_2_7.png
-	- rltiles/dngn/wall/brick_dark_2_8.png
-	- rltiles/dngn/wall/brick_dark_2_9.png
-	- rltiles/dngn/wall/brick_dark_3_0.png
-	- rltiles/dngn/wall/brick_dark_3_1.png
-	- rltiles/dngn/wall/brick_dark_3_10.png
-	- rltiles/dngn/wall/brick_dark_3_11.png
-	- rltiles/dngn/wall/brick_dark_3_12.png
-	- rltiles/dngn/wall/brick_dark_3_13.png
-	- rltiles/dngn/wall/brick_dark_3_14.png
-	- rltiles/dngn/wall/brick_dark_3_15.png
-	- rltiles/dngn/wall/brick_dark_3_2.png
-	- rltiles/dngn/wall/brick_dark_3_3.png
-	- rltiles/dngn/wall/brick_dark_3_4.png
-	- rltiles/dngn/wall/brick_dark_3_5.png
-	- rltiles/dngn/wall/brick_dark_3_6.png
-	- rltiles/dngn/wall/brick_dark_3_7.png
-	- rltiles/dngn/wall/brick_dark_3_8.png
-	- rltiles/dngn/wall/brick_dark_3_9.png
-	- rltiles/dngn/wall/brick_dark_4_0.png
-	- rltiles/dngn/wall/brick_dark_4_1.png
-	- rltiles/dngn/wall/brick_dark_4_10.png
-	- rltiles/dngn/wall/brick_dark_4_11.png
-	- rltiles/dngn/wall/brick_dark_4_12.png
-	- rltiles/dngn/wall/brick_dark_4_13.png
-	- rltiles/dngn/wall/brick_dark_4_14.png
-	- rltiles/dngn/wall/brick_dark_4_15.png
-	- rltiles/dngn/wall/brick_dark_4_2.png
-	- rltiles/dngn/wall/brick_dark_4_3.png
-	- rltiles/dngn/wall/brick_dark_4_4.png
-	- rltiles/dngn/wall/brick_dark_4_5.png
-	- rltiles/dngn/wall/brick_dark_4_6.png
-	- rltiles/dngn/wall/brick_dark_4_7.png
-	- rltiles/dngn/wall/brick_dark_4_8.png
-	- rltiles/dngn/wall/brick_dark_4_9.png
-	- rltiles/dngn/wall/brick_dark_5_0.png
-	- rltiles/dngn/wall/brick_dark_5_1.png
-	- rltiles/dngn/wall/brick_dark_5_10.png
-	- rltiles/dngn/wall/brick_dark_5_11.png
-	- rltiles/dngn/wall/brick_dark_5_12.png
-	- rltiles/dngn/wall/brick_dark_5_13.png
-	- rltiles/dngn/wall/brick_dark_5_14.png
-	- rltiles/dngn/wall/brick_dark_5_15.png
-	- rltiles/dngn/wall/brick_dark_5_16.png
-	- rltiles/dngn/wall/brick_dark_5_17.png
-	- rltiles/dngn/wall/brick_dark_5_18.png
-	- rltiles/dngn/wall/brick_dark_5_19.png
-	- rltiles/dngn/wall/brick_dark_5_2.png
-	- rltiles/dngn/wall/brick_dark_5_3.png
-	- rltiles/dngn/wall/brick_dark_5_4.png
-	- rltiles/dngn/wall/brick_dark_5_5.png
-	- rltiles/dngn/wall/brick_dark_5_6.png
-	- rltiles/dngn/wall/brick_dark_5_7.png
-	- rltiles/dngn/wall/brick_dark_5_8.png
-	- rltiles/dngn/wall/brick_dark_5_9.png
-	- rltiles/dngn/wall/brick_dark_6_0.png
-	- rltiles/dngn/wall/brick_dark_6_1.png
-	- rltiles/dngn/wall/brick_dark_6_10.png
-	- rltiles/dngn/wall/brick_dark_6_11.png
-	- rltiles/dngn/wall/brick_dark_6_12.png
-	- rltiles/dngn/wall/brick_dark_6_13.png
-	- rltiles/dngn/wall/brick_dark_6_14.png
-	- rltiles/dngn/wall/brick_dark_6_15.png
-	- rltiles/dngn/wall/brick_dark_6_16.png
-	- rltiles/dngn/wall/brick_dark_6_17.png
-	- rltiles/dngn/wall/brick_dark_6_18.png
-	- rltiles/dngn/wall/brick_dark_6_19.png
-	- rltiles/dngn/wall/brick_dark_6_2.png
-	- rltiles/dngn/wall/brick_dark_6_3.png
-	- rltiles/dngn/wall/brick_dark_6_4.png
-	- rltiles/dngn/wall/brick_dark_6_5.png
-	- rltiles/dngn/wall/brick_dark_6_6.png
-	- rltiles/dngn/wall/brick_dark_6_7.png
-	- rltiles/dngn/wall/brick_dark_6_8.png
-	- rltiles/dngn/wall/brick_dark_6_9.png
-	- rltiles/dngn/wall/stone_smooth0.png
-	- rltiles/dngn/wall/stone_smooth1.png
-	- rltiles/dngn/wall/stone_smooth2.png
-	- rltiles/dngn/wall/stone_smooth3.png
-	- rltiles/dngn/water/murky_bord_bl.png
-	- rltiles/dngn/water/murky_bord_br.png
-	- rltiles/dngn/water/murky_bord_btm.png
-	- rltiles/dngn/water/murky_bord_lft.png
-	- rltiles/dngn/water/murky_bord_rgt.png
-	- rltiles/dngn/water/murky_bord_tl.png
-	- rltiles/dngn/water/murky_bord_top.png
-	- rltiles/dngn/water/murky_bord_tr.png
-	- rltiles/item/food/bone1.png
-	- rltiles/item/food/bone2.png
-	- rltiles/item/food/bone3.png
-	- rltiles/item/food/bone4.png
-	- rltiles/item/food/bone_humanoid1.png
-	- rltiles/item/food/bone_humanoid2.png
-	- rltiles/item/food/bone_humanoid3.png
-	- rltiles/item/food/bone_humanoid4.png
-	- rltiles/item/ring/randarts/anvil.png
-	- rltiles/item/ring/randarts/blood.png
-	- rltiles/item/ring/randarts/bronze-flower.png
-	- rltiles/item/ring/randarts/dark.png
-	- rltiles/item/ring/randarts/double.png
-	- rltiles/item/ring/randarts/eye.png
-	- rltiles/item/ring/randarts/fire.png
-	- rltiles/item/ring/randarts/flower.png
-	- rltiles/item/ring/randarts/four-colour.png
-	- rltiles/item/ring/randarts/green.png
-	- rltiles/item/ring/randarts/ice.png
-	- rltiles/item/ring/randarts/pink.png
-	- rltiles/item/ring/randarts/red-blue.png
-	- rltiles/item/ring/randarts/snake.png
-	- rltiles/item/ring/randarts/zircon.png
-	- rltiles/mon/animals/vampire_bat.png
-	- rltiles/mon/fungi_plants/fungus1.png
-	- rltiles/mon/fungi_plants/fungus2.png
-	- rltiles/mon/fungi_plants/fungus3.png
-	- rltiles/mon/fungi_plants/fungus4.png
-	- rltiles/mon/fungi_plants/fungus5.png
-	- rltiles/mon/fungi_plants/fungus6.png
-	- rltiles/mon/fungi_plants/fungus7.png
-	- rltiles/mon/fungi_plants/fungus8.png
-	- rltiles/mon/fungi_plants/fungus9.png
-	- rltiles/mon/unique/arachne.png
-	- rltiles/mon/unique/arachne_staveless.png
-	- rltiles/dngn/wall/banners/banner1.png
-	- rltiles/dngn/wall/brick_dark0.png
-	- rltiles/dngn/wall/brick_dark1.png
-	- rltiles/dngn/wall/brick_dark2.png
-	- rltiles/dngn/wall/brick_dark3.png
-	- rltiles/dngn/wall/brick_dark4.png
-	- rltiles/dngn/wall/brick_dark5.png
-	- rltiles/dngn/wall/brick_dark6.png
-	- rltiles/dngn/wall/stone_brick1.png
-	- rltiles/dngn/wall/stone_brick10.png
-	- rltiles/dngn/wall/stone_brick11.png
-	- rltiles/dngn/wall/stone_brick12.png
-	- rltiles/dngn/wall/stone_brick2.png
-	- rltiles/dngn/wall/stone_brick3.png
-	- rltiles/dngn/wall/stone_brick4.png
-	- rltiles/dngn/wall/stone_brick5.png
-	- rltiles/dngn/wall/stone_brick6.png
-	- rltiles/dngn/wall/stone_brick7.png
-	- rltiles/dngn/wall/stone_brick8.png
-	- rltiles/dngn/wall/stone_brick9.png
-	- rltiles/dngn/wall/torches/torch0.png
-	- rltiles/dngn/wall/torches/torch1.png
-	- rltiles/dngn/wall/torches/torch2.png
-	- rltiles/dngn/wall/torches/torch3.png
-	- rltiles/dngn/wall/torches/torch4.png
-	- rltiles/item/food/bone.png
-	- rltiles/mon/fungi_plants/fungus.png
-	- rltiles/dngn/floor/crypt0.png
-	- rltiles/dngn/floor/crypt1.png
-	- rltiles/dngn/floor/crypt2.png
-	- rltiles/dngn/floor/crypt3.png
-	- rltiles/dngn/floor/crypt4.png
-	- rltiles/dngn/floor/crypt5.png
-	- rltiles/dngn/floor/crypt6.png
-	- rltiles/dngn/floor/crypt7.png
-	- rltiles/dngn/gateways/enter.png
-	- rltiles/dngn/gateways/enter_shoals.png
-	- rltiles/dngn/gateways/enter_slime.png
-	- rltiles/dngn/gateways/enter_swamp.png
-	- rltiles/dngn/gateways/escape_hatch_down.png
-	- rltiles/dngn/gateways/escape_hatch_up.png
-	- rltiles/dngn/gateways/exit_dungeon.png
 	- rltiles/dngn/gateways/return.png
 	- rltiles/dngn/gateways/sewer_portal.png
 	- rltiles/dngn/gateways/sewer_portal_rusted.png
@@ -1092,6 +913,7 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/dngn/gateways/stone_stairs_down.png
 	- rltiles/dngn/gateways/stone_stairs_up.png
 	- rltiles/dngn/grate.png
+	- rltiles/dngn/open_door_crypt.png
 	- rltiles/dngn/shops/abandoned_shop.png
 	- rltiles/dngn/shops/enter_shop.png
 	- rltiles/dngn/shops/shop_armour.png
@@ -1103,6 +925,20 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/dngn/shops/shop_scrolls.png
 	- rltiles/dngn/shops/shop_wands.png
 	- rltiles/dngn/shops/shop_weapon.png
+	- rltiles/dngn/vgate_closed_down_crypt.png
+	- rltiles/dngn/vgate_closed_middle_crypt.png
+	- rltiles/dngn/vgate_closed_up_crypt.png
+	- rltiles/dngn/vgate_open_down_crypt.png
+	- rltiles/dngn/vgate_open_middle_crypt.png
+	- rltiles/dngn/vgate_open_up_crypt.png
+	- rltiles/dngn/wall/banners/banner1.png
+	- rltiles/dngn/wall/brick_dark0.png
+	- rltiles/dngn/wall/brick_dark1.png
+	- rltiles/dngn/wall/brick_dark2.png
+	- rltiles/dngn/wall/brick_dark3.png
+	- rltiles/dngn/wall/brick_dark4.png
+	- rltiles/dngn/wall/brick_dark5.png
+	- rltiles/dngn/wall/brick_dark6.png
 	- rltiles/dngn/wall/brick_dark_1_0.png
 	- rltiles/dngn/wall/brick_dark_1_1.png
 	- rltiles/dngn/wall/brick_dark_1_10.png
@@ -1214,8 +1050,37 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/dngn/wall/crypt7.png
 	- rltiles/dngn/wall/crypt8.png
 	- rltiles/dngn/wall/crypt9.png
+	- rltiles/dngn/wall/stone_brick1.png
+	- rltiles/dngn/wall/stone_brick10.png
+	- rltiles/dngn/wall/stone_brick11.png
+	- rltiles/dngn/wall/stone_brick12.png
+	- rltiles/dngn/wall/stone_brick2.png
+	- rltiles/dngn/wall/stone_brick3.png
+	- rltiles/dngn/wall/stone_brick4.png
+	- rltiles/dngn/wall/stone_brick5.png
+	- rltiles/dngn/wall/stone_brick6.png
+	- rltiles/dngn/wall/stone_brick7.png
+	- rltiles/dngn/wall/stone_brick8.png
+	- rltiles/dngn/wall/stone_brick9.png
+	- rltiles/dngn/wall/stone_smooth0.png
+	- rltiles/dngn/wall/stone_smooth1.png
+	- rltiles/dngn/wall/stone_smooth2.png
+	- rltiles/dngn/wall/stone_smooth3.png
+	- rltiles/dngn/wall/torches/torch0.png
+	- rltiles/dngn/wall/torches/torch1.png
+	- rltiles/dngn/wall/torches/torch2.png
+	- rltiles/dngn/wall/torches/torch3.png
+	- rltiles/dngn/wall/torches/torch4.png
 	- rltiles/dngn/water/deep_water_murky.png
 	- rltiles/dngn/water/deep_water_murky2.png
+	- rltiles/dngn/water/murky_bord_bl.png
+	- rltiles/dngn/water/murky_bord_br.png
+	- rltiles/dngn/water/murky_bord_btm.png
+	- rltiles/dngn/water/murky_bord_lft.png
+	- rltiles/dngn/water/murky_bord_rgt.png
+	- rltiles/dngn/water/murky_bord_tl.png
+	- rltiles/dngn/water/murky_bord_top.png
+	- rltiles/dngn/water/murky_bord_tr.png
 	- rltiles/dngn/water/open_sea.png
 	- rltiles/dngn/water/open_sea2.png
 	- rltiles/dngn/water/shallow_water_murky.png
@@ -1223,6 +1088,15 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/dngn/water/shallow_water_murky_disturbance.png
 	- rltiles/dngn/water/shallow_water_murky_disturbance2.png
 	- rltiles/effect/silenced.png
+	- rltiles/item/food/bone.png
+	- rltiles/item/food/bone1.png
+	- rltiles/item/food/bone2.png
+	- rltiles/item/food/bone3.png
+	- rltiles/item/food/bone4.png
+	- rltiles/item/food/bone_humanoid1.png
+	- rltiles/item/food/bone_humanoid2.png
+	- rltiles/item/food/bone_humanoid3.png
+	- rltiles/item/food/bone_humanoid4.png
 	- rltiles/item/misc/misc_bottle.png
 	- rltiles/item/ring/agate.png
 	- rltiles/item/ring/artefact/urand_mage.png
@@ -1250,6 +1124,21 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/item/ring/plain_black.png
 	- rltiles/item/ring/plain_red.png
 	- rltiles/item/ring/plain_yellow.png
+	- rltiles/item/ring/randarts/anvil.png
+	- rltiles/item/ring/randarts/blood.png
+	- rltiles/item/ring/randarts/bronze-flower.png
+	- rltiles/item/ring/randarts/dark.png
+	- rltiles/item/ring/randarts/double.png
+	- rltiles/item/ring/randarts/eye.png
+	- rltiles/item/ring/randarts/fire.png
+	- rltiles/item/ring/randarts/flower.png
+	- rltiles/item/ring/randarts/four-colour.png
+	- rltiles/item/ring/randarts/green.png
+	- rltiles/item/ring/randarts/ice.png
+	- rltiles/item/ring/randarts/pink.png
+	- rltiles/item/ring/randarts/red-blue.png
+	- rltiles/item/ring/randarts/snake.png
+	- rltiles/item/ring/randarts/zircon.png
 	- rltiles/item/ring/silver.png
 	- rltiles/item/ring/steel.png
 	- rltiles/item/ring/tiger_eye.png
@@ -1257,9 +1146,20 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/mon/animals/alligator.png
 	- rltiles/mon/animals/crocodile.png
 	- rltiles/mon/animals/giant_gecko.png
+	- rltiles/mon/animals/vampire_bat.png
 	- rltiles/mon/animals/warg.png
 	- rltiles/mon/fungi_plants/active_ballistomycete.png
 	- rltiles/mon/fungi_plants/ballistomycete.png
+	- rltiles/mon/fungi_plants/fungus.png
+	- rltiles/mon/fungi_plants/fungus1.png
+	- rltiles/mon/fungi_plants/fungus2.png
+	- rltiles/mon/fungi_plants/fungus3.png
+	- rltiles/mon/fungi_plants/fungus4.png
+	- rltiles/mon/fungi_plants/fungus5.png
+	- rltiles/mon/fungi_plants/fungus6.png
+	- rltiles/mon/fungi_plants/fungus7.png
+	- rltiles/mon/fungi_plants/fungus8.png
+	- rltiles/mon/fungi_plants/fungus9.png
 	- rltiles/mon/fungi_plants/hyperactive_ballistomycete.png
 	- rltiles/mon/fungi_plants/toadstool_left.png
 	- rltiles/mon/fungi_plants/toadstool_right.png
@@ -1269,6 +1169,7 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/mon/undead/mummy.png
 	- rltiles/mon/undead/mummy_priest.png
 	- rltiles/mon/unique/arachne.png
+	- rltiles/mon/unique/arachne_staveless.png
 	- rltiles/mon/unique/khufu.png
 	- rltiles/mon/unique/menkaure.png
 
