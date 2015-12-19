@@ -53,3 +53,7 @@ The following artists have given explicit approval that past and future artwork 
 - Baconkid
 - Eronarn
 - xnmojo
+- fusentrap
+- frogbotherer - therealchriswest@hotmail.com
+- pubby pubby8@gmail.com
+- Corin Buchanan-Howland corin@buchananhowland.net
