@@ -1,4 +1,4 @@
-The following is the list of artists that gave approval in 2010 for their artwork to be released under CC:0. It is asserted that this covers any new art submitted to Crawl. Please contact the maintainer if this is incorrect.
+The following is the list of artists that gave approval in 2010 for their artwork to be released under CC:0. It is asserted that this covers any new art submitted to Crawl. Please contact the maintainer (chris.hamons@gmail.com) if this is incorrect.
 
 - Eino Keskitalo evktalo@users.sourceforge.net (evktalo)
 - David Lawrence Ramsey dolorous@users.sourceforge.net (dolorous)
