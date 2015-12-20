@@ -3,7 +3,6 @@ ARTISTS NEEDED
 
 Sent via E-mail
 ----------------
-roctavian - sicsemperjohn@gmail.com
 evilmike - evilmike@gmail.com
 Sage - SageBasilMint@gmail.com
 theTower <mwclaws@gmail.com>
@@ -51,7 +50,6 @@ Send via Mantis meta-bug (https://crawl.develz.org/mantis/view.php?id=10182)
 LordBistian
 Terence Reeves
 chilie
-Raumkraut
 ShadyAmish
 
 Other
