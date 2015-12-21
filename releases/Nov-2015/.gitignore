@@ -1,0 +1,6 @@
+/*.png
+tiledef*.cc
+tiledef*.h
+tool/tilegen.elf
+tile*.html
+tileinfo*.js
