@@ -869,6 +869,7 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/player/transform/statue_form_octopode.png
 
 - white_noise
+	- dat/tiles/title_white_noise_grabbing_the_orb.png
 	- rltiles/dngn/closed_door_crypt.png
 	- rltiles/dngn/floor/crypt0.png
 	- rltiles/dngn/floor/crypt1.png
@@ -1253,7 +1254,6 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 - Psiweapon
 	- crawl-ref/source/dat/tiles/title_psiweapon_roxanne.png
 	- crawl-ref/source/dat/tiles/title_psiweapon_kiku.png
-	- crawl-ref/source/dat/tiles/title_white_noise_grabbing_the_orb.png
 
 - ShadyAmish
 	- crawl-ref/source/dat/tiles/title_shadyamish_octm.png
