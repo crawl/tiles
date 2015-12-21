@@ -1,0 +1,169 @@
+People Signed Off:
+		'Author: Eino Keskitalo <evktalo@users.sourceforge.net>',
+		    New tile: plant_crypt for withered plants in Crypt vaults. (Eino)
+		    Add Eino's totally awesome Grum tile, as well as my own significantly less
+		    awesome tile for Kirke. Thanks, Eino, you rock!
+		    Add new unique gnoll Grum, courtesy of Eino's patch. Thanks!
+			'Author: evktalo <evktalo@c06c8d41-db1a-0410-9941-cceddc491573>',
+
+		'Author: David Lawrence Ramsey <dolorous@users.sourceforge.net>',
+			'Author: dolorous <dolorous@c06c8d41-db1a-0410-9941-cceddc491573>',
+
+		'Author: ennewalker <ennewalker@c06c8d41-db1a-0410-9941-cceddc491573>',
+			'Author: Enne Walker <enne.walker@gmail.com>',
+			'Author: Enne Walker <ennewalker@users.sourceforge.net>',
+
+	    [1863] Spriggan tile updates. (Poor_Yurik)
+		    [1863] Add assorted spriggan tiles. (Poor_Yurik)
+		    [1961] Add blue tutorial tile. (Poor Yurik)
+		    Darken door tiles. (Poor_Yurik)
+		    Add updated wall tiles. (Poor_Yurik)
+		    Revert "Add Poor_Yurik's initial door tiles."
+		    Add Poor_Yurik's initial door tiles.
+		    Add Nellie tile, elephant statue, fix jungle book. (Poor_Yurik)
+		    [1861] Add shadow imp, Grinder tiles. (Poor_Yurik)
+		    [1657] Add Poor_Yurik's new goblin tiles.
+		    [1775] Add Poor_Yurik's new kobold tiles.
+		    [1625] Add Poor_Yurik's improved shadow tile.
+		    [1626] Add Poor_Yurik's new giant bat tile.
+		    [1624] Add Poor_Yurik's new Eustachio tile.
+		    [1768] Add Poor_Yurik's new mummy player tiles.
+		    [1860] Add new hobgoblin tile (Poor Yurik).
+		    Add Poor Yurik's new minotaur doll tile, minus horns.
+		    [1859] Add new player species tiles (Poor Yurik).
+    		First pass at Yurik's new dungeon tiles.
+			
+
+		"Author: Stefan O'Rear <stefanor@cox.net>",
+
+		'Author: Jude Brown <bookofjude@users.sourceforge.net>',
+    		New Donald tile (with Jude).
+    		* BR 2841651 by bookofjude: allow Merfolk to control-tele into deep water
+			Add new unique Gastronok (slug wizard), via a patch by bookofjude and some tweaks to make his speech and casting work correctly. Turns up around the same  time as Erolcha and Grum.
+			Add a new unique mummy, Menkaure, and three new ossuaries. All courtesy of due.
+			New monster: giant leech (Eronarn).
+
+		'Author: Ixtli <cg@325i.org>']
+		
+		'Author: Robert Vollmert <rvollmert@gmx.net>',
+
+    	Use Nobody's hexagonal wax wall tile.
+
+		'Author: abrahamwl <abrahamwl@gmail.com>',
+	
+		'Author: dshaligram <dshaligram@c06c8d41-db1a-0410-9941-cceddc491573>',
+
+		'Author: Jesse Luehrs <doy@tozt.net>',
+
+		'Author: David Ploog <dploog@users.sourceforge.net>',
+		'Author: dploog <dploog@c06c8d41-db1a-0410-9941-cceddc491573>',    	
+
+       	Added new monster draconian tiles.  Improved ring and amulet graphics.  Fixed issue where the deep elf blademaster did not appear with weapons.  (These graphics are all from Mitsuhiro Itakura.)
+	    Add Mitsuhiro's new kraken tiles, slightly modified to make them work
+
+		Add coolio's non-flying quasit tile, and move the old tile to UNUSED.
+	    	Add coolio's tiles for: cherub, apis, holy dragon, ophan, paladin.
+		    Replace Xom's altar tiles with coolio's new design.
+		    [1575] Add coolio's new earth elemental tile.
+		    [1981] Add iron elemental tile. (coolio)
+		    Makeshift dwarf tiles for 0.7 (coolio, edited from NetHack)
+		    [1815] Add new ghoul monster tile. (coolio)
+		    Use coolio's edited griffon tile (Mantis #1819).
+		    [1967] Add spriggan player doll tiles. (coolio)
+
+
+		Use minmay's tiles for viper and anaconda.
+
+		Add Denzi's superbly awesome skeleton monster tiles. Thank you!
+			Adding some unused floor tiles from Denzi.
+		    Tiles mcache improvements.  Monsters out of sight are now shown with their last seen equipment.  Player ghosts are now drawn correctly again.  Denzi's new 48x32 pandemonium demon tiles are now used.
+		    Add more of Denzi's dungeon tiles.
+		    Add Denzi's new floor/wall designs, currently unused.
+		    Added rock worm and transparent wall tiles from Denzi.
+		    Adding new dungeon tiles from Denzi.
+    		Adding icons (from Denzi) for identified staves and rods, now that identical staff types share the same description.
+
+    	Experimentally use Denzi and/or Mitsuhiro's water tiles for the Shoals.
+        	Incorporating new tiles from Denzi/Mitsuhiro.  Rings and amulets now have labels when identified.  Centaurs/yaktaurs now display the weapon they're wielding (and look better too).  Variations of weapons and armor (i.e. normal, shiny, randart) are now determined automatically from the tile definitions, rather than being hardcoded.  Also, improved axe tiles.
+
+		['Author: Adam Borowski <kilobyte@angband.pl>',
+
+	    Replace orb guardian tile with Porkchop's new design.
+		    Add Porkchop's altered lich tile, rename Zonguldrok lich.
+		    Use Porkchop's Nessos tile, tweaked to make the bow flaming.
+		    Done by Porkchop.
+    		Replace the angel tile with one using dynamic weapons (by Porkchop again).
+		    Add Porkchop's alligator tiles, slightly tweaked.
+		    Add Porkchop's (autumnal) coloured trees.
+		    Tweak WALL_STONE_DARK, add Porkchop's marked dark stone walls.
+		    Use Porkchop's dark stone tiles for Wucad Mu and Tukima.
+			Add Porkchop's tiles for missile dispersal/exploding brands.
+			Add Porkchop's tile for the penetration brand.
+			Add Porkchop's ego/randart tiles for banded/plate/splint mail. Thanks!
+			Replace holy scourge tile with a more glowy version, also by Porkchop.
+			Add Porkchop's holy scourge tiles.
+			Add Porkchop's tile (slightly tweaked) for Cigotuvi's Monster.
+			[627] Additional slime creature tiles. (Porkchop)
+			Add a tile for sixfirhy, drawn by Porkchop and slightly tweaked by me.
+			Add spectral monster tiles based on Porkchop's designs. Thanks!
+			Replace player hog tile with one based on Porkchop's creation. Thanks!
+			Replace Polyphemus' tile with Porkchop's version, slightly edited by me.
+			Feminize Frances' tile, building on Porkchop's tile submissions.
+			Add Porkchop's improved angel tile, slightly tweaked.
+			Use Porkchop's tile for the Robe of Clouds.
+			New Necromutation tile, based on Porkchop's idea.
+
+		'Author: Johanna Ploog <j-p-e-g@users.sourceforge.net>',
+		'Author: j-p-e-g <j-p-e-g@c06c8d41-db1a-0410-9941-cceddc491573>',
+			Modifying RLTiles to randomly use Johanna's extra blood splats when generating corpse tiles.
+		    Changing rltiles to store name -> idx lookup in a straight array, rather than a std::map.  (This should hopefully fix Johanna's compile troubles.)
+		    Fixing Linux compile warnings and errors.  (Although, not the one Johanna is seeing.)
+    		Really add the Crazy Yiuf tile.
+
+Submissions Trimmed:			
+		[453] Use Jinhlk's Fedhas altar tile.
+		
+		Add reaping brand tile by rsaarelm, thanks!
+    	
+		Add Totaku's tile for kenku (monster).
+    	
+	   	Add Purge's transparent flesh tiles.
+			Add purge's wizlab portal tiles.
+			Add purge's mold tiles.
+			Dead trees for Zonguldrok! (purge)
+			Use Purge's Ice Cave and Sewer entry tiles.
+			Add Purge's grave stones, use them in Zonguldrok.
+			Framework for portal vault entries having tiles; Volcano tile (purge).
+			[520] Add purge's newer tree tiles.
+			[491] Add purge's snake pit rune tile.
+			Add tiles for bush and sleeping brand, both courtesy of purge. Thanks!
+			Add tile for Scroll of Silence (purge).
+			Add purge's tile for berserk monsters. Very neat, thanks!
+			Add purge's burning bush tile.
+			Add purge's toadstool tiles.
+			Add purge's tiles for Dowan and Duvessa, yay! :D
+			[291] New slime creature tiles (purge).
+			Add purge's ballistomycete tiles, thanks!
+			Add a tile for Nikola (purge).
+			Add a tile for Khufu (purge).
+			Use purge's Pikel tile.
+			Add a tile for human slaves (purge).
+			Vine-covered golem tile for Erinya's Garden (purge).
+			Add purge's tile for the wielded demon blade. Thanks!
+			Adding flaming corpse tile from Bill Beher.
+
+	    Add LoginError's tiles for various runed/steel/silver ammunition.
+		    Use LoginError's ninja stealth brand tile, thank you!
+		    [742] Add silver/steel dart tiles (LoginError).
+		    Add LoginError's tiles for potions of brilliance/agility.
+		    Add LoginError's zombie tiles, plus code to use them.
+
+    	Apply zebez' patch to differentiate gates some more from stairs.
+		    Apply patch by zebez to add variants for a number of tiles (mostly mirrored) as well as some nicer tiles for disturbance in water and the entrance to Pan. Thanks!
+    		Add two more uniques: Nessos and the Lernaean hydra, also implemented by castamir.
+		    Add yet another unique courtesy of castamir: Dissolution, sentient jelly.
+
+	    Add the Slime god as per n78291's (Shayne?) patch. Thanks! :D
+
+		'Author: Charles Otto <ottochar@gmail.com>',
+			Apply caotto's plant god patch, for now named "Feawn".
