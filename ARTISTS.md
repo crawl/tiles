@@ -59,3 +59,5 @@ The following artists have given explicit approval that past and future artwork 
 - Corin Buchanan-Howland corin@buchananhowland.net
 - Raumkraut
 - roctavian - sicsemperjohn@gmail.com
+- Marbit
+- theTower mwclaws@gmail.com

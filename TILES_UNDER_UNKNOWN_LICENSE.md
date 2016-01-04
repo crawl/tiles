@@ -150,17 +150,6 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/dc-mon/undead/zombies/zombie_quadruped_winged.png
 	- rltiles/dc-mon/undead/zombies/zombie_troll.png
 
-- Marbit
-	- rltiles/item/armour/green_dragon_scale_mail.png
-	- rltiles/item/armour/green_dragon_scales.png
-	- rltiles/item/armour/red_dragon_scale_mail.png
-	- rltiles/item/armour/red_dragon_scales.png
-	- rltiles/mon/dragons/fire_dragon.png
-	- rltiles/mon/dragons/lindwurm.png
-	- rltiles/player/body/dragonarm_green.png
-	- rltiles/player/body/dragonarm_red.png
-	- rltiles/player/body/dragonsc_green.png
-	- rltiles/player/body/dragonsc_red.png
 
 - Robsoie
 	- rltiles/dc-mon/undead/skeletons/skeleton_toad.png
@@ -1336,14 +1325,6 @@ The following tiles (as of 2010) had unclear ownership and/or the original autho
 	- rltiles/mon/nonliving/singularity4.png
 	- rltiles/player/base/vine_stalker_f.png
 	- rltiles/player/base/vine_stalker_m.png
-
-- theTower mwclaws@gmail.com
-	- rltiles/mon/animals/bennu.png
-	- rltiles/mon/nonliving/wellspring.png
-	- rltiles/mon/vault/demonspawn_monk_ghost.png
-	- rltiles/mon/vault/draconian_monk_ghost.png
-	- rltiles/mon/vault/human_monk_ghost.png
-	- rltiles/mon/vault/iron_troll_monk_ghost.png
 
 - Jon Knapp thann@linux.com
 	- rltiles/misc/icons/glowing.png
